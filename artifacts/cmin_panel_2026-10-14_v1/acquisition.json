@@ -1,0 +1,199 @@
+{
+  "bytes": 158044625,
+  "files": [
+    {
+      "bytes": 1281886,
+      "git_blob": "07a64a6dfdbf2f0d805a55d65e38ca87d5dc25b4",
+      "kind": "news",
+      "sha256": "17d90bc8bd07cde36e05601d76802a207ce47dae7a164a86821cf473702c309f",
+      "ticker": "AEP",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/AEP.csv"
+    },
+    {
+      "bytes": 10237783,
+      "git_blob": "8e4af97be2d886a4bdb4eaf93dfed5341fcf3eb4",
+      "kind": "news",
+      "sha256": "c08c0f82ae217adae64a8366475f3b9fd6df8438af7e22101b973c98498fe8a3",
+      "ticker": "GE",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/GE.csv"
+    },
+    {
+      "bytes": 2260716,
+      "git_blob": "4e7a58cfc4427f1b51488fff971cee7244ed6a24",
+      "kind": "news",
+      "sha256": "8471b410878b6f1245e465cbb2c8d76b3fc928c3e773572de19c098444c1fecc",
+      "ticker": "SCHW",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/SCHW.csv"
+    },
+    {
+      "bytes": 43436627,
+      "git_blob": "7787950f030bdde6d757666b461f691f6101d20d",
+      "kind": "news",
+      "sha256": "aed0946fae6eba4cbdd85e8a2e196fcf9776b3d346959884b4ae4c6c39dd96a3",
+      "ticker": "AAPL",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/AAPL.csv"
+    },
+    {
+      "bytes": 3411026,
+      "git_blob": "915edbb53f717fbf6eb6b978fa05ddea0fe73446",
+      "kind": "news",
+      "sha256": "49bd2e1f4cd5f53c846347b10b975fad284b86690119a8637d777123aa8074a2",
+      "ticker": "ADBE",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/ADBE.csv"
+    },
+    {
+      "bytes": 593089,
+      "git_blob": "37f8ca4af2320289e044a98588a82a9a47cc6e1d",
+      "kind": "news",
+      "sha256": "fbc21b7fafe4a1b17e0937da0cfd43f7be53ba2b517400ac10321dc2d45c0a35",
+      "ticker": "WELL",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/WELL.csv"
+    },
+    {
+      "bytes": 11087857,
+      "git_blob": "f34a7abd36f81e05fbb5eeea61ce2a6c8600eec1",
+      "kind": "news",
+      "sha256": "d12ad1216d6475902b9bbe93a89ed3d79d201fe02f581289ac099e2268d3de47",
+      "ticker": "T",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/T.csv"
+    },
+    {
+      "bytes": 31030204,
+      "git_blob": "d8ed4b817fb965fdaf1be69f71e62aa5d1b51b16",
+      "kind": "news",
+      "sha256": "890449204e0cf7da26724d8640baabd7dfa07bf31eac12788bddac7acdcdc560",
+      "ticker": "TSLA",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/TSLA.csv"
+    },
+    {
+      "bytes": 926046,
+      "git_blob": "17e7338b195b1db982258e11240854c2cfa132a3",
+      "kind": "news",
+      "sha256": "ee69814c5575bf28c640a206791ee8ae749c74efaee1ffbd06df3f091da957d3",
+      "ticker": "DIS",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/DIS.csv"
+    },
+    {
+      "bytes": 1051784,
+      "git_blob": "4d25f4e11dc0fca60b52e665ba04b886529cf058",
+      "kind": "news",
+      "sha256": "7bec16be738e412917f397e7a61239e5571c87bdf5ccc28c43c240c0fe039c6c",
+      "ticker": "ASML",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/ASML.csv"
+    },
+    {
+      "bytes": 15079766,
+      "git_blob": "7090d421d0871f0dbdf3703b07b4c96b98d30b3f",
+      "kind": "news",
+      "sha256": "318ed79a1a928beba4c3ec1fea8199f4790ce04ca479dcb608fe9ab4211210f8",
+      "ticker": "JPM",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/JPM.csv"
+    },
+    {
+      "bytes": 36814116,
+      "git_blob": "d97c53a6ffde23b2e6cb76ab785df6485efc7a84",
+      "kind": "news",
+      "sha256": "aba689792ce57ac97edfa85069c6af7f2df9bad0e3113c18236f8d6788690848",
+      "ticker": "FB",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/FB.csv"
+    },
+    {
+      "bytes": 67332,
+      "git_blob": "7aa91729113944f4bd6c3603ac973c1f728302f6",
+      "kind": "price",
+      "sha256": "036506a36cb58d56527fd404370bc6e4c30e919f62ef5bf490802077211358a5",
+      "ticker": "AEP",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/AEP.csv"
+    },
+    {
+      "bytes": 68717,
+      "git_blob": "790b9e1000cb0c7a8a87b6e207a4a1bdd0c40dd4",
+      "kind": "price",
+      "sha256": "efb9aace6cb4813a6426bb4a422d1b01f234517b0829f7ac9a749af50bc80291",
+      "ticker": "GE",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/GE.csv"
+    },
+    {
+      "bytes": 65567,
+      "git_blob": "37c7cb9dd934778405a934ed90786464fbaf2607",
+      "kind": "price",
+      "sha256": "ef09ae53aa635e6fcd2c1b71448ccfb250de77a22962ce0920a70be404d1597e",
+      "ticker": "SCHW",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/SCHW.csv"
+    },
+    {
+      "bytes": 70199,
+      "git_blob": "5554405c906b5fc626628d9e409f0b6b0405ecf4",
+      "kind": "price",
+      "sha256": "5a591097447f0579a487aee084c4a46e3b613e458cf4dbe354af285782496c5e",
+      "ticker": "AAPL",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/AAPL.csv"
+    },
+    {
+      "bytes": 72068,
+      "git_blob": "2c924a2679de95dbad6d2c68f6d7ed67acd22ce7",
+      "kind": "price",
+      "sha256": "7ef9417dbd82e131e0acb6843e1434a99f491e3e71174cb67f8163f192c3bfad",
+      "ticker": "ADBE",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/ADBE.csv"
+    },
+    {
+      "bytes": 66239,
+      "git_blob": "5fc03acaa9e69a4d83d74d54118e7d8fe41e70bb",
+      "kind": "price",
+      "sha256": "80b7407945a085154a73fd1b80d18d1aab6adad953d993641291143421e7c874",
+      "ticker": "WELL",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/WELL.csv"
+    },
+    {
+      "bytes": 63376,
+      "git_blob": "2e21744cb187069facdc88d1fc70ee6b1941fc7e",
+      "kind": "price",
+      "sha256": "467c8057da9cc710b17aa92a56841374cb3fdf4baffbe89a9f1b701b03d14113",
+      "ticker": "T",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/T.csv"
+    },
+    {
+      "bytes": 69450,
+      "git_blob": "16ec1b602b47885c7ff49912200cce6d33a77feb",
+      "kind": "price",
+      "sha256": "503bd2cf62808be3db00b048ce971c1dfd0c4b9c90e69cd14cb85d1ad661c036",
+      "ticker": "TSLA",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/TSLA.csv"
+    },
+    {
+      "bytes": 72616,
+      "git_blob": "8dd29e6f424e686162b1c2485c27a2470d27becc",
+      "kind": "price",
+      "sha256": "930007a8df531c57c1c32441c8e3081b6239dc7a0a0569ea9cef06a76e1ef8bb",
+      "ticker": "DIS",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/DIS.csv"
+    },
+    {
+      "bytes": 72213,
+      "git_blob": "a83a2fb3ca9d4e511b7df18c115530c34d0bc15c",
+      "kind": "price",
+      "sha256": "c911cef5d98b246be8a6487fe8e998d693b3b10ffa9a285f956fdd7c31b2144e",
+      "ticker": "ASML",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/ASML.csv"
+    },
+    {
+      "bytes": 72422,
+      "git_blob": "92917a3f2ebe94793d009fe0f6ebd6d8714b63c1",
+      "kind": "price",
+      "sha256": "e965f6030509b2e6e13ad6d391d05d04862f5be6a7258fcc63493e71ec5592a1",
+      "ticker": "JPM",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/JPM.csv"
+    },
+    {
+      "bytes": 73526,
+      "git_blob": "828b26b3df4f753a3670c85208d8d9e6e5e5817f",
+      "kind": "price",
+      "sha256": "1c4c2e1f35d5d6bc502bebde2a02ab97ac21aaa5d35bf7f5d5030e12df7b0749",
+      "ticker": "FB",
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/FB.csv"
+    }
+  ],
+  "source_commit": "3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97",
+  "source_inventory_sha256": "fb8dfa1d6467bd4bed8133aba98c60a55ee78e88b8d9cbb4d00ab54b5866b72a"
+}

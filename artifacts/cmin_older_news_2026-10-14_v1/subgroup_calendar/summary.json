@@ -1,0 +1,102 @@
+{
+  "amendment_sha256": "b2396cd9978a680751163ab6236b9312d1b5902eaebaa5e293f316beeb665e0b",
+  "groups": [
+    {
+      "bootstrap_draws": 2000,
+      "company_days": 1311,
+      "conditional_95_interval": [
+        3.941773969544417e-05,
+        0.001789473854237424
+      ],
+      "delta_log_loss": 0.000921633742933943,
+      "full_target_dates_per_period": [
+        85,
+        82
+      ],
+      "group": "recent_and_older",
+      "method": "2,000 paired circular five-date blocks on complete period calendars; group sums/counts zero on absent dates; ratio of total sums to counts; stocks together, mean seed losses",
+      "scope": "conditional on fitted models; descriptive correlated group analysis, not causal or semantic identification",
+      "valid_draws": 2000,
+      "zero_case_draws": 0
+    },
+    {
+      "bootstrap_draws": 2000,
+      "company_days": 402,
+      "conditional_95_interval": [
+        -0.0012751223182419246,
+        0.0005029297940039656
+      ],
+      "delta_log_loss": -0.00033848162533467896,
+      "full_target_dates_per_period": [
+        85,
+        82
+      ],
+      "group": "older_only",
+      "method": "2,000 paired circular five-date blocks on complete period calendars; group sums/counts zero on absent dates; ratio of total sums to counts; stocks together, mean seed losses",
+      "scope": "conditional on fitted models; descriptive correlated group analysis, not causal or semantic identification",
+      "valid_draws": 2000,
+      "zero_case_draws": 0
+    },
+    {
+      "bootstrap_draws": 2000,
+      "company_days": 33,
+      "conditional_95_interval": [
+        -0.0022174578810398326,
+        0.000840251368562167
+      ],
+      "delta_log_loss": -0.0007118086409247702,
+      "full_target_dates_per_period": [
+        85,
+        82
+      ],
+      "group": "recent_only",
+      "method": "2,000 paired circular five-date blocks on complete period calendars; group sums/counts zero on absent dates; ratio of total sums to counts; stocks together, mean seed losses",
+      "scope": "conditional on fitted models; descriptive correlated group analysis, not causal or semantic identification",
+      "valid_draws": 2000,
+      "zero_case_draws": 0
+    },
+    {
+      "bootstrap_draws": 2000,
+      "company_days": 258,
+      "conditional_95_interval": [
+        -0.0005352170927003035,
+        0.0011595280500821508
+      ],
+      "delta_log_loss": 0.00028277410917740384,
+      "full_target_dates_per_period": [
+        85,
+        82
+      ],
+      "group": "empty",
+      "method": "2,000 paired circular five-date blocks on complete period calendars; group sums/counts zero on absent dates; ratio of total sums to counts; stocks together, mean seed losses",
+      "scope": "conditional on fitted models; descriptive correlated group analysis, not causal or semantic identification",
+      "valid_draws": 2000,
+      "zero_case_draws": 0
+    }
+  ],
+  "original_analysis_retained": true,
+  "primary_reproduction": {
+    "bootstrap_draws": 2000,
+    "company_days": 2004,
+    "conditional_95_interval": [
+      -3.111402446987136e-05,
+      0.0011547051697653908
+    ],
+    "delta_log_loss": 0.000559709709889776,
+    "full_target_dates_per_period": [
+      85,
+      82
+    ],
+    "group": "all_cases",
+    "method": "2,000 paired circular five-date blocks on complete period calendars; group sums/counts zero on absent dates; ratio of total sums to counts; stocks together, mean seed losses",
+    "scope": "conditional on fitted models; descriptive correlated group analysis, not causal or semantic identification",
+    "valid_draws": 2000,
+    "zero_case_draws": 0
+  },
+  "script_sha256": "91ea48499e41b16be04e0345f6756c6e6da7c0354b42bc7777e4056e6132d2fb",
+  "source_logits_sha256": {
+    "artifacts\\cmin_older_news_2026-10-14_v1\\analysis\\fold_0_paired_logits.npz": "89e36902acc49609833f46f4990ddd551bbeedea0e96f3b18bb1bc562d2665d6",
+    "artifacts\\cmin_older_news_2026-10-14_v1\\analysis\\fold_1_paired_logits.npz": "bab8b3fb1611ba13a98bcfd57a161d84c8a887f2cee2b9e46d564a2a163c917b"
+  },
+  "utc": "2026-10-14T11:32:53.956521+00:00"
+}

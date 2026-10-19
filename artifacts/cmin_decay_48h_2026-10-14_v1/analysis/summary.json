@@ -1,0 +1,2168 @@
+{
+  "age_sensitivity": [
+    {
+      "age_sessions_since_proxy_arrival": 0,
+      "arm": "pooled_uniform",
+      "case_coverage_fraction": 0.6706586826347305,
+      "cases_with_removed_headlines": 1344,
+      "conditional_95_interval": [
+        -2.559311052247568e-05,
+        2.2485987798504247e-05
+      ],
+      "delta_log_loss": -2.8119291112194776e-06,
+      "first": "pooled_uniform_mask_age_0",
+      "headlines_removed": 5578,
+      "mean_temporal_news_mass_removed": 0.17692115943053524,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -5.1758631140468584e-05,
+            4.163256966315907e-05
+          ],
+          "delta_log_loss": -8.508686165402265e-06,
+          "first": "pooled_uniform_mask_age_0",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        },
+        {
+          "conditional_95_interval": [
+            -4.952876453995957e-08,
+            6.379715005981482e-06
+          ],
+          "delta_log_loss": 3.0932458839699975e-06,
+          "first": "pooled_uniform_mask_age_0",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_uniform",
+      "seed_fold_deltas": [
+        -6.207251548252502e-06,
+        -1.0810068575077738e-05,
+        -6.105875875557645e-07,
+        6.797066018449861e-06
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 1,
+      "arm": "pooled_uniform",
+      "case_coverage_fraction": 0.6691616766467066,
+      "cases_with_removed_headlines": 1341,
+      "conditional_95_interval": [
+        -3.424768159107986e-06,
+        2.3496763493300286e-05
+      ],
+      "delta_log_loss": 9.566767488971684e-06,
+      "first": "pooled_uniform_mask_age_1",
+      "headlines_removed": 5562,
+      "mean_temporal_news_mass_removed": 0.17355289594260995,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -4.307941768967803e-06,
+            4.694245154780293e-05
+          ],
+          "delta_log_loss": 2.1373418805384185e-05,
+          "first": "pooled_uniform_mask_age_1",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        },
+        {
+          "conditional_95_interval": [
+            -7.399635051709957e-06,
+            1.3783472520565287e-06
+          ],
+          "delta_log_loss": -2.671834485358346e-06,
+          "first": "pooled_uniform_mask_age_1",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_uniform",
+      "seed_fold_deltas": [
+        3.020042464483177e-05,
+        1.2546465173408715e-05,
+        7.681724734819931e-07,
+        -6.111854781240747e-06
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 2,
+      "arm": "pooled_uniform",
+      "case_coverage_fraction": 0.6656686626746507,
+      "cases_with_removed_headlines": 1334,
+      "conditional_95_interval": [
+        -1.665162738303841e-05,
+        1.503278925515653e-05
+      ],
+      "delta_log_loss": -1.5441940990378257e-07,
+      "first": "pooled_uniform_mask_age_2",
+      "headlines_removed": 5518,
+      "mean_temporal_news_mass_removed": 0.1715568877466603,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -3.268731244346075e-05,
+            2.7190533242441463e-05
+          ],
+          "delta_log_loss": -2.2588108728128754e-06,
+          "first": "pooled_uniform_mask_age_2",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        },
+        {
+          "conditional_95_interval": [
+            -3.3804104349761015e-06,
+            7.721068497527821e-06
+          ],
+          "delta_log_loss": 2.026961984575155e-06,
+          "first": "pooled_uniform_mask_age_2",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_uniform",
+      "seed_fold_deltas": [
+        2.33913751872985e-06,
+        -6.8567070568817445e-06,
+        -1.1658420445470202e-06,
+        5.219752676653124e-06
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 3,
+      "arm": "pooled_uniform",
+      "case_coverage_fraction": 0.6681636726546906,
+      "cases_with_removed_headlines": 1339,
+      "conditional_95_interval": [
+        -3.1363331136592164e-05,
+        -7.223989973681365e-07
+      ],
+      "delta_log_loss": -1.586665422311436e-05,
+      "first": "pooled_uniform_mask_age_3",
+      "headlines_removed": 5544,
+      "mean_temporal_news_mass_removed": 0.17338656177539788,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -6.230232863857958e-05,
+            -2.250648593485408e-06
+          ],
+          "delta_log_loss": -3.0324791597177005e-05,
+          "first": "pooled_uniform_mask_age_3",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        },
+        {
+          "conditional_95_interval": [
+            -4.9355465102523954e-06,
+            3.4414590259037646e-06
+          ],
+          "delta_log_loss": -8.795606036591747e-07,
+          "first": "pooled_uniform_mask_age_3",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_uniform",
+      "seed_fold_deltas": [
+        -6.0475878235996486e-05,
+        -1.7365275088574047e-07,
+        1.8989382906204003e-06,
+        -3.658072834983407e-06
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 4,
+      "arm": "pooled_uniform",
+      "case_coverage_fraction": 0.6686626746506986,
+      "cases_with_removed_headlines": 1340,
+      "conditional_95_interval": [
+        -5.471231598855898e-06,
+        2.8389243424689553e-05
+      ],
+      "delta_log_loss": 1.1294010005850012e-05,
+      "first": "pooled_uniform_mask_age_4",
+      "headlines_removed": 5547,
+      "mean_temporal_news_mass_removed": 0.17583998824709546,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -1.4086506218798595e-05,
+            5.348769819342133e-05
+          ],
+          "delta_log_loss": 1.8104076058672047e-05,
+          "first": "pooled_uniform_mask_age_4",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        },
+        {
+          "conditional_95_interval": [
+            -1.4011087539588725e-06,
+            1.1117088087523008e-05
+          ],
+          "delta_log_loss": 4.234795194997904e-06,
+          "first": "pooled_uniform_mask_age_4",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_uniform"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_uniform",
+      "seed_fold_deltas": [
+        2.740281234711257e-05,
+        8.805391977705488e-06,
+        -4.1916294115213684e-07,
+        8.888739994101594e-06
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 0,
+      "arm": "pooled_decay",
+      "case_coverage_fraction": 0.6706586826347305,
+      "cases_with_removed_headlines": 1344,
+      "conditional_95_interval": [
+        -0.00014432992849127172,
+        0.00032249231281303645
+      ],
+      "delta_log_loss": 9.73620820033804e-05,
+      "first": "pooled_decay_mask_age_0",
+      "headlines_removed": 5578,
+      "mean_temporal_news_mass_removed": 0.33259370441951913,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -0.00029236179550545045,
+            0.0006059407147641495
+          ],
+          "delta_log_loss": 0.0001619132260845534,
+          "first": "pooled_decay_mask_age_0",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        },
+        {
+          "conditional_95_interval": [
+            -4.035600734791311e-05,
+            9.275074018880194e-05
+          ],
+          "delta_log_loss": 3.044931069972546e-05,
+          "first": "pooled_decay_mask_age_0",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_decay",
+      "seed_fold_deltas": [
+        -0.000100372704692969,
+        0.0004241991857230417,
+        6.094364940145714e-05,
+        -4.5057358394238964e-08
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 1,
+      "arm": "pooled_decay",
+      "case_coverage_fraction": 0.6691616766467066,
+      "cases_with_removed_headlines": 1341,
+      "conditional_95_interval": [
+        -0.00010848522646565178,
+        0.00012105928002726216
+      ],
+      "delta_log_loss": 1.0721338915588449e-05,
+      "first": "pooled_decay_mask_age_1",
+      "headlines_removed": 5562,
+      "mean_temporal_news_mass_removed": 0.22123496813286922,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -0.00025476394639343923,
+            0.00018813931120159535
+          ],
+          "delta_log_loss": -2.480126988499627e-05,
+          "first": "pooled_decay_mask_age_1",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        },
+        {
+          "conditional_95_interval": [
+            -1.065621592734846e-05,
+            9.923818325241297e-05
+          ],
+          "delta_log_loss": 4.7543555355218954e-05,
+          "first": "pooled_decay_mask_age_1",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_decay",
+      "seed_fold_deltas": [
+        0.00013030785725008626,
+        -0.00017991036815910897,
+        9.559007708222404e-05,
+        -5.029957281749469e-07
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 2,
+      "arm": "pooled_decay",
+      "case_coverage_fraction": 0.6656686626746507,
+      "cases_with_removed_headlines": 1334,
+      "conditional_95_interval": [
+        -0.0001130222712784828,
+        9.867513577293665e-05
+      ],
+      "delta_log_loss": -8.067983832485919e-06,
+      "first": "pooled_decay_mask_age_2",
+      "headlines_removed": 5518,
+      "mean_temporal_news_mass_removed": 0.14707602650306362,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -0.00022245464124348967,
+            0.0001997194009078779
+          ],
+          "delta_log_loss": -5.835532563238611e-06,
+          "first": "pooled_decay_mask_age_2",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        },
+        {
+          "conditional_95_interval": [
+            -5.974358135004292e-05,
+            3.736289495152264e-05
+          ],
+          "delta_log_loss": -1.0382110148169104e-05,
+          "first": "pooled_decay_mask_age_2",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_decay",
+      "seed_fold_deltas": [
+        0.0001754769194767378,
+        -0.00018714795574224476,
+        -2.110166838367857e-05,
+        3.374187309543647e-07
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 3,
+      "arm": "pooled_decay",
+      "case_coverage_fraction": 0.6681636726546906,
+      "cases_with_removed_headlines": 1339,
+      "conditional_95_interval": [
+        -0.0001736858755156642,
+        1.6943798599195728e-05
+      ],
+      "delta_log_loss": -7.261861512752672e-05,
+      "first": "pooled_decay_mask_age_3",
+      "headlines_removed": 5544,
+      "mean_temporal_news_mass_removed": 0.10040680929914325,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -0.00032199198742299335,
+            4.231162165515097e-05
+          ],
+          "delta_log_loss": -0.00013267940602292925,
+          "first": "pooled_decay_mask_age_3",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        },
+        {
+          "conditional_95_interval": [
+            -3.68423423559399e-05,
+            1.8192743928068342e-05
+          ],
+          "delta_log_loss": -1.0360478223755784e-05,
+          "first": "pooled_decay_mask_age_3",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_decay",
+      "seed_fold_deltas": [
+        -0.00019974288199490632,
+        -6.56159011899804e-05,
+        -2.0424658002461264e-05,
+        -2.963278014350611e-07
+      ]
+    },
+    {
+      "age_sessions_since_proxy_arrival": 4,
+      "arm": "pooled_decay",
+      "case_coverage_fraction": 0.6686626746506986,
+      "cases_with_removed_headlines": 1340,
+      "conditional_95_interval": [
+        -5.47506863804228e-05,
+        0.00013846895919968018
+      ],
+      "delta_log_loss": 4.190714747366916e-05,
+      "first": "pooled_decay_mask_age_4",
+      "headlines_removed": 5547,
+      "mean_temporal_news_mass_removed": 0.06994598511022751,
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_comparisons": [
+        {
+          "conditional_95_interval": [
+            -0.00011073797447191716,
+            0.00026953163082623813
+          ],
+          "delta_log_loss": 7.273234241041742e-05,
+          "first": "pooled_decay_mask_age_4",
+          "fold": 0,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        },
+        {
+          "conditional_95_interval": [
+            -1.4935583971408089e-05,
+            4.104758275236356e-05
+          ],
+          "delta_log_loss": 9.95420150264962e-06,
+          "first": "pooled_decay_mask_age_4",
+          "fold": 1,
+          "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+          "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+          "second": "pooled_decay"
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_decay",
+      "seed_fold_deltas": [
+        0.00013337478611702522,
+        1.208992756477737e-05,
+        1.9323931162977526e-05,
+        5.844424859366178e-07
+      ]
+    }
+  ],
+  "analysis_seconds": 13.01600000000144,
+  "baseline_preservation": {
+    "all_unchanged": true,
+    "protected_files": 655
+  },
+  "comparisons": [
+    {
+      "conditional_95_interval": [
+        -0.001176485451893402,
+        0.0005385380826719676
+      ],
+      "delta_log_loss": -0.00032363965663877734,
+      "first": "pooled_decay",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "pooled_uniform"
+    },
+    {
+      "conditional_95_interval": [
+        -0.001176485451893402,
+        0.0005385380826719676
+      ],
+      "delta_log_loss": -0.00032363965663877734,
+      "first": "system_pooled_decay",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "system_pooled_uniform"
+    },
+    {
+      "conditional_95_interval": [
+        -0.0011049548707725374,
+        0.0019721358023409453
+      ],
+      "delta_log_loss": 0.0003906427079884977,
+      "first": "pooled_uniform",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "training_prior"
+    },
+    {
+      "conditional_95_interval": [
+        -0.000952171120989203,
+        0.00109277593200345
+      ],
+      "delta_log_loss": 6.700305134972044e-05,
+      "first": "pooled_decay",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "training_prior"
+    }
+  ],
+  "evaluation_company_days": 2004,
+  "evaluation_unique_dates": 167,
+  "fits": [
+    {
+      "arm": "pooled_uniform",
+      "constant_fallback": false,
+      "curve": [
+        {
+          "age_sessions_since_proxy_arrival": 0,
+          "cases_changed_over_1e_minus_6": 689,
+          "cases_with_removed_headlines": 691,
+          "delta_log_loss": -6.207251548252502e-06,
+          "headlines_removed": 2926,
+          "maximum_absolute_probability_change": 0.005987009823996914,
+          "mean_temporal_news_mass_removed": 0.1755882369975249
+        },
+        {
+          "age_sessions_since_proxy_arrival": 1,
+          "cases_changed_over_1e_minus_6": 689,
+          "cases_with_removed_headlines": 690,
+          "delta_log_loss": 3.020042464483177e-05,
+          "headlines_removed": 2921,
+          "maximum_absolute_probability_change": 0.005986907733034452,
+          "mean_temporal_news_mass_removed": 0.17452614554295354
+        },
+        {
+          "age_sessions_since_proxy_arrival": 2,
+          "cases_changed_over_1e_minus_6": 686,
+          "cases_with_removed_headlines": 687,
+          "delta_log_loss": 2.33913751872985e-06,
+          "headlines_removed": 2902,
+          "maximum_absolute_probability_change": 0.005986403768634241,
+          "mean_temporal_news_mass_removed": 0.17403594923077845
+        },
+        {
+          "age_sessions_since_proxy_arrival": 3,
+          "cases_changed_over_1e_minus_6": 683,
+          "cases_with_removed_headlines": 688,
+          "delta_log_loss": -6.0475878235996486e-05,
+          "headlines_removed": 2907,
+          "maximum_absolute_probability_change": 0.005986513193863008,
+          "mean_temporal_news_mass_removed": 0.17477124324616264
+        },
+        {
+          "age_sessions_since_proxy_arrival": 4,
+          "cases_changed_over_1e_minus_6": 690,
+          "cases_with_removed_headlines": 692,
+          "delta_log_loss": 2.740281234711257e-05,
+          "headlines_removed": 2930,
+          "maximum_absolute_probability_change": 0.006245575740510545,
+          "mean_temporal_news_mass_removed": 0.17656862890603495
+        }
+      ],
+      "fold": 0,
+      "raw": {
+        "accuracy": 0.55,
+        "auc": 0.5039944337633342,
+        "balanced_accuracy": 0.5125201562887621,
+        "brier": 0.2478889044123625,
+        "confusion": {
+          "false_down": 40,
+          "false_up": 419,
+          "true_down": 45,
+          "true_up": 516
+        },
+        "count": 1020,
+        "down_recall": 0.09698275862068965,
+        "log_loss": 0.6889203486887622,
+        "mcc": 0.04511498981233036,
+        "predicted_up": 935,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5311752995796422,
+        "probability_std": 0.01869548258610805,
+        "up_recall": 0.9280575539568345
+      },
+      "replay_max_absolute_logit_error": 2.9802322387695312e-08,
+      "seed": 17,
+      "selected_epoch": 8,
+      "selected_system": {
+        "accuracy": 0.55,
+        "auc": 0.5039944337633342,
+        "balanced_accuracy": 0.5125201562887621,
+        "brier": 0.2478889044123625,
+        "confusion": {
+          "false_down": 40,
+          "false_up": 419,
+          "true_down": 45,
+          "true_up": 516
+        },
+        "count": 1020,
+        "down_recall": 0.09698275862068965,
+        "log_loss": 0.6889203486887622,
+        "mcc": 0.04511498981233036,
+        "predicted_up": 935,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5311752995796422,
+        "probability_std": 0.01869548258610805,
+        "up_recall": 0.9280575539568345
+      }
+    },
+    {
+      "arm": "pooled_uniform",
+      "constant_fallback": false,
+      "curve": [
+        {
+          "age_sessions_since_proxy_arrival": 0,
+          "cases_changed_over_1e_minus_6": 682,
+          "cases_with_removed_headlines": 691,
+          "delta_log_loss": -1.0810068575077738e-05,
+          "headlines_removed": 2926,
+          "maximum_absolute_probability_change": 0.0009972810674542254,
+          "mean_temporal_news_mass_removed": 0.17558823677839017
+        },
+        {
+          "age_sessions_since_proxy_arrival": 1,
+          "cases_changed_over_1e_minus_6": 679,
+          "cases_with_removed_headlines": 690,
+          "delta_log_loss": 1.2546465173408715e-05,
+          "headlines_removed": 2921,
+          "maximum_absolute_probability_change": 0.000868934175107472,
+          "mean_temporal_news_mass_removed": 0.174526145177729
+        },
+        {
+          "age_sessions_since_proxy_arrival": 2,
+          "cases_changed_over_1e_minus_6": 677,
+          "cases_with_removed_headlines": 687,
+          "delta_log_loss": -6.8567070568817445e-06,
+          "headlines_removed": 2902,
+          "maximum_absolute_probability_change": 0.0016255185234829161,
+          "mean_temporal_news_mass_removed": 0.17403594909929762
+        },
+        {
+          "age_sessions_since_proxy_arrival": 3,
+          "cases_changed_over_1e_minus_6": 677,
+          "cases_with_removed_headlines": 688,
+          "delta_log_loss": -1.7365275088574047e-07,
+          "headlines_removed": 2907,
+          "maximum_absolute_probability_change": 0.0009587377721782531,
+          "mean_temporal_news_mass_removed": 0.17477124331920754
+        },
+        {
+          "age_sessions_since_proxy_arrival": 4,
+          "cases_changed_over_1e_minus_6": 684,
+          "cases_with_removed_headlines": 692,
+          "delta_log_loss": 8.805391977705488e-06,
+          "headlines_removed": 2930,
+          "maximum_absolute_probability_change": 0.001087352689536747,
+          "mean_temporal_news_mass_removed": 0.17656862883299004
+        }
+      ],
+      "fold": 0,
+      "raw": {
+        "accuracy": 0.5431372549019607,
+        "auc": 0.5071361014636566,
+        "balanced_accuracy": 0.5094346936244107,
+        "brier": 0.24854834897625583,
+        "confusion": {
+          "false_down": 65,
+          "false_up": 401,
+          "true_down": 63,
+          "true_up": 491
+        },
+        "count": 1020,
+        "down_recall": 0.13577586206896552,
+        "log_loss": 0.6902416751447744,
+        "mcc": 0.02836395394142751,
+        "predicted_up": 892,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5186349714500474,
+        "probability_std": 0.02417020495023664,
+        "up_recall": 0.8830935251798561
+      },
+      "replay_max_absolute_logit_error": 2.2351741790771484e-08,
+      "seed": 42,
+      "selected_epoch": 9,
+      "selected_system": {
+        "accuracy": 0.5431372549019607,
+        "auc": 0.5071361014636566,
+        "balanced_accuracy": 0.5094346936244107,
+        "brier": 0.24854834897625583,
+        "confusion": {
+          "false_down": 65,
+          "false_up": 401,
+          "true_down": 63,
+          "true_up": 491
+        },
+        "count": 1020,
+        "down_recall": 0.13577586206896552,
+        "log_loss": 0.6902416751447744,
+        "mcc": 0.02836395394142751,
+        "predicted_up": 892,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5186349714500474,
+        "probability_std": 0.02417020495023664,
+        "up_recall": 0.8830935251798561
+      }
+    },
+    {
+      "arm": "pooled_decay",
+      "constant_fallback": false,
+      "curve": [
+        {
+          "age_sessions_since_proxy_arrival": 0,
+          "cases_changed_over_1e_minus_6": 690,
+          "cases_with_removed_headlines": 691,
+          "delta_log_loss": -0.000100372704692969,
+          "headlines_removed": 2926,
+          "maximum_absolute_probability_change": 0.03498347124466061,
+          "mean_temporal_news_mass_removed": 0.33144977390766145
+        },
+        {
+          "age_sessions_since_proxy_arrival": 1,
+          "cases_changed_over_1e_minus_6": 689,
+          "cases_with_removed_headlines": 690,
+          "delta_log_loss": 0.00013030785725008626,
+          "headlines_removed": 2921,
+          "maximum_absolute_probability_change": 0.03495604839647992,
+          "mean_temporal_news_mass_removed": 0.22429956190434155
+        },
+        {
+          "age_sessions_since_proxy_arrival": 2,
+          "cases_changed_over_1e_minus_6": 687,
+          "cases_with_removed_headlines": 687,
+          "delta_log_loss": 0.0001754769194767378,
+          "headlines_removed": 2902,
+          "maximum_absolute_probability_change": 0.03501230164864089,
+          "mean_temporal_news_mass_removed": 0.14953520856797695
+        },
+        {
+          "age_sessions_since_proxy_arrival": 3,
+          "cases_changed_over_1e_minus_6": 685,
+          "cases_with_removed_headlines": 688,
+          "delta_log_loss": -0.00019974288199490632,
+          "headlines_removed": 2907,
+          "maximum_absolute_probability_change": 0.03497563599032494,
+          "mean_temporal_news_mass_removed": 0.1009425240587078
+        },
+        {
+          "age_sessions_since_proxy_arrival": 4,
+          "cases_changed_over_1e_minus_6": 690,
+          "cases_with_removed_headlines": 692,
+          "delta_log_loss": 0.00013337478611702522,
+          "headlines_removed": 2930,
+          "maximum_absolute_probability_change": 0.04451868095699596,
+          "mean_temporal_news_mass_removed": 0.06926313309619823
+        }
+      ],
+      "fold": 0,
+      "raw": {
+        "accuracy": 0.5450980392156862,
+        "auc": 0.4965346688166708,
+        "balanced_accuracy": 0.5037444182584967,
+        "brier": 0.24844852219444885,
+        "confusion": {
+          "false_down": 21,
+          "false_up": 443,
+          "true_down": 21,
+          "true_up": 535
+        },
+        "count": 1020,
+        "down_recall": 0.04525862068965517,
+        "log_loss": 0.6900458362801211,
+        "mcc": 0.018767942465770137,
+        "predicted_up": 978,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5313591531896309,
+        "probability_std": 0.015329947297508226,
+        "up_recall": 0.9622302158273381
+      },
+      "replay_max_absolute_logit_error": 2.9802322387695312e-08,
+      "seed": 17,
+      "selected_epoch": 8,
+      "selected_system": {
+        "accuracy": 0.5450980392156862,
+        "auc": 0.4965346688166708,
+        "balanced_accuracy": 0.5037444182584967,
+        "brier": 0.24844852219444885,
+        "confusion": {
+          "false_down": 21,
+          "false_up": 443,
+          "true_down": 21,
+          "true_up": 535
+        },
+        "count": 1020,
+        "down_recall": 0.04525862068965517,
+        "log_loss": 0.6900458362801211,
+        "mcc": 0.018767942465770137,
+        "predicted_up": 978,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5313591531896309,
+        "probability_std": 0.015329947297508226,
+        "up_recall": 0.9622302158273381
+      }
+    },
+    {
+      "arm": "pooled_decay",
+      "constant_fallback": false,
+      "curve": [
+        {
+          "age_sessions_since_proxy_arrival": 0,
+          "cases_changed_over_1e_minus_6": 691,
+          "cases_with_removed_headlines": 691,
+          "delta_log_loss": 0.0004241991857230417,
+          "headlines_removed": 2926,
+          "maximum_absolute_probability_change": 0.04205983683331932,
+          "mean_temporal_news_mass_removed": 0.33145093313034846
+        },
+        {
+          "age_sessions_since_proxy_arrival": 1,
+          "cases_changed_over_1e_minus_6": 689,
+          "cases_with_removed_headlines": 690,
+          "delta_log_loss": -0.00017991036815910897,
+          "headlines_removed": 2921,
+          "maximum_absolute_probability_change": 0.02151539906773059,
+          "mean_temporal_news_mass_removed": 0.22430128837917365
+        },
+        {
+          "age_sessions_since_proxy_arrival": 2,
+          "cases_changed_over_1e_minus_6": 687,
+          "cases_with_removed_headlines": 687,
+          "delta_log_loss": -0.00018714795574224476,
+          "headlines_removed": 2902,
+          "maximum_absolute_probability_change": 0.0354568476713526,
+          "mean_temporal_news_mass_removed": 0.14953409541471333
+        },
+        {
+          "age_sessions_since_proxy_arrival": 3,
+          "cases_changed_over_1e_minus_6": 687,
+          "cases_with_removed_headlines": 688,
+          "delta_log_loss": -6.56159011899804e-05,
+          "headlines_removed": 2907,
+          "maximum_absolute_probability_change": 0.01965526441504284,
+          "mean_temporal_news_mass_removed": 0.10094206292620476
+        },
+        {
+          "age_sessions_since_proxy_arrival": 4,
+          "cases_changed_over_1e_minus_6": 691,
+          "cases_with_removed_headlines": 692,
+          "delta_log_loss": 1.208992756477737e-05,
+          "headlines_removed": 2930,
+          "maximum_absolute_probability_change": 0.01617133194016873,
+          "mean_temporal_news_mass_removed": 0.069261826494453
+        }
+      ],
+      "fold": 0,
+      "raw": {
+        "accuracy": 0.5549019607843138,
+        "auc": 0.5046262558918383,
+        "balanced_accuracy": 0.5234355618953114,
+        "brier": 0.24815854694003828,
+        "confusion": {
+          "false_down": 71,
+          "false_up": 383,
+          "true_down": 81,
+          "true_up": 485
+        },
+        "count": 1020,
+        "down_recall": 0.17456896551724138,
+        "log_loss": 0.6894626915681703,
+        "mcc": 0.06554206130598934,
+        "predicted_up": 868,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5226659002132427,
+        "probability_std": 0.019830674723356576,
+        "up_recall": 0.8723021582733813
+      },
+      "replay_max_absolute_logit_error": 1.4901161193847656e-08,
+      "seed": 42,
+      "selected_epoch": 10,
+      "selected_system": {
+        "accuracy": 0.5549019607843138,
+        "auc": 0.5046262558918383,
+        "balanced_accuracy": 0.5234355618953114,
+        "brier": 0.24815854694003828,
+        "confusion": {
+          "false_down": 71,
+          "false_up": 383,
+          "true_down": 81,
+          "true_up": 485
+        },
+        "count": 1020,
+        "down_recall": 0.17456896551724138,
+        "log_loss": 0.6894626915681703,
+        "mcc": 0.06554206130598934,
+        "predicted_up": 868,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5226659002132427,
+        "probability_std": 0.019830674723356576,
+        "up_recall": 0.8723021582733813
+      }
+    },
+    {
+      "arm": "pooled_uniform",
+      "constant_fallback": false,
+      "curve": [
+        {
+          "age_sessions_since_proxy_arrival": 0,
+          "cases_changed_over_1e_minus_6": 592,
+          "cases_with_removed_headlines": 653,
+          "delta_log_loss": -6.105875875557645e-07,
+          "headlines_removed": 2652,
+          "maximum_absolute_probability_change": 0.000444039234429483,
+          "mean_temporal_news_mass_removed": 0.17830284731841184
+        },
+        {
+          "age_sessions_since_proxy_arrival": 1,
+          "cases_changed_over_1e_minus_6": 590,
+          "cases_with_removed_headlines": 651,
+          "delta_log_loss": 7.681724734819931e-07,
+          "headlines_removed": 2641,
+          "maximum_absolute_probability_change": 0.00036208426852590847,
+          "mean_temporal_news_mass_removed": 0.17254403972528815
+        },
+        {
+          "age_sessions_since_proxy_arrival": 2,
+          "cases_changed_over_1e_minus_6": 592,
+          "cases_with_removed_headlines": 647,
+          "delta_log_loss": -1.1658420445470202e-06,
+          "headlines_removed": 2616,
+          "maximum_absolute_probability_change": 0.00036207547003852536,
+          "mean_temporal_news_mass_removed": 0.16898712859587456
+        },
+        {
+          "age_sessions_since_proxy_arrival": 3,
+          "cases_changed_over_1e_minus_6": 594,
+          "cases_with_removed_headlines": 651,
+          "delta_log_loss": 1.8989382906204003e-06,
+          "headlines_removed": 2637,
+          "maximum_absolute_probability_change": 0.00033797805749324894,
+          "mean_temporal_news_mass_removed": 0.1719512209841391
+        },
+        {
+          "age_sessions_since_proxy_arrival": 4,
+          "cases_changed_over_1e_minus_6": 581,
+          "cases_with_removed_headlines": 648,
+          "delta_log_loss": -4.1916294115213684e-07,
+          "headlines_removed": 2617,
+          "maximum_absolute_probability_change": 0.00035767993846302915,
+          "mean_temporal_news_mass_removed": 0.17508468981377961
+        }
+      ],
+      "fold": 1,
+      "raw": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.5093216812317936,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.2487449246903997,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6906356746110321,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5180358529702411,
+        "probability_std": 0.008251727109247233,
+        "up_recall": 0.9194756554307116
+      },
+      "replay_max_absolute_logit_error": 7.450580596923828e-09,
+      "seed": 17,
+      "selected_epoch": 4,
+      "selected_system": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.5093216812317936,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.2487449246903997,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6906356746110321,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5180358529702411,
+        "probability_std": 0.008251727109247233,
+        "up_recall": 0.9194756554307116
+      }
+    },
+    {
+      "arm": "pooled_uniform",
+      "constant_fallback": false,
+      "curve": [
+        {
+          "age_sessions_since_proxy_arrival": 0,
+          "cases_changed_over_1e_minus_6": 641,
+          "cases_with_removed_headlines": 653,
+          "delta_log_loss": 6.797066018449861e-06,
+          "headlines_removed": 2652,
+          "maximum_absolute_probability_change": 0.0008820339298406532,
+          "mean_temporal_news_mass_removed": 0.1783028475455637
+        },
+        {
+          "age_sessions_since_proxy_arrival": 1,
+          "cases_changed_over_1e_minus_6": 641,
+          "cases_with_removed_headlines": 651,
+          "delta_log_loss": -6.111854781240747e-06,
+          "headlines_removed": 2641,
+          "maximum_absolute_probability_change": 0.000882093192302591,
+          "mean_temporal_news_mass_removed": 0.17254403995244
+        },
+        {
+          "age_sessions_since_proxy_arrival": 2,
+          "cases_changed_over_1e_minus_6": 635,
+          "cases_with_removed_headlines": 647,
+          "delta_log_loss": 5.219752676653124e-06,
+          "headlines_removed": 2616,
+          "maximum_absolute_probability_change": 0.0008820057575132934,
+          "mean_temporal_news_mass_removed": 0.16898712932276047
+        },
+        {
+          "age_sessions_since_proxy_arrival": 3,
+          "cases_changed_over_1e_minus_6": 641,
+          "cases_with_removed_headlines": 651,
+          "delta_log_loss": -3.658072834983407e-06,
+          "headlines_removed": 2637,
+          "maximum_absolute_probability_change": 0.0007482236928463282,
+          "mean_temporal_news_mass_removed": 0.17195122139301242
+        },
+        {
+          "age_sessions_since_proxy_arrival": 4,
+          "cases_changed_over_1e_minus_6": 639,
+          "cases_with_removed_headlines": 648,
+          "delta_log_loss": 8.888739994101594e-06,
+          "headlines_removed": 2617,
+          "maximum_absolute_probability_change": 0.0008510596938148263,
+          "mean_temporal_news_mass_removed": 0.17508469026808332
+        }
+      ],
+      "fold": 1,
+      "raw": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.504812734082397,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24897149484146092,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6910893832403334,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5163453788260794,
+        "probability_std": 0.016102889981350062,
+        "up_recall": 0.9194756554307116
+      },
+      "replay_max_absolute_logit_error": 1.4901161193847656e-08,
+      "seed": 42,
+      "selected_epoch": 5,
+      "selected_system": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.504812734082397,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24897149484146092,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6910893832403334,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5163453788260794,
+        "probability_std": 0.016102889981350062,
+        "up_recall": 0.9194756554307116
+      }
+    },
+    {
+      "arm": "pooled_decay",
+      "constant_fallback": false,
+      "curve": [
+        {
+          "age_sessions_since_proxy_arrival": 0,
+          "cases_changed_over_1e_minus_6": 653,
+          "cases_with_removed_headlines": 653,
+          "delta_log_loss": 6.094364940145714e-05,
+          "headlines_removed": 2652,
+          "maximum_absolute_probability_change": 0.007664940320136315,
+          "mean_temporal_news_mass_removed": 0.33377870038999774
+        },
+        {
+          "age_sessions_since_proxy_arrival": 1,
+          "cases_changed_over_1e_minus_6": 651,
+          "cases_with_removed_headlines": 651,
+          "delta_log_loss": 9.559007708222404e-05,
+          "headlines_removed": 2641,
+          "maximum_absolute_probability_change": 0.007743976267978292,
+          "mean_temporal_news_mass_removed": 0.21805729819991723
+        },
+        {
+          "age_sessions_since_proxy_arrival": 2,
+          "cases_changed_over_1e_minus_6": 642,
+          "cases_with_removed_headlines": 647,
+          "delta_log_loss": -2.110166838367857e-05,
+          "headlines_removed": 2616,
+          "maximum_absolute_probability_change": 0.004504748627357724,
+          "mean_temporal_news_mass_removed": 0.14452779899555734
+        },
+        {
+          "age_sessions_since_proxy_arrival": 3,
+          "cases_changed_over_1e_minus_6": 647,
+          "cases_with_removed_headlines": 651,
+          "delta_log_loss": -2.0424658002461264e-05,
+          "headlines_removed": 2637,
+          "maximum_absolute_probability_change": 0.004496218177762912,
+          "mean_temporal_news_mass_removed": 0.09985165071211816
+        },
+        {
+          "age_sessions_since_proxy_arrival": 4,
+          "cases_changed_over_1e_minus_6": 646,
+          "cases_with_removed_headlines": 648,
+          "delta_log_loss": 1.9323931162977526e-05,
+          "headlines_removed": 2617,
+          "maximum_absolute_probability_change": 0.005600477391231151,
+          "mean_temporal_news_mass_removed": 0.07065447781053258
+        }
+      ],
+      "fold": 1,
+      "raw": {
+        "accuracy": 0.5426829268292683,
+        "auc": 0.5124302954640033,
+        "balanced_accuracy": 0.5,
+        "brier": 0.24835595428143425,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 450,
+          "true_down": 0,
+          "true_up": 534
+        },
+        "count": 984,
+        "down_recall": 0.0,
+        "log_loss": 0.6898561404198712,
+        "mcc": 0.0,
+        "predicted_up": 984,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.526389739591086,
+        "probability_std": 0.004012784730513025,
+        "up_recall": 1.0
+      },
+      "replay_max_absolute_logit_error": 7.450580596923828e-09,
+      "seed": 17,
+      "selected_epoch": 7,
+      "selected_system": {
+        "accuracy": 0.5426829268292683,
+        "auc": 0.5124302954640033,
+        "balanced_accuracy": 0.5,
+        "brier": 0.24835595428143425,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 450,
+          "true_down": 0,
+          "true_up": 534
+        },
+        "count": 984,
+        "down_recall": 0.0,
+        "log_loss": 0.6898561404198712,
+        "mcc": 0.0,
+        "predicted_up": 984,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.526389739591086,
+        "probability_std": 0.004012784730513025,
+        "up_recall": 1.0
+      }
+    },
+    {
+      "arm": "pooled_decay",
+      "constant_fallback": false,
+      "curve": [
+        {
+          "age_sessions_since_proxy_arrival": 0,
+          "cases_changed_over_1e_minus_6": 566,
+          "cases_with_removed_headlines": 653,
+          "delta_log_loss": -4.5057358394238964e-08,
+          "headlines_removed": 2652,
+          "maximum_absolute_probability_change": 8.739778483701777e-05,
+          "mean_temporal_news_mass_removed": 0.33377907007205776
+        },
+        {
+          "age_sessions_since_proxy_arrival": 1,
+          "cases_changed_over_1e_minus_6": 511,
+          "cases_with_removed_headlines": 651,
+          "delta_log_loss": -5.029957281749469e-07,
+          "headlines_removed": 2641,
+          "maximum_absolute_probability_change": 8.549938681789993e-05,
+          "mean_temporal_news_mass_removed": 0.2180574223156867
+        },
+        {
+          "age_sessions_since_proxy_arrival": 2,
+          "cases_changed_over_1e_minus_6": 440,
+          "cases_with_removed_headlines": 647,
+          "delta_log_loss": 3.374187309543647e-07,
+          "headlines_removed": 2616,
+          "maximum_absolute_probability_change": 8.352170029335415e-05,
+          "mean_temporal_news_mass_removed": 0.14452710360803497
+        },
+        {
+          "age_sessions_since_proxy_arrival": 3,
+          "cases_changed_over_1e_minus_6": 343,
+          "cases_with_removed_headlines": 651,
+          "delta_log_loss": -2.963278014350611e-07,
+          "headlines_removed": 2637,
+          "maximum_absolute_probability_change": 9.395178469384646e-05,
+          "mean_temporal_news_mass_removed": 0.09985181772929987
+        },
+        {
+          "age_sessions_since_proxy_arrival": 4,
+          "cases_changed_over_1e_minus_6": 213,
+          "cases_with_removed_headlines": 648,
+          "delta_log_loss": 5.844424859366178e-07,
+          "headlines_removed": 2617,
+          "maximum_absolute_probability_change": 7.810330062973936e-05,
+          "mean_temporal_news_mass_removed": 0.07065451562374346
+        }
+      ],
+      "fold": 1,
+      "raw": {
+        "accuracy": 0.5426829268292683,
+        "auc": 0.5119350811485643,
+        "balanced_accuracy": 0.5,
+        "brier": 0.2485230795635592,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 450,
+          "true_down": 0,
+          "true_up": 534
+        },
+        "count": 984,
+        "down_recall": 0.0,
+        "log_loss": 0.6901914968635491,
+        "mcc": 0.0,
+        "predicted_up": 984,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5236983511797444,
+        "probability_std": 0.0009423327014561593,
+        "up_recall": 1.0
+      },
+      "replay_max_absolute_logit_error": 7.450580596923828e-09,
+      "seed": 42,
+      "selected_epoch": 3,
+      "selected_system": {
+        "accuracy": 0.5426829268292683,
+        "auc": 0.5119350811485643,
+        "balanced_accuracy": 0.5,
+        "brier": 0.2485230795635592,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 450,
+          "true_down": 0,
+          "true_up": 534
+        },
+        "count": 984,
+        "down_recall": 0.0,
+        "log_loss": 0.6901914968635491,
+        "mcc": 0.0,
+        "predicted_up": 984,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5236983511797444,
+        "probability_std": 0.0009423327014561593,
+        "up_recall": 1.0
+      }
+    }
+  ],
+  "id": "cmin_decay_48h_2026-10-14_v1",
+  "metrics": {
+    "equal_probability": {
+      "mean_seed_accuracy": 0.5439121756487026,
+      "mean_seed_brier": 0.25,
+      "mean_seed_log_loss": 0.6931471805599454,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.5,
+          "balanced_accuracy": 0.5,
+          "brier": 0.25,
+          "confusion": {
+            "false_down": 0,
+            "false_up": 914,
+            "true_down": 0,
+            "true_up": 1090
+          },
+          "count": 2004,
+          "down_recall": 0.0,
+          "log_loss": 0.6931471805599454,
+          "mcc": 0.0,
+          "predicted_up": 2004,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5,
+          "probability_std": 0.0,
+          "up_recall": 1.0
+        }
+      ]
+    },
+    "pooled_decay": {
+      "mean_seed_accuracy": 0.5464071856287425,
+      "mean_seed_brier": 0.24837030434646967,
+      "mean_seed_log_loss": 0.6898866201327702,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.49785196635416457,
+          "balanced_accuracy": 0.5018549374661233,
+          "brier": 0.24840306968626205,
+          "confusion": {
+            "false_down": 21,
+            "false_up": 893,
+            "true_down": 21,
+            "true_up": 1069
+          },
+          "count": 2004,
+          "down_recall": 0.022975929978118162,
+          "log_loss": 0.6899526922050283,
+          "mcc": 0.012899458183425513,
+          "predicted_up": 1962,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5289190818418422,
+          "probability_std": 0.011562562407920772,
+          "up_recall": 0.9807339449541285
+        },
+        {
+          "accuracy": 0.5489021956087824,
+          "auc": 0.5058363278662197,
+          "balanced_accuracy": 0.5117419147612069,
+          "brier": 0.24833753900667732,
+          "confusion": {
+            "false_down": 71,
+            "false_up": 833,
+            "true_down": 81,
+            "true_up": 1019
+          },
+          "count": 2004,
+          "down_recall": 0.0886214442013129,
+          "log_loss": 0.6898205480605121,
+          "mcc": 0.044178704934776956,
+          "predicted_up": 1852,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5231728521848185,
+          "probability_std": 0.014172596399531433,
+          "up_recall": 0.9348623853211009
+        }
+      ]
+    },
+    "pooled_decay_mask_age_0": {
+      "mean_seed_accuracy": 0.5444111776447106,
+      "mean_seed_brier": 0.248419085833465,
+      "mean_seed_log_loss": 0.6899839822147735,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5449101796407185,
+          "auc": 0.4987995101680284,
+          "balanced_accuracy": 0.5029490293698432,
+          "brier": 0.24839261043308108,
+          "confusion": {
+            "false_down": 21,
+            "false_up": 891,
+            "true_down": 23,
+            "true_up": 1069
+          },
+          "count": 2004,
+          "down_recall": 0.02516411378555799,
+          "log_loss": 0.6899315287111809,
+          "mcc": 0.020046615767714382,
+          "predicted_up": 1960,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5288255650708716,
+          "probability_std": 0.011422542526720423,
+          "up_recall": 0.9807339449541285
+        },
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.5079753277256941,
+          "balanced_accuracy": 0.506624776664726,
+          "brier": 0.24844556123384895,
+          "confusion": {
+            "false_down": 75,
+            "false_up": 839,
+            "true_down": 75,
+            "true_up": 1015
+          },
+          "count": 2004,
+          "down_recall": 0.08205689277899343,
+          "log_loss": 0.6900364357183663,
+          "mcc": 0.025077664617560943,
+          "predicted_up": 1854,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5231271151806393,
+          "probability_std": 0.014244309949203436,
+          "up_recall": 0.9311926605504587
+        }
+      ]
+    },
+    "pooled_decay_mask_age_1": {
+      "mean_seed_accuracy": 0.5481536926147704,
+      "mean_seed_brier": 0.2483757182968534,
+      "mean_seed_log_loss": 0.6898973414716858,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5424151696606786,
+          "auc": 0.49633629775359844,
+          "balanced_accuracy": 0.5002137996105435,
+          "brier": 0.24845970020765623,
+          "confusion": {
+            "false_down": 21,
+            "false_up": 896,
+            "true_down": 18,
+            "true_up": 1069
+          },
+          "count": 2004,
+          "down_recall": 0.019693654266958426,
+          "log_loss": 0.6900659529916299,
+          "mcc": 0.0015417347857883082,
+          "predicted_up": 1965,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5289222270954395,
+          "probability_std": 0.011586940577946592,
+          "up_recall": 0.9807339449541285
+        },
+        {
+          "accuracy": 0.5538922155688623,
+          "auc": 0.5044380984883464,
+          "balanced_accuracy": 0.516770722502158,
+          "brier": 0.24829173638605057,
+          "confusion": {
+            "false_down": 66,
+            "false_up": 828,
+            "true_down": 86,
+            "true_up": 1024
+          },
+          "count": 2004,
+          "down_recall": 0.09409190371991247,
+          "log_loss": 0.6897287299517417,
+          "mcc": 0.06309948726707586,
+          "predicted_up": 1852,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.523172632161467,
+          "probability_std": 0.014273100158756146,
+          "up_recall": 0.9394495412844037
+        }
+      ]
+    },
+    "pooled_decay_mask_age_2": {
+      "mean_seed_accuracy": 0.5481536926147705,
+      "mean_seed_brier": 0.24836593210469599,
+      "mean_seed_log_loss": 0.6898785521489377,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.49810190111015196,
+          "balanced_accuracy": 0.5018549374661233,
+          "brier": 0.24844186586407174,
+          "confusion": {
+            "false_down": 21,
+            "false_up": 893,
+            "true_down": 21,
+            "true_up": 1069
+          },
+          "count": 2004,
+          "down_recall": 0.022975929978118162,
+          "log_loss": 0.6900316454896002,
+          "mcc": 0.012899458183425513,
+          "predicted_up": 1962,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5288901402098761,
+          "probability_std": 0.011521083566256696,
+          "up_recall": 0.9807339449541285
+        },
+        {
+          "accuracy": 0.5523952095808383,
+          "auc": 0.5105278742496938,
+          "balanced_accuracy": 0.5151295846465782,
+          "brier": 0.2482899983453202,
+          "confusion": {
+            "false_down": 66,
+            "false_up": 831,
+            "true_down": 83,
+            "true_up": 1024
+          },
+          "count": 2004,
+          "down_recall": 0.09080962800875274,
+          "log_loss": 0.6897254588082752,
+          "mcc": 0.05744844221988562,
+          "predicted_up": 1855,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5231534727546391,
+          "probability_std": 0.014312016131934611,
+          "up_recall": 0.9394495412844037
+        }
+      ]
+    },
+    "pooled_decay_mask_age_3": {
+      "mean_seed_accuracy": 0.5481536926147705,
+      "mean_seed_brier": 0.24833430644534277,
+      "mean_seed_log_loss": 0.6898140015176426,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.4983658884227009,
+          "balanced_accuracy": 0.501943267821653,
+          "brier": 0.2483478526079447,
+          "confusion": {
+            "false_down": 22,
+            "false_up": 892,
+            "true_down": 22,
+            "true_up": 1068
+          },
+          "count": 2004,
+          "down_recall": 0.024070021881838075,
+          "log_loss": 0.6898409977753858,
+          "mcc": 0.013209750893905733,
+          "predicted_up": 1960,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5289162125101935,
+          "probability_std": 0.011597140797359861,
+          "up_recall": 0.9798165137614679
+        },
+        {
+          "accuracy": 0.5523952095808383,
+          "auc": 0.5053801216549897,
+          "balanced_accuracy": 0.515482906068697,
+          "brier": 0.24832076028274083,
+          "confusion": {
+            "false_down": 70,
+            "false_up": 827,
+            "true_down": 87,
+            "true_up": 1020
+          },
+          "count": 2004,
+          "down_recall": 0.09518599562363239,
+          "log_loss": 0.6897870052598996,
+          "mcc": 0.057396518157187666,
+          "predicted_up": 1847,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5231646372681116,
+          "probability_std": 0.014241325281738645,
+          "up_recall": 0.9357798165137615
+        }
+      ]
+    },
+    "pooled_decay_mask_age_4": {
+      "mean_seed_accuracy": 0.5461576846307385,
+      "mean_seed_brier": 0.24839110468657455,
+      "mean_seed_log_loss": 0.6899285272802438,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5424151696606786,
+          "auc": 0.4964095717985265,
+          "balanced_accuracy": 0.5003904603216027,
+          "brier": 0.24844148139139724,
+          "confusion": {
+            "false_down": 23,
+            "false_up": 894,
+            "true_down": 20,
+            "true_up": 1067
+          },
+          "count": 2004,
+          "down_recall": 0.02188183807439825,
+          "log_loss": 0.6900300659556317,
+          "mcc": 0.0026842330880563975,
+          "predicted_up": 1961,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5288328373100977,
+          "probability_std": 0.011433035103785412,
+          "up_recall": 0.9788990825688073
+        },
+        {
+          "accuracy": 0.5499001996007984,
+          "auc": 0.505356533435047,
+          "balanced_accuracy": 0.5129243370204565,
+          "brier": 0.24834072798175183,
+          "confusion": {
+            "false_down": 72,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1018
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6898269886048559,
+          "mcc": 0.04805198515373141,
+          "predicted_up": 1848,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.52315641823014,
+          "probability_std": 0.014222459240609706,
+          "up_recall": 0.9339449541284404
+        }
+      ]
+    },
+    "pooled_uniform": {
+      "mean_seed_accuracy": 0.5426646706586826,
+      "mean_seed_brier": 0.2485326734719914,
+      "mean_seed_log_loss": 0.690210259789409,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.5099386706281492,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.24830922574648853,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897626045308349,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247235952564632,
+          "probability_std": 0.015952466439908324,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5409181636726547,
+          "auc": 0.5041189047035914,
+          "balanced_accuracy": 0.5062574026860458,
+          "brier": 0.24875612119749427,
+          "confusion": {
+            "false_down": 108,
+            "false_up": 812,
+            "true_down": 102,
+            "true_up": 982
+          },
+          "count": 2004,
+          "down_recall": 0.11159737417943107,
+          "log_loss": 0.690657915047983,
+          "mcc": 0.020351179275438596,
+          "predicted_up": 1794,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175107403412726,
+          "probability_std": 0.020639265913208263,
+          "up_recall": 0.9009174311926605
+        }
+      ]
+    },
+    "pooled_uniform_mask_age_0": {
+      "mean_seed_accuracy": 0.5421656686626746,
+      "mean_seed_brier": 0.2485312730654753,
+      "mean_seed_log_loss": 0.6902074478602978,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.5101956316624174,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.24830749557443582,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897591453062125,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247128010983764,
+          "probability_std": 0.01593502152190168,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5399201596806387,
+          "auc": 0.5041234215967719,
+          "balanced_accuracy": 0.5052516411378556,
+          "brier": 0.24875505055651473,
+          "confusion": {
+            "false_down": 109,
+            "false_up": 813,
+            "true_down": 101,
+            "true_up": 981
+          },
+          "count": 2004,
+          "down_recall": 0.11050328227571116,
+          "log_loss": 0.690655750414383,
+          "mcc": 0.01708010426196579,
+          "predicted_up": 1794,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175049599489792,
+          "probability_std": 0.020635708379219842,
+          "up_recall": 0.9
+        }
+      ]
+    },
+    "pooled_uniform_mask_age_1": {
+      "mean_seed_accuracy": 0.5421656686626746,
+      "mean_seed_brier": 0.2485374542571483,
+      "mean_seed_log_loss": 0.690219826556898,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.5094583743199567,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.24831710040660204,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897783531553228,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247183912424432,
+          "probability_std": 0.01594398656114073,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5399201596806387,
+          "auc": 0.5041113765482906,
+          "balanced_accuracy": 0.5052516411378556,
+          "brier": 0.24875780810769454,
+          "confusion": {
+            "false_down": 109,
+            "false_up": 813,
+            "true_down": 101,
+            "true_up": 981
+          },
+          "count": 2004,
+          "down_recall": 0.11050328227571116,
+          "log_loss": 0.6906612999584731,
+          "mcc": 0.01708010426196579,
+          "predicted_up": 1794,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175061567694019,
+          "probability_std": 0.020636842711878208,
+          "up_recall": 0.9
+        }
+      ]
+    },
+    "pooled_uniform_mask_age_2": {
+      "mean_seed_accuracy": 0.5426646706586826,
+      "mean_seed_brier": 0.24853258098541797,
+      "mean_seed_log_loss": 0.690210105369999,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.5095958886234517,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.2483095043607159,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897632226248066,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247162502533186,
+          "probability_std": 0.01594147520457896,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5409181636726547,
+          "auc": 0.5039015919539076,
+          "balanced_accuracy": 0.5062574026860458,
+          "brier": 0.24875565761012008,
+          "confusion": {
+            "false_down": 108,
+            "false_up": 812,
+            "true_down": 102,
+            "true_up": 982
+          },
+          "count": 2004,
+          "down_recall": 0.11159737417943107,
+          "log_loss": 0.6906569881151915,
+          "mcc": 0.020351179275438596,
+          "predicted_up": 1794,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175078208674081,
+          "probability_std": 0.020636995039578644,
+          "up_recall": 0.9009174311926605
+        }
+      ]
+    },
+    "pooled_uniform_mask_age_3": {
+      "mean_seed_accuracy": 0.5424151696606787,
+      "mean_seed_brier": 0.2485247940997592,
+      "mean_seed_log_loss": 0.6901943931351858,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.5104325176158834,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.24829440805314615,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897327557724013,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247185563660871,
+          "probability_std": 0.015943240602921148,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5404191616766467,
+          "auc": 0.5042222913697227,
+          "balanced_accuracy": 0.5057103567341859,
+          "brier": 0.2487551801463722,
+          "confusion": {
+            "false_down": 108,
+            "false_up": 813,
+            "true_down": 101,
+            "true_up": 982
+          },
+          "count": 2004,
+          "down_recall": 0.11050328227571116,
+          "log_loss": 0.6906560304979703,
+          "mcc": 0.01861119301100374,
+          "predicted_up": 1795,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175057771540637,
+          "probability_std": 0.020635647945193517,
+          "up_recall": 0.9009174311926605
+        }
+      ]
+    },
+    "pooled_uniform_mask_age_4": {
+      "mean_seed_accuracy": 0.5426646706586826,
+      "mean_seed_brier": 0.24853828340245457,
+      "mean_seed_log_loss": 0.6902215537994147,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.509424748559613,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.2483160424366883,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897763462179017,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247133545943151,
+          "probability_std": 0.015931889233530214,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5409181636726547,
+          "auc": 0.503886535643306,
+          "balanced_accuracy": 0.5062574026860458,
+          "brier": 0.24876052436822083,
+          "confusion": {
+            "false_down": 108,
+            "false_up": 812,
+            "true_down": 102,
+            "true_up": 982
+          },
+          "count": 2004,
+          "down_recall": 0.11159737417943107,
+          "log_loss": 0.6906667613809279,
+          "mcc": 0.020351179275438596,
+          "predicted_up": 1794,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175052825801539,
+          "probability_std": 0.02063610622099655,
+          "up_recall": 0.9009174311926605
+        }
+      ]
+    },
+    "price_context": {
+      "mean_seed_accuracy": 0.5454091816367266,
+      "mean_seed_brier": 0.24847513183064385,
+      "mean_seed_log_loss": 0.6900952336003423,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5464071856287425,
+          "auc": 0.5102603737980045,
+          "balanced_accuracy": 0.506268443980487,
+          "brier": 0.24833015083376925,
+          "confusion": {
+            "false_down": 40,
+            "false_up": 869,
+            "true_down": 45,
+            "true_up": 1050
+          },
+          "count": 2004,
+          "down_recall": 0.04923413566739606,
+          "log_loss": 0.689804704232098,
+          "mcc": 0.030983404812422455,
+          "predicted_up": 1919,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5227047464616736,
+          "probability_std": 0.01779312042187899,
+          "up_recall": 0.963302752293578
+        },
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.4971001545781222,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.24862011282751845,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6903857629685864,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5213145321302571,
+          "probability_std": 0.014669865897874385,
+          "up_recall": 0.9238532110091743
+        }
+      ]
+    },
+    "system_pooled_decay": {
+      "mean_seed_accuracy": 0.5464071856287425,
+      "mean_seed_brier": 0.24837030434646967,
+      "mean_seed_log_loss": 0.6898866201327702,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.49785196635416457,
+          "balanced_accuracy": 0.5018549374661233,
+          "brier": 0.24840306968626205,
+          "confusion": {
+            "false_down": 21,
+            "false_up": 893,
+            "true_down": 21,
+            "true_up": 1069
+          },
+          "count": 2004,
+          "down_recall": 0.022975929978118162,
+          "log_loss": 0.6899526922050283,
+          "mcc": 0.012899458183425513,
+          "predicted_up": 1962,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5289190818418422,
+          "probability_std": 0.011562562407920772,
+          "up_recall": 0.9807339449541285
+        },
+        {
+          "accuracy": 0.5489021956087824,
+          "auc": 0.5058363278662197,
+          "balanced_accuracy": 0.5117419147612069,
+          "brier": 0.24833753900667732,
+          "confusion": {
+            "false_down": 71,
+            "false_up": 833,
+            "true_down": 81,
+            "true_up": 1019
+          },
+          "count": 2004,
+          "down_recall": 0.0886214442013129,
+          "log_loss": 0.6898205480605121,
+          "mcc": 0.044178704934776956,
+          "predicted_up": 1852,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5231728521848185,
+          "probability_std": 0.014172596399531433,
+          "up_recall": 0.9348623853211009
+        }
+      ]
+    },
+    "system_pooled_uniform": {
+      "mean_seed_accuracy": 0.5426646706586826,
+      "mean_seed_brier": 0.2485326734719914,
+      "mean_seed_log_loss": 0.690210259789409,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.5099386706281492,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.24830922574648853,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897626045308349,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247235952564632,
+          "probability_std": 0.015952466439908324,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5409181636726547,
+          "auc": 0.5041189047035914,
+          "balanced_accuracy": 0.5062574026860458,
+          "brier": 0.24875612119749427,
+          "confusion": {
+            "false_down": 108,
+            "false_up": 812,
+            "true_down": 102,
+            "true_up": 982
+          },
+          "count": 2004,
+          "down_recall": 0.11159737417943107,
+          "log_loss": 0.690657915047983,
+          "mcc": 0.020351179275438596,
+          "predicted_up": 1794,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175107403412726,
+          "probability_std": 0.020639265913208263,
+          "up_recall": 0.9009174311926605
+        }
+      ]
+    },
+    "training_prior": {
+      "mean_seed_accuracy": 0.5439121756487026,
+      "mean_seed_brier": 0.24833752776556994,
+      "mean_seed_log_loss": 0.6898196170814205,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.5012165498966134,
+          "balanced_accuracy": 0.5,
+          "brier": 0.24833752776556994,
+          "confusion": {
+            "false_down": 0,
+            "false_up": 914,
+            "true_down": 0,
+            "true_up": 1090
+          },
+          "count": 2004,
+          "down_recall": 0.0,
+          "log_loss": 0.6898196170814205,
+          "mcc": 0.0,
+          "predicted_up": 2004,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5275639572972205,
+          "probability_std": 0.0011870169352386816,
+          "up_recall": 1.0
+        }
+      ]
+    }
+  },
+  "neural_fits": 8,
+  "new_convex_fits": 0,
+  "period_seed_differences": [
+    {
+      "delta_log_loss": 0.0011254875913588739,
+      "fold": 0,
+      "seed": 17
+    },
+    {
+      "delta_log_loss": -0.0007789835766041165,
+      "fold": 0,
+      "seed": 42
+    },
+    {
+      "delta_log_loss": -0.0007795341911609899,
+      "fold": 1,
+      "seed": 17
+    },
+    {
+      "delta_log_loss": -0.0008978863767841957,
+      "fold": 1,
+      "seed": 42
+    }
+  ],
+  "primary": {
+    "conditional_95_interval": [
+      -0.001176485451893402,
+      0.0005385380826719676
+    ],
+    "delta_log_loss": -0.00032363965663877734,
+    "first": "pooled_decay",
+    "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+    "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+    "second": "pooled_uniform"
+  },
+  "scope": "Exploratory inspected development periods; fixed-model mask sensitivity with renormalization; relative recency, not publication diffusion or causal contribution",
+  "script_sha256": "b31998fbd41034b32def23d94883f4fdd05f64626fde2419deabbc18c8f59fff",
+  "selected_checkpoint_hashes": {
+    "fold_0\\pooled_decay_17\\selected.pt": "8051decf3e505708890dabd6d6e6792e86baab95301f44100253265cb44cd64c",
+    "fold_0\\pooled_decay_42\\selected.pt": "593f17f8e629c7c1bc219480b648bda411f60f421c61e822a6c8a10aba61fbbc",
+    "fold_0\\pooled_uniform_17\\selected.pt": "515128431d7f584e977649d9d13319f3bdd78ddc351c92635b64e705c5e175d3",
+    "fold_0\\pooled_uniform_42\\selected.pt": "316bc8272ff5791ff04f5a5fcc17255a21414aff0380da3c1c521203b6e90d79",
+    "fold_1\\pooled_decay_17\\selected.pt": "0325d28c847d0076d18a5647bf8e72bf97f40b076597e4514fb270a5e25b1e8b",
+    "fold_1\\pooled_decay_42\\selected.pt": "7399e19552e8db46e39962879800f50015f52620b5e9c909cd6fca7760420d29",
+    "fold_1\\pooled_uniform_17\\selected.pt": "2898ca6e56a949b2a8d4dd014ec61951c5b37474160585a2abd4fc2923bf7a49",
+    "fold_1\\pooled_uniform_42\\selected.pt": "0c15dec560d1c75b3bd2c99533062f71e4f6e139bd2ee061ababd23e7be7368c"
+  },
+  "uncertainty_scope": "Conditional on saved fits; pointwise age intervals, correlated ages, no selection from curves",
+  "utc": "2026-10-14T10:47:09.316401+00:00"
+}

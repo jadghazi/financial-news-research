@@ -1,0 +1,350 @@
+{
+  "additional_items_encoded": 10642,
+  "files_sha256": {
+    "sentiment.npy": "6f10c8df5469616961cd32407734d9a21ca9bc88df3219c7c0819e6b5a7fbed0",
+    "text.npy": "c0098e4a7b0021ef9d4e3db96752faa96e72f109e9919df317a32c7cc16b9cb1"
+  },
+  "original_items_retained_exactly": 29937,
+  "seconds": 217.125,
+  "states": {
+    "sentiment": {
+      "benchmark": {
+        "batch_size": 16,
+        "device": "cpu",
+        "estimated_full_seconds": 20.618874999361196,
+        "sample_size": 16,
+        "seconds": 0.030999999999039574,
+        "sentiment_controls_positive_negative": [
+          [
+            0.9705498814582825,
+            0.012447870336472988,
+            0.01700221747159958
+          ],
+          [
+            0.01679367944598198,
+            0.016562210395932198,
+            0.9666441082954407
+          ]
+        ],
+        "threads": 4,
+        "truncated_texts": 0
+      },
+      "chunks": [
+        {
+          "sha256": "5bf4afaef6336b287300d3995af87fcf41e7f9c658ad10cb330d0b4230132b4f",
+          "start": 0,
+          "stop": 512
+        },
+        {
+          "sha256": "a9d515e1a066d64cac248f8acc4774506d25a9e0659ec5bd11a069160aa35839",
+          "start": 512,
+          "stop": 1024
+        },
+        {
+          "sha256": "e2efe3bbe3d90f24515c8898d90eb08e9ada6614c909af1d072670720c0701c4",
+          "start": 1024,
+          "stop": 1536
+        },
+        {
+          "sha256": "3a69ce176f9cba7ff7017decac3c9186a53abeab91a274eccc38e70081f6ee4c",
+          "start": 1536,
+          "stop": 2048
+        },
+        {
+          "sha256": "68126a4aedc2c8fbbda5e5df96057dca7f25fe7b32bac2fe85275ec24cba41c4",
+          "start": 2048,
+          "stop": 2560
+        },
+        {
+          "sha256": "8ae50719a5db385aa4ec31ac4c4dcf2f83dff4c0084dbcb961710ac9e237e771",
+          "start": 2560,
+          "stop": 3072
+        },
+        {
+          "sha256": "ac418566a344be4eb76d37bb44f9feb78d9499250fb149e8bfe6652030176494",
+          "start": 3072,
+          "stop": 3584
+        },
+        {
+          "sha256": "e54fcffaa705ca4a6d29232a976e60a5281f252d04f2a919818c004b272a0d45",
+          "start": 3584,
+          "stop": 4096
+        },
+        {
+          "sha256": "5ded78528e72d09a7653da68d61f974fe307cb49ab6089dfd71d7c216f08816f",
+          "start": 4096,
+          "stop": 4608
+        },
+        {
+          "sha256": "166746dc31dd35fe5983af7573647b6d714768e0c2f9fa41a1850f5a18abb2f2",
+          "start": 4608,
+          "stop": 5120
+        },
+        {
+          "sha256": "a9407c6a6853140ff02b10992e01e409892e739b7d0de8d0645454e1fdf6a9bd",
+          "start": 5120,
+          "stop": 5632
+        },
+        {
+          "sha256": "6110c77536dfd2d4358834b23e6625dc62bedd05c4bb5e3b61b0f3e76b76fb02",
+          "start": 5632,
+          "stop": 6144
+        },
+        {
+          "sha256": "67d61a6a2b63be1fd66849ddd990c6ec340887bd7a6771a731cc3259a015260b",
+          "start": 6144,
+          "stop": 6656
+        },
+        {
+          "sha256": "89a9aae5820c00561d88d782c47bd0f86cd8c757225729a8348dbb0e271d6a61",
+          "start": 6656,
+          "stop": 7168
+        },
+        {
+          "sha256": "762922328877f5d97c69ea7d0e22530af0eb116c2b34961d826cd30fdd15b4ef",
+          "start": 7168,
+          "stop": 7680
+        },
+        {
+          "sha256": "b86a8c3ab071bab2589842099c40cd73d3dd1ed23f6d583d57df49c34e95d2a1",
+          "start": 7680,
+          "stop": 8192
+        },
+        {
+          "sha256": "8bc8fa87fa020c6c8e30560772610c1e8afe7ef0cc464a088fe958ecceb88487",
+          "start": 8192,
+          "stop": 8704
+        },
+        {
+          "sha256": "ecc20493b6dc1f7c27a7630e72067c0a53c9aeebdc680a8aba38db8182da8828",
+          "start": 8704,
+          "stop": 9216
+        },
+        {
+          "sha256": "92e57849e7ffda1db532ed9cde4bd67fd7c36310969b6846d4de1195690fb4b9",
+          "start": 9216,
+          "stop": 9728
+        },
+        {
+          "sha256": "f362b61d028dfe133774a320b623345b56fd11fc2ef3035601e68f0995f8bf98",
+          "start": 9728,
+          "stop": 10240
+        },
+        {
+          "sha256": "17bd3d53586bc02934007d5e5f89f0838b1cd367c7d36d6cdadf7660aff490ba",
+          "start": 10240,
+          "stop": 10642
+        }
+      ],
+      "encoding_seconds": 12.390999999997803,
+      "identity": {
+        "batch_size": 16,
+        "device": "cpu",
+        "dtype": "float32",
+        "encoder": {
+          "name": "FacebookAI/roberta-base",
+          "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+          "width": 768
+        },
+        "encoder_code_sha256": "11d22f074ec5bb9a6a9b1861c5b0f967496b89fee0d8847e1d49b3fa10c436a2",
+        "items_sha256": "15a1b87caec0b330a41071dddafad4448dfd9f1571b8a221dc7f12b628a26d03",
+        "l2_normalized": false,
+        "max_tokens": 64,
+        "pooling": "last_hidden_state[:,0,:]",
+        "prepared_sha256": "069663373672af5c9b38970eb48298d564f88dec453bd16e2fa1df71352e4767",
+        "scope": "only newly selected titles; original cache reused unchanged",
+        "sentiment": {
+          "name": "mikeysharma/finance-sentiment-analysis",
+          "revision": "4353ecd593de607cbb64147c8e2d21b82d842014",
+          "width": 3
+        },
+        "sentiment_order": [
+          "positive",
+          "neutral",
+          "negative"
+        ],
+        "threads": 4
+      },
+      "model_provenance": {
+        "files_sha256": {
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--mikeysharma--finance-sentiment-analysis\\snapshots\\4353ecd593de607cbb64147c8e2d21b82d842014\\model.onnx": "b821fb3ebf5494ffaa5a24d5271fc940ed0c9bbdc0775bc48f504b3be3ce31ca",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--mikeysharma--finance-sentiment-analysis\\snapshots\\4353ecd593de607cbb64147c8e2d21b82d842014\\special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--mikeysharma--finance-sentiment-analysis\\snapshots\\4353ecd593de607cbb64147c8e2d21b82d842014\\tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--mikeysharma--finance-sentiment-analysis\\snapshots\\4353ecd593de607cbb64147c8e2d21b82d842014\\tokenizer_config.json": "6d74be6fd153c2dafa1a761b2bd947cf5e6e46fb25ce835970f999b4d03fd76f",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--mikeysharma--finance-sentiment-analysis\\snapshots\\4353ecd593de607cbb64147c8e2d21b82d842014\\vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+        },
+        "model": "mikeysharma/finance-sentiment-analysis",
+        "revision": "4353ecd593de607cbb64147c8e2d21b82d842014",
+        "snapshot": "C:\\Users\\user\\.cache\\huggingface\\hub\\models--mikeysharma--finance-sentiment-analysis\\snapshots\\4353ecd593de607cbb64147c8e2d21b82d842014",
+        "tokenizer": "BertTokenizerFast"
+      },
+      "next": 10642,
+      "sha256": "f497bbe5cb8922e98938214868c7c196e735cd0d5954dfeafa41cd639f22bf5f",
+      "truncated_texts": 1
+    },
+    "text": {
+      "benchmark": {
+        "batch_size": 16,
+        "device": "cpu",
+        "estimated_full_seconds": 270.7058749994967,
+        "sample_size": 16,
+        "seconds": 0.4069999999992433,
+        "threads": 4,
+        "truncated_texts": 0
+      },
+      "chunks": [
+        {
+          "sha256": "38eaac40ec22a3f773a7b4a3d9c0722dca7e8eca44e4ded5a075a9cdf5f18522",
+          "start": 0,
+          "stop": 512
+        },
+        {
+          "sha256": "0f3bf08e08bd55a334f6f95a1be3d03baf28744ef71436f5a97ce8d34251578a",
+          "start": 512,
+          "stop": 1024
+        },
+        {
+          "sha256": "a5c5e1c4e6ca2181e6e02b4c111f1e762cb85abc41155c4a7cdff221b056d8e2",
+          "start": 1024,
+          "stop": 1536
+        },
+        {
+          "sha256": "96618bb72ad4a1cae679674d82240aaf4f27edacc1faa8369a228728c1ffd6a9",
+          "start": 1536,
+          "stop": 2048
+        },
+        {
+          "sha256": "cc6c38164d311e997e70a89e946edfad451945480722c48c30cbebc3a30fe0dd",
+          "start": 2048,
+          "stop": 2560
+        },
+        {
+          "sha256": "25e77345b14ee38f4ff53941a34d4d16f2eee18c13a5e890603170e1d8feef88",
+          "start": 2560,
+          "stop": 3072
+        },
+        {
+          "sha256": "e3f880ccd5bf47a6449ee249c2bbf4a6a89042b933a09976c3d9a4babe582980",
+          "start": 3072,
+          "stop": 3584
+        },
+        {
+          "sha256": "df954bbd7d17c9b7ef20544c273793083b891dc86e28062b4c9d0f2b0db5e70e",
+          "start": 3584,
+          "stop": 4096
+        },
+        {
+          "sha256": "2e0a0be4015b6d5d5d8d4ea3a457697c836b9d44916708b699a555d64239c3b7",
+          "start": 4096,
+          "stop": 4608
+        },
+        {
+          "sha256": "05505cadc18200309d39bed9cfd145e1bf726d5f12ce8bf91167e4a5d6281d56",
+          "start": 4608,
+          "stop": 5120
+        },
+        {
+          "sha256": "98267bd6df6f6eddff770be97b4d5fa2e86e1e371b0152b3a41b0a38a63c0de6",
+          "start": 5120,
+          "stop": 5632
+        },
+        {
+          "sha256": "efeff5f6d297f11cb9e9639e809d06991f311d7afc38bb7c946561e9393494c4",
+          "start": 5632,
+          "stop": 6144
+        },
+        {
+          "sha256": "dc60624dbd6392c061c0348831759cf2ff32563bbd8993fccb62248b56e2840a",
+          "start": 6144,
+          "stop": 6656
+        },
+        {
+          "sha256": "ff98ff902ee63c8c7c6cf2a31cde3dd33234b38db9fc2ae265067be08165eaa4",
+          "start": 6656,
+          "stop": 7168
+        },
+        {
+          "sha256": "52d500b58d9ddddc617fdcf7296f2ce6abf82dfa3262decfd667cdf7c069af0a",
+          "start": 7168,
+          "stop": 7680
+        },
+        {
+          "sha256": "48f0ca865e5d3296c54b509f2204225b6427160e57546176bc77373501638509",
+          "start": 7680,
+          "stop": 8192
+        },
+        {
+          "sha256": "456f4119c0bc4bdb9abd9886cfe0266585c59991eab6d9e00b91022af5b2cfd2",
+          "start": 8192,
+          "stop": 8704
+        },
+        {
+          "sha256": "9ca58b24799165790ee377275db6165ea14afcc10111b484925176e0de04ef8a",
+          "start": 8704,
+          "stop": 9216
+        },
+        {
+          "sha256": "53e44fb5f7a956dd4dd39409578df3a737d87ba8c629f96c6aec905544f7f9e3",
+          "start": 9216,
+          "stop": 9728
+        },
+        {
+          "sha256": "a74ceb08cb51f78d13e83060ec7389b746cd8b6ac45d56c6999f9436fa637e02",
+          "start": 9728,
+          "stop": 10240
+        },
+        {
+          "sha256": "4f894890e2c4e8c4841f73c296f3d7e294067a64a2195bda587201178c132c67",
+          "start": 10240,
+          "stop": 10642
+        }
+      ],
+      "encoding_seconds": 200.45299999999952,
+      "identity": {
+        "batch_size": 16,
+        "device": "cpu",
+        "dtype": "float32",
+        "encoder": {
+          "name": "FacebookAI/roberta-base",
+          "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+          "width": 768
+        },
+        "encoder_code_sha256": "11d22f074ec5bb9a6a9b1861c5b0f967496b89fee0d8847e1d49b3fa10c436a2",
+        "items_sha256": "15a1b87caec0b330a41071dddafad4448dfd9f1571b8a221dc7f12b628a26d03",
+        "l2_normalized": false,
+        "max_tokens": 64,
+        "pooling": "last_hidden_state[:,0,:]",
+        "prepared_sha256": "069663373672af5c9b38970eb48298d564f88dec453bd16e2fa1df71352e4767",
+        "scope": "only newly selected titles; original cache reused unchanged",
+        "sentiment": {
+          "name": "mikeysharma/finance-sentiment-analysis",
+          "revision": "4353ecd593de607cbb64147c8e2d21b82d842014",
+          "width": 3
+        },
+        "sentiment_order": [
+          "positive",
+          "neutral",
+          "negative"
+        ],
+        "threads": 4
+      },
+      "model_provenance": {
+        "files_sha256": {
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--FacebookAI--roberta-base\\snapshots\\e2da8e2f811d1448a5b465c236feacd80ffbac7b\\config.json": "ef0185e2aae6e06c5f105a285006952c340e20c7dbf43c86ec82601b13fc45e9",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--FacebookAI--roberta-base\\snapshots\\e2da8e2f811d1448a5b465c236feacd80ffbac7b\\merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--FacebookAI--roberta-base\\snapshots\\e2da8e2f811d1448a5b465c236feacd80ffbac7b\\model.safetensors": "5bde1d28afb363d0103324efeb5afc8b2b397fe5e04beabb9b1ef355255ade81",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--FacebookAI--roberta-base\\snapshots\\e2da8e2f811d1448a5b465c236feacd80ffbac7b\\tokenizer.json": "847bbeab6174d66a88898f729d52fa8d355fafe1bea101cf960dd404581df70e",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--FacebookAI--roberta-base\\snapshots\\e2da8e2f811d1448a5b465c236feacd80ffbac7b\\tokenizer_config.json": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce",
+          "C:\\Users\\user\\.cache\\huggingface\\hub\\models--FacebookAI--roberta-base\\snapshots\\e2da8e2f811d1448a5b465c236feacd80ffbac7b\\vocab.json": "9e7f63c2d15d666b52e21d250d2e513b87c9b713cfa6987a82ed89e5e6e50655"
+        },
+        "model": "FacebookAI/roberta-base",
+        "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+        "snapshot": "C:\\Users\\user\\.cache\\huggingface\\hub\\models--FacebookAI--roberta-base\\snapshots\\e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+        "tokenizer": "RobertaTokenizerFast"
+      },
+      "next": 10642,
+      "sha256": "45474b0854eea47a817ddc3d9ca95d962b562d74e66e7ddf12de32e5842cc0ae",
+      "truncated_texts": 0
+    }
+  }
+}

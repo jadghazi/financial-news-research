@@ -1,0 +1,554 @@
+[
+  {
+    "epoch": 1,
+    "eval": {
+      "train": {
+        "accuracy": 0.526355421686747,
+        "auc": 0.5212157689120577,
+        "balanced_accuracy": 0.5,
+        "brier": 0.2493008820335117,
+        "clipped_probability_log_loss": 0.691748275545381,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 3774,
+          "true_down": 0,
+          "true_up": 4194
+        },
+        "count": 7968,
+        "down_recall": 0.0,
+        "log_loss": 0.6917482755453809,
+        "predicted_down": 0,
+        "probability_mean": 0.5263489865650057,
+        "probability_std": 0.000138734095792204,
+        "up_recall": 1.0
+      },
+      "valid": {
+        "accuracy": 0.5109126984126984,
+        "auc": 0.5107977707319955,
+        "balanced_accuracy": 0.5,
+        "brier": 0.2501169835607919,
+        "clipped_probability_log_loss": 0.6933820004428773,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 493,
+          "true_down": 0,
+          "true_up": 515
+        },
+        "count": 1008,
+        "down_recall": 0.0,
+        "log_loss": 0.6933820004428772,
+        "predicted_down": 0,
+        "probability_mean": 0.526355250727585,
+        "probability_std": 0.00014144349691523405,
+        "up_recall": 1.0
+      }
+    },
+    "online_training_bce": 0.6917723704533405
+  },
+  {
+    "epoch": 2,
+    "eval": {
+      "train": {
+        "accuracy": 0.526355421686747,
+        "auc": 0.5096390255441,
+        "balanced_accuracy": 0.5,
+        "brier": 0.24929325946056305,
+        "clipped_probability_log_loss": 0.6917330049975144,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 3774,
+          "true_down": 0,
+          "true_up": 4194
+        },
+        "count": 7968,
+        "down_recall": 0.0,
+        "log_loss": 0.6917330049975146,
+        "predicted_down": 0,
+        "probability_mean": 0.5242361645572289,
+        "probability_std": 0.0007214191242112822,
+        "up_recall": 1.0
+      },
+      "valid": {
+        "accuracy": 0.5109126984126984,
+        "auc": 0.4919001949624845,
+        "balanced_accuracy": 0.5,
+        "brier": 0.2500718181833917,
+        "clipped_probability_log_loss": 0.6932914385007978,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 493,
+          "true_down": 0,
+          "true_up": 515
+        },
+        "count": 1008,
+        "down_recall": 0.0,
+        "log_loss": 0.6932914385007977,
+        "predicted_down": 0,
+        "probability_mean": 0.5242664574410539,
+        "probability_std": 0.0007137480637840272,
+        "up_recall": 1.0
+      }
+    },
+    "online_training_bce": 0.6917977232530893
+  },
+  {
+    "epoch": 3,
+    "eval": {
+      "train": {
+        "accuracy": 0.526355421686747,
+        "auc": 0.5273843017468365,
+        "balanced_accuracy": 0.5,
+        "brier": 0.2492272284970392,
+        "clipped_probability_log_loss": 0.6916005763157104,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 3774,
+          "true_down": 0,
+          "true_up": 4194
+        },
+        "count": 7968,
+        "down_recall": 0.0,
+        "log_loss": 0.6916005763157104,
+        "predicted_down": 0,
+        "probability_mean": 0.5263419988140544,
+        "probability_std": 0.0015268063751493635,
+        "up_recall": 1.0
+      },
+      "valid": {
+        "accuracy": 0.5109126984126984,
+        "auc": 0.5094231867504283,
+        "balanced_accuracy": 0.5,
+        "brier": 0.2500970124366085,
+        "clipped_probability_log_loss": 0.693341935521084,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 493,
+          "true_down": 0,
+          "true_up": 515
+        },
+        "count": 1008,
+        "down_recall": 0.0,
+        "log_loss": 0.693341935521084,
+        "predicted_down": 0,
+        "probability_mean": 0.5263530271830188,
+        "probability_std": 0.001527229861767148,
+        "up_recall": 1.0
+      }
+    },
+    "online_training_bce": 0.6917512163100951
+  },
+  {
+    "epoch": 4,
+    "eval": {
+      "train": {
+        "accuracy": 0.526355421686747,
+        "auc": 0.519897801108354,
+        "balanced_accuracy": 0.5,
+        "brier": 0.24914494543996865,
+        "clipped_probability_log_loss": 0.6914361128688868,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 3774,
+          "true_down": 0,
+          "true_up": 4194
+        },
+        "count": 7968,
+        "down_recall": 0.0,
+        "log_loss": 0.6914361128688868,
+        "predicted_down": 0,
+        "probability_mean": 0.5205851617614462,
+        "probability_std": 0.0044364146846301794,
+        "up_recall": 1.0
+      },
+      "valid": {
+        "accuracy": 0.5109126984126984,
+        "auc": 0.5092144390397605,
+        "balanced_accuracy": 0.5,
+        "brier": 0.24998314237100547,
+        "clipped_probability_log_loss": 0.6931137004458234,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 493,
+          "true_down": 0,
+          "true_up": 515
+        },
+        "count": 1008,
+        "down_recall": 0.0,
+        "log_loss": 0.6931137004458234,
+        "predicted_down": 0,
+        "probability_mean": 0.5206463034574339,
+        "probability_std": 0.0044241590869415716,
+        "up_recall": 1.0
+      }
+    },
+    "online_training_bce": 0.6917029331965618
+  },
+  {
+    "epoch": 5,
+    "eval": {
+      "train": {
+        "accuracy": 0.535140562248996,
+        "auc": 0.5325961533358655,
+        "balanced_accuracy": 0.5132144262414396,
+        "brier": 0.2487173199795849,
+        "clipped_probability_log_loss": 0.6905795639402992,
+        "confusion": {
+          "false_down": 297,
+          "false_up": 3407,
+          "true_down": 367,
+          "true_up": 3897
+        },
+        "count": 7968,
+        "down_recall": 0.09724430312665606,
+        "log_loss": 0.6905795639402992,
+        "predicted_down": 664,
+        "probability_mean": 0.5223634453004229,
+        "probability_std": 0.014404063320650785,
+        "up_recall": 0.9291845493562232
+      },
+      "valid": {
+        "accuracy": 0.5069444444444444,
+        "auc": 0.5129522046515291,
+        "balanced_accuracy": 0.4978495047165167,
+        "brier": 0.2502026958396243,
+        "clipped_probability_log_loss": 0.6935530839878129,
+        "confusion": {
+          "false_down": 44,
+          "false_up": 453,
+          "true_down": 40,
+          "true_up": 471
+        },
+        "count": 1008,
+        "down_recall": 0.08113590263691683,
+        "log_loss": 0.6935530839878129,
+        "predicted_down": 84,
+        "probability_mean": 0.5224724815648619,
+        "probability_std": 0.01435813240835515,
+        "up_recall": 0.9145631067961165
+      }
+    },
+    "online_training_bce": 0.6913453599056566
+  },
+  {
+    "epoch": 6,
+    "eval": {
+      "train": {
+        "accuracy": 0.535140562248996,
+        "auc": 0.5404726551848491,
+        "balanced_accuracy": 0.5132144262414396,
+        "brier": 0.24853692968889943,
+        "clipped_probability_log_loss": 0.6902168298092373,
+        "confusion": {
+          "false_down": 297,
+          "false_up": 3407,
+          "true_down": 367,
+          "true_up": 3897
+        },
+        "count": 7968,
+        "down_recall": 0.09724430312665606,
+        "log_loss": 0.6902168298092373,
+        "predicted_down": 664,
+        "probability_mean": 0.5309052479521111,
+        "probability_std": 0.016592907294873383,
+        "up_recall": 0.9291845493562232
+      },
+      "valid": {
+        "accuracy": 0.5069444444444444,
+        "auc": 0.5086984777171666,
+        "balanced_accuracy": 0.4978495047165167,
+        "brier": 0.2505542610144777,
+        "clipped_probability_log_loss": 0.6942592541249737,
+        "confusion": {
+          "false_down": 44,
+          "false_up": 453,
+          "true_down": 40,
+          "true_up": 471
+        },
+        "count": 1008,
+        "down_recall": 0.08113590263691683,
+        "log_loss": 0.6942592541249737,
+        "predicted_down": 84,
+        "probability_mean": 0.5312038349520651,
+        "probability_std": 0.016288746075038087,
+        "up_recall": 0.9145631067961165
+      }
+    },
+    "online_training_bce": 0.6908316705600325
+  },
+  {
+    "epoch": 7,
+    "eval": {
+      "train": {
+        "accuracy": 0.5368975903614458,
+        "auc": 0.5537714879737097,
+        "balanced_accuracy": 0.5124953279459717,
+        "brier": 0.24814301544892825,
+        "clipped_probability_log_loss": 0.6894219386646616,
+        "confusion": {
+          "false_down": 103,
+          "false_up": 3587,
+          "true_down": 187,
+          "true_up": 4091
+        },
+        "count": 7968,
+        "down_recall": 0.04954954954954955,
+        "log_loss": 0.6894219386646616,
+        "predicted_down": 290,
+        "probability_mean": 0.5359524045152839,
+        "probability_std": 0.014733019326082616,
+        "up_recall": 0.9754411063423939
+      },
+      "valid": {
+        "accuracy": 0.5208333333333334,
+        "auc": 0.5069812323992201,
+        "balanced_accuracy": 0.5104452628054905,
+        "brier": 0.25054938625941847,
+        "clipped_probability_log_loss": 0.6942547764018964,
+        "confusion": {
+          "false_down": 7,
+          "false_up": 476,
+          "true_down": 17,
+          "true_up": 508
+        },
+        "count": 1008,
+        "down_recall": 0.034482758620689655,
+        "log_loss": 0.6942547764018964,
+        "predicted_down": 24,
+        "probability_mean": 0.5381627824157559,
+        "probability_std": 0.014656974714621464,
+        "up_recall": 0.9864077669902913
+      }
+    },
+    "online_training_bce": 0.6903027296066284
+  },
+  {
+    "epoch": 8,
+    "eval": {
+      "train": {
+        "accuracy": 0.5440512048192772,
+        "auc": 0.5700650789643468,
+        "balanced_accuracy": 0.5223820765981836,
+        "brier": 0.246884234931772,
+        "clipped_probability_log_loss": 0.6868877763789899,
+        "confusion": {
+          "false_down": 279,
+          "false_up": 3354,
+          "true_down": 420,
+          "true_up": 3915
+        },
+        "count": 7968,
+        "down_recall": 0.11128775834658187,
+        "log_loss": 0.6868877763789899,
+        "predicted_down": 699,
+        "probability_mean": 0.5292602006816136,
+        "probability_std": 0.02417541425446216,
+        "up_recall": 0.9334763948497854
+      },
+      "valid": {
+        "accuracy": 0.5079365079365079,
+        "auc": 0.5125386478662439,
+        "balanced_accuracy": 0.49864707851670964,
+        "brier": 0.2503522448607775,
+        "clipped_probability_log_loss": 0.6938648926621332,
+        "confusion": {
+          "false_down": 39,
+          "false_up": 457,
+          "true_down": 36,
+          "true_up": 476
+        },
+        "count": 1008,
+        "down_recall": 0.07302231237322515,
+        "log_loss": 0.6938648926621332,
+        "predicted_down": 75,
+        "probability_mean": 0.5328711731566217,
+        "probability_std": 0.024692289868506544,
+        "up_recall": 0.9242718446601942
+      }
+    },
+    "online_training_bce": 0.6893644782912779
+  },
+  {
+    "epoch": 9,
+    "eval": {
+      "train": {
+        "accuracy": 0.5500753012048193,
+        "auc": 0.5877216524780271,
+        "balanced_accuracy": 0.5295108918562592,
+        "brier": 0.24562693275750905,
+        "clipped_probability_log_loss": 0.6843432627253029,
+        "confusion": {
+          "false_down": 337,
+          "false_up": 3248,
+          "true_down": 526,
+          "true_up": 3857
+        },
+        "count": 7968,
+        "down_recall": 0.13937466878643348,
+        "log_loss": 0.6843432627253029,
+        "predicted_down": 863,
+        "probability_mean": 0.5327676777023663,
+        "probability_std": 0.029002796943133083,
+        "up_recall": 0.9196471149260849
+      },
+      "valid": {
+        "accuracy": 0.5228174603174603,
+        "auc": 0.5254534354752949,
+        "balanced_accuracy": 0.5136867602749168,
+        "brier": 0.2497086146267602,
+        "clipped_probability_log_loss": 0.6925789578479086,
+        "confusion": {
+          "false_down": 35,
+          "false_up": 446,
+          "true_down": 47,
+          "true_up": 480
+        },
+        "count": 1008,
+        "down_recall": 0.09533468559837728,
+        "log_loss": 0.6925789578479086,
+        "predicted_down": 82,
+        "probability_mean": 0.5358235257941303,
+        "probability_std": 0.028868695883527216,
+        "up_recall": 0.9320388349514563
+      }
+    },
+    "online_training_bce": 0.6872940614041554
+  },
+  {
+    "epoch": 10,
+    "eval": {
+      "train": {
+        "accuracy": 0.5563504016064257,
+        "auc": 0.5944779985741864,
+        "balanced_accuracy": 0.5373425053430103,
+        "brier": 0.24421000381537278,
+        "clipped_probability_log_loss": 0.6814389331596032,
+        "confusion": {
+          "false_down": 428,
+          "false_up": 3107,
+          "true_down": 667,
+          "true_up": 3766
+        },
+        "count": 7968,
+        "down_recall": 0.17673555908850028,
+        "log_loss": 0.6814389331596032,
+        "predicted_down": 1095,
+        "probability_mean": 0.540546931387475,
+        "probability_std": 0.03964700341592853,
+        "up_recall": 0.8979494515975203
+      },
+      "valid": {
+        "accuracy": 0.5297619047619048,
+        "auc": 0.5167293566238012,
+        "balanced_accuracy": 0.5214793517005061,
+        "brier": 0.2512767105858709,
+        "clipped_probability_log_loss": 0.6958233775393757,
+        "confusion": {
+          "false_down": 51,
+          "false_up": 423,
+          "true_down": 70,
+          "true_up": 464
+        },
+        "count": 1008,
+        "down_recall": 0.14198782961460446,
+        "log_loss": 0.6958233775393757,
+        "predicted_down": 121,
+        "probability_mean": 0.5455191493844453,
+        "probability_std": 0.04074240436197383,
+        "up_recall": 0.9009708737864077
+      }
+    },
+    "online_training_bce": 0.6854814583039188
+  },
+  {
+    "epoch": 11,
+    "eval": {
+      "train": {
+        "accuracy": 0.5788152610441767,
+        "auc": 0.6123983741378338,
+        "balanced_accuracy": 0.5657010203841812,
+        "brier": 0.24180515014263218,
+        "clipped_probability_log_loss": 0.6765561199192367,
+        "confusion": {
+          "false_down": 778,
+          "false_up": 2578,
+          "true_down": 1196,
+          "true_up": 3416
+        },
+        "count": 7968,
+        "down_recall": 0.3169051404345522,
+        "log_loss": 0.6765561199192367,
+        "predicted_down": 1974,
+        "probability_mean": 0.5313132535897543,
+        "probability_std": 0.049677176121887635,
+        "up_recall": 0.8144969003338102
+      },
+      "valid": {
+        "accuracy": 0.5307539682539683,
+        "auc": 0.5282616829791843,
+        "balanced_accuracy": 0.5243998503318301,
+        "brier": 0.25037270064254086,
+        "clipped_probability_log_loss": 0.6939932836078199,
+        "confusion": {
+          "false_down": 95,
+          "false_up": 378,
+          "true_down": 115,
+          "true_up": 420
+        },
+        "count": 1008,
+        "down_recall": 0.2332657200811359,
+        "log_loss": 0.69399328360782,
+        "predicted_down": 210,
+        "probability_mean": 0.5387426735168693,
+        "probability_std": 0.04999199625839275,
+        "up_recall": 0.8155339805825242
+      }
+    },
+    "online_training_bce": 0.6830123959774952
+  },
+  {
+    "epoch": 12,
+    "eval": {
+      "train": {
+        "accuracy": 0.5766817269076305,
+        "auc": 0.6166396136100756,
+        "balanced_accuracy": 0.5609810138338288,
+        "brier": 0.24137367840844948,
+        "clipped_probability_log_loss": 0.6756263972991728,
+        "confusion": {
+          "false_down": 592,
+          "false_up": 2781,
+          "true_down": 993,
+          "true_up": 3602
+        },
+        "count": 7968,
+        "down_recall": 0.2631160572337043,
+        "log_loss": 0.6756263972991727,
+        "predicted_down": 1585,
+        "probability_mean": 0.5424229100572066,
+        "probability_std": 0.05256337353417888,
+        "up_recall": 0.8588459704339533
+      },
+      "valid": {
+        "accuracy": 0.5218253968253969,
+        "auc": 0.5134799818822742,
+        "balanced_accuracy": 0.5147954863230864,
+        "brier": 0.252214422912698,
+        "clipped_probability_log_loss": 0.6977709232386513,
+        "confusion": {
+          "false_down": 84,
+          "false_up": 398,
+          "true_down": 95,
+          "true_up": 431
+        },
+        "count": 1008,
+        "down_recall": 0.1926977687626775,
+        "log_loss": 0.6977709232386513,
+        "predicted_down": 179,
+        "probability_mean": 0.5469301339146165,
+        "probability_std": 0.053134614014908155,
+        "up_recall": 0.8368932038834952
+      }
+    },
+    "online_training_bce": 0.6804586244395459
+  }
+]

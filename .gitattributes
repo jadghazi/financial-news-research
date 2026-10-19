@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+
+# Preserve exact research evidence and document-source hashes across machines.
+artifacts/** -text
+output/pdf/*.tex -text
+output/pdf/*.build.json -text
+output/research_sync_manifest_*.json -text

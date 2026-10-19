@@ -1,0 +1,93 @@
+{
+  "additional_items": 10642,
+  "coverage": {
+    "clock_ny": {
+      "selected_occurrences": 34558,
+      "unique_selected_titles": 33112
+    },
+    "date0": {
+      "selected_occurrences": 34485,
+      "unique_selected_titles": 33034
+    },
+    "delay1": {
+      "selected_occurrences": 34465,
+      "unique_selected_titles": 33010
+    },
+    "delay2": {
+      "selected_occurrences": 31324,
+      "unique_selected_titles": 29925
+    }
+  },
+  "files_sha256": {
+    "PROTOCOL.md": "fe2aac6b59b79d78e6d07c087c6a44a1484027bd147d75ddf7290366eb43b5e0",
+    "additional_items.json": "15a1b87caec0b330a41071dddafad4448dfd9f1571b8a221dc7f12b628a26d03",
+    "clock_ny_arrays.npz": "c4f4c1aec2239f5cfa2f93f0785843714d4d73ead141c2874a7f4653e8ac5bcf",
+    "clock_ny_stories.jsonl": "deabddbf114699868c662bdbd11b105185210f82d93d806402d74ed253730ec9",
+    "config.json": "7f44d0b349c863ded9d7c67b3762c074fc7141abfe00a6597a9142bc6e490d3a",
+    "date0_arrays.npz": "3f771dded51eea22da92e9d0206c95798c45697232942f6543af8983994a8729",
+    "date0_stories.jsonl": "d8f192cfe48ce44dedc5265fee67c5950c1e7431cbc5a29754f1223e4a92e1a3",
+    "delay1_arrays.npz": "f09a032ae8fcc213e4d622abff5ab809ae39b50f4530653b730c4792ab1f1e73",
+    "delay1_stories.jsonl": "35fde80d380da7ba8ba1afd37f9d5cf12f7e8fa459c4d7e2a2049b60906c97fe",
+    "delay2_arrays.npz": "23c2c488ac2b66685c5538a0ee2437c7b3bad49031285d16ee63e95f056f5320",
+    "delay2_stories.jsonl": "bf7ea73daa4986c3c8b0f45fb6b0d5ff28b22958d79abf8f10eded4fdb43be20",
+    "fold_0/scaler.json": "70b36570a80f3c3b4b9a996946590870abe8b90c8784b52008c673b441587748",
+    "fold_1/scaler.json": "8d848a64ea79938d75a54d2a29914d875a38214274b704fb09da0bc614c860f3",
+    "items.json": "9ab64cda8f054b8bb0c2d63679d56dec85fcba12854bc7247d6154c35648321e",
+    "plans.json": "49e673877639abdfb72f16cc7ccccab220b0a2eabc3517e27f5d1f8a072220b5",
+    "provenance.json": "8d90bb71c9775ac2239671ec427ee571b0c3123a19e4a572a46b4bb7b89b2c0f",
+    "rows.json": "a6d395fdef8843a13ed585d8db47de35612dad986d600c824cc57b7ae2e39955"
+  },
+  "old_items": 29937,
+  "original_reconstruction_exact": true,
+  "source_audit": {
+    "AAPL": {
+      "counts": {},
+      "unique_source_titles": 43077
+    },
+    "ADBE": {
+      "counts": {},
+      "unique_source_titles": 3224
+    },
+    "AEP": {
+      "counts": {},
+      "unique_source_titles": 1165
+    },
+    "ASML": {
+      "counts": {},
+      "unique_source_titles": 834
+    },
+    "DIS": {
+      "counts": {},
+      "unique_source_titles": 0
+    },
+    "FB": {
+      "counts": {},
+      "unique_source_titles": 31653
+    },
+    "GE": {
+      "counts": {},
+      "unique_source_titles": 10421
+    },
+    "JPM": {
+      "counts": {},
+      "unique_source_titles": 12705
+    },
+    "SCHW": {
+      "counts": {},
+      "unique_source_titles": 2557
+    },
+    "T": {
+      "counts": {},
+      "unique_source_titles": 10060
+    },
+    "TSLA": {
+      "counts": {},
+      "unique_source_titles": 28175
+    },
+    "WELL": {
+      "counts": {},
+      "unique_source_titles": 653
+    }
+  },
+  "union_items": 40579
+}

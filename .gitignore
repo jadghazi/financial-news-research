@@ -5,5 +5,7 @@ __pycache__/
 paper/*.pdf
 data/raw/
 data/processed/
+# Local third-party downloads used during later feasibility research.
+data/research_v2/
 artifacts/
 tmp/

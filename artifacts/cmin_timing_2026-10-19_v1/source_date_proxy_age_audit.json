@@ -1,0 +1,22 @@
+{
+  "delay2": {
+    "median_source_date_proxy_age_hours": 164.0,
+    "median_freshest_story_proxy_age_hours_among_nonempty_cases": 69.0,
+    "headline_occurrences": 27749
+  },
+  "date0": {
+    "median_source_date_proxy_age_hours": 92.0,
+    "median_freshest_story_proxy_age_hours_among_nonempty_cases": 20.0,
+    "headline_occurrences": 29930
+  },
+  "delay1": {
+    "median_source_date_proxy_age_hours": 117.0,
+    "median_freshest_story_proxy_age_hours_among_nonempty_cases": 44.0,
+    "headline_occurrences": 29932
+  },
+  "clock_ny": {
+    "median_source_date_proxy_age_hours": 116.0,
+    "median_freshest_story_proxy_age_hours_among_nonempty_cases": 20.0,
+    "headline_occurrences": 30066
+  }
+}

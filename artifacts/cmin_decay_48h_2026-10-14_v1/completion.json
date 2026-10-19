@@ -1,0 +1,15 @@
+{
+  "PROTOCOL.md": "55e598faed41f085f3b6399bfde35b18243abb718d3f1c51da1376cb739c5530",
+  "environment.json": "5d079a630e3c52357ed4275faca02c2054f9eff2157445eb7ab606812ff1d903",
+  "fold_0/pooled_decay_17/summary.json": "2d80d9d1258269910d25f8cb4ef08de942f8fa769adb6b99e40a9efe9fd7c050",
+  "fold_0/pooled_decay_42/summary.json": "fa0825e399222e26fdc1e23e2ced4eb24ca5ec0228256f3297f3047d32f28016",
+  "fold_0/pooled_uniform_17/summary.json": "f04f346c7a0cf4211d9d8432e94aab8f5a700c69f830d54de3c9ec2c91266688",
+  "fold_0/pooled_uniform_42/summary.json": "e42532051968af8851eef10094729c7416f1f775b42a175c059e4e88f77dc0bf",
+  "fold_1/pooled_decay_17/summary.json": "b4fe13e477993c988abdfb587e62aeaba677b00420b3d9a86817ce890a89bf14",
+  "fold_1/pooled_decay_42/summary.json": "0c89ed470b0fa24517495cbab2f2fa015a75c8a453125d18b46f716bad52dab1",
+  "fold_1/pooled_uniform_17/summary.json": "8fcc7c14aaed22b65e3a2f9d9007c31c941eeb31a3cf73e784c1f72133868a76",
+  "fold_1/pooled_uniform_42/summary.json": "3e54e600d83668c9181db2e5aaa8470ee1beb8dbad035e8bc476a8669b716019",
+  "plans.json": "49e673877639abdfb72f16cc7ccccab220b0a2eabc3517e27f5d1f8a072220b5",
+  "study_identity.json": "79a76b9c360131a92fe3fbb7323d35730d7380b6165401405c918fa5f008f353",
+  "summary.json": "ccad26f6383a5b64addd10bd2baf612cf30d1c5897fe36c8d5e9f969ab846509"
+}

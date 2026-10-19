@@ -1,0 +1,22 @@
+{
+  "all_news_completion_sha256": "2fb7f8e9e3d2c7ad9bc65ddf48335888ac0d20e8db0ec254c8d84f768e96f1fb",
+  "all_news_config_sha256": "58f26bc6421022db7d970a92760875972b5c7a3d6830556825df408e8737d057",
+  "config_sha256": "7b58a1f53dded5a2ac861bec050db0287b9046021bbd94965484a7ad48838c1a",
+  "new_fits_ceiling": 8,
+  "protocol_sha256": "20eac738477c7322c0b95fbd1d1a03c2775e025aeef10cc8122eddbb0d81c551",
+  "reused_arm": "pooled_uniform",
+  "reused_fits": 4,
+  "shared_sources": {
+    "scripts/16_cmin_panel.py": "e8612ad87980344e2473e00c4adebce5f24c029a2cc2fc95818de758717a4248",
+    "src/cmin_panel_data.py": "851480975ebf48d0ec8414d879f6ecca083aba33b5cf899d12c1c30fba743dc4",
+    "src/cmin_panel_experiment.py": "631f128aebebf204b38b4dcef8b8dc3c6cc52a0166a3c941974b748660600ab6",
+    "src/encoder_comparison.py": "d1cba5c2dc9fc97c5f38d2ff3bf4a08abe024c0566537cac146c53e23f2600c2",
+    "src/evaluation.py": "1ba500708e9538fda7f43b7123cec1ccf7f8a99496e1e7e3208b9fa8ba70ad5c",
+    "src/models/paper_finin.py": "359508d40c29221d30ae6ff5e45b67f0b223aad6b3f7f620a633fe1a1e758490",
+    "src/models/research_finin.py": "38519d7b346da48eb39a655f3e3870683e4b2677c2a9ebd52ce393df1942e0c8",
+    "src/reproduction_v2_features.py": "11d22f074ec5bb9a6a9b1861c5b0f967496b89fee0d8847e1d49b3fa10c436a2",
+    "src/research_training.py": "1cdb24eb3d8a7e3b5232b14344c2278fddbdf8c2d4c65613064602bf7775f281",
+    "src/training.py": "eefe5d527b5b2ac3e4ea173f0cdfce0c023b6d583695b077876d74539bb10155"
+  },
+  "wrapper_sha256": "1ae237e266b7c6e52d1f79ff8087ff7aa0169b788eb63392c56342d1971ddbbe"
+}

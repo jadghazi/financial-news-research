@@ -1,0 +1,818 @@
+[
+  {
+    "active_headlines": 2,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.010218068026006222,
+    "original_probability": 0.5436465609125359,
+    "probability_changes": {
+      "empty_news": -0.00014238238851860263,
+      "headline_training_mean": -0.007060037856505663,
+      "interaction_off": 0.0025639665075080087,
+      "query_uniform": -4.649679496981918e-08,
+      "sentiment_training_mean": -3.8015894158194286e-06
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "AEP"
+  },
+  {
+    "active_headlines": 14,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.0278608538210392,
+    "original_probability": 0.4919278073583847,
+    "probability_changes": {
+      "empty_news": -0.03414029362547455,
+      "headline_training_mean": -0.06353939059126434,
+      "interaction_off": -0.03265393259871063,
+      "query_uniform": -0.0010244298254257211,
+      "sentiment_training_mean": 8.582589280548003e-05
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "GE"
+  },
+  {
+    "active_headlines": 6,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.009660559706389904,
+    "original_probability": 0.5374985815130889,
+    "probability_changes": {
+      "empty_news": -0.005219030483883613,
+      "headline_training_mean": -0.01174156676165461,
+      "interaction_off": -0.003152477844876045,
+      "query_uniform": 1.8668071109062545e-05,
+      "sentiment_training_mean": -5.905638567804683e-05
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "SCHW"
+  },
+  {
+    "active_headlines": 12,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.011419262737035751,
+    "original_probability": 0.5345770213782766,
+    "probability_changes": {
+      "empty_news": 0.0036016609489939455,
+      "headline_training_mean": -0.004378566521404004,
+      "interaction_off": 0.002769043666126514,
+      "query_uniform": 1.107714772441426e-05,
+      "sentiment_training_mean": -0.000218758362529492
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "AAPL"
+  },
+  {
+    "active_headlines": 4,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.010681272484362125,
+    "original_probability": 0.5431241369680474,
+    "probability_changes": {
+      "empty_news": 0.0027880096002509402,
+      "headline_training_mean": -0.0038756108717034055,
+      "interaction_off": 0.0030384087129523563,
+      "query_uniform": -5.72637627316297e-08,
+      "sentiment_training_mean": 1.9552664368371886e-05
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "ADBE"
+  },
+  {
+    "active_headlines": 3,
+    "fold": 0,
+    "forecast_date": "2020-01-15",
+    "headline_gradient_norm": 0.04579722508788109,
+    "original_probability": 0.5857342995414746,
+    "probability_changes": {
+      "empty_news": -0.045967272640229484,
+      "headline_training_mean": -0.023906759143830558,
+      "interaction_off": -0.04555623900985839,
+      "query_uniform": 8.224486092167638e-09,
+      "sentiment_training_mean": -0.0007448114166271891
+    },
+    "seed": 17,
+    "target_date": "2020-01-16",
+    "ticker": "WELL"
+  },
+  {
+    "active_headlines": 13,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.03215508162975311,
+    "original_probability": 0.5066225008451349,
+    "probability_changes": {
+      "empty_news": 0.029664151243030346,
+      "headline_training_mean": 0.04620277123814753,
+      "interaction_off": 0.01831322150593928,
+      "query_uniform": 4.939607440745952e-06,
+      "sentiment_training_mean": 0.00027000146275690806
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "T"
+  },
+  {
+    "active_headlines": 16,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.04023275151848793,
+    "original_probability": 0.48666791808507287,
+    "probability_changes": {
+      "empty_news": 0.04441250670054114,
+      "headline_training_mean": 0.016769362569834356,
+      "interaction_off": 0.04328615772822059,
+      "query_uniform": 0.00039399969675696367,
+      "sentiment_training_mean": 0.0003854464302316951
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "TSLA"
+  },
+  {
+    "active_headlines": 0,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.0,
+    "original_probability": 0.5371972904148585,
+    "probability_changes": {
+      "empty_news": 1.4361851707889173e-09,
+      "headline_training_mean": 1.4361851707889173e-09,
+      "interaction_off": 1.4361851707889173e-09,
+      "query_uniform": 1.4361851707889173e-09,
+      "sentiment_training_mean": 1.4361851707889173e-09
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "DIS"
+  },
+  {
+    "active_headlines": 2,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.026959216222167015,
+    "original_probability": 0.5262125882554978,
+    "probability_changes": {
+      "empty_news": 0.017874881322291536,
+      "headline_training_mean": 0.011341437394526643,
+      "interaction_off": 0.0107968297552139,
+      "query_uniform": -1.5204045133998534e-08,
+      "sentiment_training_mean": 8.039146175686795e-05
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "ASML"
+  },
+  {
+    "active_headlines": 15,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.012396288104355335,
+    "original_probability": 0.5076346647083089,
+    "probability_changes": {
+      "empty_news": 0.003531013792820281,
+      "headline_training_mean": 0.0008412349880412284,
+      "interaction_off": -0.001916254693202668,
+      "query_uniform": 0.00017878896600753702,
+      "sentiment_training_mean": -3.167503469436728e-05
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "JPM"
+  },
+  {
+    "active_headlines": 16,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.025943592190742493,
+    "original_probability": 0.5161859888905864,
+    "probability_changes": {
+      "empty_news": 0.009550223839821292,
+      "headline_training_mean": 0.029983888161720706,
+      "interaction_off": 0.003166804802956058,
+      "query_uniform": 2.692235054446712e-06,
+      "sentiment_training_mean": -4.320334142260407e-05
+    },
+    "seed": 17,
+    "target_date": "2020-01-02",
+    "ticker": "FB"
+  },
+  {
+    "active_headlines": 2,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.005497536156326532,
+    "original_probability": 0.5372807297106638,
+    "probability_changes": {
+      "empty_news": 0.004962631762419734,
+      "headline_training_mean": 0.004689046442900691,
+      "interaction_off": 0.009048828184996638,
+      "query_uniform": 8.643065485536283e-09,
+      "sentiment_training_mean": 2.0035803710016786e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "AEP"
+  },
+  {
+    "active_headlines": 14,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.0021508843638002872,
+    "original_probability": 0.4565294799742158,
+    "probability_changes": {
+      "empty_news": 0.008402008062893596,
+      "headline_training_mean": 0.0018074991765563153,
+      "interaction_off": 0.012743520981365886,
+      "query_uniform": -4.147857979308611e-08,
+      "sentiment_training_mean": 7.1706834380291795e-06
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "GE"
+  },
+  {
+    "active_headlines": 6,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.004035429563373327,
+    "original_probability": 0.5212321616511463,
+    "probability_changes": {
+      "empty_news": 0.005023863186347621,
+      "headline_training_mean": 0.000676896442878383,
+      "interaction_off": 0.008431818356025356,
+      "query_uniform": -3.3507835728308066e-08,
+      "sentiment_training_mean": 2.7205814826625208e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "SCHW"
+  },
+  {
+    "active_headlines": 12,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.003109509125351906,
+    "original_probability": 0.5316146436752741,
+    "probability_changes": {
+      "empty_news": 0.002881544488483212,
+      "headline_training_mean": -0.00017009411472723723,
+      "interaction_off": 0.0037562426505620694,
+      "query_uniform": 1.7541461727610397e-08,
+      "sentiment_training_mean": 3.166760783746003e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "AAPL"
+  },
+  {
+    "active_headlines": 4,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.0037716804072260857,
+    "original_probability": 0.5407273262733014,
+    "probability_changes": {
+      "empty_news": 0.002942910791060127,
+      "headline_training_mean": 0.0026715308433977736,
+      "interaction_off": 0.005436888337752022,
+      "query_uniform": -8.940080009622875e-09,
+      "sentiment_training_mean": 3.54558235613478e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "ADBE"
+  },
+  {
+    "active_headlines": 3,
+    "fold": 0,
+    "forecast_date": "2020-01-15",
+    "headline_gradient_norm": 0.0044680372811853886,
+    "original_probability": 0.5491466469195153,
+    "probability_changes": {
+      "empty_news": -0.006528968277242364,
+      "headline_training_mean": -0.004584068718221368,
+      "interaction_off": -0.006931776466634454,
+      "query_uniform": 5.302164374221263e-09,
+      "sentiment_training_mean": -1.1736812856377732e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-16",
+    "ticker": "WELL"
+  },
+  {
+    "active_headlines": 13,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.004437082447111607,
+    "original_probability": 0.5421333530895698,
+    "probability_changes": {
+      "empty_news": -0.003324530457733843,
+      "headline_training_mean": -0.0014361361019599173,
+      "interaction_off": -0.003490529393433306,
+      "query_uniform": -8.139538643092692e-08,
+      "sentiment_training_mean": 1.3627672911908917e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "T"
+  },
+  {
+    "active_headlines": 16,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.0021225514356046915,
+    "original_probability": 0.5043557078451072,
+    "probability_changes": {
+      "empty_news": 0.008829614439591293,
+      "headline_training_mean": 0.0002836792856301118,
+      "interaction_off": 0.013154706278427963,
+      "query_uniform": 8.038578880320557e-08,
+      "sentiment_training_mean": 1.1226454361801252e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "TSLA"
+  },
+  {
+    "active_headlines": 0,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.0,
+    "original_probability": 0.5411508421944277,
+    "probability_changes": {
+      "empty_news": 2.5744567699881316e-08,
+      "headline_training_mean": 2.5744567699881316e-08,
+      "interaction_off": 2.5744567699881316e-08,
+      "query_uniform": 2.5744567699881316e-08,
+      "sentiment_training_mean": 2.5744567699881316e-08
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "DIS"
+  },
+  {
+    "active_headlines": 2,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.003411930752918124,
+    "original_probability": 0.5411979953495886,
+    "probability_changes": {
+      "empty_news": -0.0015858213154699152,
+      "headline_training_mean": -0.0018682877270604914,
+      "interaction_off": -0.001841823264780218,
+      "query_uniform": 1.986342412774178e-08,
+      "sentiment_training_mean": -1.3510434057062426e-06
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "ASML"
+  },
+  {
+    "active_headlines": 15,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.001581649761646986,
+    "original_probability": 0.5018948281744117,
+    "probability_changes": {
+      "empty_news": 0.005655351783931839,
+      "headline_training_mean": -0.0005916918256873016,
+      "interaction_off": 0.008090857174099075,
+      "query_uniform": -1.1572629154965597e-07,
+      "sentiment_training_mean": 2.4739410579788235e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "JPM"
+  },
+  {
+    "active_headlines": 16,
+    "fold": 0,
+    "forecast_date": "2019-12-31",
+    "headline_gradient_norm": 0.007478795014321804,
+    "original_probability": 0.5279837083296302,
+    "probability_changes": {
+      "empty_news": 0.0010228324456689197,
+      "headline_training_mean": -0.004086418099832789,
+      "interaction_off": 0.0020344424767968494,
+      "query_uniform": 1.6260667321521538e-06,
+      "sentiment_training_mean": 4.483943419431036e-05
+    },
+    "seed": 42,
+    "target_date": "2020-01-02",
+    "ticker": "FB"
+  },
+  {
+    "active_headlines": 23,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.06758275628089905,
+    "original_probability": 0.47728962819013815,
+    "probability_changes": {
+      "empty_news": 0.06685339291658182,
+      "headline_training_mean": 0.0675788410481431,
+      "interaction_off": 0.07835637410249491,
+      "query_uniform": 3.4649934549380035e-07,
+      "sentiment_training_mean": 0.0011886843022324567
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "AEP"
+  },
+  {
+    "active_headlines": 12,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.02017306350171566,
+    "original_probability": 0.5453288756787434,
+    "probability_changes": {
+      "empty_news": -0.005218287605012972,
+      "headline_training_mean": -0.002382715839113314,
+      "interaction_off": -0.0012962423741474938,
+      "query_uniform": -0.007385512489046175,
+      "sentiment_training_mean": -0.00024785627719314807
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "GE"
+  },
+  {
+    "active_headlines": 7,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.038452908396720886,
+    "original_probability": 0.50458804492377,
+    "probability_changes": {
+      "empty_news": 0.0252332913456087,
+      "headline_training_mean": 0.025823556142819393,
+      "interaction_off": 0.021033667284024227,
+      "query_uniform": 3.161306954668763e-05,
+      "sentiment_training_mean": 0.0002104866085176349
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "SCHW"
+  },
+  {
+    "active_headlines": 30,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.07072243094444275,
+    "original_probability": 0.536422635755352,
+    "probability_changes": {
+      "empty_news": 0.004941855230518377,
+      "headline_training_mean": 0.0035817368413887385,
+      "interaction_off": -0.0005380766008414861,
+      "query_uniform": 0.030450020590015447,
+      "sentiment_training_mean": 0.00042263106364826
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "AAPL"
+  },
+  {
+    "active_headlines": 19,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.012005076743662357,
+    "original_probability": 0.5420186979953253,
+    "probability_changes": {
+      "empty_news": 0.003803564768651735,
+      "headline_training_mean": 0.007066561442235719,
+      "interaction_off": 0.0038125054653680435,
+      "query_uniform": 0.0019132630642449966,
+      "sentiment_training_mean": 0.00013781951032043604
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "ADBE"
+  },
+  {
+    "active_headlines": 2,
+    "fold": 1,
+    "forecast_date": "2020-09-02",
+    "headline_gradient_norm": 0.05737326294183731,
+    "original_probability": 0.5243217096703999,
+    "probability_changes": {
+      "empty_news": 0.01778742214264939,
+      "headline_training_mean": 0.013793136082316138,
+      "interaction_off": 0.018096770249033667,
+      "query_uniform": -3.436980178239679e-08,
+      "sentiment_training_mean": 0.0007339372259623778
+    },
+    "seed": 17,
+    "target_date": "2020-09-03",
+    "ticker": "WELL"
+  },
+  {
+    "active_headlines": 15,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.012642299756407738,
+    "original_probability": 0.5449352798132587,
+    "probability_changes": {
+      "empty_news": -0.012123518910853948,
+      "headline_training_mean": -0.01166688772722968,
+      "interaction_off": -0.01751553389117011,
+      "query_uniform": 0.0020328822465252028,
+      "sentiment_training_mean": 9.459880307427504e-05
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "T"
+  },
+  {
+    "active_headlines": 30,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.04389268159866333,
+    "original_probability": 0.5488758821823562,
+    "probability_changes": {
+      "empty_news": -0.020899190459486294,
+      "headline_training_mean": -0.024425639662977505,
+      "interaction_off": -0.024190678153272915,
+      "query_uniform": 0.011524723019365024,
+      "sentiment_training_mean": 0.0010415177009140963
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "TSLA"
+  },
+  {
+    "active_headlines": 0,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.0,
+    "original_probability": 0.5332657704752408,
+    "probability_changes": {
+      "empty_news": -9.93581883435013e-10,
+      "headline_training_mean": -9.93581883435013e-10,
+      "interaction_off": -9.93581883435013e-10,
+      "query_uniform": -9.93581883435013e-10,
+      "sentiment_training_mean": -9.93581883435013e-10
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "DIS"
+  },
+  {
+    "active_headlines": 2,
+    "fold": 1,
+    "forecast_date": "2020-09-01",
+    "headline_gradient_norm": 0.009130972437560558,
+    "original_probability": 0.5421443016281248,
+    "probability_changes": {
+      "empty_news": 0.0050282447585939805,
+      "headline_training_mean": 0.006751295829760973,
+      "interaction_off": 0.0005508630523561875,
+      "query_uniform": -3.074657972668149e-09,
+      "sentiment_training_mean": -0.00010830471421485743
+    },
+    "seed": 17,
+    "target_date": "2020-09-02",
+    "ticker": "ASML"
+  },
+  {
+    "active_headlines": 25,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.03823298588395119,
+    "original_probability": 0.5281692276964062,
+    "probability_changes": {
+      "empty_news": 0.004781531237614822,
+      "headline_training_mean": 0.0008380879392749785,
+      "interaction_off": 0.005953060530675125,
+      "query_uniform": -0.00012881860827140823,
+      "sentiment_training_mean": -6.194219683341995e-05
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "JPM"
+  },
+  {
+    "active_headlines": 25,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.06727796792984009,
+    "original_probability": 0.48165490483124146,
+    "probability_changes": {
+      "empty_news": 0.06240371609847656,
+      "headline_training_mean": 0.059908963691402584,
+      "interaction_off": 0.05965075637023559,
+      "query_uniform": -0.0034362301715124555,
+      "sentiment_training_mean": 0.000496871720958858
+    },
+    "seed": 17,
+    "target_date": "2020-09-01",
+    "ticker": "FB"
+  },
+  {
+    "active_headlines": 23,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 4.681041536969133e-05,
+    "original_probability": 0.5265784695576685,
+    "probability_changes": {
+      "empty_news": 3.232212552850555e-05,
+      "headline_training_mean": 2.57940778558563e-06,
+      "interaction_off": 3.768654355829071e-05,
+      "query_uniform": 1.6408060243833233e-08,
+      "sentiment_training_mean": -9.968709009378074e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "AEP"
+  },
+  {
+    "active_headlines": 12,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 5.4940737754805014e-05,
+    "original_probability": 0.5265382013442661,
+    "probability_changes": {
+      "empty_news": -4.836094632310051e-06,
+      "headline_training_mean": 1.89923022730909e-06,
+      "interaction_off": -5.895711208836474e-05,
+      "query_uniform": 5.1486239271980594e-08,
+      "sentiment_training_mean": 1.1109088404737122e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "GE"
+  },
+  {
+    "active_headlines": 7,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 7.237222598632798e-05,
+    "original_probability": 0.5263303316447101,
+    "probability_changes": {
+      "empty_news": 2.018481870535993e-08,
+      "headline_training_mean": 2.88120776792411e-06,
+      "interaction_off": 6.743303805967216e-05,
+      "query_uniform": 2.018481870535993e-08,
+      "sentiment_training_mean": -2.778384051715932e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "SCHW"
+  },
+  {
+    "active_headlines": 30,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 3.1268013117369264e-05,
+    "original_probability": 0.5264577641834783,
+    "probability_changes": {
+      "empty_news": 4.883858065130031e-05,
+      "headline_training_mean": 2.227748436944843e-06,
+      "interaction_off": 0.00010027738909246242,
+      "query_uniform": 2.237658025538991e-08,
+      "sentiment_training_mean": 4.992137384585149e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "AAPL"
+  },
+  {
+    "active_headlines": 19,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 4.709978384198621e-05,
+    "original_probability": 0.5266248555848783,
+    "probability_changes": {
+      "empty_news": -2.28257844632207e-05,
+      "headline_training_mean": 1.8718652945226566e-05,
+      "interaction_off": 1.4844351034826175e-05,
+      "query_uniform": 2.7944857539097256e-09,
+      "sentiment_training_mean": 7.776548678339879e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "ADBE"
+  },
+  {
+    "active_headlines": 2,
+    "fold": 1,
+    "forecast_date": "2020-09-02",
+    "headline_gradient_norm": 5.562382284551859e-05,
+    "original_probability": 0.5266232192472962,
+    "probability_changes": {
+      "empty_news": 6.183982329099891e-05,
+      "headline_training_mean": -1.1652703717057733e-05,
+      "interaction_off": 7.838015124495001e-06,
+      "query_uniform": -2.9797985856561127e-08,
+      "sentiment_training_mean": -2.6821656495812363e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-03",
+    "ticker": "WELL"
+  },
+  {
+    "active_headlines": 15,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 6.281735841184855e-05,
+    "original_probability": 0.5263191087386796,
+    "probability_changes": {
+      "empty_news": 5.7913527708342016e-05,
+      "headline_training_mean": -9.49932553262478e-06,
+      "interaction_off": 4.0568576078703344e-05,
+      "query_uniform": -2.2187013337671146e-08,
+      "sentiment_training_mean": -2.0100094766384302e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "T"
+  },
+  {
+    "active_headlines": 30,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 4.310310032451525e-05,
+    "original_probability": 0.5261661034438752,
+    "probability_changes": {
+      "empty_news": 5.7138838992276675e-05,
+      "headline_training_mean": -1.0691246762117856e-05,
+      "interaction_off": 0.00012091580890194464,
+      "query_uniform": -2.201534732293453e-08,
+      "sentiment_training_mean": 9.316589690833155e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "TSLA"
+  },
+  {
+    "active_headlines": 0,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 0.0,
+    "original_probability": 0.5263969775491127,
+    "probability_changes": {
+      "empty_news": 1.227327495190167e-08,
+      "headline_training_mean": 1.227327495190167e-08,
+      "interaction_off": 1.227327495190167e-08,
+      "query_uniform": 1.227327495190167e-08,
+      "sentiment_training_mean": 1.227327495190167e-08
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "DIS"
+  },
+  {
+    "active_headlines": 2,
+    "fold": 1,
+    "forecast_date": "2020-09-01",
+    "headline_gradient_norm": 3.6279696359997615e-05,
+    "original_probability": 0.5265931799996133,
+    "probability_changes": {
+      "empty_news": -2.3813544535178366e-05,
+      "headline_training_mean": -6.7070114846412565e-06,
+      "interaction_off": -3.18601715798561e-05,
+      "query_uniform": 2.831337497788411e-08,
+      "sentiment_training_mean": -5.677330727760221e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-02",
+    "ticker": "ASML"
+  },
+  {
+    "active_headlines": 25,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 4.288775016902946e-05,
+    "original_probability": 0.5263108615018043,
+    "probability_changes": {
+      "empty_news": 5.191525448233758e-05,
+      "headline_training_mean": -1.0550413242271794e-05,
+      "interaction_off": 0.00011908968914420281,
+      "query_uniform": -3.9111702765382006e-10,
+      "sentiment_training_mean": -1.0136700782092944e-06
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "JPM"
+  },
+  {
+    "active_headlines": 25,
+    "fold": 1,
+    "forecast_date": "2020-08-31",
+    "headline_gradient_norm": 4.3728847231250256e-05,
+    "original_probability": 0.5266222645619955,
+    "probability_changes": {
+      "empty_news": 2.9237093583156515e-05,
+      "headline_training_mean": -1.4631924971530985e-05,
+      "interaction_off": 8.639794792275612e-05,
+      "query_uniform": -2.8787001560282022e-08,
+      "sentiment_training_mean": -4.460195149880164e-07
+    },
+    "seed": 42,
+    "target_date": "2020-09-01",
+    "ticker": "FB"
+  }
+]

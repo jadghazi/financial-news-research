@@ -1,0 +1,19 @@
+{
+  "components": [
+    {
+      "component": "price",
+      "fits": 4,
+      "seconds": 290.7649999999994
+    },
+    {
+      "component": "recent",
+      "fits": 4,
+      "seconds": 293.79699999999866
+    }
+  ],
+  "new_convex_fits": 0,
+  "new_neural_fits": 8,
+  "reused_neural_fits": 4,
+  "scope": "exploratory predictive value of older available headlines; proxy arrival ages, not publication diffusion",
+  "total_new_neural_seconds": 584.5619999999981
+}

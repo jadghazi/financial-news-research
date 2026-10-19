@@ -1,0 +1,6 @@
+{
+  "stage": "acquisition",
+  "failure": "After all 24 files were fetched and Git-blob verified, manifest serialization failed because the existing sha256_file helper accepts Path objects only.",
+  "correction": "New CMIN modules normalize paths before hashing; no downloaded source was replaced. Rerun verifies existing files and writes the missing manifest.",
+  "scope": "engineering correction before preparation, encoding or model fitting; no forecasting outputs existed"
+}

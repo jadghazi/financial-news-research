@@ -1,0 +1,5 @@
+{
+  "command": ".venv/Scripts/python.exe -m unittest tests.test_cmin_timing_study tests.test_cmin_panel tests.test_research_finin -q",
+  "passed": 24,
+  "exit_code": 0
+}

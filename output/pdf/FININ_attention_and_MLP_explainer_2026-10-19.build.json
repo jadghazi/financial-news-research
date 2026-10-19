@@ -1,0 +1,24 @@
+{
+  "pages": 2,
+  "created_date": "2026-10-19",
+  "meeting_date": "2026-10-20",
+  "scope": "two explanatory visuals; all example headlines, scores, value vectors and forecast probabilities are illustrative; no new experiments",
+  "latex_compilation": "success using existing local Tectonic copy",
+  "app_preview_limitation": "built-in compiler could not enforce split writable root sets under Windows restricted-token sandbox",
+  "pages_rendered_and_visually_checked": true,
+  "overfull_warnings": false,
+  "minor_empty_paragraph_underfull_warning": true,
+  "source_shapes_verified": "baseline160 -> hidden16 -> score1; pooled96 -> hidden16 -> score1; sigmoid afterward; headline fusion before attention",
+  "example_arithmetic_verified": [
+    3,
+    5
+  ],
+  "subagents_used": false,
+  "pdf_sha256": "c65d316ae5b21f26615ef8b189eb4406df79832b0845f51422f0895f921e7539",
+  "sources_sha256": {
+    "output/pdf/FININ_attention_and_MLP_explainer_2026-10-19.tex": "b979bdcf73cdae8f9d36d1113d0740c5b5840818044dac884c911c9d6a8e9960",
+    "src/models/research_finin.py": "38519d7b346da48eb39a655f3e3870683e4b2677c2a9ebd52ce393df1942e0c8",
+    "src/models/paper_finin.py": "359508d40c29221d30ae6ff5e45b67f0b223aad6b3f7f620a633fe1a1e758490",
+    "configs/cmin_panel_v1.json": "88b5eb073e5ea9aba6c008f2abaa2b50e4f19a5757bc1d5ef569674c8b2c5adc"
+  }
+}

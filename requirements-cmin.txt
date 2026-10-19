@@ -1,0 +1,4 @@
+# Additions for exact exchange sessions; retain the existing numerical runtime.
+numpy==1.26.4
+pandas==2.2.3
+exchange-calendars==4.11.2

@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "arm": "price_only",
+      "name": "price",
+      "news_age_sessions": null
+    },
+    {
+      "arm": "pooled_uniform",
+      "name": "recent",
+      "news_age_sessions": [
+        0,
+        1
+      ]
+    }
+  ],
+  "coverage_groups": [
+    "recent_and_older",
+    "older_only",
+    "recent_only",
+    "empty"
+  ],
+  "data_directory": "artifacts/cmin_panel_2026-10-14_v1",
+  "id": "cmin_older_news_2026-10-14_v1",
+  "maximum_component_neural_seconds": 600,
+  "maximum_new_neural_fits": 8,
+  "maximum_new_neural_seconds": 1200,
+  "meaningful_log_loss_improvement": 0.005,
+  "primary_comparison": [
+    "all_news",
+    "recent_news"
+  ],
+  "reused_all_news_arm": "pooled_uniform",
+  "reused_all_news_directory": "artifacts/cmin_decay_48h_2026-10-14_v1",
+  "scope": "exploratory predictive value of older available headlines; proxy arrival ages, not publication diffusion",
+  "stop_rule": "no tuning, new data, feature encoding, extra controls or automatic retries; retain negative/inconclusive findings"
+}

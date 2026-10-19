@@ -1,0 +1,226 @@
+{
+  "exact_url_groups_with_disagreeing_source_dates": 14,
+  "groups": {
+    "https://finance.yahoo.com/m/9562b9c1-92f7-356a-8d94-b483bfd9fe3a/three-stocks-that-could-prove.html?.tsrc=rss": [
+      {
+        "ticker": "GE",
+        "source_date": "2019-04-03",
+        "arrival_session": "2019-04-05",
+        "id": "72dc2f0740d6714d977d25d4ddee71ab32792b391c3c737090149fa1371bcd4a"
+      },
+      {
+        "ticker": "ASML",
+        "source_date": "2019-04-04",
+        "arrival_session": "2019-04-08",
+        "id": "72dc2f0740d6714d977d25d4ddee71ab32792b391c3c737090149fa1371bcd4a"
+      }
+    ],
+    "https://finance.yahoo.com/m/1e4373ef-91f1-368d-b63a-1f492b5e80a7/risk-of-earnings-recession.html?.tsrc=rss": [
+      {
+        "ticker": "GE",
+        "source_date": "2019-04-15",
+        "arrival_session": "2019-04-17",
+        "id": "3cdc8827717686e2b765bb757cd8d76c86b8644fbceb5c95b1a0df307f078218"
+      },
+      {
+        "ticker": "JPM",
+        "source_date": "2019-04-14",
+        "arrival_session": "2019-04-16",
+        "id": "3cdc8827717686e2b765bb757cd8d76c86b8644fbceb5c95b1a0df307f078218"
+      }
+    ],
+    "https://finance.yahoo.com/m/d8a4ac0b-c2dc-38a2-b50c-1701d103855b/%5B%24%24%5D-apple%E2%80%99s-%241tn-market.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2018-05-29",
+        "arrival_session": "2018-05-31",
+        "id": "11867ea3f57a2bd23db7ba557fc7b8173b854f028a265c7ab8bbd33610d1e4be"
+      },
+      {
+        "ticker": "T",
+        "source_date": "2018-08-01",
+        "arrival_session": "2018-08-03",
+        "id": "11867ea3f57a2bd23db7ba557fc7b8173b854f028a265c7ab8bbd33610d1e4be"
+      }
+    ],
+    "https://finance.yahoo.com/m/2f9ad46f-465a-3cdc-b2e6-a8dbc362ad0b/heed-the-early-warning-signal.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2018-09-11",
+        "arrival_session": "2018-09-13",
+        "id": "02070d4ecff1310f5d8bfcdb40748989472b65b721bd4fc0332751b16a7eee10"
+      },
+      {
+        "ticker": "FB",
+        "source_date": "2018-09-12",
+        "arrival_session": "2018-09-14",
+        "id": "02070d4ecff1310f5d8bfcdb40748989472b65b721bd4fc0332751b16a7eee10"
+      }
+    ],
+    "https://finance.yahoo.com/m/8a2e7cad-029c-3685-bacb-32bacd4c71a4/why-the-faangs-are-crucial-to.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2019-01-02",
+        "arrival_session": "2019-01-04",
+        "id": "156d85926013ca721c0177505444ec694134894bb8287f9385a125ae6b4a0c25"
+      },
+      {
+        "ticker": "FB",
+        "source_date": "2019-01-03",
+        "arrival_session": "2019-01-07",
+        "id": "156d85926013ca721c0177505444ec694134894bb8287f9385a125ae6b4a0c25"
+      }
+    ],
+    "https://finance.yahoo.com/m/c55de6d3-6bf5-37bb-8a3b-195f5fcfc7ee/stocks-to-buy%3A-is-it-time-to.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2019-06-18",
+        "arrival_session": "2019-06-20",
+        "id": "1a2b6d63ab28835bb5ac139fbe1eb78eacbfc0da66cb87ed84871e7be0306b9d"
+      },
+      {
+        "ticker": "ADBE",
+        "source_date": "2020-07-13",
+        "arrival_session": "2020-07-15",
+        "id": "1a2b6d63ab28835bb5ac139fbe1eb78eacbfc0da66cb87ed84871e7be0306b9d"
+      },
+      {
+        "ticker": "T",
+        "source_date": "2019-12-09",
+        "arrival_session": "2019-12-11",
+        "id": "1a2b6d63ab28835bb5ac139fbe1eb78eacbfc0da66cb87ed84871e7be0306b9d"
+      },
+      {
+        "ticker": "TSLA",
+        "source_date": "2019-07-29",
+        "arrival_session": "2019-07-31",
+        "id": "1a2b6d63ab28835bb5ac139fbe1eb78eacbfc0da66cb87ed84871e7be0306b9d"
+      }
+    ],
+    "https://finance.yahoo.com/news/britain-savviest-investors-beating-brexit-040102134.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2019-07-23",
+        "arrival_session": "2019-07-25",
+        "id": "04e34545803035247fa24d3a208aacd7c8b168f82828c3afd49c953e519f230b"
+      },
+      {
+        "ticker": "FB",
+        "source_date": "2019-07-16",
+        "arrival_session": "2019-07-18",
+        "id": "04e34545803035247fa24d3a208aacd7c8b168f82828c3afd49c953e519f230b"
+      }
+    ],
+    "https://finance.yahoo.com/m/ab630de0-465a-3f46-87d6-682afa17f9ac/amc-theatres-launches.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2019-10-17",
+        "arrival_session": "2019-10-21",
+        "id": "0a82071bd8b58ce29fe5c8d2a390dbe74ecd95e7b3171e157e7ada45b01faae2"
+      },
+      {
+        "ticker": "T",
+        "source_date": "2019-10-16",
+        "arrival_session": "2019-10-18",
+        "id": "0a82071bd8b58ce29fe5c8d2a390dbe74ecd95e7b3171e157e7ada45b01faae2"
+      }
+    ],
+    "https://finance.yahoo.com/m/16a17897-7df6-358d-896f-5e6484351327/these-2-stocks-dominated-s%26p.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2020-01-05",
+        "arrival_session": "2020-01-07",
+        "id": "438ae1a69a89307d4c275f5a4e2120cbc43d5043b5c153400d98424404f7d5f7"
+      },
+      {
+        "ticker": "JPM",
+        "source_date": "2020-01-02",
+        "arrival_session": "2020-01-06",
+        "id": "438ae1a69a89307d4c275f5a4e2120cbc43d5043b5c153400d98424404f7d5f7"
+      }
+    ],
+    "https://finance.yahoo.com/m/3208fcdb-09b1-3484-9d57-9e4ff8d719b0/best-growth-stocks-to-buy-and.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2020-07-13",
+        "arrival_session": "2020-07-15",
+        "id": "0d398d1fe7f0980210730049b2f142e7239c1ecad6a8b38f2a32d873c2984b9c"
+      },
+      {
+        "ticker": "ADBE",
+        "source_date": "2020-09-14",
+        "arrival_session": "2020-09-16",
+        "id": "0d398d1fe7f0980210730049b2f142e7239c1ecad6a8b38f2a32d873c2984b9c"
+      },
+      {
+        "ticker": "TSLA",
+        "source_date": "2020-09-14",
+        "arrival_session": "2020-09-16",
+        "id": "0d398d1fe7f0980210730049b2f142e7239c1ecad6a8b38f2a32d873c2984b9c"
+      }
+    ],
+    "https://finance.yahoo.com/m/1cf20e3b-fa64-36a6-b4b2-1c1c6bd917c4/what-to-expect-in-the-markets.html?.tsrc=rss": [
+      {
+        "ticker": "AAPL",
+        "source_date": "2020-09-27",
+        "arrival_session": "2020-09-29",
+        "id": "80b4b32028279f17f9496471d72aa27100c4b8ad7cb40b55ab912a7cdf7537e4"
+      },
+      {
+        "ticker": "TSLA",
+        "source_date": "2020-08-30",
+        "arrival_session": "2020-09-01",
+        "id": "80b4b32028279f17f9496471d72aa27100c4b8ad7cb40b55ab912a7cdf7537e4"
+      }
+    ],
+    "https://finance.yahoo.com/news/7-earnings-reports-watch-next-194732038.html?.tsrc=rss": [
+      {
+        "ticker": "ADBE",
+        "source_date": "2020-05-29",
+        "arrival_session": "2020-06-01",
+        "id": "086b17d8f18cdf73562941ccb6e5db169051a75c27cfcf966ecef65e2663046f"
+      },
+      {
+        "ticker": "T",
+        "source_date": "2020-07-17",
+        "arrival_session": "2020-07-20",
+        "id": "086b17d8f18cdf73562941ccb6e5db169051a75c27cfcf966ecef65e2663046f"
+      },
+      {
+        "ticker": "TSLA",
+        "source_date": "2020-07-17",
+        "arrival_session": "2020-07-20",
+        "id": "086b17d8f18cdf73562941ccb6e5db169051a75c27cfcf966ecef65e2663046f"
+      }
+    ],
+    "https://finance.yahoo.com/news/kiplingers-weekly-earnings-calendar-6-000001439.html?.tsrc=rss": [
+      {
+        "ticker": "ADBE",
+        "source_date": "2020-12-06",
+        "arrival_session": "2020-12-08",
+        "id": "45040ad964f386c96b0138e1fb6ebc862d042362bfd232ffcabf14df662156ee"
+      },
+      {
+        "ticker": "JPM",
+        "source_date": "2021-01-10",
+        "arrival_session": "2021-01-12",
+        "id": "5ebfc604d5a7575d3cb29d3b6f23a20c42382b32445996d2348f2752c6a8ccd2"
+      }
+    ],
+    "https://finance.yahoo.com/m/3c3f9d1c-4622-3787-84bb-c16aab0faac6/dow-jones-futures%3A-stock.html?.tsrc=rss": [
+      {
+        "ticker": "JPM",
+        "source_date": "2020-12-28",
+        "arrival_session": "2020-12-30",
+        "id": "5744b6ea973e18fb9e18bc01c9a7282edcaaad32fc8416aa2334eab518867272"
+      },
+      {
+        "ticker": "FB",
+        "source_date": "2020-12-29",
+        "arrival_session": "2020-12-31",
+        "id": "5744b6ea973e18fb9e18bc01c9a7282edcaaad32fc8416aa2334eab518867272"
+      }
+    ]
+  },
+  "interpretation": "Observed source-date disagreement or updating; historical original versions and publication clock unresolved. No claim of genuine publication-age decay."
+}

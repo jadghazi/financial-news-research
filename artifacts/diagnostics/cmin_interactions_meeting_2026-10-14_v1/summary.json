@@ -1,0 +1,191 @@
+{
+  "models": [
+    {
+      "fold": 0,
+      "seed": 17,
+      "buckets": 34,
+      "forecast_dates": [
+        "2020-04-30"
+      ],
+      "maximum_refined_reconstruction_error": 1.430511474609375e-06,
+      "median_before_pairwise_cosine": 0.41830235687305245,
+      "median_after_pairwise_cosine": 0.999795078096045,
+      "median_after_length_cv": 0.0993798360348026,
+      "median_self_normalized_entropy": 0.9814630398009387,
+      "median_query_normalized_entropy": 0.9992086332085383
+    },
+    {
+      "fold": 0,
+      "seed": 42,
+      "buckets": 34,
+      "forecast_dates": [
+        "2020-04-30"
+      ],
+      "maximum_refined_reconstruction_error": 2.384185791015625e-07,
+      "median_before_pairwise_cosine": 0.5303050767544263,
+      "median_after_pairwise_cosine": 0.9997059453866559,
+      "median_after_length_cv": 0.008412509806731928,
+      "median_self_normalized_entropy": 0.9992697854460564,
+      "median_query_normalized_entropy": 0.9999991532683805
+    },
+    {
+      "fold": 1,
+      "seed": 17,
+      "buckets": 34,
+      "forecast_dates": [
+        "2020-12-31"
+      ],
+      "maximum_refined_reconstruction_error": 9.5367431640625e-07,
+      "median_before_pairwise_cosine": 0.2162908219376034,
+      "median_after_pairwise_cosine": 0.3664752267813599,
+      "median_after_length_cv": 0.46609434858171156,
+      "median_self_normalized_entropy": 0.8233735760728988,
+      "median_query_normalized_entropy": 0.9933726814308663
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "buckets": 34,
+      "forecast_dates": [
+        "2020-12-31"
+      ],
+      "maximum_refined_reconstruction_error": 5.960464477539063e-08,
+      "median_before_pairwise_cosine": 0.8343807639067496,
+      "median_after_pairwise_cosine": 0.9999999841292713,
+      "median_after_length_cv": 1.7082193126366312e-05,
+      "median_self_normalized_entropy": 0.9999938734636541,
+      "median_query_normalized_entropy": 1.0
+    }
+  ],
+  "example": {
+    "row": {
+      "cutoff_utc": "2020-04-30T20:00:00+00:00",
+      "forecast_date": "2020-04-30",
+      "session_index": 585,
+      "stock_index": 3,
+      "target": 0,
+      "target_available_utc": "2020-05-01T20:00:00+00:00",
+      "target_date": "2020-05-01",
+      "target_return": -0.016099340149172803,
+      "ticker": "AAPL"
+    },
+    "probability": 0.47383510953250974,
+    "source_date_proxy_age_hours": [
+      68.0,
+      68.0,
+      68.0,
+      68.0,
+      68.0,
+      68.0
+    ],
+    "title_audit_rule": "Title-only topical annotation; no article bodies inspected, not a financial relevance ground truth",
+    "headlines": [
+      {
+        "id": "1cac2e580fe75a3cce6c4c98f997285f18b37e427cc161d76c6636c507b27c72",
+        "title": "Dow Jones Erases 375-Point Gain On Earnings; Tech Giants AMD, Alphabet Set To Report, As Apple Approaches Buy Point",
+        "topic_annotation": "Mixed market/Apple mention",
+        "contextual_weight": 0.16486963629722595
+      },
+      {
+        "id": "1d32daf52b827ae5467a812eea7921419cb813897122b0fd0fe37564e4090578",
+        "title": "Expert who called the 2008 crisis says the signal to sell stocks is coming soon",
+        "topic_annotation": "Broad market outlook",
+        "contextual_weight": 0.13643501698970795
+      },
+      {
+        "id": "2c60c0f0884fed8f37b1610c12d80a586737a95b247df3aa1dc2b189d3f36820",
+        "title": "Autos Are Driving in the Chip Industry's Blind Spot",
+        "topic_annotation": "Chip-industry topic",
+        "contextual_weight": 0.18116015195846558
+      },
+      {
+        "id": "3470b4ff6d2396682783b6b2c2021f153857ccd4e2b381c54f073e082416b8c6",
+        "title": "Dow Jones Gives Up Gains As Plunging Consumer Confidence Weighs On Stock Market",
+        "topic_annotation": "Broad market outlook",
+        "contextual_weight": 0.1591998189687729
+      },
+      {
+        "id": "45b509238b43b087f26f068a82d8afaba294f878905060a73f5d684033c06048",
+        "title": "Germany Taps SAP, Deutsche Telekom for Contact Tracing App",
+        "topic_annotation": "Other companies in title",
+        "contextual_weight": 0.2022351324558258
+      },
+      {
+        "id": "52e085240d8122efbe4186c1d09ceab809b02fafcd0ef91a3000d8e2866b18f9",
+        "title": "Apple Earnings Preview: How Will the Coronavirus Impact iPhone Sales?",
+        "topic_annotation": "Direct Apple event",
+        "contextual_weight": 0.1561002880334854
+      }
+    ],
+    "self_attention_matrix": [
+      [
+        0.21563124656677246,
+        0.11991788446903229,
+        0.19222491979599,
+        0.20033621788024902,
+        0.14517827332019806,
+        0.1267114281654358
+      ],
+      [
+        0.319821834564209,
+        0.08932999521493912,
+        0.17433026432991028,
+        0.20872223377227783,
+        0.1125827431678772,
+        0.09521295875310898
+      ],
+      [
+        0.20058360695838928,
+        0.14377804100513458,
+        0.17339584231376648,
+        0.1838447004556656,
+        0.15271621942520142,
+        0.14568158984184265
+      ],
+      [
+        0.2348485141992569,
+        0.11275681108236313,
+        0.18762847781181335,
+        0.20019635558128357,
+        0.1433565318584442,
+        0.12121336162090302
+      ],
+      [
+        0.18510553240776062,
+        0.1786728799343109,
+        0.15377859771251678,
+        0.17120414972305298,
+        0.14595714211463928,
+        0.16528169810771942
+      ],
+      [
+        0.26709815859794617,
+        0.11755366623401642,
+        0.17076249420642853,
+        0.1988348662853241,
+        0.1265002340078354,
+        0.11925062537193298
+      ]
+    ]
+  },
+  "scope": "Four selected full baseline networks, two first-evaluation snapshot dates; correlated buckets; direction similarity does not measure semantic preservation or vector magnitude",
+  "sources_sha256": {
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_0\\finin_17\\trace.npz": "99495152f019543deeee95a02f70144a3461b18ff8a36e8953b73722862e23e1",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_0\\finin_17\\trace_rows.json": "770446c30df0340b8235725676a9803d2948d5b88304d51a476d946849a17619",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_0\\finin_17\\selected.pt": "45071f6a6239cce7f075c34017488362a965afde32a7ed1f9bc86f55922ea69b",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_0\\finin_17\\summary.json": "d7eb72185ba20b4c3d5fa1bbb6e9f5fa3a253177d06aa05ac86943b022b2344d",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_0\\finin_42\\trace.npz": "5b536149e6a6b26124815ba913761c1e4abc2bd8d9cad3dfa57a48620abb8d36",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_0\\finin_42\\trace_rows.json": "770446c30df0340b8235725676a9803d2948d5b88304d51a476d946849a17619",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_0\\finin_42\\selected.pt": "c5387703f02cb4b79f93700f89ef445c95b383d1c1a1fcc9aeace81016ba11ba",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_0\\finin_42\\summary.json": "feda8f4b0fb2f08464a1a8e06162f909c94432f25c0506b91e61f9d154d16ea7",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_1\\finin_17\\trace.npz": "b08f726a9e7626025b72726d279c17c5596717dac100777219f37834af207078",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_1\\finin_17\\trace_rows.json": "a145f0f8c1dbf7a1641bf6efd731f871e480e467bd610c84e0d6404d82094d07",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_1\\finin_17\\selected.pt": "9d579ac59fbf6f66c99c56d3f8377baeffca52a0e09d68d65473ce973a599efd",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_1\\finin_17\\summary.json": "4b730989768401d5b6729871cb89ef9328737961bbaf48b3a233a56b0596d53a",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_1\\finin_42\\trace.npz": "8ce67766eefda45ac911cb7690e75b0cec0cafc9d0bdc1e43cded5ee409f2e22",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_1\\finin_42\\trace_rows.json": "a145f0f8c1dbf7a1641bf6efd731f871e480e467bd610c84e0d6404d82094d07",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_1\\finin_42\\selected.pt": "d3938268691a7ef581364e020a5a9bbd6cf8de6f698204cc93b065efd1e1b1f7",
+    "artifacts\\cmin_panel_2026-10-14_v1\\fold_1\\finin_42\\summary.json": "9d28b46a13b9674cb1571b8404a91ba9f2690db3989c048e4fca87dd1478832d"
+  },
+  "analysis_script_sha256": "c3b3d88747e19a629bf431baca38ab3b07896a17621a15d241979d73e9a031a8"
+}

@@ -1,0 +1,13 @@
+{
+  "fold_0_pooled_decay_17.npz": "d501aed3addeb467ad0ce8682325acb41bf1df6bfdcab918ec76496fea2320e2",
+  "fold_0_pooled_decay_42.npz": "d7820929bfaae4b8b785c8592141f376865c3a835491267647ae8e9712621565",
+  "fold_0_pooled_uniform_17.npz": "3d8fe0f0dd9690f4a923c3c096bbd51586a232241a89d625dccd7cf851ec4214",
+  "fold_0_pooled_uniform_42.npz": "b94a3193e35e2c84ff52e46019dc1acd89f0174d33be4f2d02df7481fb24521f",
+  "fold_1_pooled_decay_17.npz": "4a6f0455488ea6c6e66b6598af0e9019c180147f2f32f154eca98789f8056e03",
+  "fold_1_pooled_decay_42.npz": "abaa4f7f536da329bd280b4c32040413c96edc33e84c20b143ce09c870130231",
+  "fold_1_pooled_uniform_17.npz": "609adcf009234dad461a6982819f20f121342f1d7ac5db63e535abc37a03ccd8",
+  "fold_1_pooled_uniform_42.npz": "9c17454f1997bdd093f94436e1b790299ca2e1c025365a687046e43f2b261300",
+  "rows_by_fold.json": "47e1876443a44bfbf708e659d46522b137ec596f1486bac4e9a8e45f0f7d9549",
+  "source.py": "b31998fbd41034b32def23d94883f4fdd05f64626fde2419deabbc18c8f59fff",
+  "summary.json": "0264db74472a300a0f408c81669b518cab2debfc7905a99b45fd711cd8bd0deb"
+}

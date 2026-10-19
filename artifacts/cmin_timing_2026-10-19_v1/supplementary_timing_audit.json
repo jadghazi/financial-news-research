@@ -1,0 +1,28 @@
+{
+  "source_clock_date_consistency": {
+    "development_news_records": 185378,
+    "clock_date_differs_from_date": 0
+  },
+  "coverage_nonempty": {
+    "clock_ny": {
+      "nonempty_cases": 1746,
+      "empty_cases": 258,
+      "mean_jaccard_among_nonempty_cases": 0.47988911113050026
+    },
+    "date0": {
+      "nonempty_cases": 1747,
+      "empty_cases": 257,
+      "mean_jaccard_among_nonempty_cases": 0.4270814977249333
+    },
+    "delay1": {
+      "nonempty_cases": 1748,
+      "empty_cases": 256,
+      "mean_jaccard_among_nonempty_cases": 0.6517548302629876
+    },
+    "delay2": {
+      "nonempty_cases": 1746,
+      "empty_cases": 258,
+      "mean_jaccard_among_nonempty_cases": 1.0
+    }
+  }
+}

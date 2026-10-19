@@ -1,0 +1,28 @@
+{
+  "batch_size": 16,
+  "device": "cpu",
+  "dtype": "float32",
+  "encoder": {
+    "name": "FacebookAI/roberta-base",
+    "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "width": 768
+  },
+  "encoder_code_sha256": "11d22f074ec5bb9a6a9b1861c5b0f967496b89fee0d8847e1d49b3fa10c436a2",
+  "items_sha256": "15a1b87caec0b330a41071dddafad4448dfd9f1571b8a221dc7f12b628a26d03",
+  "l2_normalized": false,
+  "max_tokens": 64,
+  "pooling": "last_hidden_state[:,0,:]",
+  "prepared_sha256": "069663373672af5c9b38970eb48298d564f88dec453bd16e2fa1df71352e4767",
+  "scope": "only newly selected titles; original cache reused unchanged",
+  "sentiment": {
+    "name": "mikeysharma/finance-sentiment-analysis",
+    "revision": "4353ecd593de607cbb64147c8e2d21b82d842014",
+    "width": 3
+  },
+  "sentiment_order": [
+    "positive",
+    "neutral",
+    "negative"
+  ],
+  "threads": 4
+}

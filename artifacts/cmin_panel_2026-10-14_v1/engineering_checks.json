@@ -1,0 +1,29 @@
+{
+  "command": ".venv/Scripts/python.exe -m unittest discover -s tests -q",
+  "exit_code": 0,
+  "tests": 107,
+  "scope": "engineering invariants only, including synthetic trainer tests; no forecasting evidence",
+  "utc": "2026-10-14T09:23:33.379951+00:00",
+  "test_sources_sha256": {
+    "tests\\test_cmin_panel.py": "14b10e0d3d5e4ada0e28e0ee324a3745b0e98d3087df5881df93ce60374e367a",
+    "tests\\test_data_alignment.py": "eefaa42d515614d2a36286d2e98a43f030f6036ff7e8bc9b3ee24b17c26f9721",
+    "tests\\test_financial_headline_cache.py": "68f45dc2db9e60005bc48a74e007306300de370f87a4bf70c933abd683f8d777",
+    "tests\\test_finin_calibration.py": "c056731c2e029e5519b206c46fb0da760abfa577d4baeea786ae13502eb7d10a",
+    "tests\\test_finin_headline_controls.py": "5d00df9cb7ab4038cc6acf413ad1033c9550e4f3e276ba5fd738926b3722c8d2",
+    "tests\\test_finin_headline_experiment.py": "3f1975aad84d1b186b47d2ee39770dfad0e2332ef069f97c2089d19c72832555",
+    "tests\\test_finin_history_data.py": "d49353d7fd6a390607195d7794c757ba1a1d926e7ef97ebe9dded155aefd6d18",
+    "tests\\test_ml_study_data.py": "0e8e84672698fc67b3d72d92436e42874ca6e312ab70b8a365ac33854ea5360d",
+    "tests\\test_model_integrity.py": "f52e49146356b5d31f886944a677bd1cfdf543f85892e353e7068545e220fba7",
+    "tests\\test_paper_finin.py": "348c418c460d215aa6ab4f57385ac0e51672aad2cf91b1c19b16e1b0413e63f8",
+    "tests\\test_reproduction_v2_data.py": "4c51cdfd48e8a8944d93cb5b1cfe2f7b83f660bdfb2af66476c55ee5ea8ed6eb",
+    "tests\\test_reproduction_v2_encoder_guard.py": "d3a69732dc900679994cb1c7a01778a2a329b615bbbd1410bbd6404544044c71",
+    "tests\\test_reproduction_v2_features.py": "34983c32f6cbe3d3d5fa037b735c8483939b308d5a297bd77d453915f4e98cf0",
+    "tests\\test_reproduction_v2_final_design.py": "b2934fba38963564f5867ec8997059f1b0df53bc4c2dfcc59eff5f136d27b34d",
+    "tests\\test_reproduction_v2_gates.py": "9ac9a2ab6ef5a7182fe62f5718c659ceab18729eca9e5ed51e4373b5ac9447d9",
+    "tests\\test_reproduction_v2_probe.py": "eee3b04abd1241a4c0f456c32c498356e71a41e17bf787ae4c57eaab4b42bbeb",
+    "tests\\test_research_finin.py": "934800cfbe86a6c11e13ac3fd0a419cc5c1a9c66a035182047d9e50d5e34e4e2",
+    "tests\\test_research_training.py": "1a6d5c127d882f7b61ee8a03c2cb991c0aa656b0f91c71f0e5dad4b22effc674",
+    "tests\\test_spnews_cohort.py": "44edf7f61cf0d5e18475cd8d8e39d625c76b19112a15976f71b6fa943de3b3c8",
+    "tests\\test_temporal_pooling_study.py": "5d60e6c0a9b3a229351743ee845a5828ce006c6c1bf992eba5ca388f8cd944f5"
+  }
+}

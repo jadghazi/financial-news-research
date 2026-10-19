@@ -1,0 +1,87 @@
+{
+  "cohort_directory": "C:\\Users\\user\\Desktop\\Research\\artifacts\\cmin_panel_2026-10-14_v1",
+  "config": {
+    "age_diagnostic": "mask each arrival-session-age bin 0..4 independently in selected raw models; fixed-model loss sensitivity with renormalization; all matched dates, coverage and conditional date-block uncertainty",
+    "arms": [
+      "pooled_uniform",
+      "pooled_decay"
+    ],
+    "attention_style": "plain",
+    "availability_delay_calendar_days": 2,
+    "batch_size": 64,
+    "comparison_pairs": [
+      [
+        "pooled_decay",
+        "pooled_uniform"
+      ]
+    ],
+    "development_target_before": "2021-05-01",
+    "dropout": 0.2,
+    "epochs": 12,
+    "half_life_hours": 48,
+    "headlines_per_arrival_session": 6,
+    "history_sessions": 5,
+    "id": "cmin_decay_48h_2026-10-14_v1",
+    "learning_rate": 0.0003,
+    "maximum_feature_items": 80000,
+    "maximum_neural_fits": 8,
+    "maximum_total_neural_seconds": 1200,
+    "meaningful_log_loss_improvement": 0.005,
+    "primary_metric": "paired evaluation log loss, equal weight per company-day; date-block uncertainty; mean seed losses",
+    "publication_age_basis": "UTC midnight of source date; uncertain proxy, not verified publication time",
+    "reserved_test_start": "2021-09-01",
+    "seeds": [
+      17,
+      42
+    ],
+    "selection_rule": "unchanged frozen CMIN-student-panel-v1 cohort",
+    "source_commit": "3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97",
+    "stop_rule": "one predeclared half-life; no tuning, automatic retries or further model/dataset changes",
+    "study_scope": "exploratory relative recency comparison on inspected development periods; no causal, publication-diffusion or trading claim",
+    "temporal_aggregation": "pooled",
+    "tickers": [
+      "AEP",
+      "GE",
+      "SCHW",
+      "AAPL",
+      "ADBE",
+      "WELL",
+      "T",
+      "TSLA",
+      "DIS",
+      "ASML",
+      "JPM",
+      "FB"
+    ],
+    "weight_decay": 0.01,
+    "width": 16,
+    "windows": [
+      [
+        "2020-01-01",
+        "2020-05-01",
+        "2020-09-01"
+      ],
+      [
+        "2020-09-01",
+        "2021-01-01",
+        "2021-05-01"
+      ]
+    ]
+  },
+  "feature_manifest_sha256": "194d923207e4d9a8e2165e9209efc88956b384bb40235c8b832c9b6681489e4c",
+  "prepared_sha256": "069663373672af5c9b38970eb48298d564f88dec453bd16e2fa1df71352e4767",
+  "protocol_sha256": "55e598faed41f085f3b6399bfde35b18243abb718d3f1c51da1376cb739c5530",
+  "source_date_disagreement_audit_sha256": "467c06821aff4c6af8bb53e0a1a3052603443105db14ec8586ce53f5cc4d4dc9",
+  "sources": {
+    "scripts/16_cmin_panel.py": "e8612ad87980344e2473e00c4adebce5f24c029a2cc2fc95818de758717a4248",
+    "src/cmin_panel_data.py": "851480975ebf48d0ec8414d879f6ecca083aba33b5cf899d12c1c30fba743dc4",
+    "src/cmin_panel_experiment.py": "631f128aebebf204b38b4dcef8b8dc3c6cc52a0166a3c941974b748660600ab6",
+    "src/encoder_comparison.py": "d1cba5c2dc9fc97c5f38d2ff3bf4a08abe024c0566537cac146c53e23f2600c2",
+    "src/evaluation.py": "1ba500708e9538fda7f43b7123cec1ccf7f8a99496e1e7e3208b9fa8ba70ad5c",
+    "src/models/paper_finin.py": "359508d40c29221d30ae6ff5e45b67f0b223aad6b3f7f620a633fe1a1e758490",
+    "src/models/research_finin.py": "38519d7b346da48eb39a655f3e3870683e4b2677c2a9ebd52ce393df1942e0c8",
+    "src/reproduction_v2_features.py": "11d22f074ec5bb9a6a9b1861c5b0f967496b89fee0d8847e1d49b3fa10c436a2",
+    "src/research_training.py": "1cdb24eb3d8a7e3b5232b14344c2278fddbdf8c2d4c65613064602bf7775f281",
+    "src/training.py": "eefe5d527b5b2ac3e4ea173f0cdfce0c023b6d583695b077876d74539bb10155"
+  }
+}

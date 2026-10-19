@@ -1,0 +1,64 @@
+{
+  "arms": [
+    "pooled_uniform"
+  ],
+  "attention_style": "plain",
+  "availability_delay_calendar_days": 2,
+  "batch_size": 64,
+  "comparison_pairs": [],
+  "development_target_before": "2021-05-01",
+  "dropout": 0.2,
+  "epochs": 12,
+  "headlines_per_arrival_session": 6,
+  "history_sessions": 5,
+  "id": "cmin_older_news_2026-10-14_v1_recent",
+  "learning_rate": 0.0003,
+  "maximum_feature_items": 80000,
+  "maximum_neural_fits": 4,
+  "maximum_total_neural_seconds": 600,
+  "meaningful_log_loss_improvement": 0.005,
+  "news_age_sessions": [
+    0,
+    1
+  ],
+  "primary_metric": "paired evaluation log loss, equal weight per company-day; date-block uncertainty; mean seed losses",
+  "publication_age_basis": "UTC midnight of source date; uncertain proxy, not verified publication time",
+  "reserved_test_start": "2021-09-01",
+  "seeds": [
+    17,
+    42
+  ],
+  "selection_rule": "unchanged frozen CMIN-student-panel-v1 cohort",
+  "source_commit": "3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97",
+  "stop_rule": "no tuning, new data, feature encoding, extra controls or automatic retries; retain negative/inconclusive findings",
+  "study_scope": "exploratory predictive value of older available headlines; proxy arrival ages, not publication diffusion",
+  "temporal_aggregation": "pooled",
+  "tickers": [
+    "AEP",
+    "GE",
+    "SCHW",
+    "AAPL",
+    "ADBE",
+    "WELL",
+    "T",
+    "TSLA",
+    "DIS",
+    "ASML",
+    "JPM",
+    "FB"
+  ],
+  "weight_decay": 0.01,
+  "width": 16,
+  "windows": [
+    [
+      "2020-01-01",
+      "2020-05-01",
+      "2020-09-01"
+    ],
+    [
+      "2020-09-01",
+      "2021-01-01",
+      "2021-05-01"
+    ]
+  ]
+}

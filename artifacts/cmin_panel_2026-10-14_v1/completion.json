@@ -1,0 +1,19 @@
+{
+  "PROTOCOL.md": "6cf79a3336ee5980e71ef0fb96ca73c09eb0a30bd190e09ffdb9e2a9beaf3e5e",
+  "environment.json": "5d079a630e3c52357ed4275faca02c2054f9eff2157445eb7ab606812ff1d903",
+  "fold_0/finin_17/summary.json": "d7eb72185ba20b4c3d5fa1bbb6e9f5fa3a253177d06aa05ac86943b022b2344d",
+  "fold_0/finin_42/summary.json": "feda8f4b0fb2f08464a1a8e06162f909c94432f25c0506b91e61f9d154d16ea7",
+  "fold_0/mean_news_17/summary.json": "e202b98f40bf9a36d0834adda525d946d3bb23e8419981ac61e798dbafd10c92",
+  "fold_0/mean_news_42/summary.json": "8647c75e4b6e5e83d4a89102d122437fb90a7dda47906b6bd46706fffbf8e87d",
+  "fold_0/price_only_17/summary.json": "dd19d83ea9aa54078b5281b48b39e365b469ceb81bab0b94b66751a0198183a8",
+  "fold_0/price_only_42/summary.json": "e779ce9e42c00d4f32a9917862951b36e3be16aab31eed0300ff6b4c525acdb7",
+  "fold_1/finin_17/summary.json": "4b730989768401d5b6729871cb89ef9328737961bbaf48b3a233a56b0596d53a",
+  "fold_1/finin_42/summary.json": "9d28b46a13b9674cb1571b8404a91ba9f2690db3989c048e4fca87dd1478832d",
+  "fold_1/mean_news_17/summary.json": "f23fc01690548e5684516d35a8ac3196a1127ec78d068e0f80000fd149a01f3c",
+  "fold_1/mean_news_42/summary.json": "5656352e62c6c5c1530459dff3b43a8bea11b589c2acd099f8130c6758723662",
+  "fold_1/price_only_17/summary.json": "267532e04ff9880a7530f952dcf4854e618b7ca7d50006e61fcb71c4e8bcb92d",
+  "fold_1/price_only_42/summary.json": "2edb2a16acb90310c87997638b4abfe5a226c6e7559bb20949e0355fc87b2816",
+  "plans.json": "49e673877639abdfb72f16cc7ccccab220b0a2eabc3517e27f5d1f8a072220b5",
+  "study_identity.json": "f80806b1910106af7f5c34078a409ed6b684723a6ca26d5c7bc2ac49424be5ee",
+  "summary.json": "e9b82b8d5ee07ffa041dbd26cd3952d17620620910c047eff367d94801ac8207"
+}

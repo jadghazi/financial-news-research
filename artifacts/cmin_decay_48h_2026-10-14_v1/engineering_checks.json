@@ -1,0 +1,15 @@
+{
+  "baseline_files_unchanged": 655,
+  "empty_bucket_invariance_checked": true,
+  "identical_paired_initial_states": 4,
+  "independent_review": "FINAL_REVIEW.md",
+  "neural_fits": 8,
+  "new_convex_fits": 0,
+  "passed": 7,
+  "pdf_pages": 2,
+  "pdf_pages_visually_inspected": true,
+  "relevant_model_tests": 7,
+  "training_ceiling_seconds": 1200,
+  "training_seconds": 573.7649999999994,
+  "unperturbed_prediction_replays": 8
+}

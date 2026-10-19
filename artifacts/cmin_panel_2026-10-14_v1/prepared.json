@@ -1,0 +1,35 @@
+{
+  "availability": "unverified date proxy D+2 00UTC; source timestamps not features",
+  "config_sha256": "fb722408a3e5c42bde91b403c2e5bdd163efcad3b35ef2dad92e51da54abd730",
+  "files_sha256": {
+    "calendar.json": "4019aafffa52b122d782d1a6827e6e70ff387d56a679b618e9976de363c6d905",
+    "daily_arrays.npz": "10556c7843ed1727659ee625c30ed7b950161428a3b47416499516170831f9f5",
+    "data_audit.json": "2d78b56ad92574cc4b42ed8a1f5df9373bc412746e4a711f53af94638e9da373",
+    "duplicate_audit.json": "035c9dd73ca1bd9dfae5cb5337729668cfed109d7ece7aca330af7c69f233c7e",
+    "items.json": "9a5fe9986aa54137603811a0fb7c59ee35ff489ca9e2fc67d6eed54b110dfdee",
+    "rows.json": "a6d395fdef8843a13ed585d8db47de35612dad986d600c824cc57b7ae2e39955",
+    "selected_stories.jsonl": "0cd98112164f810e009c026b05c1efd5ae5ff36c18f93501e23072cf7a8eae61"
+  },
+  "label": "next adjacent XNYS session adjusted close > current adjusted close; ties DOWN",
+  "preparation_code_sha256": "851480975ebf48d0ec8414d879f6ecca083aba33b5cf899d12c1c30fba743dc4",
+  "rows": 9984,
+  "target_range": [
+    "2018-01-10",
+    "2021-04-30"
+  ],
+  "tickers": [
+    "AEP",
+    "GE",
+    "SCHW",
+    "AAPL",
+    "ADBE",
+    "WELL",
+    "T",
+    "TSLA",
+    "DIS",
+    "ASML",
+    "JPM",
+    "FB"
+  ],
+  "unique_texts": 29937
+}

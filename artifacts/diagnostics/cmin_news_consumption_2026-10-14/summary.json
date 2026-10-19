@@ -1,0 +1,42 @@
+{
+  "diagnostic_code_sha256": "c4413a380ed1cbd12f73a7261a98b46cf5e9c98422c5e8b7c35b1383cf6fa4ae",
+  "examples_with_news": 44,
+  "gradient_nonzero_examples": 44,
+  "probes": {
+    "empty_news": {
+      "examples_changed_over_1e_minus_6": 43,
+      "maximum_absolute_probability_change": 0.06685339291658182
+    },
+    "headline_training_mean": {
+      "examples_changed_over_1e_minus_6": 44,
+      "maximum_absolute_probability_change": 0.0675788410481431
+    },
+    "interaction_off": {
+      "examples_changed_over_1e_minus_6": 44,
+      "maximum_absolute_probability_change": 0.07835637410249491
+    },
+    "query_uniform": {
+      "examples_changed_over_1e_minus_6": 16,
+      "maximum_absolute_probability_change": 0.030450020590015447
+    },
+    "sentiment_training_mean": {
+      "examples_changed_over_1e_minus_6": 34,
+      "maximum_absolute_probability_change": 0.0011886843022324567
+    }
+  },
+  "scope": "retrospective computational dependency diagnostic; no forecasting assessment, no refits, no held-out period opened",
+  "selection": "first validation example with >=2 active headlines per company, else first empty case; no outcome-based selection",
+  "source_hashes": {
+    "config.json": "fb722408a3e5c42bde91b403c2e5bdd163efcad3b35ef2dad92e51da54abd730",
+    "features/manifest.json": "194d923207e4d9a8e2165e9209efc88956b384bb40235c8b832c9b6681489e4c",
+    "fold_0\\finin_17\\selected.pt": "45071f6a6239cce7f075c34017488362a965afde32a7ed1f9bc86f55922ea69b",
+    "fold_0\\finin_42\\selected.pt": "c5387703f02cb4b79f93700f89ef445c95b383d1c1a1fcc9aeace81016ba11ba",
+    "fold_1\\finin_17\\selected.pt": "9d579ac59fbf6f66c99c56d3f8377baeffca52a0e09d68d65473ce973a599efd",
+    "fold_1\\finin_42\\selected.pt": "d3938268691a7ef581364e020a5a9bbd6cf8de6f698204cc93b065efd1e1b1f7",
+    "plans.json": "49e673877639abdfb72f16cc7ccccab220b0a2eabc3517e27f5d1f8a072220b5",
+    "prepared.json": "069663373672af5c9b38970eb48298d564f88dec453bd16e2fa1df71352e4767",
+    "rows.json": "a6d395fdef8843a13ed585d8db47de35612dad986d600c824cc57b7ae2e39955"
+  },
+  "utc": "2026-10-14T10:08:11.623952+00:00",
+  "validation_examples": 48
+}

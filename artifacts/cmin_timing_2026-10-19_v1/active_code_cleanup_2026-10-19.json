@@ -1,0 +1,26 @@
+{
+  "completed_utc": "2026-10-19T14:58:37.1869221Z",
+  "purpose": "User-requested removal of isolated timing-study code from active folders; exact source copies and experiment evidence retained.",
+  "files": [
+    {
+      "original": "src/cmin_timing_study.py",
+      "archive": "C:\\Users\\user\\Desktop\\Research\\artifacts\\cmin_timing_2026-10-19_v1\\source_snapshot\\src__cmin_timing_study.py",
+      "sha256": "7873eb67b6f6dedbf5676d8b33125e3a49a64c5f323b892c27c9dfabb8310756"
+    },
+    {
+      "original": "scripts/27_cmin_timing.py",
+      "archive": "C:\\Users\\user\\Desktop\\Research\\artifacts\\cmin_timing_2026-10-19_v1\\source_snapshot\\scripts__27_cmin_timing.py",
+      "sha256": "ebf68a7995be3963bf12e4c9ce9706fe517bdd59a98b1dffad05823eefef5e3b"
+    },
+    {
+      "original": "scripts/28_verify_cmin_timing.py",
+      "archive": "C:\\Users\\user\\Desktop\\Research\\artifacts\\cmin_timing_2026-10-19_v1\\source_snapshot\\scripts__28_verify_cmin_timing.py",
+      "sha256": "4f33e394a98dbe9e884f8ce2bda4e553c0685aa18c79373848b80945e4783f0d"
+    },
+    {
+      "original": "tests/test_cmin_timing_study.py",
+      "archive": "C:\\Users\\user\\Desktop\\Research\\artifacts\\cmin_timing_2026-10-19_v1\\source_snapshot\\tests__test_cmin_timing_study.py",
+      "sha256": "35ceabe13269f59f22f61480757ed1a70fd812b32bda58742550f9cdf3a74349"
+    }
+  ]
+}

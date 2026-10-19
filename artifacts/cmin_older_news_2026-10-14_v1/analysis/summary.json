@@ -1,0 +1,1605 @@
+{
+  "baseline_preservation": {
+    "unchanged_files": 1085
+  },
+  "candidate_useful_relative_addition": false,
+  "comparisons": [
+    {
+      "conditional_95_interval": [
+        -3.111402446987136e-05,
+        0.0011547051697653908
+      ],
+      "delta_log_loss": 0.000559709709889776,
+      "first": "all_news",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_differences": [
+        {
+          "company_days": 1020,
+          "delta_log_loss": 0.0008872420564416309,
+          "fold": 0,
+          "unique_dates": 85
+        },
+        {
+          "company_days": 984,
+          "delta_log_loss": 0.0002201944726104118,
+          "fold": 1,
+          "unique_dates": 82
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "recent_news",
+      "seed_period_differences": [
+        {
+          "delta_log_loss": -0.00017086824951218003,
+          "fold": 0,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.0019453523623954418,
+          "fold": 0,
+          "seed": 42
+        },
+        {
+          "delta_log_loss": -4.302033319808665e-05,
+          "fold": 1,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.00048340927841891023,
+          "fold": 1,
+          "seed": 42
+        }
+      ]
+    },
+    {
+      "conditional_95_interval": [
+        6.115156275532422e-05,
+        0.0008144337265583244
+      ],
+      "delta_log_loss": 0.0004391501390945511,
+      "first": "all_news",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_differences": [
+        {
+          "company_days": 1020,
+          "delta_log_loss": 0.00043225812863067304,
+          "fold": 0,
+          "unique_dates": 85
+        },
+        {
+          "company_days": 984,
+          "delta_log_loss": 0.0004462942962827151,
+          "fold": 1,
+          "unique_dates": 82
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "price_only",
+      "seed_period_differences": [
+        {
+          "delta_log_loss": -8.09535182831721e-05,
+          "fold": 0,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.0009454697755445181,
+          "fold": 0,
+          "seed": 42
+        },
+        {
+          "delta_log_loss": 0.0003694338995480308,
+          "fold": 1,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.0005231546930173994,
+          "fold": 1,
+          "seed": 42
+        }
+      ]
+    },
+    {
+      "conditional_95_interval": [
+        -0.0006322232070158239,
+        0.00037828680215730844
+      ],
+      "delta_log_loss": -0.00012055957079522491,
+      "first": "recent_news",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_differences": [
+        {
+          "company_days": 1020,
+          "delta_log_loss": -0.00045498392781095773,
+          "fold": 0,
+          "unique_dates": 85
+        },
+        {
+          "company_days": 984,
+          "delta_log_loss": 0.0002260998236723033,
+          "fold": 1,
+          "unique_dates": 82
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "price_only",
+      "seed_period_differences": [
+        {
+          "delta_log_loss": 8.991473122900793e-05,
+          "fold": 0,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": -0.0009998825868509234,
+          "fold": 0,
+          "seed": 42
+        },
+        {
+          "delta_log_loss": 0.00041245423274611744,
+          "fold": 1,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 3.974541459848914e-05,
+          "fold": 1,
+          "seed": 42
+        }
+      ]
+    },
+    {
+      "conditional_95_interval": [
+        -0.0011049548707725374,
+        0.0019721358023409453
+      ],
+      "delta_log_loss": 0.0003906427079884977,
+      "first": "all_news",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_differences": [
+        {
+          "company_days": 1020,
+          "delta_log_loss": -3.1354498351775846e-05,
+          "fold": 0,
+          "unique_dates": 85
+        },
+        {
+          "company_days": 984,
+          "delta_log_loss": 0.0008280788365119494,
+          "fold": 1,
+          "unique_dates": 82
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "training_prior",
+      "seed_period_differences": [
+        {
+          "delta_log_loss": -0.0006920177263579211,
+          "fold": 0,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.0006293087296543694,
+          "fold": 0,
+          "seed": 42
+        },
+        {
+          "delta_log_loss": 0.0006012245218613492,
+          "fold": 1,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.0010549331511625496,
+          "fold": 1,
+          "seed": 42
+        }
+      ]
+    },
+    {
+      "conditional_95_interval": [
+        -0.0013738449221784238,
+        0.001147814667667416
+      ],
+      "delta_log_loss": -0.00016906700190127822,
+      "first": "recent_news",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_differences": [
+        {
+          "company_days": 1020,
+          "delta_log_loss": -0.0009185965547934066,
+          "fold": 0,
+          "unique_dates": 85
+        },
+        {
+          "company_days": 984,
+          "delta_log_loss": 0.0006078843639015376,
+          "fold": 1,
+          "unique_dates": 82
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "training_prior",
+      "seed_period_differences": [
+        {
+          "delta_log_loss": -0.0005211494768457412,
+          "fold": 0,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": -0.001316043632741072,
+          "fold": 0,
+          "seed": 42
+        },
+        {
+          "delta_log_loss": 0.0006442448550594359,
+          "fold": 1,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.0005715238727436394,
+          "fold": 1,
+          "seed": 42
+        }
+      ]
+    },
+    {
+      "conditional_95_interval": [
+        -0.0012609269313228898,
+        0.0012223008315441948
+      ],
+      "delta_log_loss": -4.850743110605336e-05,
+      "first": "price_only",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_differences": [
+        {
+          "company_days": 1020,
+          "delta_log_loss": -0.0004636126269824489,
+          "fold": 0,
+          "unique_dates": 85
+        },
+        {
+          "company_days": 984,
+          "delta_log_loss": 0.0003817845402292343,
+          "fold": 1,
+          "unique_dates": 82
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "training_prior",
+      "seed_period_differences": [
+        {
+          "delta_log_loss": -0.0006110642080747492,
+          "fold": 0,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": -0.00031616104589014864,
+          "fold": 0,
+          "seed": 42
+        },
+        {
+          "delta_log_loss": 0.00023179062231331845,
+          "fold": 1,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.0005317784581451502,
+          "fold": 1,
+          "seed": 42
+        }
+      ]
+    },
+    {
+      "conditional_95_interval": [
+        -3.111402446987136e-05,
+        0.0011547051697653908
+      ],
+      "delta_log_loss": 0.000559709709889776,
+      "first": "system_all_news",
+      "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+      "period_differences": [
+        {
+          "company_days": 1020,
+          "delta_log_loss": 0.0008872420564416309,
+          "fold": 0,
+          "unique_dates": 85
+        },
+        {
+          "company_days": 984,
+          "delta_log_loss": 0.0002201944726104118,
+          "fold": 1,
+          "unique_dates": 82
+        }
+      ],
+      "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+      "second": "system_recent_news",
+      "seed_period_differences": [
+        {
+          "delta_log_loss": -0.00017086824951218003,
+          "fold": 0,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.0019453523623954418,
+          "fold": 0,
+          "seed": 42
+        },
+        {
+          "delta_log_loss": -4.302033319808665e-05,
+          "fold": 1,
+          "seed": 17
+        },
+        {
+          "delta_log_loss": 0.00048340927841891023,
+          "fold": 1,
+          "seed": 42
+        }
+      ]
+    }
+  ],
+  "evaluation_company_days": 2004,
+  "evaluation_unique_dates": 167,
+  "execution": {
+    "components": [
+      {
+        "component": "price",
+        "fits": 4,
+        "seconds": 290.7649999999994
+      },
+      {
+        "component": "recent",
+        "fits": 4,
+        "seconds": 293.79699999999866
+      }
+    ],
+    "new_convex_fits": 0,
+    "new_neural_fits": 8,
+    "reused_neural_fits": 4,
+    "scope": "exploratory predictive value of older available headlines; proxy arrival ages, not publication diffusion",
+    "total_new_neural_seconds": 584.5619999999981
+  },
+  "fits": [
+    {
+      "arm": "price_only",
+      "constant_fallback": false,
+      "fold": 0,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.55,
+        "auc": 0.5118340672289754,
+        "balanced_accuracy": 0.5125201562887621,
+        "brier": 0.24792937425239503,
+        "confusion": {
+          "false_down": 40,
+          "false_up": 419,
+          "true_down": 45,
+          "true_up": 516
+        },
+        "count": 1020,
+        "down_recall": 0.09698275862068965,
+        "log_loss": 0.6890013022070453,
+        "mcc": 0.04511498981233036,
+        "predicted_up": 935,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5303307990972856,
+        "probability_std": 0.014735969984392028,
+        "up_recall": 0.9280575539568345
+      },
+      "reused": false,
+      "seed": 17,
+      "selected_epoch": 11,
+      "selected_system": {
+        "accuracy": 0.55,
+        "auc": 0.5118340672289754,
+        "balanced_accuracy": 0.5125201562887621,
+        "brier": 0.24792937425239503,
+        "confusion": {
+          "false_down": 40,
+          "false_up": 419,
+          "true_down": 45,
+          "true_up": 516
+        },
+        "count": 1020,
+        "down_recall": 0.09698275862068965,
+        "log_loss": 0.6890013022070453,
+        "mcc": 0.04511498981233036,
+        "predicted_up": 935,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5303307990972856,
+        "probability_std": 0.014735969984392028,
+        "up_recall": 0.9280575539568345
+      },
+      "source_folder": "artifacts\\cmin_older_news_2026-10-14_v1\\price\\fold_0\\price_only_17",
+      "structurally_used_module_parameter_upper_bound": 15057
+    },
+    {
+      "arm": "price_only",
+      "constant_fallback": false,
+      "fold": 0,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5519607843137255,
+        "auc": 0.5121209067228976,
+        "balanced_accuracy": 0.517171607541553,
+        "brier": 0.24807634525769928,
+        "confusion": {
+          "false_down": 54,
+          "false_up": 403,
+          "true_down": 61,
+          "true_up": 502
+        },
+        "count": 1020,
+        "down_recall": 0.1314655172413793,
+        "log_loss": 0.6892962053692299,
+        "mcc": 0.054070965694354337,
+        "predicted_up": 905,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5221024881747245,
+        "probability_std": 0.023589494994126853,
+        "up_recall": 0.9028776978417267
+      },
+      "reused": false,
+      "seed": 42,
+      "selected_epoch": 9,
+      "selected_system": {
+        "accuracy": 0.5519607843137255,
+        "auc": 0.5121209067228976,
+        "balanced_accuracy": 0.517171607541553,
+        "brier": 0.24807634525769928,
+        "confusion": {
+          "false_down": 54,
+          "false_up": 403,
+          "true_down": 61,
+          "true_up": 502
+        },
+        "count": 1020,
+        "down_recall": 0.1314655172413793,
+        "log_loss": 0.6892962053692299,
+        "mcc": 0.054070965694354337,
+        "predicted_up": 905,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5221024881747245,
+        "probability_std": 0.023589494994126853,
+        "up_recall": 0.9028776978417267
+      },
+      "source_folder": "artifacts\\cmin_older_news_2026-10-14_v1\\price\\fold_0\\price_only_42",
+      "structurally_used_module_parameter_upper_bound": 15057
+    },
+    {
+      "arm": "recent_news",
+      "constant_fallback": false,
+      "fold": 0,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5441176470588235,
+        "auc": 0.5153846750186059,
+        "balanced_accuracy": 0.4994573306871744,
+        "brier": 0.2479744831579897,
+        "confusion": {
+          "false_down": 3,
+          "false_up": 462,
+          "true_down": 2,
+          "true_up": 553
+        },
+        "count": 1020,
+        "down_recall": 0.004310344827586207,
+        "log_loss": 0.6890912169382744,
+        "mcc": -0.007738265423211225,
+        "predicted_up": 1015,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5305455801848873,
+        "probability_std": 0.011762816111516701,
+        "up_recall": 0.9946043165467626
+      },
+      "reused": false,
+      "seed": 17,
+      "selected_epoch": 10,
+      "selected_system": {
+        "accuracy": 0.5441176470588235,
+        "auc": 0.5153846750186059,
+        "balanced_accuracy": 0.4994573306871744,
+        "brier": 0.2479744831579897,
+        "confusion": {
+          "false_down": 3,
+          "false_up": 462,
+          "true_down": 2,
+          "true_up": 553
+        },
+        "count": 1020,
+        "down_recall": 0.004310344827586207,
+        "log_loss": 0.6890912169382744,
+        "mcc": -0.007738265423211225,
+        "predicted_up": 1015,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5305455801848873,
+        "probability_std": 0.011762816111516701,
+        "up_recall": 0.9946043165467626
+      },
+      "source_folder": "artifacts\\cmin_older_news_2026-10-14_v1\\recent\\fold_0\\pooled_uniform_17",
+      "structurally_used_module_parameter_upper_bound": 17825
+    },
+    {
+      "arm": "recent_news",
+      "constant_fallback": false,
+      "fold": 0,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5490196078431373,
+        "auc": 0.5274978293227487,
+        "balanced_accuracy": 0.5114425700818656,
+        "brier": 0.24757856214155946,
+        "confusion": {
+          "false_down": 40,
+          "false_up": 420,
+          "true_down": 44,
+          "true_up": 516
+        },
+        "count": 1020,
+        "down_recall": 0.09482758620689655,
+        "log_loss": 0.6882963227823791,
+        "mcc": 0.04145456815703227,
+        "predicted_up": 936,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5268189087214418,
+        "probability_std": 0.02175703592488239,
+        "up_recall": 0.9280575539568345
+      },
+      "reused": false,
+      "seed": 42,
+      "selected_epoch": 9,
+      "selected_system": {
+        "accuracy": 0.5490196078431373,
+        "auc": 0.5274978293227487,
+        "balanced_accuracy": 0.5114425700818656,
+        "brier": 0.24757856214155946,
+        "confusion": {
+          "false_down": 40,
+          "false_up": 420,
+          "true_down": 44,
+          "true_up": 516
+        },
+        "count": 1020,
+        "down_recall": 0.09482758620689655,
+        "log_loss": 0.6882963227823791,
+        "mcc": 0.04145456815703227,
+        "predicted_up": 936,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5268189087214418,
+        "probability_std": 0.02175703592488239,
+        "up_recall": 0.9280575539568345
+      },
+      "source_folder": "artifacts\\cmin_older_news_2026-10-14_v1\\recent\\fold_0\\pooled_uniform_42",
+      "structurally_used_module_parameter_upper_bound": 17825
+    },
+    {
+      "arm": "all_news",
+      "constant_fallback": false,
+      "fold": 0,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.55,
+        "auc": 0.5039944337633342,
+        "balanced_accuracy": 0.5125201562887621,
+        "brier": 0.2478889044123625,
+        "confusion": {
+          "false_down": 40,
+          "false_up": 419,
+          "true_down": 45,
+          "true_up": 516
+        },
+        "count": 1020,
+        "down_recall": 0.09698275862068965,
+        "log_loss": 0.6889203486887622,
+        "mcc": 0.04511498981233036,
+        "predicted_up": 935,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5311752995796422,
+        "probability_std": 0.01869548258610805,
+        "up_recall": 0.9280575539568345
+      },
+      "reused": true,
+      "seed": 17,
+      "selected_epoch": 8,
+      "selected_system": {
+        "accuracy": 0.55,
+        "auc": 0.5039944337633342,
+        "balanced_accuracy": 0.5125201562887621,
+        "brier": 0.2478889044123625,
+        "confusion": {
+          "false_down": 40,
+          "false_up": 419,
+          "true_down": 45,
+          "true_up": 516
+        },
+        "count": 1020,
+        "down_recall": 0.09698275862068965,
+        "log_loss": 0.6889203486887622,
+        "mcc": 0.04511498981233036,
+        "predicted_up": 935,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5311752995796422,
+        "probability_std": 0.01869548258610805,
+        "up_recall": 0.9280575539568345
+      },
+      "source_folder": "artifacts\\cmin_decay_48h_2026-10-14_v1\\fold_0\\pooled_uniform_17",
+      "structurally_used_module_parameter_upper_bound": 17825
+    },
+    {
+      "arm": "all_news",
+      "constant_fallback": false,
+      "fold": 0,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5431372549019607,
+        "auc": 0.5071361014636566,
+        "balanced_accuracy": 0.5094346936244107,
+        "brier": 0.24854834897625583,
+        "confusion": {
+          "false_down": 65,
+          "false_up": 401,
+          "true_down": 63,
+          "true_up": 491
+        },
+        "count": 1020,
+        "down_recall": 0.13577586206896552,
+        "log_loss": 0.6902416751447744,
+        "mcc": 0.02836395394142751,
+        "predicted_up": 892,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5186349714500474,
+        "probability_std": 0.02417020495023664,
+        "up_recall": 0.8830935251798561
+      },
+      "reused": true,
+      "seed": 42,
+      "selected_epoch": 9,
+      "selected_system": {
+        "accuracy": 0.5431372549019607,
+        "auc": 0.5071361014636566,
+        "balanced_accuracy": 0.5094346936244107,
+        "brier": 0.24854834897625583,
+        "confusion": {
+          "false_down": 65,
+          "false_up": 401,
+          "true_down": 63,
+          "true_up": 491
+        },
+        "count": 1020,
+        "down_recall": 0.13577586206896552,
+        "log_loss": 0.6902416751447744,
+        "mcc": 0.02836395394142751,
+        "predicted_up": 892,
+        "prevalence": 0.5450980392156862,
+        "probability_mean": 0.5186349714500474,
+        "probability_std": 0.02417020495023664,
+        "up_recall": 0.8830935251798561
+      },
+      "source_folder": "artifacts\\cmin_decay_48h_2026-10-14_v1\\fold_0\\pooled_uniform_42",
+      "structurally_used_module_parameter_upper_bound": 17825
+    },
+    {
+      "arm": "price_only",
+      "constant_fallback": false,
+      "fold": 1,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5426829268292683,
+        "auc": 0.5047565543071161,
+        "balanced_accuracy": 0.5,
+        "brier": 0.24856039497753243,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 450,
+          "true_down": 0,
+          "true_up": 534
+        },
+        "count": 984,
+        "down_recall": 0.0,
+        "log_loss": 0.6902662407114842,
+        "mcc": 0.0,
+        "predicted_up": 984,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5225845604289934,
+        "probability_std": 0.0030709378117325615,
+        "up_recall": 1.0
+      },
+      "reused": false,
+      "seed": 17,
+      "selected_epoch": 4,
+      "selected_system": {
+        "accuracy": 0.5426829268292683,
+        "auc": 0.5047565543071161,
+        "balanced_accuracy": 0.5,
+        "brier": 0.24856039497753243,
+        "confusion": {
+          "false_down": 0,
+          "false_up": 450,
+          "true_down": 0,
+          "true_up": 534
+        },
+        "count": 984,
+        "down_recall": 0.0,
+        "log_loss": 0.6902662407114842,
+        "mcc": 0.0,
+        "predicted_up": 984,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5225845604289934,
+        "probability_std": 0.0030709378117325615,
+        "up_recall": 1.0
+      },
+      "source_folder": "artifacts\\cmin_older_news_2026-10-14_v1\\price\\fold_1\\price_only_17",
+      "structurally_used_module_parameter_upper_bound": 15057
+    },
+    {
+      "arm": "price_only",
+      "constant_fallback": false,
+      "fold": 1,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.510253849354973,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24871055642602963,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.690566228547316,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5199208697669654,
+        "probability_std": 0.01318739178640474,
+        "up_recall": 0.9194756554307116
+      },
+      "reused": false,
+      "seed": 42,
+      "selected_epoch": 5,
+      "selected_system": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.510253849354973,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24871055642602963,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.690566228547316,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5199208697669654,
+        "probability_std": 0.01318739178640474,
+        "up_recall": 0.9194756554307116
+      },
+      "source_folder": "artifacts\\cmin_older_news_2026-10-14_v1\\price\\fold_1\\price_only_42",
+      "structurally_used_module_parameter_upper_bound": 15057
+    },
+    {
+      "arm": "recent_news",
+      "constant_fallback": false,
+      "fold": 1,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.5108281315022888,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24876649648855792,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6906786949442303,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5175987740736476,
+        "probability_std": 0.01266817901842333,
+        "up_recall": 0.9194756554307116
+      },
+      "reused": false,
+      "seed": 17,
+      "selected_epoch": 5,
+      "selected_system": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.5108281315022888,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24876649648855792,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6906786949442303,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5175987740736476,
+        "probability_std": 0.01266817901842333,
+        "up_recall": 0.9194756554307116
+      },
+      "source_folder": "artifacts\\cmin_older_news_2026-10-14_v1\\recent\\fold_1\\pooled_uniform_17",
+      "structurally_used_module_parameter_upper_bound": 17825
+    },
+    {
+      "arm": "recent_news",
+      "constant_fallback": false,
+      "fold": 1,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.5092800665834374,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24873029112323833,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6906059739619145,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5208609178618717,
+        "probability_std": 0.013163184128015778,
+        "up_recall": 0.9194756554307116
+      },
+      "reused": false,
+      "seed": 42,
+      "selected_epoch": 5,
+      "selected_system": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.5092800665834374,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24873029112323833,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6906059739619145,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5208609178618717,
+        "probability_std": 0.013163184128015778,
+        "up_recall": 0.9194756554307116
+      },
+      "source_folder": "artifacts\\cmin_older_news_2026-10-14_v1\\recent\\fold_1\\pooled_uniform_42",
+      "structurally_used_module_parameter_upper_bound": 17825
+    },
+    {
+      "arm": "all_news",
+      "constant_fallback": false,
+      "fold": 1,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.5093216812317936,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.2487449246903997,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6906356746110321,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5180358529702411,
+        "probability_std": 0.008251727109247233,
+        "up_recall": 0.9194756554307116
+      },
+      "reused": true,
+      "seed": 17,
+      "selected_epoch": 4,
+      "selected_system": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.5093216812317936,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.2487449246903997,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6906356746110321,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5180358529702411,
+        "probability_std": 0.008251727109247233,
+        "up_recall": 0.9194756554307116
+      },
+      "source_folder": "artifacts\\cmin_decay_48h_2026-10-14_v1\\fold_1\\pooled_uniform_17",
+      "structurally_used_module_parameter_upper_bound": 17825
+    },
+    {
+      "arm": "all_news",
+      "constant_fallback": false,
+      "fold": 1,
+      "parameter_count": 17825,
+      "raw": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.504812734082397,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24897149484146092,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6910893832403334,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5163453788260794,
+        "probability_std": 0.016102889981350062,
+        "up_recall": 0.9194756554307116
+      },
+      "reused": true,
+      "seed": 42,
+      "selected_epoch": 5,
+      "selected_system": {
+        "accuracy": 0.5386178861788617,
+        "auc": 0.504812734082397,
+        "balanced_accuracy": 0.5030711610486891,
+        "brier": 0.24897149484146092,
+        "confusion": {
+          "false_down": 43,
+          "false_up": 411,
+          "true_down": 39,
+          "true_up": 491
+        },
+        "count": 984,
+        "down_recall": 0.08666666666666667,
+        "log_loss": 0.6910893832403334,
+        "mcc": 0.011071316776170972,
+        "predicted_up": 902,
+        "prevalence": 0.5426829268292683,
+        "probability_mean": 0.5163453788260794,
+        "probability_std": 0.016102889981350062,
+        "up_recall": 0.9194756554307116
+      },
+      "source_folder": "artifacts\\cmin_decay_48h_2026-10-14_v1\\fold_1\\pooled_uniform_42",
+      "structurally_used_module_parameter_upper_bound": 17825
+    }
+  ],
+  "groups": [
+    {
+      "company_days": 1311,
+      "group": "recent_and_older",
+      "primary": {
+        "conditional_95_interval": [
+          4.371507737409172e-05,
+          0.0018017291048987515
+        ],
+        "delta_log_loss": 0.000921633742933943,
+        "first": "all_news",
+        "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+        "period_differences": [
+          {
+            "company_days": 676,
+            "delta_log_loss": 0.0015118528462863422,
+            "fold": 0,
+            "unique_dates": 85
+          },
+          {
+            "company_days": 635,
+            "delta_log_loss": 0.0002933060045619372,
+            "fold": 1,
+            "unique_dates": 81
+          }
+        ],
+        "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+        "second": "recent_news",
+        "seed_period_differences": [
+          {
+            "delta_log_loss": 0.0001932480927188381,
+            "fold": 0,
+            "seed": 17
+          },
+          {
+            "delta_log_loss": 0.002830457599853846,
+            "fold": 0,
+            "seed": 42
+          },
+          {
+            "delta_log_loss": 0.00011530937382231362,
+            "fold": 1,
+            "seed": 17
+          },
+          {
+            "delta_log_loss": 0.00047130263530156076,
+            "fold": 1,
+            "seed": 42
+          }
+        ]
+      },
+      "scope": "descriptive fixed mask group; differing composition, coverage and pooling; not semantic or causal identification",
+      "unique_dates": 166
+    },
+    {
+      "company_days": 402,
+      "group": "older_only",
+      "primary": {
+        "conditional_95_interval": [
+          -0.001346930399544375,
+          0.0005648214002439866
+        ],
+        "delta_log_loss": -0.00033848162533467896,
+        "first": "all_news",
+        "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+        "period_differences": [
+          {
+            "company_days": 202,
+            "delta_log_loss": -0.0006614789109375696,
+            "fold": 0,
+            "unique_dates": 75
+          },
+          {
+            "company_days": 200,
+            "delta_log_loss": -1.2254366875765453e-05,
+            "fold": 1,
+            "unique_dates": 69
+          }
+        ],
+        "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+        "second": "recent_news",
+        "seed_period_differences": [
+          {
+            "delta_log_loss": -0.0014695698241212816,
+            "fold": 0,
+            "seed": 17
+          },
+          {
+            "delta_log_loss": 0.00014661200224614252,
+            "fold": 0,
+            "seed": 42
+          },
+          {
+            "delta_log_loss": -0.0006317633325491767,
+            "fold": 1,
+            "seed": 17
+          },
+          {
+            "delta_log_loss": 0.0006072545987976458,
+            "fold": 1,
+            "seed": 42
+          }
+        ]
+      },
+      "scope": "descriptive fixed mask group; differing composition, coverage and pooling; not semantic or causal identification",
+      "unique_dates": 144
+    },
+    {
+      "company_days": 33,
+      "group": "recent_only",
+      "primary": {
+        "conditional_95_interval": [
+          -0.002137594927211166,
+          0.0006846381713496629
+        ],
+        "delta_log_loss": -0.0007118086409247702,
+        "first": "all_news",
+        "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+        "period_differences": [
+          {
+            "company_days": 15,
+            "delta_log_loss": 0.00010949761775822517,
+            "fold": 0,
+            "unique_dates": 15
+          },
+          {
+            "company_days": 18,
+            "delta_log_loss": -0.0013962305231606058,
+            "fold": 1,
+            "unique_dates": 15
+          }
+        ],
+        "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+        "second": "recent_news",
+        "seed_period_differences": [
+          {
+            "delta_log_loss": 0.0005427658664307166,
+            "fold": 0,
+            "seed": 17
+          },
+          {
+            "delta_log_loss": -0.0003237706309142663,
+            "fold": 0,
+            "seed": 42
+          },
+          {
+            "delta_log_loss": -0.0021071442222523884,
+            "fold": 1,
+            "seed": 17
+          },
+          {
+            "delta_log_loss": -0.0006853168240688231,
+            "fold": 1,
+            "seed": 42
+          }
+        ]
+      },
+      "scope": "descriptive fixed mask group; differing composition, coverage and pooling; not semantic or causal identification",
+      "unique_dates": 30
+    },
+    {
+      "company_days": 258,
+      "group": "empty",
+      "primary": {
+        "conditional_95_interval": [
+          -0.0005352170927003035,
+          0.0011595280500821508
+        ],
+        "delta_log_loss": 0.00028277410917740384,
+        "first": "all_news",
+        "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+        "period_differences": [
+          {
+            "company_days": 127,
+            "delta_log_loss": 0.0001177216474323774,
+            "fold": 0,
+            "unique_dates": 85
+          },
+          {
+            "company_days": 131,
+            "delta_log_loss": 0.00044278680109816103,
+            "fold": 1,
+            "unique_dates": 82
+          }
+        ],
+        "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+        "second": "recent_news",
+        "seed_period_differences": [
+          {
+            "delta_log_loss": -0.00012763550160881917,
+            "fold": 0,
+            "seed": 17
+          },
+          {
+            "delta_log_loss": 0.00036307879647357397,
+            "fold": 0,
+            "seed": 42
+          },
+          {
+            "delta_log_loss": 0.000371967956231236,
+            "fold": 1,
+            "seed": 17
+          },
+          {
+            "delta_log_loss": 0.000513605645965086,
+            "fold": 1,
+            "seed": 42
+          }
+        ]
+      },
+      "scope": "descriptive fixed mask group; differing composition, coverage and pooling; not semantic or causal identification",
+      "unique_dates": 167
+    }
+  ],
+  "id": "cmin_older_news_2026-10-14_v1",
+  "metrics": {
+    "all_news": {
+      "mean_seed_accuracy": 0.5426646706586826,
+      "mean_seed_log_loss": 0.690210259789409,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.5099386706281492,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.24830922574648853,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897626045308349,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247235952564632,
+          "probability_std": 0.015952466439908324,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5409181636726547,
+          "auc": 0.5041189047035914,
+          "balanced_accuracy": 0.5062574026860458,
+          "brier": 0.24875612119749427,
+          "confusion": {
+            "false_down": 108,
+            "false_up": 812,
+            "true_down": 102,
+            "true_up": 982
+          },
+          "count": 2004,
+          "down_recall": 0.11159737417943107,
+          "log_loss": 0.690657915047983,
+          "mcc": 0.020351179275438596,
+          "predicted_up": 1794,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175107403412726,
+          "probability_std": 0.020639265913208263,
+          "up_recall": 0.9009174311926605
+        }
+      ]
+    },
+    "equal_probability": {
+      "mean_seed_accuracy": 0.5439121756487026,
+      "mean_seed_log_loss": 0.6931471805599454,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.5,
+          "balanced_accuracy": 0.5,
+          "brier": 0.25,
+          "confusion": {
+            "false_down": 0,
+            "false_up": 914,
+            "true_down": 0,
+            "true_up": 1090
+          },
+          "count": 2004,
+          "down_recall": 0.0,
+          "log_loss": 0.6931471805599454,
+          "mcc": 0.0,
+          "predicted_up": 2004,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5,
+          "probability_std": 0.0,
+          "up_recall": 1.0
+        }
+      ]
+    },
+    "price_only": {
+      "mean_seed_accuracy": 0.5459081836327345,
+      "mean_seed_log_loss": 0.6897711096503143,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5464071856287425,
+          "auc": 0.5097474554835083,
+          "balanced_accuracy": 0.506268443980487,
+          "brier": 0.24823921676413915,
+          "confusion": {
+            "false_down": 40,
+            "false_up": 869,
+            "true_down": 45,
+            "true_up": 1050
+          },
+          "count": 2004,
+          "down_recall": 0.04923413566739606,
+          "log_loss": 0.689622409736171,
+          "mcc": 0.030983404812422455,
+          "predicted_up": 1919,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.526527256757166,
+          "probability_std": 0.011408403899664337,
+          "up_recall": 0.963302752293578
+        },
+        {
+          "accuracy": 0.5454091816367266,
+          "auc": 0.5131471704173609,
+          "balanced_accuracy": 0.5102091823419589,
+          "brier": 0.2483877543343645,
+          "confusion": {
+            "false_down": 97,
+            "false_up": 814,
+            "true_down": 100,
+            "true_up": 993
+          },
+          "count": 2004,
+          "down_recall": 0.10940919037199125,
+          "log_loss": 0.6899198095644578,
+          "mcc": 0.03415821075437956,
+          "predicted_up": 1807,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5210312743457648,
+          "probability_std": 0.019230481255293655,
+          "up_recall": 0.9110091743119266
+        }
+      ]
+    },
+    "recent_news": {
+      "mean_seed_accuracy": 0.5426646706586826,
+      "mean_seed_log_loss": 0.6896505500795191,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5414171656686627,
+          "auc": 0.5127797964386807,
+          "balanced_accuracy": 0.5013279665950656,
+          "brier": 0.24836337593108307,
+          "confusion": {
+            "false_down": 46,
+            "false_up": 873,
+            "true_down": 41,
+            "true_up": 1044
+          },
+          "count": 2004,
+          "down_recall": 0.044857768052516414,
+          "log_loss": 0.6898706971567676,
+          "mcc": 0.006491316881587853,
+          "predicted_up": 1917,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5241884658069133,
+          "probability_std": 0.013824472952591475,
+          "up_recall": 0.9577981651376147
+        },
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.5182994399052456,
+          "balanced_accuracy": 0.5073314195089635,
+          "brier": 0.24814408176130595,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 831,
+            "true_down": 83,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09080962800875274,
+          "log_loss": 0.6894304030022707,
+          "mcc": 0.02649583531831414,
+          "predicted_up": 1838,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5238934281796169,
+          "probability_std": 0.018299892513315485,
+          "up_recall": 0.9238532110091743
+        }
+      ]
+    },
+    "system_all_news": {
+      "mean_seed_accuracy": 0.5426646706586826,
+      "mean_seed_log_loss": 0.690210259789409,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5444111776447106,
+          "auc": 0.5099386706281492,
+          "balanced_accuracy": 0.5078784654608235,
+          "brier": 0.24830922574648853,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 830,
+            "true_down": 84,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09190371991247265,
+          "log_loss": 0.6897626045308349,
+          "mcc": 0.028395215183375302,
+          "predicted_up": 1837,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5247235952564632,
+          "probability_std": 0.015952466439908324,
+          "up_recall": 0.9238532110091743
+        },
+        {
+          "accuracy": 0.5409181636726547,
+          "auc": 0.5041189047035914,
+          "balanced_accuracy": 0.5062574026860458,
+          "brier": 0.24875612119749427,
+          "confusion": {
+            "false_down": 108,
+            "false_up": 812,
+            "true_down": 102,
+            "true_up": 982
+          },
+          "count": 2004,
+          "down_recall": 0.11159737417943107,
+          "log_loss": 0.690657915047983,
+          "mcc": 0.020351179275438596,
+          "predicted_up": 1794,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5175107403412726,
+          "probability_std": 0.020639265913208263,
+          "up_recall": 0.9009174311926605
+        }
+      ]
+    },
+    "system_price_only": {
+      "mean_seed_accuracy": 0.5459081836327345,
+      "mean_seed_log_loss": 0.6897711096503143,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5464071856287425,
+          "auc": 0.5097474554835083,
+          "balanced_accuracy": 0.506268443980487,
+          "brier": 0.24823921676413915,
+          "confusion": {
+            "false_down": 40,
+            "false_up": 869,
+            "true_down": 45,
+            "true_up": 1050
+          },
+          "count": 2004,
+          "down_recall": 0.04923413566739606,
+          "log_loss": 0.689622409736171,
+          "mcc": 0.030983404812422455,
+          "predicted_up": 1919,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.526527256757166,
+          "probability_std": 0.011408403899664337,
+          "up_recall": 0.963302752293578
+        },
+        {
+          "accuracy": 0.5454091816367266,
+          "auc": 0.5131471704173609,
+          "balanced_accuracy": 0.5102091823419589,
+          "brier": 0.2483877543343645,
+          "confusion": {
+            "false_down": 97,
+            "false_up": 814,
+            "true_down": 100,
+            "true_up": 993
+          },
+          "count": 2004,
+          "down_recall": 0.10940919037199125,
+          "log_loss": 0.6899198095644578,
+          "mcc": 0.03415821075437956,
+          "predicted_up": 1807,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5210312743457648,
+          "probability_std": 0.019230481255293655,
+          "up_recall": 0.9110091743119266
+        }
+      ]
+    },
+    "system_recent_news": {
+      "mean_seed_accuracy": 0.5426646706586826,
+      "mean_seed_log_loss": 0.6896505500795191,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5414171656686627,
+          "auc": 0.5127797964386807,
+          "balanced_accuracy": 0.5013279665950656,
+          "brier": 0.24836337593108307,
+          "confusion": {
+            "false_down": 46,
+            "false_up": 873,
+            "true_down": 41,
+            "true_up": 1044
+          },
+          "count": 2004,
+          "down_recall": 0.044857768052516414,
+          "log_loss": 0.6898706971567676,
+          "mcc": 0.006491316881587853,
+          "predicted_up": 1917,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5241884658069133,
+          "probability_std": 0.013824472952591475,
+          "up_recall": 0.9577981651376147
+        },
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.5182994399052456,
+          "balanced_accuracy": 0.5073314195089635,
+          "brier": 0.24814408176130595,
+          "confusion": {
+            "false_down": 83,
+            "false_up": 831,
+            "true_down": 83,
+            "true_up": 1007
+          },
+          "count": 2004,
+          "down_recall": 0.09080962800875274,
+          "log_loss": 0.6894304030022707,
+          "mcc": 0.02649583531831414,
+          "predicted_up": 1838,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5238934281796169,
+          "probability_std": 0.018299892513315485,
+          "up_recall": 0.9238532110091743
+        }
+      ]
+    },
+    "training_prior": {
+      "mean_seed_accuracy": 0.5439121756487026,
+      "mean_seed_log_loss": 0.6898196170814205,
+      "seed_metrics": [
+        {
+          "accuracy": 0.5439121756487026,
+          "auc": 0.5012165498966134,
+          "balanced_accuracy": 0.5,
+          "brier": 0.24833752776556994,
+          "confusion": {
+            "false_down": 0,
+            "false_up": 914,
+            "true_down": 0,
+            "true_up": 1090
+          },
+          "count": 2004,
+          "down_recall": 0.0,
+          "log_loss": 0.6898196170814205,
+          "mcc": 0.0,
+          "predicted_up": 2004,
+          "prevalence": 0.5439121756487026,
+          "probability_mean": 0.5275639572972205,
+          "probability_std": 0.0011870169352386816,
+          "up_recall": 1.0
+        }
+      ]
+    }
+  },
+  "primary": {
+    "conditional_95_interval": [
+      -3.111402446987136e-05,
+      0.0011547051697653908
+    ],
+    "delta_log_loss": 0.000559709709889776,
+    "first": "all_news",
+    "method": "2,000 paired circular five-date blocks per fold; stocks retained together; mean seed losses, not ensemble",
+    "period_differences": [
+      {
+        "company_days": 1020,
+        "delta_log_loss": 0.0008872420564416309,
+        "fold": 0,
+        "unique_dates": 85
+      },
+      {
+        "company_days": 984,
+        "delta_log_loss": 0.0002201944726104118,
+        "fold": 1,
+        "unique_dates": 82
+      }
+    ],
+    "scope": "conditional on fitted models; does not include training uncertainty or establish causality",
+    "second": "recent_news",
+    "seed_period_differences": [
+      {
+        "delta_log_loss": -0.00017086824951218003,
+        "fold": 0,
+        "seed": 17
+      },
+      {
+        "delta_log_loss": 0.0019453523623954418,
+        "fold": 0,
+        "seed": 42
+      },
+      {
+        "delta_log_loss": -4.302033319808665e-05,
+        "fold": 1,
+        "seed": 17
+      },
+      {
+        "delta_log_loss": 0.00048340927841891023,
+        "fold": 1,
+        "seed": 42
+      }
+    ]
+  },
+  "scope": "exploratory predictive value of older available headlines; proxy arrival ages, not publication diffusion",
+  "source_script_sha256": "1ae237e266b7c6e52d1f79ff8087ff7aa0169b788eb63392c56342d1971ddbbe",
+  "utc": "2026-10-14T11:32:25.335545+00:00"
+}

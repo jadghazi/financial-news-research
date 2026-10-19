@@ -1,0 +1,74 @@
+{
+  "arms": [
+    "price_only",
+    "mean_news",
+    "finin"
+  ],
+  "attention_style": "plain",
+  "availability_delay_calendar_days": 2,
+  "batch_size": 64,
+  "development_target_before": "2021-05-01",
+  "dropout": 0.2,
+  "epochs": 12,
+  "headlines_per_arrival_session": 6,
+  "history_sessions": 5,
+  "id": "cmin_timing_2026-10-19_v1",
+  "learning_rate": 0.0003,
+  "maximum_additional_encoding_seconds": 600,
+  "maximum_feature_items": 80000,
+  "maximum_neural_fits": 12,
+  "maximum_total_neural_seconds": 1800,
+  "meaningful_log_loss_improvement": 0.005,
+  "new_policies": [
+    "date0",
+    "delay1",
+    "clock_ny"
+  ],
+  "policies": [
+    "delay2",
+    "date0",
+    "delay1",
+    "clock_ny"
+  ],
+  "primary_metric": "paired evaluation log loss, equal weight per company-day; date-block uncertainty",
+  "publication_age_basis": "UTC midnight of source date; uncertain proxy, not verified publication time",
+  "reserved_test_start": "2021-09-01",
+  "seeds": [
+    17,
+    42
+  ],
+  "selection_rule": "first 12 tickers sorted by SHA256('CMIN-student-panel-v1:' + ticker), before outcomes",
+  "shared_preprocessing": "original delay2 training-only scalers; original feature indices preserved",
+  "source_commit": "3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97",
+  "stop_rule": "no broad tuning or automatic dataset changes; retain negative/inconclusive evidence",
+  "study_scope": "baseline readiness for later interaction, decay and fusion tests; conditional daily prediction, no causal or trading claim",
+  "temporal_aggregation": "concat",
+  "tickers": [
+    "AEP",
+    "GE",
+    "SCHW",
+    "AAPL",
+    "ADBE",
+    "WELL",
+    "T",
+    "TSLA",
+    "DIS",
+    "ASML",
+    "JPM",
+    "FB"
+  ],
+  "weight_decay": 0.01,
+  "width": 16,
+  "windows": [
+    [
+      "2020-01-01",
+      "2020-05-01",
+      "2020-09-01"
+    ],
+    [
+      "2020-09-01",
+      "2021-01-01",
+      "2021-05-01"
+    ]
+  ]
+}

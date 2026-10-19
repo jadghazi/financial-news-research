@@ -1,0 +1,15 @@
+{
+  "actual_training_initial_states_matched": 12,
+  "independent_review": "FINAL_REVIEW.md",
+  "new_convex_fits": 0,
+  "new_neural_fits": 8,
+  "new_training_ceiling_seconds": 1200,
+  "new_training_seconds": 584.5619999999981,
+  "paired_initial_state_constructions": 8,
+  "prefit_coverage_records_verified": 2004,
+  "prefit_mask_and_price_invariants_checked": true,
+  "protected_prior_files_unchanged": 1085,
+  "reused_all_news_fits": 4,
+  "scope": "checks of implementation/provenance, not proof of forecasting usefulness",
+  "subgroup_full_calendar_primary_reproduced": true
+}

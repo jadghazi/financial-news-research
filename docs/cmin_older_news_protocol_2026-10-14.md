@@ -1,0 +1,31 @@
+# Older available news: frozen narrow-question protocol — 2026-10-14
+
+User authorization: check whether older available headlines add forecasting information beyond the newest available news, and report whether the finding is useful. This protocol is saved before new fits. Configuration: `configs/cmin_older_news_v1.json`; new output: `artifacts/cmin_older_news_2026-10-14_v1/`.
+
+## Comparison and information sets
+
+Three matched pooled model conditions: (1) prices plus fixed company identity, no news; (2) the same prices plus only the forecast-close session's news-arrival bucket; (3) the same prices plus that bucket and the four preceding arrival-session buckets. All retain five exchange-session price histories and the same 96-value MLP geometry (80 market + 16 pooled news). The no-news vector is zero; its news parameters are unused, so equal total parameter counts do not imply equal active capacity. Both news models retain the same headline/sentiment fusion, interaction and market-query weighting, with uniform temporal pooling over nonempty retained buckets. Adding old news changes coverage and normalized allocation as well as content.
+
+"Recent/newest" means the current proxy-arrival bucket, not the latest nonempty bucket and not fresh verified publication. Empty current-news days remain included. "Older" means ages 1–4 trading sessions since proxy arrival. Source date D is provisionally available from D+2 calendar days at midnight UTC, entering the first eligible exchange close. Exact source timezone/publication/availability is unverified. At forecast close d, predict adjusted close q > close d for the immediately next exchange session q. No target horizon changes or future-magnitude filtering.
+
+Reuse audited pinned sources, all 12 companies, all dates, headline cap, frozen RoBERTa/sentiment cache, labels, training-only transforms and chronological purged plans. Transform fitting uses the original unique five-session training-history population in every condition; no held-out fitting. No acquisition/encoding/new cohort selection. Reserved late-2021 outcomes remain unopened.
+
+## Reuse, fitting and budget
+
+The all-five-news condition is exactly the four completed `pooled_uniform` fits from `artifacts/cmin_decay_48h_2026-10-14_v1/`. Reuse those saved predictions/checkpoints without retraining. They were already inspected; this entire study is exploratory. Before reuse, verify source hashes, configuration/hyperparameters, plans, scalers, labels, checkpoint artifacts and paired initial states against the new conditions. Preserve both earlier studies and all negative evidence.
+
+Train only pooled price and current-bucket news: two seeds 17/42, two original chronological periods, four fits each, eight new fits maximum. The unchanged existing engine runs separate components with fixed 600-second ceilings, totaling at most 1,200 new neural-training seconds, checked at epoch boundaries. Twelve epochs, batch 64, width 16, dropout 0.2, plain attention, AdamW LR 0.0003/weight decay 0.01, clip 1 and four CPU threads. Lowest raw validation log-loss epoch; validation-selected prevalence fallback reported separately. No tuning, additional arms or automatic repeats. Copy already verified fitted logistic references rather than fitting them again.
+
+Evaluation periods remain May–August 2020 and January–April 2021. Retain initial/selected/final states, completed epochs, dated predictions, failures and full code/environment provenance. Root and per-component snapshots preserve the actual executed code, including untracked source files.
+
+## Declared analysis and usefulness
+
+Primary: mean raw seed-model log-loss difference, all-five-news minus current-bucket-only news, on all identical evaluation company-days. Practical decrease criterion 0.005, inherited from prior studies. Report seed/period effects and 2,000 paired circular five-date-block conditional 95% intervals, retaining companies together and periods separately. Loss averages are not probability ensembles; intervals condition on fits and omit training uncertainty. A candidate useful relative addition requires a decrease at least 0.005, interval upper bound below zero, improvement in both period means and at least three of four seed-period pairs. Smaller, inconsistent or uncertain differences are inconclusive rather than equivalence.
+
+Secondary/contextual comparisons: all-news and recent-news versus the newly matched pooled price condition and training-prevalence probabilities; also 50/50 probabilities. An overall useful forecasting claim additionally needs improvement over price and prevalence, not just recovery from a weaker recent-news model. Report raw and validation-selected systems, accuracy/Brier/AUC/MCC, class counts, probability spread, checkpoint epochs and learning curves. No trading claim.
+
+Before results, classify each evaluation row using news masks alone as recent+older, older-only, recent-only or empty. Preserve all rows in the primary analysis. Report group counts/coverage and group mean seed losses/differences with conditional intervals where groups are nonempty. These are descriptive, correlated exploratory checks, not outcome-selected cohorts or independent confirmations. In particular, improvement on recent+older cases is more informative than an improvement driven entirely by filling empty current-news days. Even then, extra coverage/volume and normalization may explain effects; headline-semantic value is not isolated. No automatic extra training to pursue a favorable subgroup.
+
+Interpretation: this asks whether older available news helps this fixed predictive setup. It does not measure how information enters market prices, estimate publication-time response or establish information diffusion. FININ uses historical daily news representations (sections 4.2–4.3, Eq. 7); this is an independent public-data adaptation, not empirical replication. Existing source timing, pretrained-model provenance and stock-selection limitations remain.
+
+Independent skeptical review directly verifies source/initial-state matching, reuse integrity, predictions, primary contrasts and group evidence before final reporting. Agent permissions do not enforce read-only access; require read-only conduct. Stop after this comparison and its declared analysis, regardless of outcome.

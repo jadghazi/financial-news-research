@@ -1,0 +1,44 @@
+[
+  {
+    "fold": 0,
+    "groups": {
+      "empty": {
+        "company_days": 127,
+        "unique_dates": 85
+      },
+      "older_only": {
+        "company_days": 202,
+        "unique_dates": 75
+      },
+      "recent_and_older": {
+        "company_days": 676,
+        "unique_dates": 85
+      },
+      "recent_only": {
+        "company_days": 15,
+        "unique_dates": 15
+      }
+    }
+  },
+  {
+    "fold": 1,
+    "groups": {
+      "empty": {
+        "company_days": 131,
+        "unique_dates": 82
+      },
+      "older_only": {
+        "company_days": 200,
+        "unique_dates": 69
+      },
+      "recent_and_older": {
+        "company_days": 635,
+        "unique_dates": 81
+      },
+      "recent_only": {
+        "company_days": 18,
+        "unique_dates": 15
+      }
+    }
+  }
+]

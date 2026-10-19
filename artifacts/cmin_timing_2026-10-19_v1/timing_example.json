@@ -1,0 +1,170 @@
+{
+  "delay2": {
+    "forecast_cutoff": "2020-08-26 close",
+    "target_session": "2020-08-27",
+    "newest_bucket_stories": [
+      {
+        "text": "Apple Inc., Dow Inc. share gains lead Dow's 182-point climb",
+        "source_date": "2020-08-24",
+        "source_time_naive": "2020-08-24 13:45:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Top 5 Corporate Giants Up More Than 15% Since Last Earnings",
+        "source_date": "2020-08-24",
+        "source_time_naive": "2020-08-24 11:10:11",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Is The Stock Market Becoming A Safe-Haven For Returns?",
+        "source_date": "2020-08-24",
+        "source_time_naive": "2020-08-24 21:22:09",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "The Stock Market Is Getting Its Own Plasma Infusion",
+        "source_date": "2020-08-24",
+        "source_time_naive": "2020-08-24 12:08:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Here\u2019s how Apple\u2019s stock split will change the pecking order in the 124-year old Dow industrials",
+        "source_date": "2020-08-24",
+        "source_time_naive": "2020-08-24 17:26:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Microsoft Sides With Epic In Legal Battle Against Apple, Says Starving Unreal Engine Harms Developers, Gamers",
+        "source_date": "2020-08-24",
+        "source_time_naive": "2020-08-24 03:28:06",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      }
+    ]
+  },
+  "date0": {
+    "forecast_cutoff": "2020-08-26 close",
+    "target_session": "2020-08-27",
+    "newest_bucket_stories": [
+      {
+        "text": "Apple stock rises after Wedbush hikes target to new Street high of $600",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 12:51:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Microsoft Is Breaking Out - Here's the Trade",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 16:05:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Fitbit Takes Another Direct Shot at Apple Watch",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 12:00:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Wedbush Ups Apple Price Target To Street-High $600 Before 'Transformational' iPhone Cycle",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 14:23:12",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "The Zacks Analyst Blog Highlights: Apple, NIKE, Walt Disney, PG and MRK",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 17:12:05",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Wall Street Finishes Mixed as Apple Split Forces Dow Reshuffle",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 07:20:06",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      }
+    ]
+  },
+  "delay1": {
+    "forecast_cutoff": "2020-08-26 close",
+    "target_session": "2020-08-27",
+    "newest_bucket_stories": [
+      {
+        "text": "GLOBAL MARKETS-Stocks rise as U.S.-China phone call boosts optimism, euro gains",
+        "source_date": "2020-08-25",
+        "source_time_naive": "2020-08-25 20:52:54",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "What To Know About Spaces And Apple's Continued AR/VR Push",
+        "source_date": "2020-08-25",
+        "source_time_naive": "2020-08-25 22:10:24",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Raytheon Technologies Corp., Exxon Mobil share losses contribute to Dow's nearly 75-point drop",
+        "source_date": "2020-08-25",
+        "source_time_naive": "2020-08-25 14:06:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "The Dow's Pending Changes Show Why the Dow Should Be Ignored",
+        "source_date": "2020-08-25",
+        "source_time_naive": "2020-08-25 18:53:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Apple Must Restore Unreal Engine For Now, But 'Fortnite' Proves An Epic Fail With Court",
+        "source_date": "2020-08-25",
+        "source_time_naive": "2020-08-25 06:14:31",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      },
+      {
+        "text": "Apple Inc. stock falls Tuesday, underperforms market",
+        "source_date": "2020-08-25",
+        "source_time_naive": "2020-08-25 20:25:00",
+        "available_utc": "2020-08-26T00:00:00+00:00"
+      }
+    ]
+  },
+  "clock_ny": {
+    "forecast_cutoff": "2020-08-26 close",
+    "target_session": "2020-08-27",
+    "newest_bucket_stories": [
+      {
+        "text": "Apple stock rises after Wedbush hikes target to new Street high of $600",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 12:51:00",
+        "available_utc": "2020-08-26T16:51:00+00:00"
+      },
+      {
+        "text": "Fitbit Takes Another Direct Shot at Apple Watch",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 12:00:00",
+        "available_utc": "2020-08-26T16:00:00+00:00"
+      },
+      {
+        "text": "GLOBAL MARKETS-Stocks rise as U.S.-China phone call boosts optimism, euro gains",
+        "source_date": "2020-08-25",
+        "source_time_naive": "2020-08-25 20:52:54",
+        "available_utc": "2020-08-26T00:52:54+00:00"
+      },
+      {
+        "text": "What To Know About Spaces And Apple's Continued AR/VR Push",
+        "source_date": "2020-08-25",
+        "source_time_naive": "2020-08-25 22:10:24",
+        "available_utc": "2020-08-26T02:10:24+00:00"
+      },
+      {
+        "text": "Wedbush Ups Apple Price Target To Street-High $600 Before 'Transformational' iPhone Cycle",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 14:23:12",
+        "available_utc": "2020-08-26T18:23:12+00:00"
+      },
+      {
+        "text": "Wall Street Finishes Mixed as Apple Split Forces Dow Reshuffle",
+        "source_date": "2020-08-26",
+        "source_time_naive": "2020-08-26 07:20:06",
+        "available_utc": "2020-08-26T11:20:06+00:00"
+      }
+    ]
+  }
+}

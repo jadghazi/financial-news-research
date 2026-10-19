@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "PROTOCOL.md": "20eac738477c7322c0b95fbd1d1a03c2775e025aeef10cc8122eddbb0d81c551",
+    "config.json": "fec926187a76f3887c0018f61dfbc2e5d177b9919b6a5fe7d4358cc8b44ba12b",
+    "coverage_before_fitting.json": "d55b9aefe78feb0d031e58136014e26ca24eec9a4ba3d1b9e6d50c15cd5baf1a",
+    "identity.json": "49744fb8d3203ccc3b8840b233ad377a18890e5a8a9a74d6c5a5d50d5c8e8a1f",
+    "plans.json": "49e673877639abdfb72f16cc7ccccab220b0a2eabc3517e27f5d1f8a072220b5",
+    "preflight.json": "eae4ee4fe9f35545d5b24627cd93b21ec4e0fd00ce726981858672c592240816",
+    "price_config.json": "ed15ea9500b5c71a4d70b223510f3d7beb933a1c2cf82a53b028253dac8a596f",
+    "recent_config.json": "ff277d8a801b47525eca643a2ad49c3070e71af46e86777f598a8ac2595072bc",
+    "row_controls.json": "86f822af6c751e41a71cd6ff04374bd54af4753f63d18f54a146fb267a5f3797",
+    "wrapper_source.py": "1ae237e266b7c6e52d1f79ff8087ff7aa0169b788eb63392c56342d1971ddbbe"
+  },
+  "scope": "supplement seals metadata independently checked by reviewer during price fitting; active engine/wrapper unchanged"
+}

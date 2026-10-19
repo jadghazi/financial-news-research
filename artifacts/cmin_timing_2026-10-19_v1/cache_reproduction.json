@@ -1,0 +1,36 @@
+{
+  "sentiment": {
+    "all_appended_values_equal": true,
+    "all_original_values_equal": true,
+    "identical_pinned_provenance": true,
+    "maximum_absolute_difference": 0.0,
+    "sample_indices": [
+      0,
+      37,
+      207,
+      1042,
+      2048,
+      4096,
+      8192,
+      29936
+    ],
+    "truncated_sample_texts": 0
+  },
+  "text": {
+    "all_appended_values_equal": true,
+    "all_original_values_equal": true,
+    "identical_pinned_provenance": true,
+    "maximum_absolute_difference": 1.9073486328125e-06,
+    "sample_indices": [
+      0,
+      37,
+      207,
+      1042,
+      2048,
+      4096,
+      8192,
+      29936
+    ],
+    "truncated_sample_texts": 0
+  }
+}

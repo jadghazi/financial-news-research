@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-14T12:20:41.161069+00:00",
+  "pages": 2,
+  "latex_compilation": "success; workspace copy of bundled Tectonic; cached resources plus six missing font files",
+  "app_compiler_limitation": "packaged binary could not start: Windows Access denied; original source preserved",
+  "tex_sha256": "70a2325296affe73012600483624e26a606d34a142d63c3e87259db5aabf305e",
+  "pdf_sha256": "a3f37bb10ea66e59b6e5a111b631109cd0ed4848baab06392cfef042c255b2b7",
+  "no_overfull_warnings": true,
+  "pages_rendered_and_visually_checked": true,
+  "numeric_values_checked_against_saved_reports": true,
+  "independent_document_review": "diagram/wording checked by skeptical_reviewer; price/query and ordinary-week clarifications incorporated",
+  "evidence_sources_sha256": {
+    "reports/cmin_news_decay_2026-10-14.md": "a69126bd6f910aaa7f1babaa24b9af1d508785afdba81e2a297def428741597a",
+    "reports/cmin_older_news_2026-10-14.md": "9f429fac3a735c954a8f3dd762025ea869a43a88ce7c445ae3d24e3c0a47628f",
+    "docs/cmin_pipeline.md": "cfc130220caadcb4b528ff62c70691a584fb1f730c00a9e71bc6619daff09202",
+    "artifacts/cmin_decay_48h_2026-10-14_v1/FINAL_REVIEW.md": "bbf0f803d3566dd4cc1e8019f7b5ba096bbdcdea139390d5641ec537ef7938c9",
+    "artifacts/cmin_older_news_2026-10-14_v1/FINAL_REVIEW.md": "211ff9b87def0dee84b159c90dd3071d8da230188c345fee8006188fe8022e8f"
+  },
+  "scope": "documentation only; no new fitting or experiment artifacts modified"
+}

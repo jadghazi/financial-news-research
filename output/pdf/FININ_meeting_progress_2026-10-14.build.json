@@ -1,0 +1,23 @@
+{
+  "pages": 3,
+  "compiler": "local bundled Tectonic copy; successful LaTeX compilation",
+  "app_preview_limitation": "Windows denied launch of packaged compiler; source remains editable",
+  "all_pages_rendered_and_visually_verified": true,
+  "overfull_or_underfull_warnings": false,
+  "new_neural_fits": 4,
+  "new_neural_seconds": 267.641,
+  "reserved_period_opened": false,
+  "subagents_used": false,
+  "review": "main-agent direct saved-source/tensor/checkpoint/prediction inspection; no independent-agent review",
+  "pdf_sha256": "f206cd2a84be23b728036b66439a51c01a84be7cc1e7f50dd5d8b036678a437f",
+  "sources_sha256": {
+    "output/pdf/FININ_meeting_progress_2026-10-14.tex": "9ad3c476cbf38bef25adf9c114306f5eb659a163bb6e8b8241a6a7e0c3d158c9",
+    "AGENTS.md": "f47d3cfb77f7d12585583d7fbf182a621311beea4f3e77d04900723e56a227a5",
+    "reports/cmin_interactions_2026-10-14.md": "3a6c2460dff1105bb12a9075b52f629162827120a9c314f434d140c514329220",
+    "artifacts/cmin_interaction_2026-10-14_v1/interaction_analysis.json": "c47b16550c2d2f8e3cc20acb7208c4f7bb87a152de003106432c3385baa03eff",
+    "artifacts/diagnostics/cmin_interactions_meeting_2026-10-14_v1/summary.json": "59fa76566f5a27c8d166e5f39f5b4b210ebf6da0796169eb0b0ffda9f6866871",
+    "artifacts/diagnostics/cmin_news_consumption_2026-10-14/examples.json": "f32a871640ec1be851f3dbb8648902d62d64895f0b4325e3b115562a466b8d2f",
+    "artifacts/cmin_decay_48h_2026-10-14_v1/analysis/summary.json": "0264db74472a300a0f408c81669b518cab2debfc7905a99b45fd711cd8bd0deb",
+    "artifacts/cmin_older_news_2026-10-14_v1/analysis/summary.json": "5347385f6b70d81d53b692a54b8e6f267b84fef168bbda6eac9bdb7539116420"
+  }
+}
