@@ -1,4 +1,7 @@
-"""Replay the deterministic source-URL date audit; no inference or training."""
+"""Replay the deterministic source-URL date audit; no inference or training.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
+"""
 import argparse
 from collections import defaultdict
 import json

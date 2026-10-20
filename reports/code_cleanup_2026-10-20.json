@@ -1,0 +1,890 @@
+{
+  "created_utc": "2026-10-20T15:05:41.956320+00:00",
+  "base_commit": "3b3f1f76add1ce162aff8fd43fe1bab1af9090cd",
+  "scope": "User-authorized removal of retired prototype/rebuild execution paths and outdated planning/hardware notes; preserve scientific results and original source snapshots. Active model arithmetic is unchanged; shared helpers are extracted.",
+  "removed": [
+    {
+      "path": ".codex/agents/literature-researcher.toml",
+      "sha256": "a1f4c43adc61051159d965d180e8578c5c21c919cce93f50728abba6ed554c05"
+    },
+    {
+      "path": ".codex/agents/skeptical-reviewer.toml",
+      "sha256": "2b42f519b7337747862766d8796026dfc5e820f6335fc0d295448af3b64f2057"
+    },
+    {
+      "path": ".codex/config.toml",
+      "sha256": "7df99a9afc930c62dc6e4610f899f9201d72000240e8a4e3b117588acb7d8605"
+    },
+    {
+      "path": "REPRODUCTION_PLAN.md",
+      "sha256": "8dffb28b4b872662bf8aaab5501a8e3fdc3348089c1ac92830cdb78657cb4410"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "b69b95a72fd76d4de4722bed5a199fed1f88b3cd26c1a79b99d3d0037a2e2506"
+    },
+    {
+      "path": "docs/cmin_decay_proposal_2026-10-14.md",
+      "sha256": "a441bc9cbd4e936e2aceff41f5bdaa51f4cb603208171109511567eb2a767a46"
+    },
+    {
+      "path": "docs/reproduction_v2.md",
+      "sha256": "6bfa40d860b5128f1595ac96e73a3aecf2c5de321949eb0fcf09f35790188482"
+    },
+    {
+      "path": "docs/runbook.md",
+      "sha256": "601d75739a56af413e417613dbf9038544caad0bccbdb3524c2c7f86b3b515fd"
+    },
+    {
+      "path": "scripts/01_download_nifty.py",
+      "sha256": "5a870ba81f70982727114d86a493f8396bf61c0f1178d65435d82058acdd9787"
+    },
+    {
+      "path": "scripts/02_audit_nifty.py",
+      "sha256": "c7c1c07ff7b6c21d9235da35fc7e39b9bcb5cffb819236ee56d9cf07c37d3f4d"
+    },
+    {
+      "path": "scripts/03_prepare_data.py",
+      "sha256": "0b5a5e5225f61f2a58fa2aef78269d402bcc92ea471cc01c481cb6750af56381"
+    },
+    {
+      "path": "scripts/04_cache_features.py",
+      "sha256": "be9450b7e7c0a01fbf9507d8dfb5471842054c215fab2afdeffc141682409e58"
+    },
+    {
+      "path": "scripts/05_run_experiments.py",
+      "sha256": "2023db51ccb7a5415ec4050f2d803e2c0a835d17283e02f5b9968783ed7ff9f4"
+    },
+    {
+      "path": "scripts/06_export_results.py",
+      "sha256": "3f0aeed3d6fcb666bb3c70707521443cefb799142d6e73c597963dd9198fb1f0"
+    },
+    {
+      "path": "scripts/07_build_meeting_handout.py",
+      "sha256": "cb025e539e38b77b5b75617e899481b46b231950867e005ca757a085ff73b5c1"
+    },
+    {
+      "path": "scripts/08_verify_prototype.py",
+      "sha256": "0c8632dda93098a75bf5a05124f104b32e0c7664220baf8c2807ffba901f7bbb"
+    },
+    {
+      "path": "scripts/09_build_progress_report.py",
+      "sha256": "1583b54777d83b2e03ee0044ca6ba5fe4787caad97673bd00a92bbcd16a05742"
+    },
+    {
+      "path": "scripts/10_compare_encoders.py",
+      "sha256": "aee414e1b19d641b219001663296ea312d0cc90d0c8792aa218e2d29287216e6"
+    },
+    {
+      "path": "scripts/11_compare_headline_caps.py",
+      "sha256": "a6062f96f95b4b27d13ca130a04ed87b4627f755247da9277a6d11471bef93be"
+    },
+    {
+      "path": "scripts/12_compare_histories.py",
+      "sha256": "a2241b7044af3fd43b1aec43838b53a83eb7706f6f6f42c261eb8bd5d8ba773c"
+    },
+    {
+      "path": "scripts/13_diagnose_pipeline.py",
+      "sha256": "34f6adf500728c5bf65c7cab40d0bec65658b555c9bb27302b13cc0c0b4eaa72"
+    },
+    {
+      "path": "scripts/14_study_ml_training.py",
+      "sha256": "964ffe5ef17af7edaf506ecd457341491eac13d8859bf443ee25141b31bc2488"
+    },
+    {
+      "path": "scripts/15_test_temporal_pooling.py",
+      "sha256": "5be02b55fcb6bc148d201a2ce555b3650612f604fef63a84b1f9098727386726"
+    },
+    {
+      "path": "scripts/22_cmin_decay_brief.py",
+      "sha256": "e310b23d3ed8e9186575de520fa6b0e0591e286bff134163792445f5f24771c2"
+    },
+    {
+      "path": "src/data/__init__.py",
+      "sha256": "179f62dabf98370bf37511358003aa10177791065b586f18b53cb85e36573184"
+    },
+    {
+      "path": "src/data/examples.py",
+      "sha256": "89f50edc7978a6ddff43bddb25310d75b5b98efbb5629cb05979206dafe19334"
+    },
+    {
+      "path": "src/data/nifty.py",
+      "sha256": "88e0b67a7690e4e8c196dafa0eb1d4729c6ff18da8d3d5e7728ef39c82c56cec"
+    },
+    {
+      "path": "src/data/prices.py",
+      "sha256": "b68a528af472504ef26b08b04415e4157215e9daa32f10ccf5efc838a105004f"
+    },
+    {
+      "path": "src/encoder_comparison.py",
+      "sha256": "d1cba5c2dc9fc97c5f38d2ff3bf4a08abe024c0566537cac146c53e23f2600c2"
+    },
+    {
+      "path": "src/features/__init__.py",
+      "sha256": "9589eee4aeca4b1fde08baef826d61afd2830f9b201ad64617db6eeb1eb3c248"
+    },
+    {
+      "path": "src/features/cache.py",
+      "sha256": "85bbbcc37cb0887a59cb5c11bddc037c2723f13d1c0a8a64936824409c84210a"
+    },
+    {
+      "path": "src/financial_headline_cache.py",
+      "sha256": "dc8543f31bbab90135d45fa993f6938c609fd3cc1227a7ede7dbb17279955513"
+    },
+    {
+      "path": "src/finin_calibration_study.py",
+      "sha256": "7d722580d7c0d46ad5a27893a6cc2df8e457554e35a61c0d59c6802bb84b6023"
+    },
+    {
+      "path": "src/finin_headline_controls.py",
+      "sha256": "1293874348350a96e9bd49aa18dcb0d474d0a3a6c1cfa438a1f317663736f47f"
+    },
+    {
+      "path": "src/finin_headline_experiment.py",
+      "sha256": "20a444650842e3c817f7004eabc4999a1a9ede8c8e6c907b07e6603e263dc65f"
+    },
+    {
+      "path": "src/finin_headline_learning_gate.py",
+      "sha256": "5cf0f2085650ca9d50cdaf77997827bffba52648caf6bf58e2ee184c16650465"
+    },
+    {
+      "path": "src/finin_history_data.py",
+      "sha256": "c47b13bc7d7d4f1ff1d3f5e01d576d20d4eba77ab8f6b84edcd79aaec43cb39f"
+    },
+    {
+      "path": "src/headline_cap_experiment.py",
+      "sha256": "7f184f7725852d9c3e71fde7b0243a0d78090276faf11a70f0214b7d8ef02b7c"
+    },
+    {
+      "path": "src/history_comparison.py",
+      "sha256": "c39f0423d2d8ae0539c767b6c2408bd1a2b5d02de4819a665d90fe192574151e"
+    },
+    {
+      "path": "src/ml_study_data.py",
+      "sha256": "ccd2d345526d92ad1159fc0e64eafdafedd6bbad181647142237e42a8be3eb2f"
+    },
+    {
+      "path": "src/ml_training_study.py",
+      "sha256": "7c6e5a607138e3c98bad1eb94caeccdc42262a507876e2a3bc30e264d45b551c"
+    },
+    {
+      "path": "src/models/attention.py",
+      "sha256": "efb4991b0e17711ff2818c544257eadd6e529c90a3802d9e42fb426a0bdc5901"
+    },
+    {
+      "path": "src/models/baselines.py",
+      "sha256": "a41971375e1f52ac5e6802a5bd86e7a78ed5e236e36bdf173a752ce89e2f01d2"
+    },
+    {
+      "path": "src/models/encoders.py",
+      "sha256": "86774509314203f7759aba52835f278dcac1b4b2e98fdbe542cfbd0a3df97680"
+    },
+    {
+      "path": "src/models/finin.py",
+      "sha256": "726107c7d5288f6831f08ecf1e8c72010f17facf0e9f32dbc91ff1aea3cd49ab"
+    },
+    {
+      "path": "src/pipeline_diagnosis.py",
+      "sha256": "2841c35427197fc6445630c98bb67264384e959aaa605e4181b478724a736db1"
+    },
+    {
+      "path": "src/positive_controls.py",
+      "sha256": "d0e897fb06ec846a25f0c86e174e08d1ee448764dce1638155a8c3f7f5580676"
+    },
+    {
+      "path": "src/reproduction_v2_audit.py",
+      "sha256": "bcf7bbbc63711b503cdd103cb3be27e30a4b62dbf034236fb9f73429b2195a61"
+    },
+    {
+      "path": "src/reproduction_v2_data.py",
+      "sha256": "62d2146dea0f83212df95ba7c8fb01d385185a9879da816ce2c60444f1fd09fc"
+    },
+    {
+      "path": "src/reproduction_v2_features.py",
+      "sha256": "11d22f074ec5bb9a6a9b1861c5b0f967496b89fee0d8847e1d49b3fa10c436a2"
+    },
+    {
+      "path": "src/reproduction_v2_final.py",
+      "sha256": "a3ec1e88b21ddf98a21eafddbd70483bb339f064f76bb796b4404d865870fede"
+    },
+    {
+      "path": "src/reproduction_v2_gates.py",
+      "sha256": "f77bd3c2856eec6526c853408530c6eff206fb5a1ec227b4a04b59bbcf854ddb"
+    },
+    {
+      "path": "src/reproduction_v2_geometry_gate.py",
+      "sha256": "2cc983a6a43b5665bbcce2f27e1666f1d48c15e4f17ea68a263c501de1d4d492"
+    },
+    {
+      "path": "src/reproduction_v2_matched_control.py",
+      "sha256": "ed38a71d55ce820824370e69948178de11e6e1e43b3e528ecd994e5166a59e9f"
+    },
+    {
+      "path": "src/reproduction_v2_neural.py",
+      "sha256": "2b19b42bf42aea0feeb1f10608e20cc23dfa19695c6ca7ab624b263461cf396b"
+    },
+    {
+      "path": "src/reproduction_v2_probe.py",
+      "sha256": "8a401d47d62a77f92704eeba87bbc63127d375ee0789e5bb6befa15b6dcd852c"
+    },
+    {
+      "path": "src/spnews_cohort.py",
+      "sha256": "e6275299531920dd8e0ca51e107ba6d8467a1cd734b158539d61493fb379e3aa"
+    },
+    {
+      "path": "src/spnews_initial_audit.py",
+      "sha256": "613fb509fe1df8be58955651eb2ae7635c9da38c98e51352d5e228c867605dbd"
+    },
+    {
+      "path": "src/temporal_pooling_study.py",
+      "sha256": "43bae0011dce283419c2e1e27218f4c7983f3dfa59ddd47e39379e17b4ea0f93"
+    },
+    {
+      "path": "src/training.py",
+      "sha256": "eefe5d527b5b2ac3e4ea173f0cdfce0c023b6d583695b077876d74539bb10155"
+    },
+    {
+      "path": "src/training_data.py",
+      "sha256": "f50dd89dbea07691e968cb2e0e388f4edd0b8d6917a5e0219313d620c71e0dae"
+    },
+    {
+      "path": "tests/test_data_alignment.py",
+      "sha256": "eefaa42d515614d2a36286d2e98a43f030f6036ff7e8bc9b3ee24b17c26f9721"
+    },
+    {
+      "path": "tests/test_financial_headline_cache.py",
+      "sha256": "68f45dc2db9e60005bc48a74e007306300de370f87a4bf70c933abd683f8d777"
+    },
+    {
+      "path": "tests/test_finin_calibration.py",
+      "sha256": "c056731c2e029e5519b206c46fb0da760abfa577d4baeea786ae13502eb7d10a"
+    },
+    {
+      "path": "tests/test_finin_headline_controls.py",
+      "sha256": "5d00df9cb7ab4038cc6acf413ad1033c9550e4f3e276ba5fd738926b3722c8d2"
+    },
+    {
+      "path": "tests/test_finin_headline_experiment.py",
+      "sha256": "3f1975aad84d1b186b47d2ee39770dfad0e2332ef069f97c2089d19c72832555"
+    },
+    {
+      "path": "tests/test_finin_history_data.py",
+      "sha256": "d49353d7fd6a390607195d7794c757ba1a1d926e7ef97ebe9dded155aefd6d18"
+    },
+    {
+      "path": "tests/test_ml_study_data.py",
+      "sha256": "0e8e84672698fc67b3d72d92436e42874ca6e312ab70b8a365ac33854ea5360d"
+    },
+    {
+      "path": "tests/test_model_integrity.py",
+      "sha256": "f52e49146356b5d31f886944a677bd1cfdf543f85892e353e7068545e220fba7"
+    },
+    {
+      "path": "tests/test_reproduction_v2_data.py",
+      "sha256": "4c51cdfd48e8a8944d93cb5b1cfe2f7b83f660bdfb2af66476c55ee5ea8ed6eb"
+    },
+    {
+      "path": "tests/test_reproduction_v2_encoder_guard.py",
+      "sha256": "d3a69732dc900679994cb1c7a01778a2a329b615bbbd1410bbd6404544044c71"
+    },
+    {
+      "path": "tests/test_reproduction_v2_features.py",
+      "sha256": "34983c32f6cbe3d3d5fa037b735c8483939b308d5a297bd77d453915f4e98cf0"
+    },
+    {
+      "path": "tests/test_reproduction_v2_final_design.py",
+      "sha256": "b2934fba38963564f5867ec8997059f1b0df53bc4c2dfcc59eff5f136d27b34d"
+    },
+    {
+      "path": "tests/test_reproduction_v2_gates.py",
+      "sha256": "9ac9a2ab6ef5a7182fe62f5718c659ceab18729eca9e5ed51e4373b5ac9447d9"
+    },
+    {
+      "path": "tests/test_reproduction_v2_probe.py",
+      "sha256": "eee3b04abd1241a4c0f456c32c498356e71a41e17bf787ae4c57eaab4b42bbeb"
+    },
+    {
+      "path": "tests/test_spnews_cohort.py",
+      "sha256": "44edf7f61cf0d5e18475cd8d8e39d625c76b19112a15976f71b6fa943de3b3c8"
+    },
+    {
+      "path": "tests/test_temporal_pooling_study.py",
+      "sha256": "5d60e6c0a9b3a229351743ee845a5828ce006c6c1bf992eba5ca388f8cd944f5"
+    }
+  ],
+  "original_source_sha256": {
+    "scripts/01_download_nifty.py": "5a870ba81f70982727114d86a493f8396bf61c0f1178d65435d82058acdd9787",
+    "scripts/02_audit_nifty.py": "c7c1c07ff7b6c21d9235da35fc7e39b9bcb5cffb819236ee56d9cf07c37d3f4d",
+    "scripts/03_prepare_data.py": "0b5a5e5225f61f2a58fa2aef78269d402bcc92ea471cc01c481cb6750af56381",
+    "scripts/04_cache_features.py": "be9450b7e7c0a01fbf9507d8dfb5471842054c215fab2afdeffc141682409e58",
+    "scripts/05_run_experiments.py": "2023db51ccb7a5415ec4050f2d803e2c0a835d17283e02f5b9968783ed7ff9f4",
+    "scripts/06_export_results.py": "3f0aeed3d6fcb666bb3c70707521443cefb799142d6e73c597963dd9198fb1f0",
+    "scripts/07_build_meeting_handout.py": "cb025e539e38b77b5b75617e899481b46b231950867e005ca757a085ff73b5c1",
+    "scripts/08_verify_prototype.py": "0c8632dda93098a75bf5a05124f104b32e0c7664220baf8c2807ffba901f7bbb",
+    "scripts/09_build_progress_report.py": "1583b54777d83b2e03ee0044ca6ba5fe4787caad97673bd00a92bbcd16a05742",
+    "scripts/10_compare_encoders.py": "aee414e1b19d641b219001663296ea312d0cc90d0c8792aa218e2d29287216e6",
+    "scripts/11_compare_headline_caps.py": "a6062f96f95b4b27d13ca130a04ed87b4627f755247da9277a6d11471bef93be",
+    "scripts/12_compare_histories.py": "a2241b7044af3fd43b1aec43838b53a83eb7706f6f6f42c261eb8bd5d8ba773c",
+    "scripts/13_diagnose_pipeline.py": "34f6adf500728c5bf65c7cab40d0bec65658b555c9bb27302b13cc0c0b4eaa72",
+    "scripts/14_study_ml_training.py": "964ffe5ef17af7edaf506ecd457341491eac13d8859bf443ee25141b31bc2488",
+    "scripts/15_test_temporal_pooling.py": "5be02b55fcb6bc148d201a2ce555b3650612f604fef63a84b1f9098727386726",
+    "scripts/16_cmin_panel.py": "e8612ad87980344e2473e00c4adebce5f24c029a2cc2fc95818de758717a4248",
+    "scripts/17_cmin_source_audit.py": "fa45fe95afdec1ca4421b8c6c2ac046bf6bfb22a70bd50a8ea3cf245353f6ff6",
+    "scripts/18_cmin_verify.py": "bc4434c7cfda16847b7a21c96c0972787add1102e530645a50204997b5be337a",
+    "scripts/19_cmin_news_consumption.py": "c4413a380ed1cbd12f73a7261a98b46cf5e9c98422c5e8b7c35b1383cf6fa4ae",
+    "scripts/20_cmin_decay_preflight.py": "bb6d2497ba2fa43e7f73dfc8ae0d24b7f5a8942da51a049b959b66af1dc50611",
+    "scripts/21_cmin_decay_analysis.py": "b31998fbd41034b32def23d94883f4fdd05f64626fde2419deabbc18c8f59fff",
+    "scripts/22_cmin_decay_brief.py": "e310b23d3ed8e9186575de520fa6b0e0591e286bff134163792445f5f24771c2",
+    "scripts/23_cmin_older_news.py": "1ae237e266b7c6e52d1f79ff8087ff7aa0169b788eb63392c56342d1971ddbbe",
+    "scripts/24_report_older_news.py": "5635658d956676d1adcfb9979c36ceb65d8415c9ad9a655665fa8bf954327ee3",
+    "scripts/25_cmin_subgroup_calendar.py": "91ea48499e41b16be04e0345f6756c6e6da7c0354b42bc7777e4056e6132d2fb",
+    "scripts/26_cmin_interaction_analysis.py": "c3b3d88747e19a629bf431baca38ab3b07896a17621a15d241979d73e9a031a8",
+    "scripts/audit_repository.py": "65c9c2eff05c4fccb852ef75436fdbd331684f511e7ea858e2b94a4912ae3785",
+    "src/__init__.py": "187a9ae5074f82a590361e3ec66d590bbfab027166663c0afcafa5dfef79136f",
+    "src/cmin_panel_data.py": "851480975ebf48d0ec8414d879f6ecca083aba33b5cf899d12c1c30fba743dc4",
+    "src/cmin_panel_experiment.py": "631f128aebebf204b38b4dcef8b8dc3c6cc52a0166a3c941974b748660600ab6",
+    "src/data/__init__.py": "179f62dabf98370bf37511358003aa10177791065b586f18b53cb85e36573184",
+    "src/data/examples.py": "89f50edc7978a6ddff43bddb25310d75b5b98efbb5629cb05979206dafe19334",
+    "src/data/nifty.py": "88e0b67a7690e4e8c196dafa0eb1d4729c6ff18da8d3d5e7728ef39c82c56cec",
+    "src/data/prices.py": "b68a528af472504ef26b08b04415e4157215e9daa32f10ccf5efc838a105004f",
+    "src/encoder_comparison.py": "d1cba5c2dc9fc97c5f38d2ff3bf4a08abe024c0566537cac146c53e23f2600c2",
+    "src/evaluation.py": "1ba500708e9538fda7f43b7123cec1ccf7f8a99496e1e7e3208b9fa8ba70ad5c",
+    "src/features/__init__.py": "9589eee4aeca4b1fde08baef826d61afd2830f9b201ad64617db6eeb1eb3c248",
+    "src/features/cache.py": "85bbbcc37cb0887a59cb5c11bddc037c2723f13d1c0a8a64936824409c84210a",
+    "src/financial_headline_cache.py": "dc8543f31bbab90135d45fa993f6938c609fd3cc1227a7ede7dbb17279955513",
+    "src/finin_calibration_study.py": "7d722580d7c0d46ad5a27893a6cc2df8e457554e35a61c0d59c6802bb84b6023",
+    "src/finin_headline_controls.py": "1293874348350a96e9bd49aa18dcb0d474d0a3a6c1cfa438a1f317663736f47f",
+    "src/finin_headline_experiment.py": "20a444650842e3c817f7004eabc4999a1a9ede8c8e6c907b07e6603e263dc65f",
+    "src/finin_headline_learning_gate.py": "5cf0f2085650ca9d50cdaf77997827bffba52648caf6bf58e2ee184c16650465",
+    "src/finin_history_data.py": "c47b13bc7d7d4f1ff1d3f5e01d576d20d4eba77ab8f6b84edcd79aaec43cb39f",
+    "src/headline_cap_experiment.py": "7f184f7725852d9c3e71fde7b0243a0d78090276faf11a70f0214b7d8ef02b7c",
+    "src/history_comparison.py": "c39f0423d2d8ae0539c767b6c2408bd1a2b5d02de4819a665d90fe192574151e",
+    "src/ml_study_data.py": "ccd2d345526d92ad1159fc0e64eafdafedd6bbad181647142237e42a8be3eb2f",
+    "src/ml_training_study.py": "7c6e5a607138e3c98bad1eb94caeccdc42262a507876e2a3bc30e264d45b551c",
+    "src/models/__init__.py": "3075b941e18566609ee84b287e2d3a06cf70e93fdcb7cfa3afb9a592d0b516d8",
+    "src/models/attention.py": "efb4991b0e17711ff2818c544257eadd6e529c90a3802d9e42fb426a0bdc5901",
+    "src/models/baselines.py": "a41971375e1f52ac5e6802a5bd86e7a78ed5e236e36bdf173a752ce89e2f01d2",
+    "src/models/encoders.py": "86774509314203f7759aba52835f278dcac1b4b2e98fdbe542cfbd0a3df97680",
+    "src/models/finin.py": "726107c7d5288f6831f08ecf1e8c72010f17facf0e9f32dbc91ff1aea3cd49ab",
+    "src/models/paper_finin.py": "359508d40c29221d30ae6ff5e45b67f0b223aad6b3f7f620a633fe1a1e758490",
+    "src/models/research_finin.py": "38519d7b346da48eb39a655f3e3870683e4b2677c2a9ebd52ce393df1942e0c8",
+    "src/pipeline_diagnosis.py": "2841c35427197fc6445630c98bb67264384e959aaa605e4181b478724a736db1",
+    "src/positive_controls.py": "d0e897fb06ec846a25f0c86e174e08d1ee448764dce1638155a8c3f7f5580676",
+    "src/reproduction_v2_audit.py": "bcf7bbbc63711b503cdd103cb3be27e30a4b62dbf034236fb9f73429b2195a61",
+    "src/reproduction_v2_data.py": "62d2146dea0f83212df95ba7c8fb01d385185a9879da816ce2c60444f1fd09fc",
+    "src/reproduction_v2_features.py": "11d22f074ec5bb9a6a9b1861c5b0f967496b89fee0d8847e1d49b3fa10c436a2",
+    "src/reproduction_v2_final.py": "a3ec1e88b21ddf98a21eafddbd70483bb339f064f76bb796b4404d865870fede",
+    "src/reproduction_v2_gates.py": "f77bd3c2856eec6526c853408530c6eff206fb5a1ec227b4a04b59bbcf854ddb",
+    "src/reproduction_v2_geometry_gate.py": "2cc983a6a43b5665bbcce2f27e1666f1d48c15e4f17ea68a263c501de1d4d492",
+    "src/reproduction_v2_matched_control.py": "ed38a71d55ce820824370e69948178de11e6e1e43b3e528ecd994e5166a59e9f",
+    "src/reproduction_v2_neural.py": "2b19b42bf42aea0feeb1f10608e20cc23dfa19695c6ca7ab624b263461cf396b",
+    "src/reproduction_v2_probe.py": "8a401d47d62a77f92704eeba87bbc63127d375ee0789e5bb6befa15b6dcd852c",
+    "src/research_training.py": "1cdb24eb3d8a7e3b5232b14344c2278fddbdf8c2d4c65613064602bf7775f281",
+    "src/spnews_cohort.py": "e6275299531920dd8e0ca51e107ba6d8467a1cd734b158539d61493fb379e3aa",
+    "src/spnews_initial_audit.py": "613fb509fe1df8be58955651eb2ae7635c9da38c98e51352d5e228c867605dbd",
+    "src/temporal_pooling_study.py": "43bae0011dce283419c2e1e27218f4c7983f3dfa59ddd47e39379e17b4ea0f93",
+    "src/training.py": "eefe5d527b5b2ac3e4ea173f0cdfce0c023b6d583695b077876d74539bb10155",
+    "src/training_data.py": "f50dd89dbea07691e968cb2e0e388f4edd0b8d6917a5e0219313d620c71e0dae",
+    "tests/test_cmin_panel.py": "14b10e0d3d5e4ada0e28e0ee324a3745b0e98d3087df5881df93ce60374e367a",
+    "tests/test_data_alignment.py": "eefaa42d515614d2a36286d2e98a43f030f6036ff7e8bc9b3ee24b17c26f9721",
+    "tests/test_financial_headline_cache.py": "68f45dc2db9e60005bc48a74e007306300de370f87a4bf70c933abd683f8d777",
+    "tests/test_finin_calibration.py": "c056731c2e029e5519b206c46fb0da760abfa577d4baeea786ae13502eb7d10a",
+    "tests/test_finin_headline_controls.py": "5d00df9cb7ab4038cc6acf413ad1033c9550e4f3e276ba5fd738926b3722c8d2",
+    "tests/test_finin_headline_experiment.py": "3f1975aad84d1b186b47d2ee39770dfad0e2332ef069f97c2089d19c72832555",
+    "tests/test_finin_history_data.py": "d49353d7fd6a390607195d7794c757ba1a1d926e7ef97ebe9dded155aefd6d18",
+    "tests/test_ml_study_data.py": "0e8e84672698fc67b3d72d92436e42874ca6e312ab70b8a365ac33854ea5360d",
+    "tests/test_model_integrity.py": "f52e49146356b5d31f886944a677bd1cfdf543f85892e353e7068545e220fba7",
+    "tests/test_paper_finin.py": "348c418c460d215aa6ab4f57385ac0e51672aad2cf91b1c19b16e1b0413e63f8",
+    "tests/test_reproduction_v2_data.py": "4c51cdfd48e8a8944d93cb5b1cfe2f7b83f660bdfb2af66476c55ee5ea8ed6eb",
+    "tests/test_reproduction_v2_encoder_guard.py": "d3a69732dc900679994cb1c7a01778a2a329b615bbbd1410bbd6404544044c71",
+    "tests/test_reproduction_v2_features.py": "34983c32f6cbe3d3d5fa037b735c8483939b308d5a297bd77d453915f4e98cf0",
+    "tests/test_reproduction_v2_final_design.py": "b2934fba38963564f5867ec8997059f1b0df53bc4c2dfcc59eff5f136d27b34d",
+    "tests/test_reproduction_v2_gates.py": "9ac9a2ab6ef5a7182fe62f5718c659ceab18729eca9e5ed51e4373b5ac9447d9",
+    "tests/test_reproduction_v2_probe.py": "eee3b04abd1241a4c0f456c32c498356e71a41e17bf787ae4c57eaab4b42bbeb",
+    "tests/test_research_finin.py": "934800cfbe86a6c11e13ac3fd0a419cc5c1a9c66a035182047d9e50d5e34e4e2",
+    "tests/test_research_training.py": "1a6d5c127d882f7b61ee8a03c2cb991c0aa656b0f91c71f0e5dad4b22effc674",
+    "tests/test_spnews_cohort.py": "44edf7f61cf0d5e18475cd8d8e39d625c76b19112a15976f71b6fa943de3b3c8",
+    "tests/test_temporal_pooling_study.py": "5d60e6c0a9b3a229351743ee845a5828ce006c6c1bf992eba5ca388f8cd944f5"
+  },
+  "retained_source_before_helpers": [
+    "src/__init__.py",
+    "src/cmin_panel_data.py",
+    "src/cmin_panel_experiment.py",
+    "src/evaluation.py",
+    "src/models/__init__.py",
+    "src/models/paper_finin.py",
+    "src/models/research_finin.py",
+    "src/research_training.py"
+  ],
+  "retained_tests": [
+    "tests/test_cmin_panel.py",
+    "tests/test_paper_finin.py",
+    "tests/test_research_finin.py",
+    "tests/test_research_training.py"
+  ],
+  "retained_commands": [
+    "scripts/16_cmin_panel.py",
+    "scripts/17_cmin_source_audit.py",
+    "scripts/18_cmin_verify.py",
+    "scripts/19_cmin_news_consumption.py",
+    "scripts/20_cmin_decay_preflight.py",
+    "scripts/21_cmin_decay_analysis.py",
+    "scripts/23_cmin_older_news.py",
+    "scripts/24_report_older_news.py",
+    "scripts/25_cmin_subgroup_calendar.py",
+    "scripts/26_cmin_interaction_analysis.py",
+    "scripts/audit_repository.py"
+  ],
+  "history_recovery": "Every removed tracked file is recoverable from base_commit. Frozen CMIN artifact source snapshots are preserved unchanged; historical scripts must use the original full source checkout.",
+  "semantic_verification": {
+    "definition_checks": [
+      {
+        "definition": "sha256_file",
+        "old_source": "src/reproduction_v2_data.py",
+        "new_source": "src/runtime_utils.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "set_seed",
+        "old_source": "src/training.py",
+        "new_source": "src/runtime_utils.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "metrics",
+        "old_source": "src/encoder_comparison.py",
+        "new_source": "src/runtime_utils.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "_write",
+        "old_source": "src/reproduction_v2_features.py",
+        "new_source": "src/frozen_features.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "_read",
+        "old_source": "src/reproduction_v2_features.py",
+        "new_source": "src/frozen_features.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "_FrozenEncoder",
+        "old_source": "src/reproduction_v2_features.py",
+        "new_source": "src/frozen_features.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "load_frozen",
+        "old_source": "src/reproduction_v2_features.py",
+        "new_source": "src/frozen_features.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "_validate_values",
+        "old_source": "src/reproduction_v2_features.py",
+        "new_source": "src/frozen_features.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "_verify_models",
+        "old_source": "src/reproduction_v2_features.py",
+        "new_source": "src/frozen_features.py",
+        "function_ast_identical": true
+      },
+      {
+        "definition": "_cache_kind",
+        "old_source": "src/reproduction_v2_features.py",
+        "new_source": "src/frozen_features.py",
+        "function_ast_identical": true
+      },
+      {
+        "module": "src/models/paper_finin.py",
+        "all_function_class_asts_identical_ignoring_docstrings": true
+      },
+      {
+        "module": "src/models/research_finin.py",
+        "all_function_class_asts_identical_ignoring_docstrings": true
+      },
+      {
+        "module": "src/research_training.py",
+        "all_function_class_asts_identical_ignoring_docstrings": true
+      },
+      {
+        "module": "src/evaluation.py",
+        "all_function_class_asts_identical_ignoring_docstrings": true
+      },
+      {
+        "module": "src/cmin_panel_data.py",
+        "all_function_class_asts_identical_ignoring_docstrings": true
+      }
+    ],
+    "synthetic_model_trace_parity": [
+      {
+        "arm": "finin",
+        "mode": "eval",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "finin",
+        "mode": "train",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "no_interaction",
+        "mode": "eval",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "no_interaction",
+        "mode": "train",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "no_query",
+        "mode": "eval",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "no_query",
+        "mode": "train",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "price_only",
+        "mode": "eval",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "price_only",
+        "mode": "train",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "pooled_uniform",
+        "mode": "eval",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "pooled_uniform",
+        "mode": "train",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "pooled_decay",
+        "mode": "eval",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      },
+      {
+        "arm": "pooled_decay",
+        "mode": "train",
+        "initial_weights_identical": true,
+        "all_trace_tensors_bitwise_identical": true
+      }
+    ],
+    "scope": "AST equivalence ignores documentation; synthetic forward traces use identical seeds/weights and no financial labels, training, or checkpoint selection. No original feature cache or prediction was rewritten.",
+    "runner_equivalence": {
+      "all_functions_equivalent": true,
+      "allowed_differences": "Documentation and renamed cache/helper source paths; deduplicate the source-hash list after two old helpers move into one module. No numerical or fit/selection logic changed."
+    },
+    "retained_CMIN_command_checks": [
+      {
+        "path": "scripts/16_cmin_panel.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/17_cmin_source_audit.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/18_cmin_verify.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/19_cmin_news_consumption.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/20_cmin_decay_preflight.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/21_cmin_decay_analysis.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/23_cmin_older_news.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/24_report_older_news.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/25_cmin_subgroup_calendar.py",
+        "executable_ast_identical": true
+      },
+      {
+        "path": "scripts/26_cmin_interaction_analysis.py",
+        "executable_ast_identical": true
+      }
+    ]
+  },
+  "local_cleanup_plan": {
+    "scope": "Only regenerable temporary build/download/export files and Python bytecode under this project; retain data, full experiment artifacts, .venv, and one existing LaTeX compiler executable.",
+    "directories": [
+      "tmp/latex_meeting_brief",
+      "tmp/latex_progress_2026-10-14",
+      "tmp/pdfs",
+      "tmp/sharing_review_2026-10-20_r15dh8a5",
+      "tmp/torch_wheel_parts"
+    ],
+    "files": [
+      "tmp/download_pytorch.py",
+      "tmp/hf-range.bin",
+      "tmp/paper_review.txt",
+      "tmp/sharing_review_result_2026-10-20.json",
+      "tmp/torch-range.bin",
+      "tmp/torch-small.bin",
+      "tmp/tools/tectonic.zip"
+    ]
+  },
+  "verification": {
+    "status": "pass",
+    "tests": 47,
+    "retained_existing_tests": 39,
+    "new_extraction_cache_regression_tests": 8,
+    "retired_phase_tests_removed": 68,
+    "historical_107_test_result": "Applies to pre-cleanup commit; do not compare test totals as an increase or decrease in model quality.",
+    "unit_test_command": ".venv/Scripts/python.exe -m unittest discover -s tests -q",
+    "unit_test_summary": "----------------------------------------------------------------------\nRan 47 tests in 1.448s\n\nOK",
+    "unit_test_stdout_sha256": "e80ffc415bc9e28eb565eaef01fcff1fd0c2ab7909ed38fbd59d6466d884e363",
+    "repository_audit": {
+      "created_utc": "2026-10-20T15:16:21.522111+00:00",
+      "base_commit": "3b3f1f76add1ce162aff8fd43fe1bab1af9090cd",
+      "scope": "Git-indexed paths, current working-tree bytes; offline sharing audit, not model replay or a financial experiment",
+      "limitations": [
+        "No external URL availability or upstream source-clock verification",
+        "No neural checkpoint replay; full checkpoints/data/caches are not in Git",
+        "Historical completion manifests include omitted workstation-only files",
+        "CSV score checks verify arithmetic and matching rows, not generalization or absence of leakage"
+      ],
+      "inventory": {
+        "tracked_files": 398,
+        "bytes": 18901880,
+        "directories": {
+          ".agents": {
+            "files": 1,
+            "bytes": 8797
+          },
+          ".gitattributes": {
+            "files": 1,
+            "bytes": 225
+          },
+          ".gitignore": {
+            "files": 1,
+            "bytes": 319
+          },
+          "AGENTS.md": {
+            "files": 1,
+            "bytes": 8691
+          },
+          "DECISIONS.md": {
+            "files": 1,
+            "bytes": 17007
+          },
+          "README.md": {
+            "files": 1,
+            "bytes": 9179
+          },
+          "artifacts": {
+            "files": 309,
+            "bytes": 17770884
+          },
+          "configs": {
+            "files": 4,
+            "bytes": 5749
+          },
+          "data": {
+            "files": 2,
+            "bytes": 1430
+          },
+          "docs": {
+            "files": 10,
+            "bytes": 69865
+          },
+          "output": {
+            "files": 6,
+            "bytes": 110153
+          },
+          "paper": {
+            "files": 1,
+            "bytes": 430866
+          },
+          "reports": {
+            "files": 31,
+            "bytes": 249391
+          },
+          "requirements-cmin.txt": {
+            "files": 1,
+            "bytes": 135
+          },
+          "requirements.txt": {
+            "files": 1,
+            "bytes": 131
+          },
+          "scripts": {
+            "files": 11,
+            "bytes": 92769
+          },
+          "src": {
+            "files": 10,
+            "bytes": 92355
+          },
+          "tests": {
+            "files": 6,
+            "bytes": 33934
+          }
+        },
+        "files_above_1_mib": [
+          {
+            "path": "artifacts/diagnostics/v1_gain_2026-10-11/sensitivity_predictions.csv",
+            "bytes": 4818332
+          }
+        ],
+        "python_files_parsed": 89,
+        "json_files_parsed": 188,
+        "credential_scan": "high-confidence token/private-key patterns only; not an exhaustive secret audit"
+      },
+      "documentation": {
+        "markdown_files_checked": 38,
+        "local_links_checked": 204,
+        "internal_imports_checked": 40,
+        "module_guide_backlinks_checked": 21,
+        "scope": "Markdown outside frozen artifacts; existence in Git, not fragment/anchor validation"
+      },
+      "sharing_manifests": [
+        {
+          "path": "reports/provenance/research_share_manifest_2026-10-20.json",
+          "files_checked": 18
+        },
+        {
+          "path": "reports/provenance/research_sync_manifest_2026-10-19.json",
+          "files_checked": 289
+        }
+      ],
+      "pdf_builds": [
+        {
+          "pdf": "output/pdf/FININ_attention_and_MLP_explainer_2026-10-19.pdf",
+          "pdf_hash_matches": true,
+          "latex_hash_checked": true,
+          "recorded_pages": 2
+        },
+        {
+          "pdf": "output/pdf/FININ_meeting_progress_2026-10-14.pdf",
+          "pdf_hash_matches": true,
+          "latex_hash_checked": true,
+          "recorded_pages": 3
+        }
+      ],
+      "prediction_checks": {
+        "fits_checked": 44,
+        "stored_csv_rows": 44088,
+        "matched_evaluation_company_days": 2004,
+        "maximum_log_loss_error": 1.1102230246251565e-16,
+        "maximum_accuracy_error": 0.0,
+        "aggregate_mean_seed_losses": [
+          {
+            "study": "artifacts/cmin_decay_48h_2026-10-14_v1",
+            "arm": "pooled_decay",
+            "log_loss": 0.6898866201327702
+          },
+          {
+            "study": "artifacts/cmin_decay_48h_2026-10-14_v1",
+            "arm": "pooled_uniform",
+            "log_loss": 0.6902102597894089
+          },
+          {
+            "study": "artifacts/cmin_interaction_2026-10-14_v1",
+            "arm": "no_interaction",
+            "log_loss": 0.6933869866122909
+          },
+          {
+            "study": "artifacts/cmin_older_news_2026-10-14_v1/price",
+            "arm": "price_only",
+            "log_loss": 0.6897711096503144
+          },
+          {
+            "study": "artifacts/cmin_older_news_2026-10-14_v1/recent",
+            "arm": "pooled_uniform",
+            "log_loss": 0.6896505500795191
+          },
+          {
+            "study": "artifacts/cmin_panel_2026-10-14_v1",
+            "arm": "finin",
+            "log_loss": 0.690388118062029
+          },
+          {
+            "study": "artifacts/cmin_panel_2026-10-14_v1",
+            "arm": "mean_news",
+            "log_loss": 0.6905689403925657
+          },
+          {
+            "study": "artifacts/cmin_panel_2026-10-14_v1",
+            "arm": "price_only",
+            "log_loss": 0.6900952336003423
+          },
+          {
+            "study": "artifacts/cmin_timing_2026-10-19_v1/clock_ny",
+            "arm": "finin",
+            "log_loss": 0.6904591888799326
+          },
+          {
+            "study": "artifacts/cmin_timing_2026-10-19_v1/date0",
+            "arm": "finin",
+            "log_loss": 0.6905022367241284
+          },
+          {
+            "study": "artifacts/cmin_timing_2026-10-19_v1/delay1",
+            "arm": "finin",
+            "log_loss": 0.6904103386504947
+          }
+        ]
+      },
+      "errors": [],
+      "status": "pass"
+    },
+    "financial_fits": 0,
+    "original_predictions_or_feature_caches_modified": false,
+    "protected_existing_scientific_files": {
+      "compared_to_base_commit": 351,
+      "changed": []
+    },
+    "source_files_have_code_guide_links": true,
+    "obsolete_hardware_notes_removed": "REPRODUCTION_PLAN.md and the historical hardware-specific runbook were removed; immutable historical measurements and reports were preserved."
+  },
+  "local_cleanup_result": {
+    "status": "blocked_by_automatic_approval_review",
+    "action": "Delete ignored temporary build/download/export files under tmp/ after verifying workspace paths",
+    "tool_reason": "blocked by policy; no more specific reason returned",
+    "effect": "Command did not execute. Ignored tmp files remain local and are not in GitHub. No alternative deletion mechanism attempted. Existing data, artifact evidence and environment retained."
+  },
+  "after_counts": {
+    "src_files": 10,
+    "src_bytes": 92355,
+    "scripts_files": 11,
+    "test_files": 6,
+    "tracked_files": 398
+  }
+}

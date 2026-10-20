@@ -2,6 +2,8 @@
 
 No fitting, feature encoding, downloads or selection. Requires eight completed
 fits; refuses existing output. Preserves raw per-case logits for independent audit.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
 """
 from datetime import datetime, timezone
 import json

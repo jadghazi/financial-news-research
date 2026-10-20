@@ -1,4 +1,4 @@
-# Research files available on the laptop
+# Sharing and saved evidence
 
 From an existing clone, run `git pull --ff-only origin main`. For a new clone, run:
 
@@ -13,7 +13,7 @@ Start with the links in the repository README, then [DECISIONS.md](../DECISIONS.
 
 A compact, explicitly selected subset of the otherwise ignored `artifacts/` directory is tracked: CMIN configurations, protocols, summary/analysis JSON, validation/training histories, selected evaluation prediction CSVs, and selected audit records. These preserve results for reading and checking without starting model training. [The 19 October manifest](../reports/provenance/research_sync_manifest_2026-10-19.json) lists the original selected artifact paths and SHA-256 hashes. [The 20 October additions manifest](../reports/provenance/research_share_manifest_2026-10-20.json) covers supporting records added to make linked evidence available, including the worked CMIN example and pinned acquisition inventory. Both manifests moved from `output/` to `reports/provenance/` without changing their bytes.
 
-With Python and Git installed, run `python scripts/audit_repository.py` to check the tracked package without fetching datasets, loading checkpoints, or writing into study folders. The dated sharing audit is in `reports/repository_audit_2026-10-20.json`.
+With Python and Git installed, run `python scripts/audit_repository.py` to check the tracked package without fetching datasets, loading checkpoints, or writing into study folders. The initial sharing audit is in `reports/repository_audit_2026-10-20.json`; the subsequent removal/refactor verification is in `reports/code_cleanup_2026-10-20.json`. The original 107-test result belongs to the pre-cleanup source version; use [the code guide](code_guide.md) for the current suite.
 
 The timing-only implementation remains archived under `artifacts/cmin_timing_2026-10-19_v1/source_snapshot/`, together with its cleanup note. It has not been restored to active source or test folders. See that experiment's `ARCHIVED_CODE.md` before attempting to execute it.
 

@@ -1,4 +1,7 @@
-"""Transparent binary classification metrics and dated prediction records."""
+"""Transparent binary classification metrics and dated prediction records.
+
+See docs/code_guide.md#training-and-evaluation for the code map, contracts, and execution boundaries.
+"""
 
 from __future__ import annotations
 

@@ -2,12 +2,13 @@
 
 No encoder fine-tuning, outcome-selected stocks, test selection or implicit
 ablation sweep. Default run is exactly 3 arms x 2 seeds x 2 development folds.
+
+See docs/code_guide.md#tensor-assembly-and-experiment-runner for the code map, contracts, and execution boundaries.
 """
 from __future__ import annotations
 
 import csv
 from datetime import datetime, timezone
-import hashlib
 import json
 from pathlib import Path
 import platform
@@ -23,8 +24,8 @@ from torch.utils.data import Dataset, DataLoader
 from src.cmin_panel_data import read, write_once, rolling_plans
 from src.evaluation import classification_metrics
 from src.models.research_finin import ResearchFININ
-from src.reproduction_v2_data import sha256_file as _sha256_file
-from src.reproduction_v2_features import ENCODERS, SENTIMENT, _cache_kind, _write, _verify_models
+from src.runtime_utils import sha256_file as _sha256_file
+from src.frozen_features import ENCODERS, SENTIMENT, _cache_kind, _verify_models
 from src.research_training import fixed_budget_fit, predict_logits
 
 
@@ -33,6 +34,7 @@ def sha256_file(path):
 
 
 def build_cache(config, directory):
+    """Verify prepared identities and create/reuse pinned offline frozen features."""
     directory = Path(directory)
     prepared = read(directory / "prepared.json")
     for name, expected in prepared["files_sha256"].items():
@@ -49,7 +51,7 @@ def build_cache(config, directory):
                 "sentiment_order": ["positive", "neutral", "negative"], "dtype": "float32",
                 "items_sha256": sha256_file(directory/"items.json"),
                 "prepared_sha256": sha256_file(directory/"prepared.json"),
-                "encoder_code_sha256": sha256_file("src/reproduction_v2_features.py")}
+                "encoder_code_sha256": sha256_file("src/frozen_features.py")}
     write_once(out / "identity.json", identity)
     write_once(out / "index.json", [key for key, _ in items])
     if (out / "manifest.json").exists():
@@ -70,6 +72,7 @@ def build_cache(config, directory):
 
 
 def fit_scaler(rows, train_indices, arrays, text, history):
+    """Fit price/text transforms using only unique days/texts in training histories."""
     if not train_indices:
         raise ValueError("Empty scaling population")
     unique_days = set()
@@ -145,6 +148,7 @@ class PanelDataset(Dataset):
 
 
 def make_model(config, arm, prior):
+    """Construct one declared control arm; initialize its output bias from train prevalence."""
     choices = {
         "price_only": {"news_available": False},
         "mean_news": {"interaction": False, "query_weighting": False},
@@ -181,6 +185,7 @@ def structurally_used_module_parameters(model):
 
 
 def score(targets, logits):
+    """Score raw logits without saturating loss; AUC is undefined for a single class."""
     y, z = np.asarray(targets, dtype=float), np.asarray(logits, dtype=float)
     if not np.isfinite(z).all():
         raise ValueError("Nonfinite predictions")
@@ -236,6 +241,7 @@ def linear_prices(datasets):
 
 
 def save_predictions(path, dataset, logits):
+    """Save aligned company/date/target records and raw network logits, not an ensemble."""
     with Path(path).open("x", encoding="utf-8", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=["ticker", "forecast_date", "target_date", "cutoff_utc", "target", "logit"])
         writer.writeheader()
@@ -270,6 +276,13 @@ def paired_uncertainty(fold_records, first="finin", second="price_only", samples
 
 
 def run(config, directory, study_out=None, protocol_path="docs/cmin_panel_protocol_2026-10-14.md"):
+    """Execute only declared fits in an immutable, versioned study namespace.
+
+    ``directory`` supplies audited cohort data/cache; ``study_out`` separates
+    later studies. Exact code/protocol/data identities are retained. A cleaned
+    source tree cannot masquerade as a completed historical run; use the old
+    checkout for that execution. See docs/code_guide.md#saved-studies-and-historical-source.
+    """
     directory = Path(directory)
     cohort_config = read(directory/"config.json")
     if study_out is None and config != cohort_config:
@@ -320,7 +333,7 @@ def run(config, directory, study_out=None, protocol_path="docs/cmin_panel_protoc
     write_once(directory/"plans.json", plans)
     sources = ["src/cmin_panel_data.py", "src/cmin_panel_experiment.py", "scripts/16_cmin_panel.py",
                "src/models/research_finin.py", "src/models/paper_finin.py", "src/research_training.py",
-               "src/reproduction_v2_features.py", "src/evaluation.py", "src/encoder_comparison.py", "src/training.py"]
+               "src/frozen_features.py", "src/evaluation.py", "src/runtime_utils.py"]
     source_hashes = {p: sha256_file(p) for p in sources}
     identity = {"config": config, "sources": source_hashes, "cohort_directory":str(cohort_directory.resolve()),
                 "prepared_sha256": sha256_file(cohort_directory/"prepared.json"),

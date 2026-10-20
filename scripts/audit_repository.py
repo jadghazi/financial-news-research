@@ -3,6 +3,8 @@
 Reads indexed files and current working-tree bytes. No downloads, model imports,
 training, or experiment writes. Prints JSON; redirect it to save an audit.
 Historical completion manifests may reference deliberately untracked local files.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
 """
 
 import ast
@@ -49,7 +51,7 @@ def audit():
         ],
     }
 
-    required = ["README.md", "DECISIONS.md", "AGENTS.md", "docs/repository_guide.md",
+    required = ["README.md", "DECISIONS.md", "AGENTS.md", "docs/repository_guide.md", "docs/code_guide.md",
                 "docs/cmin_pipeline.md", "docs/cmin_runbook.md", "docs/laptop_sync.md",
                 "reports/cmin_timing_2026-10-19.md"]
     for name in required:
@@ -61,6 +63,8 @@ def audit():
     forbidden_parts = {".venv", "__pycache__", ".pytest_cache", "node_modules", "tmp"}
     forbidden_suffixes = {".pyc", ".pyo", ".pt", ".npy", ".npz", ".safetensors", ".aux", ".log"}
     large_files = []
+    internal_imports_checked = 0
+    guide_backlinks_checked = 0
     for name in sorted(tracked):
         path = ROOT / name
         if not path.is_file():
@@ -83,8 +87,22 @@ def audit():
                 if secret_pattern.search(text):
                     errors.append(f"Possible credential detected; inspect file without printing its value: {name}")
                 if path.suffix == ".py":
-                    ast.parse(text, filename=name)
+                    tree = ast.parse(text, filename=name)
                     syntax_count += 1
+                    if name.startswith(("src/", "scripts/", "tests/")):
+                        for node in ast.walk(tree):
+                            modules = ([node.module] if isinstance(node, ast.ImportFrom) and node.module else
+                                       [entry.name for entry in node.names] if isinstance(node, ast.Import) else [])
+                            for module in modules:
+                                if module == "src" or module.startswith("src."):
+                                    target = module.replace(".", "/")
+                                    internal_imports_checked += 1
+                                    if target + ".py" not in tracked and target + "/__init__.py" not in tracked:
+                                        errors.append(f"Missing internal import: {name} -> {module}")
+                        if name.startswith(("src/", "scripts/")):
+                            guide_backlinks_checked += 1
+                            if "docs/code_guide.md" not in (ast.get_docstring(tree) or ""):
+                                errors.append(f"Missing module-docstring code-guide reference: {name}")
                 elif path.suffix == ".json":
                     json.loads(text)
                     json_count += 1
@@ -116,6 +134,7 @@ def audit():
             if relative not in tracked and not any(p.startswith(relative.rstrip("/") + "/") for p in tracked):
                 errors.append(f"Documentation target absent from Git: {name} -> {relative}")
     result["documentation"] = {"markdown_files_checked": len(docs), "local_links_checked": link_count,
+        "internal_imports_checked": internal_imports_checked, "module_guide_backlinks_checked": guide_backlinks_checked,
         "scope": "Markdown outside frozen artifacts; existence in Git, not fragment/anchor validation"}
 
     manifests = []

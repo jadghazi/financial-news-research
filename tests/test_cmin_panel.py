@@ -1,3 +1,4 @@
+"""See docs/code_guide.md#test-map for scope and the retained test inventory."""
 import copy
 from datetime import datetime, timezone
 import unittest

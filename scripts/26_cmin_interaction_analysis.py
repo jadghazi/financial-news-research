@@ -1,4 +1,7 @@
-"""Bounded meeting analysis: saved tensors/predictions only; no model fitting."""
+"""Bounded meeting analysis: saved tensors/predictions only; no model fitting.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
+"""
 import argparse
 import csv
 import hashlib

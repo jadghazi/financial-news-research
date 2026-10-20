@@ -14,7 +14,7 @@ The latest completed empirical result is the [19 October timing study](reports/c
 
 **Checks and result:** 2,107 examples (1,475/315/317); 18 trained runs. Full-model test accuracy averaged 58.4% versus 58.0% always UP, with balanced accuracy about 50%. These were near-majority predictions, not convincing useful news prediction. Preserve this as historical version 1.
 
-Evidence: [fixed plan](REPRODUCTION_PLAN.md), [data preparation](reports/data_preparation.md), [results](reports/results.md), [audit](reports/prototype_audit.json), [architecture](docs/architecture.md).
+Evidence: [data preparation](reports/data_preparation.md), [results](reports/results.md), [audit](reports/prototype_audit.json). The original fixed plan and architecture notes are recoverable at Git commit `3b3f1f7`; they were removed from active documentation during the user-requested cleanup.
 
 ## 2. Determine what produced the tiny apparent gain — 11 October
 
@@ -121,6 +121,8 @@ The 19 October Git snapshot `2a23808` added the CMIN studies, meeting PDFs, and 
 On 20 October, the user requested a professor-readable documentation and organization audit before any repository rename or new-project reorganization. The sharing update adds this record, a current README, a repository index, linked supporting records, and an offline audit. Historical experiment results and PDF bytes are preserved. [Audit result](reports/repository_audit_2026-10-20.json), [scope](docs/laptop_sync.md).
 
 After that sharing audit, the user requested that `output/` retain only the attention/MLP explainer and `FININ_meeting_progress_2026-10-14`, including their sources/build records. Other output documents and figures were removed from the current checkout; they remain in Git history at `0be47b9`. Evidence-sharing manifests moved unchanged to `reports/provenance/`. [Cleanup record](reports/output_cleanup_2026-10-20.json). No model, dataset, experiment result, or retained PDF was changed; the earlier sharing audit describes the snapshot before this output selection.
+
+The user subsequently requested a substantive source/folder audit, removal of the outdated reproduction plan and hardware instructions, and a code guide linked from the code. Retired NIFTY/StockNet/SPNews execution paths, their tests, old exporters, and optional specialist configurations were removed. Hashing, seeding, stable-logit metrics, and frozen-cache helpers were extracted so current training no longer imports retired experiments. Model arithmetic and saved scientific evidence were preserved. The current source has a new provenance identity; exact old commands require the full pre-cleanup checkout `3b3f1f7`, not patched checksum guards. [Code guide](docs/code_guide.md), [cleanup verification](reports/code_cleanup_2026-10-20.json).
 
 ## Claims and remaining questions
 

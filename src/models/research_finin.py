@@ -4,6 +4,8 @@ Temporal pooling is a declared extension: uniform and decay variants pool into
 the same news vector, retaining identical complete price histories. Fixed decay
 on concatenated day slots is disallowed because a first linear layer can absorb
 it. This module does not change frozen historical PaperFININ implementations.
+
+See docs/code_guide.md#headline-attention-and-prediction for the code map, contracts, and execution boundaries.
 """
 import math
 
@@ -13,6 +15,12 @@ from src.models.paper_finin import PaperFININ, _mlp
 
 
 class ResearchFININ(PaperFININ):
+    """Expose independent channel/attention controls and matched temporal pooling.
+
+    With width 16 and five sessions, concat has 160 predictor inputs and pooled
+    has 96. ``trace`` exposes the same intermediate tensors used by forward.
+    See docs/code_guide.md#headline-attention-and-prediction before adding arms.
+    """
     def __init__(self, *, interaction=True, query_weighting=True, news_available=True,
                  sentiment_available=True, prices_available=True,
                  direct_market_available=True,

@@ -1,8 +1,10 @@
 """CPU research training with isolated evaluation RNG and stable logit metrics.
 
-The historical trainer remains intact. This reusable alternative isolates
+The reusable engine isolates
 read-only diagnostics from dropout, sampling and module training modes. Actual
 forecast availability and temporal splits are responsibilities of the caller.
+
+See docs/code_guide.md#training-and-evaluation for the code map, contracts, and execution boundaries.
 """
 from contextlib import contextmanager
 import random
@@ -10,8 +12,7 @@ import numpy as np
 import torch
 from torch import nn
 from torch.utils.data import DataLoader
-from src.training import set_seed
-from src.encoder_comparison import metrics
+from src.runtime_utils import set_seed, metrics
 
 @contextmanager
 def isolated_diagnostics(model):

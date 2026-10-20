@@ -1,4 +1,7 @@
-"""Cheap equation/masking/gradient checks; no market-training claims."""
+"""Cheap equation/masking/gradient checks; no market-training claims.
+
+See docs/code_guide.md#test-map for scope and the retained test inventory.
+"""
 
 import math
 import unittest

@@ -10,6 +10,7 @@ This repository records an independent investigation of whether financial headli
 |---|---|
 | The research path, decisions, tests, and reasons for stopping | [Decision record](DECISIONS.md) |
 | The current model, data timeline, and final MLP inputs | [CMIN pipeline](docs/cmin_pipeline.md) |
+| How to navigate and modify the code | [Code guide: modules, functions, shapes, and tests](docs/code_guide.md) |
 | Where code, reports, protocols, and evidence belong | [Repository guide](docs/repository_guide.md) |
 | A concise visual explanation for a meeting | [Progress report, 3 pages](output/pdf/FININ_meeting_progress_2026-10-14.pdf) and [attention/MLP explainer, 2 pages](output/pdf/FININ_attention_and_MLP_explainer_2026-10-19.pdf) |
 | The last completed experiment | [News-timing findings, 19 October](reports/cmin_timing_2026-10-19.md) |
@@ -56,7 +57,7 @@ output/pdf/                 Two selected meeting PDFs, LaTeX sources, build reco
 paper/                      Reference FININ paper
 ```
 
-Earlier phases include the SPY/NIFTY prototype, StockNet tweet rebuild, and SPNews headline adaptation. They are retained as research history and are indexed in the [repository guide](docs/repository_guide.md). Their metrics, datasets, and timing policies must not be treated as the latest CMIN setup.
+Earlier SPY/NIFTY, StockNet, and SPNews findings remain as research history. Their retired execution code, exporters, tests, and obsolete planning/hardware documents were removed from active folders; recover the full pre-cleanup version at Git commit `3b3f1f7`. The current `src/` has **10 files**, with shared helpers separated from old experiments. [Code map and historical replay boundaries](docs/code_guide.md), [cleanup audit](reports/code_cleanup_2026-10-20.json).
 
 ## Inspect and verify
 

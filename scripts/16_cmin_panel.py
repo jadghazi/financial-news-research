@@ -1,4 +1,7 @@
-"""Fresh CMIN study stages; imports do not download, fit or rewrite artifacts."""
+"""Fresh CMIN study stages; imports do not download, fit or rewrite artifacts.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
+"""
 import argparse
 import json
 from pathlib import Path

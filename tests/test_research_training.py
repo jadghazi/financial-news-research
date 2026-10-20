@@ -1,11 +1,34 @@
-"""Regression coverage for diagnostics perturbing optimization and loss saturation."""
+"""Regression coverage for diagnostics perturbing optimization and loss saturation.
+
+See docs/code_guide.md#test-map for scope and the retained test inventory.
+"""
 import random,unittest
 import numpy as np
 import torch
 from torch.utils.data import Dataset
-from src.models.baselines import NumericBaseline
+from torch import nn
 from src.research_training import isolated_diagnostics,predict_logits,fixed_budget_fit,predict_fitted,fit_train_only
-from src.encoder_comparison import metrics
+from src.runtime_utils import metrics
+
+# Small numerical fixture for trainer regression tests, not a production model.
+class NumericBaseline(nn.Module):
+    def __init__(self, use_sentiment: bool, width: int = 64, dropout: float = 0.1):
+        super().__init__()
+        self.use_sentiment = use_sentiment
+        self.predictor = nn.Sequential(
+            nn.Linear(9 if use_sentiment else 6, width),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Linear(width, 1),
+        )
+
+    def forward(self, batch: dict[str, torch.Tensor]) -> tuple[torch.Tensor, None]:
+        features = batch["market_features"]
+        if self.use_sentiment:
+            mask = batch["mask"].unsqueeze(-1)
+            average = (batch["sentiment"] * mask).sum(dim=1) / mask.sum(dim=1)
+            features = torch.cat([features, average], dim=-1)
+        return self.predictor(features).squeeze(-1), None
 
 class Rows(Dataset):
     def __init__(self,seed):

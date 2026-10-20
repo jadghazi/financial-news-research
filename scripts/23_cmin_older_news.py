@@ -2,6 +2,8 @@
 
 Prepare/run/analyze are explicit stages. Eight new fits at most; four all-news
 fits are reused. No acquisition, encoding, tuning or automatic retry.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
 """
 import argparse
 from datetime import datetime, timezone

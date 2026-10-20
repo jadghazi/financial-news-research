@@ -4,6 +4,8 @@ Source times are naive. Dated stories are delayed to D+2 00:00 UTC, then put
 in their first eligible exchange close's news bucket. This is an assumption,
 not certified historical availability. Raw source returns/summary are never
 features. The future target is generated from adjacent exchange closes.
+
+See docs/code_guide.md#data-and-timeline for the code map, contracts, and execution boundaries.
 """
 from __future__ import annotations
 
@@ -12,7 +14,6 @@ import csv
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 import hashlib
-import io
 import json
 from pathlib import Path
 import time
@@ -21,7 +22,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 import numpy as np
 
-from src.reproduction_v2_data import sha256_file as _sha256_file
+from src.runtime_utils import sha256_file as _sha256_file
 
 
 def sha256_file(path):
@@ -33,6 +34,7 @@ def read(path):
 
 
 def write_once(path, value):
+    """Write new JSON or accept identical content; never replace conflicting evidence."""
     path = Path(path)
     text = json.dumps(value, indent=2, sort_keys=True, allow_nan=False) + "\n"
     if path.exists():
@@ -48,6 +50,7 @@ def content_id(text):
 
 
 def availability(source_date, delay_days=2):
+    """Return the declared D+2-midnight-UTC proxy, not a recovered publication time."""
     if delay_days < 2:
         raise ValueError("Unverified source dates require the declared >=2-day proxy")
     return datetime.fromisoformat(source_date).replace(tzinfo=timezone.utc) + timedelta(days=delay_days)
@@ -124,6 +127,7 @@ def acquire(config, source_manifest, directory):
 
 
 def price_channels(current, previous):
+    """Create six finite channels from current OHLCV and adjacent adjusted closes."""
     close = float(current["Close"])
     high, low, opening = (float(current[k]) for k in ("High", "Low", "Open"))
     adj, prev = float(current["Adj Close"]), float(previous["Adj Close"])
@@ -139,6 +143,12 @@ def price_channels(current, previous):
 
 
 def prepare(config, directory):
+    """Verify pinned raw files, align exchange sessions, and save development tensors.
+
+    Price/news histories end at the forecast close; the target is the next
+    exchange close. Empty news is retained, and reserved outcomes are excluded.
+    See docs/code_guide.md#data-and-timeline for the full temporal contract.
+    """
     import exchange_calendars as xcals
     directory = Path(directory)
     if read(directory / "config.json") != config:
@@ -287,6 +297,7 @@ def prepare(config, directory):
 
 
 def rolling_plans(rows, windows):
+    """Build chronological train/valid/evaluation indices with target-boundary purging."""
     plans = []
     for fold, (train_end, valid_end, eval_end) in enumerate(windows):
         train = [i for i, r in enumerate(rows) if r["target_date"] < train_end]

@@ -1,4 +1,7 @@
-"""Verify saved CMIN evidence and seal auxiliary files; no inference or fitting."""
+"""Verify saved CMIN evidence and seal auxiliary files; no inference or fitting.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
+"""
 import argparse
 import json
 from pathlib import Path

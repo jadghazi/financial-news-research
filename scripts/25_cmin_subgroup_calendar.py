@@ -1,4 +1,7 @@
-"""Full-calendar subgroup uncertainty supplement from saved logits; no ML runs."""
+"""Full-calendar subgroup uncertainty supplement from saved logits; no ML runs.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
+"""
 from datetime import datetime, timezone
 import json
 from pathlib import Path

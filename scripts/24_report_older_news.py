@@ -1,4 +1,7 @@
-"""Write the concise older-news finding from completed saved evidence, no fitting."""
+"""Write the concise older-news finding from completed saved evidence, no fitting.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
+"""
 import json
 from pathlib import Path
 

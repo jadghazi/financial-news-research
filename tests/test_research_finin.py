@@ -1,4 +1,7 @@
-"""Controlled attention/actual-age checks, independent of forecasting results."""
+"""Controlled attention/actual-age checks, independent of forecasting results.
+
+See docs/code_guide.md#test-map for scope and the retained test inventory.
+"""
 import unittest
 import torch
 from src.models.paper_finin import PaperFININ

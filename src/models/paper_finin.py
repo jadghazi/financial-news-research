@@ -9,6 +9,8 @@ normalization. Width 32, two-layer ReLU MLPs and ``plain`` self-attention are
 declared implementation choices. ``residual_norm``, missing-day zeros,
 ``news_only`` and optional prior-bias initialization are explicit extensions.
 No positional encoding is used within a day's unordered news set.
+
+See docs/code_guide.md#headline-attention-and-prediction for the code map, contracts, and execution boundaries.
 """
 
 from __future__ import annotations

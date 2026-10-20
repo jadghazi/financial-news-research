@@ -3,6 +3,8 @@
 Keep prices, company context and masks fixed for text/sentiment probes. These
 out-of-distribution substitutions establish computational dependence only.
 Attention switches use existing trained weights; they are not retrained ablations.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
 """
 import argparse
 from datetime import datetime, timezone

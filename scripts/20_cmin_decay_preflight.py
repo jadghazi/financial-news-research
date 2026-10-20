@@ -1,4 +1,7 @@
-"""Freeze a fresh decay study; verify/reuse sources without training or encoding."""
+"""Freeze a fresh decay study; verify/reuse sources without training or encoding.
+
+See docs/code_guide.md#pipeline-entry-points for the code map, contracts, and execution boundaries.
+"""
 import json
 from pathlib import Path
 import subprocess
