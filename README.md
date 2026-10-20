@@ -52,7 +52,7 @@ tests/                      Alignment, model, training, and synthetic integrity 
 docs/                       Architecture, protocols, runbooks, and repository guide
 reports/                    Dated findings and verification records
 artifacts/                  Selected tracked evidence; larger local runs are ignored
-output/pdf/ / figures/      Meeting PDFs, available LaTeX sources, and figures
+output/pdf/                 Two selected meeting PDFs, LaTeX sources, build records
 paper/                      Reference FININ paper
 ```
 
@@ -76,6 +76,6 @@ For the full engineering test suite after installing the documented dependencies
 
 Tests include small synthetic learning checks; passing them does not establish financial forecasting value. Do not run the numbered experiment/export scripts merely to inspect results: some fit models, download data, or write fixed output locations.
 
-Git includes selected predictions, learning histories, configurations, source snapshots, and audits. **Raw corpora, feature arrays, pretrained weights, and neural checkpoints remain local.** The clone supports inspection and selected metric recalculation, not a complete replay of every experiment. [Evidence scope and prerequisites](docs/cmin_runbook.md).
+Git includes selected predictions, learning histories, configurations, source snapshots, and audits. `output/` retains only the progress report and attention/MLP explainer with their LaTeX sources/build records. Evidence-sharing manifests are in `reports/provenance/`; removed presentations and figures remain available in Git history. **Raw corpora, feature arrays, pretrained weights, and neural checkpoints remain local.** The clone supports inspection and selected metric recalculation, not a complete replay of every experiment. [Evidence scope and prerequisites](docs/cmin_runbook.md).
 
 This is academic research code. Dependencies retain their own licenses; the included [FININ paper](paper/Wang%20et%20al.%20-%202024%20-%20Modeling%20News%20Interactions%20and%20Influence%20for%20Financial%20Market%20Prediction.pdf) is distributed under [ACL's CC BY 4.0 terms](https://aclanthology.org/faq/copyright/). No separate license for this repository's code has been declared.

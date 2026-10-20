@@ -80,7 +80,7 @@ Evidence: [report](reports/cmin_news_dependency_2026-10-14.md), [saved diagnosti
 
 **Result:** eight fits; decay-minus-uniform loss −0.000324, conditional interval [−0.001177, +0.000539]. Age-bucket removal effects were small and uncertain. No stable practical benefit or empirical diffusion curve was established; the chosen half-life is not an estimated market property.
 
-Evidence: [protocol](docs/cmin_decay_protocol_2026-10-14.md), [report](reports/cmin_news_decay_2026-10-14.md), [analysis](artifacts/cmin_decay_48h_2026-10-14_v1/analysis/summary.json), [age-sensitivity figure](output/figures/cmin_decay_age_sensitivity_2026-10-14.png).
+Evidence: [protocol](docs/cmin_decay_protocol_2026-10-14.md), [report](reports/cmin_news_decay_2026-10-14.md), [analysis including age-sensitivity values](artifacts/cmin_decay_48h_2026-10-14_v1/analysis/summary.json). The earlier standalone figure was removed from the current output selection on 20 October and remains in Git history.
 
 ## 9. Isolate older news while holding prices fixed — 14 October
 
@@ -119,6 +119,8 @@ Evidence: [protocol](docs/cmin_timing_protocol_2026-10-19.md), [report](reports/
 The 19 October Git snapshot `2a23808` added the CMIN studies, meeting PDFs, and selected experiment evidence. Larger raw data, caches, weights, checkpoints, and third-party checkouts remain local; a Git clone is not a full training environment. Source snapshots are intentional provenance copies, not redundant active implementations.
 
 On 20 October, the user requested a professor-readable documentation and organization audit before any repository rename or new-project reorganization. The sharing update adds this record, a current README, a repository index, linked supporting records, and an offline audit. Historical experiment results and PDF bytes are preserved. [Audit result](reports/repository_audit_2026-10-20.json), [scope](docs/laptop_sync.md).
+
+After that sharing audit, the user requested that `output/` retain only the attention/MLP explainer and `FININ_meeting_progress_2026-10-14`, including their sources/build records. Other output documents and figures were removed from the current checkout; they remain in Git history at `0be47b9`. Evidence-sharing manifests moved unchanged to `reports/provenance/`. [Cleanup record](reports/output_cleanup_2026-10-20.json). No model, dataset, experiment result, or retained PDF was changed; the earlier sharing audit describes the snapshot before this output selection.
 
 ## Claims and remaining questions
 

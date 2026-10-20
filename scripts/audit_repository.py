@@ -119,7 +119,7 @@ def audit():
         "scope": "Markdown outside frozen artifacts; existence in Git, not fragment/anchor validation"}
 
     manifests = []
-    for name in sorted(p for p in tracked if p.startswith("output/research_") and p.endswith(".json")):
+    for name in sorted(p for p in tracked if p.startswith("reports/provenance/research_") and p.endswith(".json")):
         manifest = read(name)
         entries = manifest.get("files", [])
         for entry in entries:

@@ -6,5 +6,4 @@
 artifacts/** -text
 output/pdf/*.tex -text
 output/pdf/*.build.json -text
-output/research_sync_manifest_*.json -text
-output/research_share_manifest_*.json -text
+reports/provenance/** -text

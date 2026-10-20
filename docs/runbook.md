@@ -68,7 +68,7 @@ What to explain: compare the complete model with prices only, average sentiment,
 .\.venv\Scripts\python.exe scripts/07_build_meeting_handout.py
 ```
 
-Show `output/pdf/FININ_meeting_brief.pdf` first. Its two pages map the paper's pipeline to ours and compare the data and evaluation protocols. Then open `artifacts/meeting/FININ_walkthrough.html` for worked dates, comparison charts, metrics and example predictions. `artifacts/meeting/predictions.csv` contains the selected run's test predictions, and the tracked [results report](../reports/results.md) contains the metrics in text form. The separate `FININ_pipeline_and_data_comparison.pdf` can be regenerated with `scripts/07_build_meeting_handout.py`.
+This is the historical SPY/NIFTY export procedure. Its old PDF outputs were removed from the current output selection on 20 October 2026 and remain in Git history at `0be47b9`; do not run export scripts merely to open a report. The current presentation files are [the CMIN progress report](../output/pdf/FININ_meeting_progress_2026-10-14.pdf) and [attention/MLP explainer](../output/pdf/FININ_attention_and_MLP_explainer_2026-10-19.pdf). For historical worked dates and predictions, use `artifacts/meeting/FININ_walkthrough.html`, `artifacts/meeting/predictions.csv`, and the tracked [results report](../reports/results.md).
 
 Copy the PDF and `artifacts/meeting/` folder to the laptop by USB or another private transfer. Displaying them does not require Python, CUDA or model weights. Open both files locally once before the meeting to confirm they display correctly.
 

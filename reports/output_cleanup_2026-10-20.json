@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-10-20T14:57:43.122407+00:00",
+  "request": "Keep only the attention/MLP explainer and FININ_meeting_progress_2026-10-14 in output; retain their sources/build records.",
+  "base_commit": "0be47b9f7f23264b2de5a328d1199eb6210e0e97",
+  "kept": [
+    {
+      "path": "output/pdf/FININ_attention_and_MLP_explainer_2026-10-19.build.json",
+      "sha256": "eccaa2eac06324af322bf9671b3ea63e69758633f401b914772c79e0589c04d5"
+    },
+    {
+      "path": "output/pdf/FININ_attention_and_MLP_explainer_2026-10-19.pdf",
+      "sha256": "c65d316ae5b21f26615ef8b189eb4406df79832b0845f51422f0895f921e7539"
+    },
+    {
+      "path": "output/pdf/FININ_attention_and_MLP_explainer_2026-10-19.tex",
+      "sha256": "b979bdcf73cdae8f9d36d1113d0740c5b5840818044dac884c911c9d6a8e9960"
+    },
+    {
+      "path": "output/pdf/FININ_meeting_progress_2026-10-14.build.json",
+      "sha256": "d0baecd4ecc2874e36ada3c6d0b7b3b3593ef9b8a7d937b3038317a53b85695b"
+    },
+    {
+      "path": "output/pdf/FININ_meeting_progress_2026-10-14.pdf",
+      "sha256": "f206cd2a84be23b728036b66439a51c01a84be7cc1e7f50dd5d8b036678a437f"
+    },
+    {
+      "path": "output/pdf/FININ_meeting_progress_2026-10-14.tex",
+      "sha256": "9ad3c476cbf38bef25adf9c114306f5eb659a163bb6e8b8241a6a7e0c3d158c9"
+    }
+  ],
+  "removed": [
+    {
+      "path": "output/figures/cmin_decay_age_sensitivity_2026-10-14.png",
+      "sha256": "3d3d3ccd61cd8303c67b67253767ce58f0b1eae62ba144b6b382287ad2bce1dd"
+    },
+    {
+      "path": "output/figures/cmin_decay_prescribed_weights_2026-10-14.png",
+      "sha256": "97767692d484c7196767da3bbae4b846ed663d56047b53864b93a8bf404fd1b3"
+    },
+    {
+      "path": "output/pdf/CMIN_news_decay_meeting_brief_2026-10-14.pdf",
+      "sha256": "cc5f1cffbb4dee92572bb77bf2862c9581683b81bd3db9bbacd414d1258ca2e3"
+    },
+    {
+      "path": "output/pdf/FININ_meeting_brief.pdf",
+      "sha256": "dca987226124335d885419a5c552fbdce59a2c5e1f68ee168c7633d972c30e5d"
+    },
+    {
+      "path": "output/pdf/FININ_meeting_brief.tex",
+      "sha256": "44eccf88b462fe2e5e4f8378de51d13e7ee73965a7fd5133b18ba0e89b92d506"
+    },
+    {
+      "path": "output/pdf/FININ_pipeline_and_data_comparison.pdf",
+      "sha256": "6c003d11746d5fa4e1ea77b8d9bc78c0170109e30769afb206cc11f78e0a60a4"
+    },
+    {
+      "path": "output/pdf/FININ_progress_report.pdf",
+      "sha256": "76c3fc8e15ad2a867303fceb6137d2b4cc4321eec9ed3149d0da15eda9530cd7"
+    },
+    {
+      "path": "output/pdf/FININ_progress_report.tex",
+      "sha256": "b5b65fa655fa48cae5ca1cad7fd66b44fa08aa8ba9f7247619a3885c1083f284"
+    },
+    {
+      "path": "output/pdf/Financial_news_progress_meeting_brief_2026-10-14.build.json",
+      "sha256": "e4ee9f0d6394d9de9865014a1cb9c70382d6460907ca43c7d6debf283237c51f"
+    },
+    {
+      "path": "output/pdf/Financial_news_progress_meeting_brief_2026-10-14.pdf",
+      "sha256": "a3f37bb10ea66e59b6e5a111b631109cd0ed4848baab06392cfef042c255b2b7"
+    },
+    {
+      "path": "output/pdf/Financial_news_progress_meeting_brief_2026-10-14.tex",
+      "sha256": "70a2325296affe73012600483624e26a606d34a142d63c3e87259db5aabf305e"
+    }
+  ],
+  "metadata_relocated": [
+    {
+      "from": "output/research_share_manifest_2026-10-20.json",
+      "to": "reports/provenance/research_share_manifest_2026-10-20.json",
+      "sha256": "646214e6c5c05091d9d65c8483db7edb87864ee2422a6866a8c1e9fe6156ac87"
+    },
+    {
+      "from": "output/research_sync_manifest_2026-10-19.json",
+      "to": "reports/provenance/research_sync_manifest_2026-10-19.json",
+      "sha256": "b35ea12cddcbdd7fc794b0efdb7b5a789a4987e18aebbe807ea9fb3308621da5"
+    }
+  ],
+  "preservation": "Removed generated documents/figures remain in base_commit Git history. Experimental evidence and retained document bytes are unchanged. The preceding sharing audit describes the pre-cleanup snapshot.",
+  "verification": {
+    "status": "pass",
+    "errors": [],
+    "output_files_match_requested_document_families": true,
+    "retained_files_sha256_unchanged": true,
+    "metadata_worktree_and_staged_sha256_unchanged": true,
+    "local_documentation_links_checked": 185,
+    "saved_CMIN_prediction_files_checked": 44,
+    "retained_pdf_build_hashes_checked": 2,
+    "scope": "Documentation/output cleanup; no market experiments or model changes. Existing engineering suite was unchanged and was not rerun."
+  }
+}
