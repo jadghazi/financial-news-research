@@ -1,0 +1,96 @@
+{
+  "created_utc": "2026-10-20T14:46:04.022770+00:00",
+  "scope": "Existing supporting evidence added for Git-visible documentation links and the pinned acquisition inventory. No raw corpus, encoder weights, feature arrays, or neural checkpoints. Original bytes preserved. The 19 October manifest remains unchanged.",
+  "files": [
+    {
+      "path": "artifacts/cmin_panel_2026-10-14_v1/walkthrough.md",
+      "bytes": 1839,
+      "sha256": "6c608de3fdb89f32a7d48521e0f25d283f141b12f081f031cfc36b0e69b17c6d"
+    },
+    {
+      "path": "artifacts/diagnostics/headline_coverage_2026-10-12/PROTOCOL.md",
+      "bytes": 1760,
+      "sha256": "f5382d7e4dac471aae7daa16e0dd09471aee8ba0cefb4022c71c2bccfeeee51c"
+    },
+    {
+      "path": "artifacts/diagnostics/headline_coverage_2026-10-12/REVIEW.md",
+      "bytes": 2041,
+      "sha256": "23aa4c70aa567dfd34a03ff066ad1cb951f9f635f39b340f2dac7495afb7dc84"
+    },
+    {
+      "path": "artifacts/diagnostics/headline_coverage_2026-10-12/daily_counts.csv",
+      "bytes": 109902,
+      "sha256": "c759b0b9c965fcb9add98a8b84d6b196743a63dd240e2c6760cf22f8a2fadce8"
+    },
+    {
+      "path": "artifacts/diagnostics/headline_coverage_2026-10-12/summary.json",
+      "bytes": 43926,
+      "sha256": "a8551e663a1e13c99e0a40db8799e1cd6aaac8fcf43aea70ae3a663089c80c4c"
+    },
+    {
+      "path": "artifacts/diagnostics/learning_check_2026-10-12/PROTOCOL.md",
+      "bytes": 4485,
+      "sha256": "ef486a06cbba1505d021a04e231893ff9e87e35fce6fe4362b1e00e55e02a7a3"
+    },
+    {
+      "path": "artifacts/diagnostics/learning_check_2026-10-12/REVIEW.md",
+      "bytes": 3098,
+      "sha256": "d9aa08c6be244b73b98acb8f960f61df11ab42cff1f4587c84af8f89525f99de"
+    },
+    {
+      "path": "artifacts/diagnostics/pipeline_gate_2026-10-12/ENCODER_COMPARISON.md",
+      "bytes": 5026,
+      "sha256": "8b17030cb132742822ec6f66b163b641b7287c81f5304394bfe36de94b1c8955"
+    },
+    {
+      "path": "artifacts/diagnostics/pipeline_gate_2026-10-12/unittest_execution.json",
+      "bytes": 1576,
+      "sha256": "9cfc5425af522c03a44958d449451336a30906f33864d8ec65e3f4f20c00512b"
+    },
+    {
+      "path": "artifacts/diagnostics/v1_gain_2026-10-11/PROTOCOL.md",
+      "bytes": 2565,
+      "sha256": "af168d6be46de609d3ad62433a515d8ffb01a1d0d17c9f30ccdd23b8c8efa32b"
+    },
+    {
+      "path": "artifacts/diagnostics/v1_gain_2026-10-11/REVIEW.md",
+      "bytes": 1745,
+      "sha256": "892366552f2088ce51221f5c7c1f4d3df80c16928e244c8d8978853d620fba99"
+    },
+    {
+      "path": "artifacts/diagnostics/v1_gain_2026-10-11/changed_decisions.csv",
+      "bytes": 531,
+      "sha256": "46357b82bcc85eb05c974f712876d7fbf95933b18a86bc8ff2bd2cd8c35f7b50"
+    },
+    {
+      "path": "artifacts/diagnostics/v1_gain_2026-10-11/diagnose.py",
+      "bytes": 13948,
+      "sha256": "7c25dd1e28845ae7fad3287e0de05cb027bc75392a522223136a7562afe63ac8"
+    },
+    {
+      "path": "artifacts/diagnostics/v1_gain_2026-10-11/diagnostics.json",
+      "bytes": 144342,
+      "sha256": "218a84086b970441faf9c2b444be2a8ac84f05a54041831ab178f7ce81fe1c20"
+    },
+    {
+      "path": "artifacts/diagnostics/v1_gain_2026-10-11/sensitivity_predictions.csv",
+      "bytes": 4818332,
+      "sha256": "7a7e7c19554dd163bf10f2ec1ae8d47d58f68a52f5182260e4af4e96fee82761"
+    },
+    {
+      "path": "artifacts/experiments/encoder_comparison_2026-10-12/roberta_cache/manifest.json",
+      "bytes": 2200,
+      "sha256": "a6979227ea668ffb866c16c06a587ba3e1f0b861284e8d1f2500af08931a7d84"
+    },
+    {
+      "path": "artifacts/experiments/encoder_comparison_2026-10-12_replay/REVIEW.md",
+      "bytes": 3831,
+      "sha256": "af5f4e76659f848dd62c31afe466194dd9f637276d3b2576bc58c85730ef7b7d"
+    },
+    {
+      "path": "artifacts/feasibility/public_reference_2026-10-14/cmin_source_manifest.json",
+      "bytes": 108646,
+      "sha256": "fb8dfa1d6467bd4bed8133aba98c60a55ee78e88b8d9cbb4d00ab54b5866b72a"
+    }
+  ]
+}

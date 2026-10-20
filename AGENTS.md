@@ -2,6 +2,8 @@
 
 ## Purpose and research status
 
+Handoff status (20 October 2026): the user and professor paused further embedding/attention experiments to consider a separate direct-LLM headline prediction task. The new task is proposed, not implemented. Read `README.md`, `DECISIONS.md`, and `docs/repository_guide.md` first for the current state, evidence-linked history, and file map. Do not interpret older proposals or dated PDFs as current execution status. Keep the completed pipeline/evidence intact; no repository rename or project-folder migration has been performed. This is not authorization to resume financial fitting or use reserved outcomes.
+
 Investigate whether interactions among financial headlines and market-conditioned news aggregation add predictive information beyond prices and simpler news summaries. Work as a critical research collaborator: a working pipeline is an engineering result; a forecasting, trading, or market-mechanism claim needs separate empirical evidence.
 
 The reference is Wang, Cohen and Ma (2024), [Modeling News Interactions and Influence for Financial Market Prediction](https://aclanthology.org/2024.findings-emnlp.189/); its PDF is in `paper/`. FININ uses frozen text encoding, shared text projection, separate numerical/fusion encoders, news self-attention, market-query weighting, and a predictor over daily representations (Figure 2, Eqs. 1-7). The paper studies Reuters/TRNA headlines and instrument sentiment with S&P 500/NASDAQ 100 data, 1/3/5/10/20-day **input lookbacks**, and ten chronological sliding windows. The target remains next-session direction. Its reported Sharpe gains and information-diffusion interpretations are author claims, not established facts about this repository.

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\user\\Desktop\\Research\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_boundary_excludes_future_outcome (test_data_alignment.DataAlignmentTest.test_boundary_excludes_future_outcome) ... ok\ntest_headline_selection_ignores_source_order_and_duplicates (test_data_alignment.DataAlignmentTest.test_headline_selection_ignores_source_order_and_duplicates) ... ok\ntest_missing_news_session_does_not_turn_target_into_multiday_move (test_data_alignment.DataAlignmentTest.test_missing_news_session_does_not_turn_target_into_multiday_move) ... ok\ntest_standardizer_uses_only_training_rows (test_data_alignment.DataAlignmentTest.test_standardizer_uses_only_training_rows) ... ok\ntest_always_up_balanced_accuracy_exposes_single_class_guessing (test_model_integrity.ModelIntegrityTest.test_always_up_balanced_accuracy_exposes_single_class_guessing) ... ok\ntest_padding_does_not_change_prediction_or_weights (test_model_integrity.ModelIntegrityTest.test_padding_does_not_change_prediction_or_weights) ... ok\ntest_training_gradient_reaches_both_attention_components (test_model_integrity.ModelIntegrityTest.test_training_gradient_reaches_both_attention_components) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.024s\n\nOK\n",
+  "reason": "Reviewer requested capture of actual output for independently auditable gate; only existing inexpensive tests repeated."
+}

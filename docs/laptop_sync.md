@@ -7,11 +7,13 @@ git clone https://github.com/jadghazi/finin-research-prototype.git
 cd finin-research-prototype
 ```
 
-Start with the links in the repository README. Meeting PDFs and available LaTeX sources are under `output/pdf/`, figures under `output/figures/`, findings under `reports/`, and experiment protocols under `docs/`. Source, tests and configurations are included. Historical reports and PDFs are retained with their original dates.
+Start with the links in the repository README, then [DECISIONS.md](../DECISIONS.md) for what was tried and why, and [the repository guide](repository_guide.md) for the file map. Meeting PDFs and available LaTeX sources are under `output/pdf/`, figures under `output/figures/`, findings under `reports/`, and experiment protocols under `docs/`. Source, tests and configurations are included. Historical reports and PDFs are retained with their original dates. The completed embedding/attention investigation is paused; no new LLM implementation has been added.
 
 ## Saved evidence included
 
-A compact, explicitly selected subset of the otherwise ignored `artifacts/` directory is tracked: CMIN configurations, protocols, summary/analysis JSON, validation/training histories, selected evaluation prediction CSVs, and selected audit records. These preserve results for reading and checking without starting model training. `output/research_sync_manifest_2026-10-19.json` lists the selected artifact paths and SHA-256 hashes.
+A compact, explicitly selected subset of the otherwise ignored `artifacts/` directory is tracked: CMIN configurations, protocols, summary/analysis JSON, validation/training histories, selected evaluation prediction CSVs, and selected audit records. These preserve results for reading and checking without starting model training. [The 19 October manifest](../output/research_sync_manifest_2026-10-19.json) lists the original selected artifact paths and SHA-256 hashes. [The 20 October additions manifest](../output/research_share_manifest_2026-10-20.json) covers supporting records added to make linked evidence available, including the worked CMIN example and pinned acquisition inventory. The original manifest remains unchanged.
+
+With Python and Git installed, run `python scripts/audit_repository.py` to check the tracked package without fetching datasets, loading checkpoints, or writing into study folders. The dated sharing audit is in `reports/repository_audit_2026-10-20.json`.
 
 The timing-only implementation remains archived under `artifacts/cmin_timing_2026-10-19_v1/source_snapshot/`, together with its cleanup note. It has not been restored to active source or test folders. See that experiment's `ARCHIVED_CODE.md` before attempting to execute it.
 

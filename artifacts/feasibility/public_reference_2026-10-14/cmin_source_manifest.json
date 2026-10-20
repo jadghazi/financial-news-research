@@ -1,0 +1,2712 @@
+{
+  "commit": "3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97",
+  "inventories": {
+    "raw_news": {
+      "sha": "9e835007aadce340f1b623243b20316a3001c3a1",
+      "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/trees/9e835007aadce340f1b623243b20316a3001c3a1",
+      "tree": [
+        {
+          "path": "AAPL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7787950f030bdde6d757666b461f691f6101d20d",
+          "size": 43436627,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7787950f030bdde6d757666b461f691f6101d20d"
+        },
+        {
+          "path": "ABBV.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d1d0c4fa1756a6a05c7f230b2de0f4b7bfed4372",
+          "size": 3827647,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d1d0c4fa1756a6a05c7f230b2de0f4b7bfed4372"
+        },
+        {
+          "path": "ABT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "038a70cd30dd23f43176a5d0e8ef4d18ce437524",
+          "size": 2479917,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/038a70cd30dd23f43176a5d0e8ef4d18ce437524"
+        },
+        {
+          "path": "ACN.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bdfb6a509ace4cb148c2dc6cbc3314f3f4e0536f",
+          "size": 2116475,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/bdfb6a509ace4cb148c2dc6cbc3314f3f4e0536f"
+        },
+        {
+          "path": "ADBE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "915edbb53f717fbf6eb6b978fa05ddea0fe73446",
+          "size": 3411026,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/915edbb53f717fbf6eb6b978fa05ddea0fe73446"
+        },
+        {
+          "path": "ADP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9ebd1b70636fccadf6b01deceb6839a751d9355a",
+          "size": 1344903,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/9ebd1b70636fccadf6b01deceb6839a751d9355a"
+        },
+        {
+          "path": "AEP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "07a64a6dfdbf2f0d805a55d65e38ca87d5dc25b4",
+          "size": 1281886,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/07a64a6dfdbf2f0d805a55d65e38ca87d5dc25b4"
+        },
+        {
+          "path": "AMT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e1ccdae57f5ff7c259c459bbb33857980f96c193",
+          "size": 2100977,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e1ccdae57f5ff7c259c459bbb33857980f96c193"
+        },
+        {
+          "path": "AMZN.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5abe047cbd0ac42eb47d5a98f665a876cbb42c35",
+          "size": 47462300,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5abe047cbd0ac42eb47d5a98f665a876cbb42c35"
+        },
+        {
+          "path": "APD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f06738111a7f309b94a744c06162e18fdbf3d88a",
+          "size": 1002921,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f06738111a7f309b94a744c06162e18fdbf3d88a"
+        },
+        {
+          "path": "ASML.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4d25f4e11dc0fca60b52e665ba04b886529cf058",
+          "size": 1051784,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4d25f4e11dc0fca60b52e665ba04b886529cf058"
+        },
+        {
+          "path": "AVGO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "759708e53c4dcf723ed72b71bc6c0fdb945dc447",
+          "size": 6308633,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/759708e53c4dcf723ed72b71bc6c0fdb945dc447"
+        },
+        {
+          "path": "AWK.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cc1e55e371de779151632d01aeb177f09bf03682",
+          "size": 1322927,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/cc1e55e371de779151632d01aeb177f09bf03682"
+        },
+        {
+          "path": "BA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "aa289a8a9750cba761bb0fe31bb3b190a1c7f8d0",
+          "size": 13881276,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/aa289a8a9750cba761bb0fe31bb3b190a1c7f8d0"
+        },
+        {
+          "path": "BABA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d1c6c8f415566906566fdcdadf6c989241c67caf",
+          "size": 13200126,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d1c6c8f415566906566fdcdadf6c989241c67caf"
+        },
+        {
+          "path": "BAC.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "950f722fe750e09e7e7adf4b67634e42d2776cdf",
+          "size": 10155740,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/950f722fe750e09e7e7adf4b67634e42d2776cdf"
+        },
+        {
+          "path": "BBL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0a99d0de2bbfaa089bcce0c8a15256d4933d1535",
+          "size": 1172797,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0a99d0de2bbfaa089bcce0c8a15256d4933d1535"
+        },
+        {
+          "path": "BHP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1c40548c128d834421dae647960a654e837a3c3b",
+          "size": 1525953,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1c40548c128d834421dae647960a654e837a3c3b"
+        },
+        {
+          "path": "BP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f3a92c2d3d1549f7511a0ed7f3535ded7e335875",
+          "size": 3285534,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f3a92c2d3d1549f7511a0ed7f3535ded7e335875"
+        },
+        {
+          "path": "BRK-A.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4be0b9be6639eca9e9372a961021178158fbb0ad",
+          "size": 255318,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4be0b9be6639eca9e9372a961021178158fbb0ad"
+        },
+        {
+          "path": "C.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fe8bef8e67ac8e9efbbfbab8e241d92852917813",
+          "size": 8260720,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/fe8bef8e67ac8e9efbbfbab8e241d92852917813"
+        },
+        {
+          "path": "CAT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5c7340ee413139d94ea5e6fc4fe9579cfcf7ab38",
+          "size": 4355745,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5c7340ee413139d94ea5e6fc4fe9579cfcf7ab38"
+        },
+        {
+          "path": "CCI.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c488f849b84b49162de10a51c4f2ee659808d619",
+          "size": 1419861,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c488f849b84b49162de10a51c4f2ee659808d619"
+        },
+        {
+          "path": "CHTR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1cf6efc913dc15fb20113ee58ff397e8155fcffd",
+          "size": 1392185,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1cf6efc913dc15fb20113ee58ff397e8155fcffd"
+        },
+        {
+          "path": "CMCSA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0d4eeb065e301f45bf714c312a46b92fc3f06348",
+          "size": 7247430,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0d4eeb065e301f45bf714c312a46b92fc3f06348"
+        },
+        {
+          "path": "COP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "52741fdb4f94225eab26ccbec27ecf9a3c1932eb",
+          "size": 2755997,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/52741fdb4f94225eab26ccbec27ecf9a3c1932eb"
+        },
+        {
+          "path": "COST.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "59c035b68fa4583e8582c93bfae5654820f5a978",
+          "size": 4641426,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/59c035b68fa4583e8582c93bfae5654820f5a978"
+        },
+        {
+          "path": "CSCO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c1a9f37ba1b859a6548d38ba85346a6a9309d07d",
+          "size": 5627994,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c1a9f37ba1b859a6548d38ba85346a6a9309d07d"
+        },
+        {
+          "path": "CVX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c822ce769c0360971ea80ba6cdd671f01a37a7f7",
+          "size": 7309634,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c822ce769c0360971ea80ba6cdd671f01a37a7f7"
+        },
+        {
+          "path": "D.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8ae5cd0a971da859091c0211155f24239f06cca3",
+          "size": 1840244,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8ae5cd0a971da859091c0211155f24239f06cca3"
+        },
+        {
+          "path": "DDpA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7018257015260cfb24e390239d5dfcf69859d3ec",
+          "size": 15556,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7018257015260cfb24e390239d5dfcf69859d3ec"
+        },
+        {
+          "path": "DE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "581a5c259cf8cac5d1dd2619be35c04f0e9b3f36",
+          "size": 2124571,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/581a5c259cf8cac5d1dd2619be35c04f0e9b3f36"
+        },
+        {
+          "path": "DEO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "09521fe3d9a53624537a77c1889693fad6775549",
+          "size": 901152,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/09521fe3d9a53624537a77c1889693fad6775549"
+        },
+        {
+          "path": "DHR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "94f670a1ee74f38f84f77bb22012c1dd7d32524a",
+          "size": 1310605,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/94f670a1ee74f38f84f77bb22012c1dd7d32524a"
+        },
+        {
+          "path": "DIS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "17e7338b195b1db982258e11240854c2cfa132a3",
+          "size": 926046,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/17e7338b195b1db982258e11240854c2cfa132a3"
+        },
+        {
+          "path": "DLR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d9c9e4cf3f9765e66e67debdf8338e007450f70c",
+          "size": 790925,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d9c9e4cf3f9765e66e67debdf8338e007450f70c"
+        },
+        {
+          "path": "DUK.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "934dbe2f295d052434cbdb0ec1117c20d61710f1",
+          "size": 2236696,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/934dbe2f295d052434cbdb0ec1117c20d61710f1"
+        },
+        {
+          "path": "ECL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d972b45fce670456d4856e1a47de09431bf49653",
+          "size": 691082,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d972b45fce670456d4856e1a47de09431bf49653"
+        },
+        {
+          "path": "EL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8bfa9b097cb820283d1d9396eb8f4d921e705c2a",
+          "size": 1391650,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8bfa9b097cb820283d1d9396eb8f4d921e705c2a"
+        },
+        {
+          "path": "ENB.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0f00ce776c8746c8ac740a28068ceadee49bd1ff",
+          "size": 1780318,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0f00ce776c8746c8ac740a28068ceadee49bd1ff"
+        },
+        {
+          "path": "EQIX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5af0f1655b174bd46587d81d8f93b91a83d2a398",
+          "size": 757684,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5af0f1655b174bd46587d81d8f93b91a83d2a398"
+        },
+        {
+          "path": "EQNR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8ce93245ba13d6aa64bb5d10eb2971ac0bce8e86",
+          "size": 1170849,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8ce93245ba13d6aa64bb5d10eb2971ac0bce8e86"
+        },
+        {
+          "path": "EXC.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7c3dd3382c77522d598605b4d76ba3b0f6e53ea4",
+          "size": 1284475,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7c3dd3382c77522d598605b4d76ba3b0f6e53ea4"
+        },
+        {
+          "path": "FB.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d97c53a6ffde23b2e6cb76ab785df6485efc7a84",
+          "size": 36814116,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d97c53a6ffde23b2e6cb76ab785df6485efc7a84"
+        },
+        {
+          "path": "FCX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "37a65bcf31786a9ee427c9d7d2988b2c9529d262",
+          "size": 1452546,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/37a65bcf31786a9ee427c9d7d2988b2c9529d262"
+        },
+        {
+          "path": "GE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8e4af97be2d886a4bdb4eaf93dfed5341fcf3eb4",
+          "size": 10237783,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8e4af97be2d886a4bdb4eaf93dfed5341fcf3eb4"
+        },
+        {
+          "path": "GOOG.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4e4ad4037a3ce2a930fea6be6a46e8f509e834f2",
+          "size": 37135989,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4e4ad4037a3ce2a930fea6be6a46e8f509e834f2"
+        },
+        {
+          "path": "HD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0bab78117ad71316bdb251a2904788a94b93b6d5",
+          "size": 4972068,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0bab78117ad71316bdb251a2904788a94b93b6d5"
+        },
+        {
+          "path": "HON.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3803a38df73602d58ec36781d2a9106533a363ce",
+          "size": 2982492,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3803a38df73602d58ec36781d2a9106533a363ce"
+        },
+        {
+          "path": "JD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f3c3d861da072cb0cf246f2bdeb7b5bc50d5cefb",
+          "size": 4210352,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f3c3d861da072cb0cf246f2bdeb7b5bc50d5cefb"
+        },
+        {
+          "path": "JNJ.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "25dd609669e534111d1e8405fc4d47c506638d00",
+          "size": 8927263,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/25dd609669e534111d1e8405fc4d47c506638d00"
+        },
+        {
+          "path": "JPM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7090d421d0871f0dbdf3703b07b4c96b98d30b3f",
+          "size": 15079766,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7090d421d0871f0dbdf3703b07b4c96b98d30b3f"
+        },
+        {
+          "path": "KO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "56620d535d149aa6570962280f01c77c2184d065",
+          "size": 5109072,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/56620d535d149aa6570962280f01c77c2184d065"
+        },
+        {
+          "path": "LLY.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d27f3811992aed87311c2d7cc8301179c802b7fb",
+          "size": 4103594,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d27f3811992aed87311c2d7cc8301179c802b7fb"
+        },
+        {
+          "path": "LOW.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0aa4142cc057f1eb3f78703b269c5d5cceb1cb0a",
+          "size": 2609258,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0aa4142cc057f1eb3f78703b269c5d5cceb1cb0a"
+        },
+        {
+          "path": "MA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ce3a7ae0710a155184b76e0e7592563cdc8af101",
+          "size": 4186709,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ce3a7ae0710a155184b76e0e7592563cdc8af101"
+        },
+        {
+          "path": "MCD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3427054d4dea24bd64f5b04b7677b5941902a8f4",
+          "size": 6128483,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3427054d4dea24bd64f5b04b7677b5941902a8f4"
+        },
+        {
+          "path": "MMM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9e95660505eee7a57d9458d4bf4696534810c3b5",
+          "size": 3032091,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/9e95660505eee7a57d9458d4bf4696534810c3b5"
+        },
+        {
+          "path": "MS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bd38eeb5dc952a389c1f3bdb1340c0eb10439319",
+          "size": 6407124,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/bd38eeb5dc952a389c1f3bdb1340c0eb10439319"
+        },
+        {
+          "path": "MSFT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "521de7a690fa339515da7445d48cc95c0078e0a9",
+          "size": 25227060,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/521de7a690fa339515da7445d48cc95c0078e0a9"
+        },
+        {
+          "path": "NEE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4feff7970c1e7debd4cf4ee4c3d123e8bf3de730",
+          "size": 2579381,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4feff7970c1e7debd4cf4ee4c3d123e8bf3de730"
+        },
+        {
+          "path": "NEM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3f7bbee7b1b25bc4554b6a36712c4d033b1982ca",
+          "size": 1779338,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3f7bbee7b1b25bc4554b6a36712c4d033b1982ca"
+        },
+        {
+          "path": "NFLX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ac0d3cbcca1564dc8d3fdf33d30196ab67cb2a14",
+          "size": 15182883,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ac0d3cbcca1564dc8d3fdf33d30196ab67cb2a14"
+        },
+        {
+          "path": "NGG.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bfc6d2733d67710babdf2232dcf199f4f8277ede",
+          "size": 347779,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/bfc6d2733d67710babdf2232dcf199f4f8277ede"
+        },
+        {
+          "path": "NKE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3e45b79adcddd52c9a91160e146a29682010ccf5",
+          "size": 7025463,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3e45b79adcddd52c9a91160e146a29682010ccf5"
+        },
+        {
+          "path": "NVDA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "aa55e5259942c9ca35359b5a95d2df246f36d9de",
+          "size": 11756212,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/aa55e5259942c9ca35359b5a95d2df246f36d9de"
+        },
+        {
+          "path": "NVO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1b99dc3e795fd9113334117555b50cad155311cf",
+          "size": 996317,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1b99dc3e795fd9113334117555b50cad155311cf"
+        },
+        {
+          "path": "NVS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2732c0660bb045ac1e579dd92519e8532e211242",
+          "size": 4102178,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2732c0660bb045ac1e579dd92519e8532e211242"
+        },
+        {
+          "path": "O.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ae95d98c3a112f724cfa0a58e20f896e9fc57542",
+          "size": 958541,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ae95d98c3a112f724cfa0a58e20f896e9fc57542"
+        },
+        {
+          "path": "ORCL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d4d7bb5a460bb6c0d8417252e406d4225452b3b9",
+          "size": 5293261,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d4d7bb5a460bb6c0d8417252e406d4225452b3b9"
+        },
+        {
+          "path": "PEP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1b39ec80c52805ad6865f2689cffcb8f41a0c02e",
+          "size": 3345175,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1b39ec80c52805ad6865f2689cffcb8f41a0c02e"
+        },
+        {
+          "path": "PFE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a2e94015d6ca4c5c27cc8e020bcc5e393e799906",
+          "size": 11272658,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a2e94015d6ca4c5c27cc8e020bcc5e393e799906"
+        },
+        {
+          "path": "PG.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "791c0d87b2fe39db88453c7257cd916964811bc8",
+          "size": 4263260,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/791c0d87b2fe39db88453c7257cd916964811bc8"
+        },
+        {
+          "path": "PLD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "268654ba7ef12e009c64304788e81b5dd3acae7c",
+          "size": 936017,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/268654ba7ef12e009c64304788e81b5dd3acae7c"
+        },
+        {
+          "path": "PM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "27ae87f7f7837cd564139abdfc7c15c123e8fc1b",
+          "size": 2496064,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/27ae87f7f7837cd564139abdfc7c15c123e8fc1b"
+        },
+        {
+          "path": "PSA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b55feb8adfe7711bfc28f507d6ffae80652d2067",
+          "size": 572408,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b55feb8adfe7711bfc28f507d6ffae80652d2067"
+        },
+        {
+          "path": "PTR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1ae72d0c4b74fd36ee7cee7ddec4bcee405c80cb",
+          "size": 1234184,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1ae72d0c4b74fd36ee7cee7ddec4bcee405c80cb"
+        },
+        {
+          "path": "PYPL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "05213d805cd8758890955f3d5f1acb2b289d7293",
+          "size": 4568301,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/05213d805cd8758890955f3d5f1acb2b289d7293"
+        },
+        {
+          "path": "RDS-B.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ca4f43ec660d69a3105b9c3c33b2646b818cb98d",
+          "size": 201896,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ca4f43ec660d69a3105b9c3c33b2646b818cb98d"
+        },
+        {
+          "path": "RIO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "545500ce26b0ba8322a588872c6bd16935c84b62",
+          "size": 2073021,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/545500ce26b0ba8322a588872c6bd16935c84b62"
+        },
+        {
+          "path": "RTX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7896b2359efaaecb758b9a7368658b0d9105d5c8",
+          "size": 3564014,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7896b2359efaaecb758b9a7368658b0d9105d5c8"
+        },
+        {
+          "path": "SBAC.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "04eb851a4c4c4828d20890109546daf6f968b448",
+          "size": 404703,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/04eb851a4c4c4828d20890109546daf6f968b448"
+        },
+        {
+          "path": "SBUX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6185d18db61ff13d14ebc12536e8e3464ebfd671",
+          "size": 7303741,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6185d18db61ff13d14ebc12536e8e3464ebfd671"
+        },
+        {
+          "path": "SCHW.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4e7a58cfc4427f1b51488fff971cee7244ed6a24",
+          "size": 2260716,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4e7a58cfc4427f1b51488fff971cee7244ed6a24"
+        },
+        {
+          "path": "SHW.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bc571e7f13f186d0bc6f155658b253fabe5da2c7",
+          "size": 750712,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/bc571e7f13f186d0bc6f155658b253fabe5da2c7"
+        },
+        {
+          "path": "SNAP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3ae4077a65b49fec541f00023632677a8064eacc",
+          "size": 5782179,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3ae4077a65b49fec541f00023632677a8064eacc"
+        },
+        {
+          "path": "SNP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "804988378e75fa0045652ab77030b9c3aa20c18c",
+          "size": 874215,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/804988378e75fa0045652ab77030b9c3aa20c18c"
+        },
+        {
+          "path": "SO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cfc8968187548922c1e834e453672402acbdf234",
+          "size": 1736486,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/cfc8968187548922c1e834e453672402acbdf234"
+        },
+        {
+          "path": "SPG.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6d7f252e40a343c56341d2e6f600ea701b3dfd89",
+          "size": 2292941,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6d7f252e40a343c56341d2e6f600ea701b3dfd89"
+        },
+        {
+          "path": "SRE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c8de3334fe6c78898cfe12b3e73d4f4dd3f83180",
+          "size": 1198595,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c8de3334fe6c78898cfe12b3e73d4f4dd3f83180"
+        },
+        {
+          "path": "T.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f34a7abd36f81e05fbb5eeea61ce2a6c8600eec1",
+          "size": 11087857,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f34a7abd36f81e05fbb5eeea61ce2a6c8600eec1"
+        },
+        {
+          "path": "TGT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e7f98f6c32ca2a236339b0d8b72c2a1c2013deae",
+          "size": 7422859,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e7f98f6c32ca2a236339b0d8b72c2a1c2013deae"
+        },
+        {
+          "path": "TM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6f59fff5e80c467150d29b438d2d13778cff28f2",
+          "size": 4482471,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6f59fff5e80c467150d29b438d2d13778cff28f2"
+        },
+        {
+          "path": "TMO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3d1ea3f904442c3878c46090d3419a92785e5697",
+          "size": 1670457,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3d1ea3f904442c3878c46090d3419a92785e5697"
+        },
+        {
+          "path": "TMUS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "df4df52493809f7393f6b547a0f180526f6156ae",
+          "size": 5273912,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/df4df52493809f7393f6b547a0f180526f6156ae"
+        },
+        {
+          "path": "TSLA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d8ed4b817fb965fdaf1be69f71e62aa5d1b51b16",
+          "size": 31030204,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d8ed4b817fb965fdaf1be69f71e62aa5d1b51b16"
+        },
+        {
+          "path": "TSM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "59078c28b7654a1d5a8339c94e9d38060cc91ca8",
+          "size": 3218163,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/59078c28b7654a1d5a8339c94e9d38060cc91ca8"
+        },
+        {
+          "path": "TTE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1946b445619b114301c3da41dad7e856eb53cdf7",
+          "size": 2249926,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1946b445619b114301c3da41dad7e856eb53cdf7"
+        },
+        {
+          "path": "UL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "89652667fa6c178f6b42d2017c46b3c5080015f5",
+          "size": 1237616,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/89652667fa6c178f6b42d2017c46b3c5080015f5"
+        },
+        {
+          "path": "UNH.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7bcaddbc6698716b51c149ffa66bc5f34719e782",
+          "size": 3733305,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7bcaddbc6698716b51c149ffa66bc5f34719e782"
+        },
+        {
+          "path": "UNP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a0e18bcd8299729bce7300619bedd9c8029149b4",
+          "size": 1930795,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a0e18bcd8299729bce7300619bedd9c8029149b4"
+        },
+        {
+          "path": "UPS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "87507cdfe49f6a919d04fad3f08a03616548e795",
+          "size": 3765371,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/87507cdfe49f6a919d04fad3f08a03616548e795"
+        },
+        {
+          "path": "V.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "36f84a252954a7dbaecc24c66df73223f57d01e8",
+          "size": 4509877,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/36f84a252954a7dbaecc24c66df73223f57d01e8"
+        },
+        {
+          "path": "VALE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b67842d4de81720abea550febee0170d8444739d",
+          "size": 1457468,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b67842d4de81720abea550febee0170d8444739d"
+        },
+        {
+          "path": "VZ.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8b58ad5e33acfe3f9bb939e7689bd3eaae34e821",
+          "size": 9301387,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8b58ad5e33acfe3f9bb939e7689bd3eaae34e821"
+        },
+        {
+          "path": "WELL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "37f8ca4af2320289e044a98588a82a9a47cc6e1d",
+          "size": 593089,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/37f8ca4af2320289e044a98588a82a9a47cc6e1d"
+        },
+        {
+          "path": "WFC.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5feee069d53f5588e52f4cbfc9cbdd0bbf00baed",
+          "size": 6873671,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5feee069d53f5588e52f4cbfc9cbdd0bbf00baed"
+        },
+        {
+          "path": "WMT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3b426c68c406097688bfb26c5faedab1738fe142",
+          "size": 16349044,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3b426c68c406097688bfb26c5faedab1738fe142"
+        },
+        {
+          "path": "XEL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b654caa0c46b5d8087845dcc478ea619b209d400",
+          "size": 724906,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b654caa0c46b5d8087845dcc478ea619b209d400"
+        },
+        {
+          "path": "XOM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "abd6e50d604a210b129298b21de47e53acf0a6ed",
+          "size": 10019535,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/abd6e50d604a210b129298b21de47e53acf0a6ed"
+        }
+      ],
+      "truncated": false
+    },
+    "raw_price": {
+      "sha": "a7e79ab6098640928b2fcd47187bf1eff5081e34",
+      "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/trees/a7e79ab6098640928b2fcd47187bf1eff5081e34",
+      "tree": [
+        {
+          "path": "AAPL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5554405c906b5fc626628d9e409f0b6b0405ecf4",
+          "size": 70199,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5554405c906b5fc626628d9e409f0b6b0405ecf4"
+        },
+        {
+          "path": "ABBV.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e9ce63311121ec20da70b5f5a545936718ceb6df",
+          "size": 68844,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e9ce63311121ec20da70b5f5a545936718ceb6df"
+        },
+        {
+          "path": "ABT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4df17d6bd4b3ec65ffb11670a78cc598f44408ba",
+          "size": 68420,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4df17d6bd4b3ec65ffb11670a78cc598f44408ba"
+        },
+        {
+          "path": "ACN.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "da6b7eb7802a5212d345be9c6a8a6beef1d40371",
+          "size": 72807,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/da6b7eb7802a5212d345be9c6a8a6beef1d40371"
+        },
+        {
+          "path": "ADBE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2c924a2679de95dbad6d2c68f6d7ed67acd22ce7",
+          "size": 72068,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2c924a2679de95dbad6d2c68f6d7ed67acd22ce7"
+        },
+        {
+          "path": "ADP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0b1493946a6bbbc06e22b7bfb57c15e4874cb5c0",
+          "size": 73137,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0b1493946a6bbbc06e22b7bfb57c15e4874cb5c0"
+        },
+        {
+          "path": "AEP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7aa91729113944f4bd6c3603ac973c1f728302f6",
+          "size": 67332,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7aa91729113944f4bd6c3603ac973c1f728302f6"
+        },
+        {
+          "path": "AMT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ed159b34f5b07fcaf3fff0e323f7248959a78315",
+          "size": 72834,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ed159b34f5b07fcaf3fff0e323f7248959a78315"
+        },
+        {
+          "path": "AMZN.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d2b32a707a2d0595cc818d952dc2aab94b990ae2",
+          "size": 74068,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d2b32a707a2d0595cc818d952dc2aab94b990ae2"
+        },
+        {
+          "path": "APD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1f6f09b70ccf5e9b8d6fa77a4705a30c346eabe5",
+          "size": 72719,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1f6f09b70ccf5e9b8d6fa77a4705a30c346eabe5"
+        },
+        {
+          "path": "ASML.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a83a2fb3ca9d4e511b7df18c115530c34d0bc15c",
+          "size": 72213,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a83a2fb3ca9d4e511b7df18c115530c34d0bc15c"
+        },
+        {
+          "path": "AVGO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9a60fb18659e21d0f9ad75d64af0ad6d9c644a97",
+          "size": 72315,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/9a60fb18659e21d0f9ad75d64af0ad6d9c644a97"
+        },
+        {
+          "path": "AWK.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bab0326819a214b6fe3dd5af923822e774eac9ff",
+          "size": 70475,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/bab0326819a214b6fe3dd5af923822e774eac9ff"
+        },
+        {
+          "path": "BA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "90e7e4af47c9c52cc6feb89b56b76ad22a971564",
+          "size": 72524,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/90e7e4af47c9c52cc6feb89b56b76ad22a971564"
+        },
+        {
+          "path": "BABA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "652337cf04c2e47981dd24495a1f7f04636fbdf4",
+          "size": 73017,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/652337cf04c2e47981dd24495a1f7f04636fbdf4"
+        },
+        {
+          "path": "BAC.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "41cc70f65ce146e4fbb4cece84a9e289e50734ee",
+          "size": 63156,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/41cc70f65ce146e4fbb4cece84a9e289e50734ee"
+        },
+        {
+          "path": "BBL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c38586f1bd691d2d2f9950cb8ecbeff50a89011c",
+          "size": 64387,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c38586f1bd691d2d2f9950cb8ecbeff50a89011c"
+        },
+        {
+          "path": "BHP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "35e7fb87146b1e5a1788d0cd9d713dfb3187f769",
+          "size": 64792,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/35e7fb87146b1e5a1788d0cd9d713dfb3187f769"
+        },
+        {
+          "path": "BP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ac297f18c8dc7c4e69066534049be69a59470d1b",
+          "size": 63304,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ac297f18c8dc7c4e69066534049be69a59470d1b"
+        },
+        {
+          "path": "BRK-A.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a6794bfb85cc93549a69b865c49b1c5a7f66a26a",
+          "size": 58724,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a6794bfb85cc93549a69b865c49b1c5a7f66a26a"
+        },
+        {
+          "path": "C-PJ.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "166c8006758e706619acf34d18242f6e6e3b1e00",
+          "size": 59321,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/166c8006758e706619acf34d18242f6e6e3b1e00"
+        },
+        {
+          "path": "CAT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "98e82c4d582d4b7af1925d92aef4245de5f4517b",
+          "size": 72740,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/98e82c4d582d4b7af1925d92aef4245de5f4517b"
+        },
+        {
+          "path": "CCI.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4042de231fab3d07db0dd04f19b7432f6b3e43f6",
+          "size": 72274,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4042de231fab3d07db0dd04f19b7432f6b3e43f6"
+        },
+        {
+          "path": "CHTR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "460e389fb8bf1c3659d9c737f1cf43b619577de1",
+          "size": 71886,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/460e389fb8bf1c3659d9c737f1cf43b619577de1"
+        },
+        {
+          "path": "CMCSA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2930be8d65b8bbb5cd3379415ab94cdd9dbf1c98",
+          "size": 65617,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2930be8d65b8bbb5cd3379415ab94cdd9dbf1c98"
+        },
+        {
+          "path": "COP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ca2a1b664fea0fbdf811696bcfb5733629453280",
+          "size": 65634,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ca2a1b664fea0fbdf811696bcfb5733629453280"
+        },
+        {
+          "path": "COST.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d246a423bc67177b151cb9cc159be7c402537948",
+          "size": 72451,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d246a423bc67177b151cb9cc159be7c402537948"
+        },
+        {
+          "path": "CSCO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "288eded71faf6a452933071f05624ef53c5f2f93",
+          "size": 65870,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/288eded71faf6a452933071f05624ef53c5f2f93"
+        },
+        {
+          "path": "CTA-PB.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f10be2f7d0881256c27d0495147a990f3ecdab15",
+          "size": 63634,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f10be2f7d0881256c27d0495147a990f3ecdab15"
+        },
+        {
+          "path": "CVX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0a8ad4849d34a9df99a6baf710dabac9ab86c805",
+          "size": 71141,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0a8ad4849d34a9df99a6baf710dabac9ab86c805"
+        },
+        {
+          "path": "D.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8bb9ead6beb4d9246611f48ebb40c8d4df4866ef",
+          "size": 67136,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8bb9ead6beb4d9246611f48ebb40c8d4df4866ef"
+        },
+        {
+          "path": "DE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "377a2b9ef466b19bc6b42c5138372a74f8f24730",
+          "size": 72598,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/377a2b9ef466b19bc6b42c5138372a74f8f24730"
+        },
+        {
+          "path": "DEO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ef460c94b985a77ba9dba82494747012502e8df0",
+          "size": 72556,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ef460c94b985a77ba9dba82494747012502e8df0"
+        },
+        {
+          "path": "DHR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2b100150c730282c646a6b79657d836597925c5f",
+          "size": 72311,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2b100150c730282c646a6b79657d836597925c5f"
+        },
+        {
+          "path": "DIS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8dd29e6f424e686162b1c2485c27a2470d27becc",
+          "size": 72616,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8dd29e6f424e686162b1c2485c27a2470d27becc"
+        },
+        {
+          "path": "DLR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fe4ca8ce1933cc5bdeff2fc3f2f9da0459407da0",
+          "size": 72008,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/fe4ca8ce1933cc5bdeff2fc3f2f9da0459407da0"
+        },
+        {
+          "path": "DUK.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0cacc7fb374a521e6bb0bed1459960bb5db87422",
+          "size": 67661,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0cacc7fb374a521e6bb0bed1459960bb5db87422"
+        },
+        {
+          "path": "ECL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e27c575f5a37073d22bdcfda7d29b14fdef9349b",
+          "size": 72682,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e27c575f5a37073d22bdcfda7d29b14fdef9349b"
+        },
+        {
+          "path": "EL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "16c418f73df21a19c8e2d8b9d6448381a1ab58d0",
+          "size": 72818,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/16c418f73df21a19c8e2d8b9d6448381a1ab58d0"
+        },
+        {
+          "path": "ENB.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ca58da352fc2eb720b3c48fd1479f385c5b39d26",
+          "size": 63802,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ca58da352fc2eb720b3c48fd1479f385c5b39d26"
+        },
+        {
+          "path": "EQIX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b2b0387c465799643ba6aa1b07e7f434e256d354",
+          "size": 71050,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b2b0387c465799643ba6aa1b07e7f434e256d354"
+        },
+        {
+          "path": "EQNR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a0c57547a5482d16e98111a973ca0ae698fb055e",
+          "size": 59146,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a0c57547a5482d16e98111a973ca0ae698fb055e"
+        },
+        {
+          "path": "EXC.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f56a91df1498e853668cff343c55dcda3103ad99",
+          "size": 64886,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f56a91df1498e853668cff343c55dcda3103ad99"
+        },
+        {
+          "path": "FB.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "828b26b3df4f753a3670c85208d8d9e6e5e5817f",
+          "size": 73526,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/828b26b3df4f753a3670c85208d8d9e6e5e5817f"
+        },
+        {
+          "path": "FCX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b08ccf8475245f43f84b90f28f52b355c63c7e20",
+          "size": 57664,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b08ccf8475245f43f84b90f28f52b355c63c7e20"
+        },
+        {
+          "path": "GE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "790b9e1000cb0c7a8a87b6e207a4a1bdd0c40dd4",
+          "size": 68717,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/790b9e1000cb0c7a8a87b6e207a4a1bdd0c40dd4"
+        },
+        {
+          "path": "GOOG.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ea8ce34594471fc8bb4515677484cfbe4f10f6ed",
+          "size": 75925,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ea8ce34594471fc8bb4515677484cfbe4f10f6ed"
+        },
+        {
+          "path": "HD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "39e9b2f3e0808cb9355a26bb7097e0145c49ef43",
+          "size": 72833,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/39e9b2f3e0808cb9355a26bb7097e0145c49ef43"
+        },
+        {
+          "path": "HON.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "02b6c10cd16a3e99e956776f6cffd6343774086f",
+          "size": 73240,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/02b6c10cd16a3e99e956776f6cffd6343774086f"
+        },
+        {
+          "path": "JD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f0c98883a97e933d762c17becbfbda874f9f234c",
+          "size": 63632,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f0c98883a97e933d762c17becbfbda874f9f234c"
+        },
+        {
+          "path": "JNJ.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9d7f42f1b1e0d1fb1eeb5c1b9c885332f74426f3",
+          "size": 73013,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/9d7f42f1b1e0d1fb1eeb5c1b9c885332f74426f3"
+        },
+        {
+          "path": "JPM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "92917a3f2ebe94793d009fe0f6ebd6d8714b63c1",
+          "size": 72422,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/92917a3f2ebe94793d009fe0f6ebd6d8714b63c1"
+        },
+        {
+          "path": "KO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "04ce68cb403593c3517adbddb52916184eab9c98",
+          "size": 65387,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/04ce68cb403593c3517adbddb52916184eab9c98"
+        },
+        {
+          "path": "LLY.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "450f84685bd1ea58a6f13e958a1b8a74205c3b66",
+          "size": 71862,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/450f84685bd1ea58a6f13e958a1b8a74205c3b66"
+        },
+        {
+          "path": "LOW.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "edaacb7eb5072309f2c2b212b7940ac8fd40304d",
+          "size": 71034,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/edaacb7eb5072309f2c2b212b7940ac8fd40304d"
+        },
+        {
+          "path": "MA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "de4663fdc529c054d3fc6e5998c214e9001e08eb",
+          "size": 72227,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/de4663fdc529c054d3fc6e5998c214e9001e08eb"
+        },
+        {
+          "path": "MCD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8c0abcfb9b23eb06de6429aef074c984e4d0f733",
+          "size": 73050,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8c0abcfb9b23eb06de6429aef074c984e4d0f733"
+        },
+        {
+          "path": "MMM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2c40dca3731523962ce308f8866dcd4e644e293d",
+          "size": 73009,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2c40dca3731523962ce308f8866dcd4e644e293d"
+        },
+        {
+          "path": "MS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "448a4f91b1af31599cfdf59f74bdc8b7182037d0",
+          "size": 66128,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/448a4f91b1af31599cfdf59f74bdc8b7182037d0"
+        },
+        {
+          "path": "MSFT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3d3008bd07129e2085143ded0aef268c2900d813",
+          "size": 73128,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3d3008bd07129e2085143ded0aef268c2900d813"
+        },
+        {
+          "path": "NEE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "064c4e1394027684555ee736d8d7aab7281db557",
+          "size": 66744,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/064c4e1394027684555ee736d8d7aab7281db557"
+        },
+        {
+          "path": "NEM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c92537a9c4a371c8280bcd0aef4dbc4b95543ba3",
+          "size": 65074,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c92537a9c4a371c8280bcd0aef4dbc4b95543ba3"
+        },
+        {
+          "path": "NFLX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9a64c8153abb0a492208fd3aa5cb71b20d4f29b1",
+          "size": 71673,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/9a64c8153abb0a492208fd3aa5cb71b20d4f29b1"
+        },
+        {
+          "path": "NGG.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b26fb310b886097ccb67edd2fa12ea375a80b97b",
+          "size": 64231,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b26fb310b886097ccb67edd2fa12ea375a80b97b"
+        },
+        {
+          "path": "NKE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "30fa0f1e1893f39394addb2cdd1656bfb9efaf81",
+          "size": 69271,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/30fa0f1e1893f39394addb2cdd1656bfb9efaf81"
+        },
+        {
+          "path": "NVDA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ddf911233f7371b0b32e06252ab545b074560c37",
+          "size": 69332,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ddf911233f7371b0b32e06252ab545b074560c37"
+        },
+        {
+          "path": "NVO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "10cabf3096bc912662e7f62d1100d553c39a81b6",
+          "size": 65775,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/10cabf3096bc912662e7f62d1100d553c39a81b6"
+        },
+        {
+          "path": "NVS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "71fde41b5105761f903fd0e8919641d0581087ff",
+          "size": 67583,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/71fde41b5105761f903fd0e8919641d0581087ff"
+        },
+        {
+          "path": "O.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a425c9a496db0ab4a21ed4fc428a4bb365040dff",
+          "size": 68918,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a425c9a496db0ab4a21ed4fc428a4bb365040dff"
+        },
+        {
+          "path": "ORCL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c8695a93672565ab2fb230758812f4f1fc812fe4",
+          "size": 66199,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c8695a93672565ab2fb230758812f4f1fc812fe4"
+        },
+        {
+          "path": "PEP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "61ee9f82358822d34450eb61deaf852c52f7f0d8",
+          "size": 72797,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/61ee9f82358822d34450eb61deaf852c52f7f0d8"
+        },
+        {
+          "path": "PFE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "edde757839a4b01bf54422095c1647959f836266",
+          "size": 68785,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/edde757839a4b01bf54422095c1647959f836266"
+        },
+        {
+          "path": "PG.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "810fe8970d749143bcc2a54cf1b9e3c37605a820",
+          "size": 71313,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/810fe8970d749143bcc2a54cf1b9e3c37605a820"
+        },
+        {
+          "path": "PLD.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e752c25eb19c8960f8d9e322cf293361564f81c5",
+          "size": 68601,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e752c25eb19c8960f8d9e322cf293361564f81c5"
+        },
+        {
+          "path": "PM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1950c5870af9c82f12249c3761ca5ae0bedde722",
+          "size": 67381,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1950c5870af9c82f12249c3761ca5ae0bedde722"
+        },
+        {
+          "path": "PSA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "06769806a641470ea6cff25efd59d13e84a89fb8",
+          "size": 72504,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/06769806a641470ea6cff25efd59d13e84a89fb8"
+        },
+        {
+          "path": "PTR.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "91ffb5a9a7c7d8a5d6696bbaa3472c2d29de585d",
+          "size": 63431,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/91ffb5a9a7c7d8a5d6696bbaa3472c2d29de585d"
+        },
+        {
+          "path": "PYPL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dfdd61d3df1ae5f5b3de1e3103334ee74eaba80a",
+          "size": 70626,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/dfdd61d3df1ae5f5b3de1e3103334ee74eaba80a"
+        },
+        {
+          "path": "RDS-B.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c618d90de6e0fd0cf9bf8a0ffbcd55789ec4dda8",
+          "size": 64862,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c618d90de6e0fd0cf9bf8a0ffbcd55789ec4dda8"
+        },
+        {
+          "path": "RIO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e6a61b2e6f47ebb332d5bab6b419f7b2fbff9c1e",
+          "size": 65243,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e6a61b2e6f47ebb332d5bab6b419f7b2fbff9c1e"
+        },
+        {
+          "path": "RTX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c6cede85bc578b4b2367a07dd88a519f9dac2785",
+          "size": 67968,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c6cede85bc578b4b2367a07dd88a519f9dac2785"
+        },
+        {
+          "path": "SBAC.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6b265b982f0908b391a4d9410c371392caba0f64",
+          "size": 72285,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6b265b982f0908b391a4d9410c371392caba0f64"
+        },
+        {
+          "path": "SBUX.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2b45e66155c171246aaa82533a251973b3bb112a",
+          "size": 68207,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2b45e66155c171246aaa82533a251973b3bb112a"
+        },
+        {
+          "path": "SCHW.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "37c7cb9dd934778405a934ed90786464fbaf2607",
+          "size": 65567,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/37c7cb9dd934778405a934ed90786464fbaf2607"
+        },
+        {
+          "path": "SHW.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e0e10c64af11615f9fd68369820430dbf5e75f1e",
+          "size": 73221,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e0e10c64af11615f9fd68369820430dbf5e75f1e"
+        },
+        {
+          "path": "SNP.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1882955bc96e2c9faaf04c4b3a746bd9a2d878db",
+          "size": 64240,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1882955bc96e2c9faaf04c4b3a746bd9a2d878db"
+        },
+        {
+          "path": "SO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "366272d0b840866250c962f907a470a66099c271",
+          "size": 65015,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/366272d0b840866250c962f907a470a66099c271"
+        },
+        {
+          "path": "SPG-PJ.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7a58d1ab6fae7ace4be038ada6aa6b12ad14cfaa",
+          "size": 60895,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7a58d1ab6fae7ace4be038ada6aa6b12ad14cfaa"
+        },
+        {
+          "path": "SRE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c3bbc0b4622ae5dcb4022c9fb04bc0c685fc4b00",
+          "size": 72396,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c3bbc0b4622ae5dcb4022c9fb04bc0c685fc4b00"
+        },
+        {
+          "path": "T.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2e21744cb187069facdc88d1fc70ee6b1941fc7e",
+          "size": 63376,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2e21744cb187069facdc88d1fc70ee6b1941fc7e"
+        },
+        {
+          "path": "TGT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "03f961ec7510dec4e64b5553d8ef371827d148b5",
+          "size": 70379,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/03f961ec7510dec4e64b5553d8ef371827d148b5"
+        },
+        {
+          "path": "TM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4f93ed6d8b88a8c6593e7ad89c2fae98fd60b4cb",
+          "size": 71401,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4f93ed6d8b88a8c6593e7ad89c2fae98fd60b4cb"
+        },
+        {
+          "path": "TMO.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ef91254cd76525542142adb67903e1d63314433e",
+          "size": 72339,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ef91254cd76525542142adb67903e1d63314433e"
+        },
+        {
+          "path": "TMUS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e02b61dd02c5cc51614ba91b98ef8272296b8a82",
+          "size": 68540,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e02b61dd02c5cc51614ba91b98ef8272296b8a82"
+        },
+        {
+          "path": "TSLA.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "16ec1b602b47885c7ff49912200cce6d33a77feb",
+          "size": 69450,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/16ec1b602b47885c7ff49912200cce6d33a77feb"
+        },
+        {
+          "path": "TSM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b70b250e37dd1efa808f02bc6e19037cfbae90f7",
+          "size": 67210,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b70b250e37dd1efa808f02bc6e19037cfbae90f7"
+        },
+        {
+          "path": "TTE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bfa6e49b85555ff996bc664a3d3e01822f32a6b1",
+          "size": 64880,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/bfa6e49b85555ff996bc664a3d3e01822f32a6b1"
+        },
+        {
+          "path": "UL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "aac0532cff94082a81eb81fbf07a6d46fec87a12",
+          "size": 64386,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/aac0532cff94082a81eb81fbf07a6d46fec87a12"
+        },
+        {
+          "path": "UNH.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e327fe0b724ca661470eab246dcef3ef2cf9f149",
+          "size": 72522,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e327fe0b724ca661470eab246dcef3ef2cf9f149"
+        },
+        {
+          "path": "UPS.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6cc56555004a7ca4575e45822a41198ae39883ee",
+          "size": 71743,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6cc56555004a7ca4575e45822a41198ae39883ee"
+        },
+        {
+          "path": "Unp.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "47313d480db8f9240b99ce1f7bfba7dcabed7103",
+          "size": 73301,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/47313d480db8f9240b99ce1f7bfba7dcabed7103"
+        },
+        {
+          "path": "V.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "46e721e274168a80db4d922b1218fb5b26b60064",
+          "size": 73266,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/46e721e274168a80db4d922b1218fb5b26b60064"
+        },
+        {
+          "path": "VALE.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "822e862750984287ac537aa26e506eab9468270f",
+          "size": 54539,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/822e862750984287ac537aa26e506eab9468270f"
+        },
+        {
+          "path": "VZ.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7b751b3ebc3ed7e05474bd720093ee5fa34614fd",
+          "size": 65474,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7b751b3ebc3ed7e05474bd720093ee5fa34614fd"
+        },
+        {
+          "path": "WELL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5fc03acaa9e69a4d83d74d54118e7d8fe41e70bb",
+          "size": 66239,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5fc03acaa9e69a4d83d74d54118e7d8fe41e70bb"
+        },
+        {
+          "path": "WFC-PL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8c985e09d83b98bd27915e263abe6882aa1d5a21",
+          "size": 67300,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8c985e09d83b98bd27915e263abe6882aa1d5a21"
+        },
+        {
+          "path": "WMT.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a6ea843a84ab11f0d67fea4579f6718001e93f21",
+          "size": 71225,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a6ea843a84ab11f0d67fea4579f6718001e93f21"
+        },
+        {
+          "path": "XEL.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b9c6179358c5fdd1ab43de4557d68810717329e1",
+          "size": 65771,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b9c6179358c5fdd1ab43de4557d68810717329e1"
+        },
+        {
+          "path": "XOM.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e7b62e520d8d6ddededf3eec0e228feab3614383",
+          "size": 66830,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e7b62e520d8d6ddededf3eec0e228feab3614383"
+        },
+        {
+          "path": "snap.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ef49f094899fd2121a7e5d24c826e105de5e57e6",
+          "size": 56190,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ef49f094899fd2121a7e5d24c826e105de5e57e6"
+        }
+      ],
+      "truncated": false
+    },
+    "processed_price": {
+      "sha": "b369e7e55d88e1bb892bc813fabf79f8b3eec016",
+      "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/trees/b369e7e55d88e1bb892bc813fabf79f8b3eec016",
+      "tree": [
+        {
+          "path": "AAPL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ec664c01eb11aa864b1f41a5076049590da2aaeb",
+          "size": 127721,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ec664c01eb11aa864b1f41a5076049590da2aaeb"
+        },
+        {
+          "path": "ABBV.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4df4e907df2898778d7fc50b45eacdbcb0ab7885",
+          "size": 126328,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4df4e907df2898778d7fc50b45eacdbcb0ab7885"
+        },
+        {
+          "path": "ABT.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3b31eb837d6e74c871ea5b21364ed2faa10d6549",
+          "size": 126198,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3b31eb837d6e74c871ea5b21364ed2faa10d6549"
+        },
+        {
+          "path": "ACN.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "59f820bc994b7ab3aa73c499b87a1c517e40a7d1",
+          "size": 126640,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/59f820bc994b7ab3aa73c499b87a1c517e40a7d1"
+        },
+        {
+          "path": "ADBE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0833299d665fa74b7990f7661ff0bc4d427301b5",
+          "size": 126138,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0833299d665fa74b7990f7661ff0bc4d427301b5"
+        },
+        {
+          "path": "ADP.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d7f49e83391325f6e019d98a3067c8318b484b6d",
+          "size": 126521,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d7f49e83391325f6e019d98a3067c8318b484b6d"
+        },
+        {
+          "path": "AEP.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "36bb9b2de2b9568067fb219fb9c971b1c2654540",
+          "size": 126640,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/36bb9b2de2b9568067fb219fb9c971b1c2654540"
+        },
+        {
+          "path": "AMT.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b4a400d9f51c8d7692416b1171b8f3212d897f54",
+          "size": 126561,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b4a400d9f51c8d7692416b1171b8f3212d897f54"
+        },
+        {
+          "path": "AMZN.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e2438d39b7c165a86542e70b27aa1fe3ca8272c9",
+          "size": 126201,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e2438d39b7c165a86542e70b27aa1fe3ca8272c9"
+        },
+        {
+          "path": "APD.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "59eb32a159dbbfb47cb5eef153ec50cb1b2232b9",
+          "size": 126266,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/59eb32a159dbbfb47cb5eef153ec50cb1b2232b9"
+        },
+        {
+          "path": "ASML.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a0cdc7d656edd48e39e0802fe931af1e491540a1",
+          "size": 125138,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a0cdc7d656edd48e39e0802fe931af1e491540a1"
+        },
+        {
+          "path": "AVGO.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "175a22a9473e4d2d2f3bc977ca9f970e38fa3f26",
+          "size": 125947,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/175a22a9473e4d2d2f3bc977ca9f970e38fa3f26"
+        },
+        {
+          "path": "AWK.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a2c1e2a69acf9f9361692c9b6a1a9cb8ef2bfa3a",
+          "size": 125963,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/a2c1e2a69acf9f9361692c9b6a1a9cb8ef2bfa3a"
+        },
+        {
+          "path": "BA.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2328caed4a4d2f39753f8b0045675a7435f4d695",
+          "size": 126145,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2328caed4a4d2f39753f8b0045675a7435f4d695"
+        },
+        {
+          "path": "BABA.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f3012fee7ac8ac1109b48f51dfb94f6028916db8",
+          "size": 126647,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f3012fee7ac8ac1109b48f51dfb94f6028916db8"
+        },
+        {
+          "path": "BAC.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8d3347cdb434a00bacdf923a7906ee82013945d2",
+          "size": 126362,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8d3347cdb434a00bacdf923a7906ee82013945d2"
+        },
+        {
+          "path": "BBL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "22b066dc5dd09b52a54429a3dc29a58df7b5f17d",
+          "size": 125289,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/22b066dc5dd09b52a54429a3dc29a58df7b5f17d"
+        },
+        {
+          "path": "BHP.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f08bd79750659a2360eed1d2bd75cfb953a2ec6a",
+          "size": 125915,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f08bd79750659a2360eed1d2bd75cfb953a2ec6a"
+        },
+        {
+          "path": "BP.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2fb478252622e4775b8b5c24c2cb782d349a20c5",
+          "size": 125892,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2fb478252622e4775b8b5c24c2cb782d349a20c5"
+        },
+        {
+          "path": "BRK-A.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "eda6d956a853b9458585514197769eef436d7965",
+          "size": 120547,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/eda6d956a853b9458585514197769eef436d7965"
+        },
+        {
+          "path": "C-PJ.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d5be40626c5b8a93a123dac1d5c51225683aa0ca",
+          "size": 123245,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d5be40626c5b8a93a123dac1d5c51225683aa0ca"
+        },
+        {
+          "path": "CAT.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6b50da00a4ab8f60a29d99100b36696d8f2164e8",
+          "size": 126218,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6b50da00a4ab8f60a29d99100b36696d8f2164e8"
+        },
+        {
+          "path": "CCI.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fa69789c54480ad62e206b5c9bd1915ca5762f9c",
+          "size": 126526,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/fa69789c54480ad62e206b5c9bd1915ca5762f9c"
+        },
+        {
+          "path": "CHTR.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0cf16c43e5f7fba260e0f1e32135b032f363e53b",
+          "size": 126086,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0cf16c43e5f7fba260e0f1e32135b032f363e53b"
+        },
+        {
+          "path": "CMCSA.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7a79190c4ddc0809509900bfedd9d06738c70003",
+          "size": 126912,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7a79190c4ddc0809509900bfedd9d06738c70003"
+        },
+        {
+          "path": "COP.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ce3d00d653ce343332497564ffca52a19b351890",
+          "size": 125713,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ce3d00d653ce343332497564ffca52a19b351890"
+        },
+        {
+          "path": "COST.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5b5431618924b18eb9af0662778894598ff9908e",
+          "size": 126846,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5b5431618924b18eb9af0662778894598ff9908e"
+        },
+        {
+          "path": "CSCO.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "32c498e4ab7a5b9ed2bdddb0a56666d05e8c48d9",
+          "size": 127001,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/32c498e4ab7a5b9ed2bdddb0a56666d05e8c48d9"
+        },
+        {
+          "path": "CTA-PB.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3da7da797283f09b573c6390d3428d05bf4d40db",
+          "size": 107572,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3da7da797283f09b573c6390d3428d05bf4d40db"
+        },
+        {
+          "path": "CVX.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1deafdd62d0783198161f001af6dec50d37a1567",
+          "size": 126604,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1deafdd62d0783198161f001af6dec50d37a1567"
+        },
+        {
+          "path": "D.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ae06e4f5c28630354c10b3ad53ac5744516fb8cb",
+          "size": 126672,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ae06e4f5c28630354c10b3ad53ac5744516fb8cb"
+        },
+        {
+          "path": "DE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "98872d047d257fbac739bc0400459eca02359c40",
+          "size": 126030,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/98872d047d257fbac739bc0400459eca02359c40"
+        },
+        {
+          "path": "DEO.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d1d760407023fdb64788196d6e796ba1b280e06e",
+          "size": 125893,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d1d760407023fdb64788196d6e796ba1b280e06e"
+        },
+        {
+          "path": "DHR.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "09d36df60e3693fd57fef0d74e694c613a21b9f4",
+          "size": 126587,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/09d36df60e3693fd57fef0d74e694c613a21b9f4"
+        },
+        {
+          "path": "DIS.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b2f862ef907d402aae97df8a230ffb79a1484a35",
+          "size": 126931,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b2f862ef907d402aae97df8a230ffb79a1484a35"
+        },
+        {
+          "path": "DLR.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "59e2ea303cf2b291f26c68c5401ec566da6b1ef5",
+          "size": 126121,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/59e2ea303cf2b291f26c68c5401ec566da6b1ef5"
+        },
+        {
+          "path": "DUK.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "01e4a53c6d343c159b65d84fb159f7c8145a8647",
+          "size": 126800,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/01e4a53c6d343c159b65d84fb159f7c8145a8647"
+        },
+        {
+          "path": "ECL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "52b65ad2eb735b9162066144a7b273206941fa6a",
+          "size": 126034,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/52b65ad2eb735b9162066144a7b273206941fa6a"
+        },
+        {
+          "path": "EL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0435ed9844a03a00bffa4d82bdc7d18205c6a051",
+          "size": 126090,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0435ed9844a03a00bffa4d82bdc7d18205c6a051"
+        },
+        {
+          "path": "ENB.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "da8155e30c449a591343ebd4c02fbc63719cd539",
+          "size": 125719,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/da8155e30c449a591343ebd4c02fbc63719cd539"
+        },
+        {
+          "path": "EQIX.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "52b9194eac8a14cbdb880c10408d57f5adb2ab61",
+          "size": 125649,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/52b9194eac8a14cbdb880c10408d57f5adb2ab61"
+        },
+        {
+          "path": "EQNR.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "303a3fba54eeb80ab51aee11fcbcee3241d2f675",
+          "size": 124898,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/303a3fba54eeb80ab51aee11fcbcee3241d2f675"
+        },
+        {
+          "path": "EXC.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "db88fdca4d6594d4929dfc15b2d1de146166e3b8",
+          "size": 125907,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/db88fdca4d6594d4929dfc15b2d1de146166e3b8"
+        },
+        {
+          "path": "FB.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f04135ef86b8a160d3a0c57402cf1a19c99fe657",
+          "size": 127042,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f04135ef86b8a160d3a0c57402cf1a19c99fe657"
+        },
+        {
+          "path": "FCX.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3612b98bd34713a4c5734fdf30856b9bf576ab2b",
+          "size": 125476,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3612b98bd34713a4c5734fdf30856b9bf576ab2b"
+        },
+        {
+          "path": "GE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "399ce6aa33dcc0c694b9e338faf7cb88585fea6b",
+          "size": 124294,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/399ce6aa33dcc0c694b9e338faf7cb88585fea6b"
+        },
+        {
+          "path": "GOOG.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dd7217229d03795f05f4252d53b97bd7a9f01a8e",
+          "size": 126424,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/dd7217229d03795f05f4252d53b97bd7a9f01a8e"
+        },
+        {
+          "path": "HD.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f807649666b39d4800bd17355ce0b611e8ff7f41",
+          "size": 126706,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f807649666b39d4800bd17355ce0b611e8ff7f41"
+        },
+        {
+          "path": "HON.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "81b3be51aa09af0bb9aa3ebb9be5779af335bd99",
+          "size": 126702,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/81b3be51aa09af0bb9aa3ebb9be5779af335bd99"
+        },
+        {
+          "path": "JD.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "72789f390a77b6b5e3f72b49cf40de6ab516c2ea",
+          "size": 125833,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/72789f390a77b6b5e3f72b49cf40de6ab516c2ea"
+        },
+        {
+          "path": "JNJ.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6e7a6a6303eced9e634d7bd6ee68e85547d1dea1",
+          "size": 127162,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6e7a6a6303eced9e634d7bd6ee68e85547d1dea1"
+        },
+        {
+          "path": "JPM.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e4fdf7661beb82daa4e84bd78000d4e3639029f1",
+          "size": 127136,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/e4fdf7661beb82daa4e84bd78000d4e3639029f1"
+        },
+        {
+          "path": "KO.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2f1768078edbf8c4e1bec4c1b0c8bfc9e0d7a92c",
+          "size": 127332,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/2f1768078edbf8c4e1bec4c1b0c8bfc9e0d7a92c"
+        },
+        {
+          "path": "LLY.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "085f67ca7e2793e5cd9e5b39fb0cd0a04b1c96fd",
+          "size": 126307,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/085f67ca7e2793e5cd9e5b39fb0cd0a04b1c96fd"
+        },
+        {
+          "path": "LOW.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fea89cfcc9083ff4c279f05633e7b62656d0c46f",
+          "size": 126289,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/fea89cfcc9083ff4c279f05633e7b62656d0c46f"
+        },
+        {
+          "path": "MA.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c752cf95b419b927204f37fa5a408384c9a10ede",
+          "size": 126271,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c752cf95b419b927204f37fa5a408384c9a10ede"
+        },
+        {
+          "path": "MCD.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b0bfda9c2efeff5ad6851ca5319a333950552a85",
+          "size": 126991,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b0bfda9c2efeff5ad6851ca5319a333950552a85"
+        },
+        {
+          "path": "MMM.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bdd184a00c8ce65300f60dd39097ed478d59a884",
+          "size": 126762,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/bdd184a00c8ce65300f60dd39097ed478d59a884"
+        },
+        {
+          "path": "MS.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9bc3dd1ac514310de0cbfadc64f9b187b6b4adf1",
+          "size": 126116,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/9bc3dd1ac514310de0cbfadc64f9b187b6b4adf1"
+        },
+        {
+          "path": "MSFT.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "86d44c1ca1e67b1c95ec211d841b1b9802782db6",
+          "size": 127183,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/86d44c1ca1e67b1c95ec211d841b1b9802782db6"
+        },
+        {
+          "path": "NEE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3e9653403cde33e055ff2e90c41e4be42fc40c41",
+          "size": 126846,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3e9653403cde33e055ff2e90c41e4be42fc40c41"
+        },
+        {
+          "path": "NEM.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b734c3feaa92f750bcc6d79b7754b04cb1ac365a",
+          "size": 125912,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b734c3feaa92f750bcc6d79b7754b04cb1ac365a"
+        },
+        {
+          "path": "NFLX.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4b5d0fdedeb36105335161feaf4197130d731430",
+          "size": 125984,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/4b5d0fdedeb36105335161feaf4197130d731430"
+        },
+        {
+          "path": "NGG.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1a410a77c3e4c84be0affd104e3843ce45ef8c5b",
+          "size": 125484,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/1a410a77c3e4c84be0affd104e3843ce45ef8c5b"
+        },
+        {
+          "path": "NKE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b4de2e2a3f44af7bd3b0527bc4a7cbb7ce480a69",
+          "size": 126273,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/b4de2e2a3f44af7bd3b0527bc4a7cbb7ce480a69"
+        },
+        {
+          "path": "NVDA.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f197f46fa11084aafc8152f4aaabe9b367cf5437",
+          "size": 126223,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/f197f46fa11084aafc8152f4aaabe9b367cf5437"
+        },
+        {
+          "path": "NVO.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5dbecb92488af80842a64b9ecc0f29fd56ed2c86",
+          "size": 125723,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5dbecb92488af80842a64b9ecc0f29fd56ed2c86"
+        },
+        {
+          "path": "NVS.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "57ac6f91f6cfca8b08f2de13632ea9bb5d36bfa7",
+          "size": 126772,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/57ac6f91f6cfca8b08f2de13632ea9bb5d36bfa7"
+        },
+        {
+          "path": "O.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7a5cf670dae6299bb6b57abe7894b5229829c18a",
+          "size": 126639,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/7a5cf670dae6299bb6b57abe7894b5229829c18a"
+        },
+        {
+          "path": "ORCL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "010208703036a2d2ed9196dfedce300ef9b7558a",
+          "size": 126996,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/010208703036a2d2ed9196dfedce300ef9b7558a"
+        },
+        {
+          "path": "PEP.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6ac7e175596e621b02cb939fa56f6684a86553af",
+          "size": 127172,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6ac7e175596e621b02cb939fa56f6684a86553af"
+        },
+        {
+          "path": "PFE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3135064cd61658c886d89dd1e5213e73a47b6c36",
+          "size": 126931,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3135064cd61658c886d89dd1e5213e73a47b6c36"
+        },
+        {
+          "path": "PG.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5ed9531006a2fd28d20416f2dad0977e82f16773",
+          "size": 127078,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5ed9531006a2fd28d20416f2dad0977e82f16773"
+        },
+        {
+          "path": "PLD.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "00889bb2b01fca9400c85859b7b1d05215f2d8da",
+          "size": 126382,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/00889bb2b01fca9400c85859b7b1d05215f2d8da"
+        },
+        {
+          "path": "PM.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "784ed7f609ceb795fb0fc32572d691b121201bae",
+          "size": 126265,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/784ed7f609ceb795fb0fc32572d691b121201bae"
+        },
+        {
+          "path": "PSA.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c15e25b0caa929559c8be1147a8fd9a1e14eecbd",
+          "size": 126159,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c15e25b0caa929559c8be1147a8fd9a1e14eecbd"
+        },
+        {
+          "path": "PTR.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "284bff76a564f569a21ffef98788314e5b2d5350",
+          "size": 124197,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/284bff76a564f569a21ffef98788314e5b2d5350"
+        },
+        {
+          "path": "PYPL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "afb43903b41adb95852a819f3a3dde29870c42f1",
+          "size": 125973,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/afb43903b41adb95852a819f3a3dde29870c42f1"
+        },
+        {
+          "path": "RDS-B.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "23093d270d294a61b62585e111c637d86f5d7217",
+          "size": 125732,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/23093d270d294a61b62585e111c637d86f5d7217"
+        },
+        {
+          "path": "RIO.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "03aa43e3ee943e7133aceaab775535cb22a20092",
+          "size": 125779,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/03aa43e3ee943e7133aceaab775535cb22a20092"
+        },
+        {
+          "path": "RTX.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d82fe11d17d739c8c0467a64f853881591f85db4",
+          "size": 126282,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d82fe11d17d739c8c0467a64f853881591f85db4"
+        },
+        {
+          "path": "SBAC.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "37355782d36c0dbe7ec3c5c201469a04acb4ea50",
+          "size": 125698,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/37355782d36c0dbe7ec3c5c201469a04acb4ea50"
+        },
+        {
+          "path": "SBUX.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "78c114cb8d21c6e2447b70e4031fbbc6efce526a",
+          "size": 126616,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/78c114cb8d21c6e2447b70e4031fbbc6efce526a"
+        },
+        {
+          "path": "SCHW.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "24f53b6bee1d5eda9cac0473956696add038c527",
+          "size": 126012,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/24f53b6bee1d5eda9cac0473956696add038c527"
+        },
+        {
+          "path": "SHW.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "270a80b0e01f97e229120585ce5919ad52563317",
+          "size": 126446,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/270a80b0e01f97e229120585ce5919ad52563317"
+        },
+        {
+          "path": "SNP.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3d7d955496fc0ec27c53d0ff7174f99bd0d4e493",
+          "size": 124966,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/3d7d955496fc0ec27c53d0ff7174f99bd0d4e493"
+        },
+        {
+          "path": "SO.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c441f1cd96bbe0a236628799c522e59f50db63d6",
+          "size": 126447,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c441f1cd96bbe0a236628799c522e59f50db63d6"
+        },
+        {
+          "path": "SPG-PJ.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8fe84787f4ba55a6f2ca1752e744c4caaa3f25e6",
+          "size": 111215,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8fe84787f4ba55a6f2ca1752e744c4caaa3f25e6"
+        },
+        {
+          "path": "SRE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "184186864f0b6f78764c33b81d9abf35dbb33ccb",
+          "size": 126396,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/184186864f0b6f78764c33b81d9abf35dbb33ccb"
+        },
+        {
+          "path": "T.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "898bfc70f1e8b83b1a55ec63950b6fb28a5a8457",
+          "size": 126995,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/898bfc70f1e8b83b1a55ec63950b6fb28a5a8457"
+        },
+        {
+          "path": "TGT.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0bf88ddf11851034bd56f9e05168ef32692ba486",
+          "size": 126472,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/0bf88ddf11851034bd56f9e05168ef32692ba486"
+        },
+        {
+          "path": "TM.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "51b2a1e1b41a21b2c1f6b6ad429d1b31131a895a",
+          "size": 125660,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/51b2a1e1b41a21b2c1f6b6ad429d1b31131a895a"
+        },
+        {
+          "path": "TMO.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "368079973d1f7e71082975cd20f0952fa275f714",
+          "size": 126159,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/368079973d1f7e71082975cd20f0952fa275f714"
+        },
+        {
+          "path": "TMUS.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "719d57f20a2a5b0ac64a20297a70758ecb2c0790",
+          "size": 126326,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/719d57f20a2a5b0ac64a20297a70758ecb2c0790"
+        },
+        {
+          "path": "TSLA.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ef612d9545e85363e762c98ac8d7bd99128c792a",
+          "size": 125755,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/ef612d9545e85363e762c98ac8d7bd99128c792a"
+        },
+        {
+          "path": "TSM.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d9247b833722b5f26a93cf3ad35fa93fbe2b457f",
+          "size": 126068,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d9247b833722b5f26a93cf3ad35fa93fbe2b457f"
+        },
+        {
+          "path": "TTE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fba71e7c6125176e3cd7ef43c7078dcdf858333d",
+          "size": 126028,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/fba71e7c6125176e3cd7ef43c7078dcdf858333d"
+        },
+        {
+          "path": "UL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c35111b8d33fe2e34ddafc39c9310c76f1151acb",
+          "size": 125968,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/c35111b8d33fe2e34ddafc39c9310c76f1151acb"
+        },
+        {
+          "path": "UNH.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8a066992b8652e719c354ee3173658b1eaef0972",
+          "size": 126538,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/8a066992b8652e719c354ee3173658b1eaef0972"
+        },
+        {
+          "path": "UPS.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6774044afe1ca20e7fed4d947f0868e01acad020",
+          "size": 126452,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6774044afe1ca20e7fed4d947f0868e01acad020"
+        },
+        {
+          "path": "Unp.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "47ebdfc6fc54c0c2b00b6fc5cbadb61d0dcc58e7",
+          "size": 126467,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/47ebdfc6fc54c0c2b00b6fc5cbadb61d0dcc58e7"
+        },
+        {
+          "path": "V.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "38d32935c10580bb90a202c93f41cf46482fdaff",
+          "size": 126452,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/38d32935c10580bb90a202c93f41cf46482fdaff"
+        },
+        {
+          "path": "VALE.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "19d3af5cdcc8f37119bd682de2d3d96603417d5b",
+          "size": 125720,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/19d3af5cdcc8f37119bd682de2d3d96603417d5b"
+        },
+        {
+          "path": "VZ.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5a948a0130de2fa2154723cdf03fee7b1ec4c3ed",
+          "size": 127678,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5a948a0130de2fa2154723cdf03fee7b1ec4c3ed"
+        },
+        {
+          "path": "WELL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "549db45568f09fe4c4c12e762040c01719ada8b0",
+          "size": 125782,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/549db45568f09fe4c4c12e762040c01719ada8b0"
+        },
+        {
+          "path": "WFC-PL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d73fc921780903b6fad266757c0856221530638b",
+          "size": 123898,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/d73fc921780903b6fad266757c0856221530638b"
+        },
+        {
+          "path": "WMT.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "918010e991cce1ad1d2275fe06d6efd0750daf38",
+          "size": 127155,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/918010e991cce1ad1d2275fe06d6efd0750daf38"
+        },
+        {
+          "path": "XEL.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "77d4fb60e79e9746976cc1393fd25e26149764c8",
+          "size": 126247,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/77d4fb60e79e9746976cc1393fd25e26149764c8"
+        },
+        {
+          "path": "XOM.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6d2d6c72c4605723d04e9a1a2f69e72dd55d9369",
+          "size": 126990,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/6d2d6c72c4605723d04e9a1a2f69e72dd55d9369"
+        },
+        {
+          "path": "snap.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5b0ad9341cba168974d2a8dcb5e2afa4a833b15c",
+          "size": 125341,
+          "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/blobs/5b0ad9341cba168974d2a8dcb5e2afa4a833b15c"
+        }
+      ],
+      "truncated": false
+    }
+  },
+  "samples": [
+    {
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/AAPL.csv",
+      "path": "artifacts\\feasibility\\public_reference_2026-10-14\\CMIN-US_news_raw_AAPL.csv.sample",
+      "bytes_read": 16384,
+      "read_cap": 16384,
+      "sha256": "6b9d8638d2946c8a2f45b85877bd2b0558322520e35bbd62cd0a8dc1a976a225",
+      "complete": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/news/raw/ABBV.csv",
+      "path": "artifacts\\feasibility\\public_reference_2026-10-14\\CMIN-US_news_raw_ABBV.csv.sample",
+      "bytes_read": 16384,
+      "read_cap": 16384,
+      "sha256": "442b03cefb6a88b5bda2dcbcf7f39fd3427246ca17d3bb1af55338aff291f02a",
+      "complete": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/raw/AAPL.csv",
+      "path": "artifacts\\feasibility\\public_reference_2026-10-14\\CMIN-US_price_raw_AAPL.csv.sample",
+      "bytes_read": 70199,
+      "read_cap": 200000,
+      "sha256": "5a591097447f0579a487aee084c4a46e3b613e458cf4dbe354af285782496c5e",
+      "complete": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/BigRoddy/CMIN-Dataset/3f571a53b81d8f3ea7b3afb9877bdbdbeae54c97/CMIN-US/price/processed/AAPL.txt",
+      "path": "artifacts\\feasibility\\public_reference_2026-10-14\\CMIN-US_price_processed_AAPL.txt.sample",
+      "bytes_read": 127721,
+      "read_cap": 150000,
+      "sha256": "a506d666753e05698123d21ec775f72ac10939c5f19f086ddaba983ef056d810",
+      "complete": true
+    }
+  ],
+  "failed_requests": [
+    {
+      "url": "https://api.github.com/repos/BigRoddy/CMIN-Dataset/git/trees/7787950f030bdde6d757666b461f691f6101d20d",
+      "status": 422,
+      "reason": "mistaken blob request to tree endpoint; corrected with bounded raw file read"
+    },
+    {
+      "path": "CMIN-US/price/processed/AAPL.csv",
+      "status": 404,
+      "reason": "release uses .txt; corrected"
+    }
+  ]
+}

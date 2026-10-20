@@ -1,0 +1,237 @@
+{
+  "created_utc": "2026-10-20T14:47:38.338236+00:00",
+  "base_commit": "2a2380807300ace580142839f941e3d677f4f54d",
+  "scope": "Git-indexed paths, current working-tree bytes; offline sharing audit, not model replay or a financial experiment",
+  "limitations": [
+    "No external URL availability or upstream source-clock verification",
+    "No neural checkpoint replay; full checkpoints/data/caches are not in Git",
+    "Historical completion manifests include omitted workstation-only files",
+    "CSV score checks verify arithmetic and matching rows, not generalization or absence of leakage"
+  ],
+  "inventory": {
+    "tracked_files": 479,
+    "bytes": 19861484,
+    "directories": {
+      ".agents": {
+        "files": 1,
+        "bytes": 8797
+      },
+      ".codex": {
+        "files": 3,
+        "bytes": 6983
+      },
+      ".gitattributes": {
+        "files": 1,
+        "bytes": 284
+      },
+      ".gitignore": {
+        "files": 1,
+        "bytes": 319
+      },
+      "AGENTS.md": {
+        "files": 1,
+        "bytes": 8857
+      },
+      "DECISIONS.md": {
+        "files": 1,
+        "bytes": 15528
+      },
+      "README.md": {
+        "files": 1,
+        "bytes": 8656
+      },
+      "REPRODUCTION_PLAN.md": {
+        "files": 1,
+        "bytes": 15527
+      },
+      "artifacts": {
+        "files": 309,
+        "bytes": 17770884
+      },
+      "configs": {
+        "files": 4,
+        "bytes": 5749
+      },
+      "data": {
+        "files": 2,
+        "bytes": 1430
+      },
+      "docs": {
+        "files": 13,
+        "bytes": 75191
+      },
+      "output": {
+        "files": 19,
+        "bytes": 519451
+      },
+      "paper": {
+        "files": 1,
+        "bytes": 430866
+      },
+      "reports": {
+        "files": 27,
+        "bytes": 142923
+      },
+      "requirements-cmin.txt": {
+        "files": 1,
+        "bytes": 135
+      },
+      "requirements.txt": {
+        "files": 1,
+        "bytes": 148
+      },
+      "scripts": {
+        "files": 27,
+        "bytes": 179258
+      },
+      "src": {
+        "files": 45,
+        "bytes": 564297
+      },
+      "tests": {
+        "files": 20,
+        "bytes": 106201
+      }
+    },
+    "files_above_1_mib": [
+      {
+        "path": "artifacts/diagnostics/v1_gain_2026-10-11/sensitivity_predictions.csv",
+        "bytes": 4818332
+      }
+    ],
+    "python_files_parsed": 154,
+    "json_files_parsed": 187,
+    "credential_scan": "high-confidence token/private-key patterns only; not an exhaustive secret audit"
+  },
+  "documentation": {
+    "markdown_files_checked": 42,
+    "local_links_checked": 188,
+    "scope": "Markdown outside frozen artifacts; existence in Git, not fragment/anchor validation"
+  },
+  "sharing_manifests": [
+    {
+      "path": "output/research_share_manifest_2026-10-20.json",
+      "files_checked": 18
+    },
+    {
+      "path": "output/research_sync_manifest_2026-10-19.json",
+      "files_checked": 289
+    }
+  ],
+  "pdf_builds": [
+    {
+      "pdf": "output/pdf/FININ_attention_and_MLP_explainer_2026-10-19.pdf",
+      "pdf_hash_matches": true,
+      "latex_hash_checked": true,
+      "recorded_pages": 2
+    },
+    {
+      "pdf": "output/pdf/FININ_meeting_progress_2026-10-14.pdf",
+      "pdf_hash_matches": true,
+      "latex_hash_checked": true,
+      "recorded_pages": 3
+    },
+    {
+      "pdf": "output/pdf/Financial_news_progress_meeting_brief_2026-10-14.pdf",
+      "pdf_hash_matches": true,
+      "latex_hash_checked": true,
+      "recorded_pages": 2
+    }
+  ],
+  "prediction_checks": {
+    "fits_checked": 44,
+    "stored_csv_rows": 44088,
+    "matched_evaluation_company_days": 2004,
+    "maximum_log_loss_error": 1.1102230246251565e-16,
+    "maximum_accuracy_error": 0.0,
+    "aggregate_mean_seed_losses": [
+      {
+        "study": "artifacts/cmin_decay_48h_2026-10-14_v1",
+        "arm": "pooled_decay",
+        "log_loss": 0.6898866201327702
+      },
+      {
+        "study": "artifacts/cmin_decay_48h_2026-10-14_v1",
+        "arm": "pooled_uniform",
+        "log_loss": 0.6902102597894089
+      },
+      {
+        "study": "artifacts/cmin_interaction_2026-10-14_v1",
+        "arm": "no_interaction",
+        "log_loss": 0.6933869866122909
+      },
+      {
+        "study": "artifacts/cmin_older_news_2026-10-14_v1/price",
+        "arm": "price_only",
+        "log_loss": 0.6897711096503144
+      },
+      {
+        "study": "artifacts/cmin_older_news_2026-10-14_v1/recent",
+        "arm": "pooled_uniform",
+        "log_loss": 0.6896505500795191
+      },
+      {
+        "study": "artifacts/cmin_panel_2026-10-14_v1",
+        "arm": "finin",
+        "log_loss": 0.690388118062029
+      },
+      {
+        "study": "artifacts/cmin_panel_2026-10-14_v1",
+        "arm": "mean_news",
+        "log_loss": 0.6905689403925657
+      },
+      {
+        "study": "artifacts/cmin_panel_2026-10-14_v1",
+        "arm": "price_only",
+        "log_loss": 0.6900952336003423
+      },
+      {
+        "study": "artifacts/cmin_timing_2026-10-19_v1/clock_ny",
+        "arm": "finin",
+        "log_loss": 0.6904591888799326
+      },
+      {
+        "study": "artifacts/cmin_timing_2026-10-19_v1/date0",
+        "arm": "finin",
+        "log_loss": 0.6905022367241284
+      },
+      {
+        "study": "artifacts/cmin_timing_2026-10-19_v1/delay1",
+        "arm": "finin",
+        "log_loss": 0.6904103386504947
+      }
+    ]
+  },
+  "errors": [],
+  "status": "pass",
+  "additional_review": {
+    "unit_tests": {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -q",
+      "observed_status": "pass",
+      "tests": 107,
+      "reported_seconds": 3.904,
+      "scope": "existing suite, including tiny synthetic learning and temporary fixture checks; no new market experiment"
+    },
+    "historical_experiments": "No market fits, feature encodings, downloads, reserved outcomes, or original prediction/PDF changes in this sharing update",
+    "organization": "Existing experiment paths retained; no repository rename or new LLM project implementation",
+    "git_only_snapshot": {
+      "snapshot_kind": "Git checkout-index export; independent temporary Git repository; force-tracked evidence retained; no original ignored data/artifacts/env copied",
+      "audit_status": "pass",
+      "errors": [],
+      "tracked_files": 479,
+      "prediction_csvs_checked": 44,
+      "unit_test_command": "python -m unittest discover -s tests -q",
+      "unit_test_exit_code": 0,
+      "unit_test_summary": "----------------------------------------------------------------------\nRan 107 tests in 2.539s\n\nOK",
+      "unit_test_stdout_sha256": "71023da0779d637900942c663b714c9ecc590dd6166f5d704f7f284ce9d4e86b",
+      "runtime": "Existing project Python/dependencies, with the working directory set to the exported tracked-file copy",
+      "scope": "Validates Git-only file availability, not a fresh dependency installation or full experiment reproduction"
+    },
+    "cleanup_findings": "No tracked virtual environments, bytecode, raw corpora, checkpoint/feature arrays, compiler logs, or high-confidence credential tokens found. Historical reports, PDF versions and source snapshots retained as evidence; linked support records added rather than deleting negative findings.",
+    "preservation_check": {
+      "prior_tracked_evidence_and_implementation_files_compared_to_base_commit": 403,
+      "changed": [],
+      "scope": "Existing artifacts, reports, PDFs, figures, source, configurations and tests; Git blob comparisons. New supporting records are additions."
+    }
+  }
+}

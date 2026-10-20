@@ -1,6 +1,6 @@
 # FININ-inspired public company pipeline
 
-This pipeline preserves FININ's main computation while using the public CMIN-US company-news release. A single compact model is shared across12 companies. This is an independent adaptation; data availability and source-date disagreements limit historical forecasting and publication-age claims.
+This pipeline preserves FININ's main computation while using the public CMIN-US company-news release. A single compact model is shared across 12 companies. This is an independent adaptation; data availability and source-date disagreements limit historical forecasting and publication-age claims. Further experiments are paused as of 20 October 2026; the completed comparisons and open questions are indexed in [the decision record](../DECISIONS.md).
 
 ```mermaid
 flowchart LR
@@ -44,6 +44,6 @@ The initial baseline configuration is `configs/cmin_panel_v1.json`: prices with 
 | Final direct market contribution | `no_direct_market` | Remove the market block from the final MLP, retaining prices in its news query |
 | All price information | `news_only` | Remove prices from both market query and final predictor |
 
-These controls are implemented and checked, but the default run does not automatically train them. Later studies reuse the audited feature cache in a distinct output folder with their own saved protocol. Pooled temporal models have96 final values, keeping all80 market values plus one16-value pooled news summary; comparison must use matching pooled geometry. Fixed decay on separate concatenated day slots is disallowed because the MLP can absorb it.
+These controls are implemented and checked, but the default run does not automatically train them. Completed decay, older-news, and no-self-attention comparisons are indexed in [the repository guide](repository_guide.md); other controls must not be described as completed retrained comparisons. `news_age_sessions` specifies a half-open interval: `[0, 1]` retains only age zero. Later studies reuse the audited feature cache in a distinct output folder with their own saved protocol. Pooled temporal models have 96 final values, keeping all 80 market values plus one 16-value pooled news summary; comparison must use matching pooled geometry. Fixed decay on separate concatenated day slots is disallowed because the MLP can absorb it.
 
 Each selected fit stores actual attention, query, fusion, summary and MLP-input tensors for an outcome-independent set of example rows. These traces help explain computation. Predictive contribution requires retrained matched comparisons; attention weights, representation magnitudes and age curves alone do not establish causality or information diffusion.

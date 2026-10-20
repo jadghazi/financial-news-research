@@ -1,0 +1,49 @@
+{
+  "identity": {
+    "schema": 1,
+    "model": "FacebookAI/roberta-base",
+    "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "tokenizer_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "pooling": "last_hidden_state[:,0,:]",
+    "normalization": "none",
+    "dtype": "float32",
+    "width": 768,
+    "max_tokens": 128,
+    "tokenizer_use_fast": true,
+    "add_prefix_space": false,
+    "add_pooling_layer": false,
+    "splits": [
+      "train",
+      "valid"
+    ],
+    "source_sha256": {
+      "train": "e1cb2c8e4b80dd202a55662fa5fcee7937d9bd6bc6105a1cf1810f3ff0dd1623",
+      "valid": "e389fdc0896b87d6b0885a8f804d040d3722074150ac5929da42236055c7323a"
+    },
+    "items_sha256": "e2930a6a89e99b5f8bfaadce8e5860155e9cf504613704ab87eb059a6f78e44c",
+    "description": "SPY is an exchange-traded fund tracking the S&P 500, a broad index of large U.S. companies.",
+    "generating_code_sha256": "42c1a25d96ba385f7489745748c98719c5489a2363e229a40a37cf9a56299667"
+  },
+  "files_sha256": {
+    "text.npy": "86513446c25ef9548b5948ffda1d6f806301b5d83d420b7a5ea59425c85dee1e",
+    "headline_index.json": "26bebdad08b577646698c25d5808a006e649eb5d5b27c10a89a31aed5ae75028",
+    "market_description.npy": "271d4cb969f33ecf39b370e0e148501bdfe25d32980f0db3416184c0d13bb26d"
+  },
+  "model_files_sha256": {
+    "model.safetensors": "5bde1d28afb363d0103324efeb5afc8b2b397fe5e04beabb9b1ef355255ade81",
+    "config.json": "ef0185e2aae6e06c5f105a285006952c340e20c7dbf43c86ec82601b13fc45e9",
+    "tokenizer.json": "847bbeab6174d66a88898f729d52fa8d355fafe1bea101cf960dd404581df70e",
+    "tokenizer_config.json": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce",
+    "vocab.json": "9e7f63c2d15d666b52e21d250d2e513b87c9b713cfa6987a82ed89e5e6e50655",
+    "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+  },
+  "count": 27261,
+  "complete": true,
+  "encoding_seconds": 386.96900000000096,
+  "truncated_headlines": 0,
+  "description_truncated": 0,
+  "norm_mean": 10.936548233032227,
+  "norm_min": 10.528463363647461,
+  "norm_max": 12.41684627532959,
+  "mean_dimension_std": 0.016729824244976044
+}

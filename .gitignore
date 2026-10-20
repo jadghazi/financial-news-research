@@ -1,4 +1,8 @@
 .venv/
+.venv-*/
+.env
+.env.*
+!.env.example
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -9,3 +13,9 @@ data/processed/
 data/research_v2/
 artifacts/
 tmp/
+# Local editor state and document compiler by-products.
+.vscode/
+.idea/
+*.aux
+*.log
+*.synctex.gz

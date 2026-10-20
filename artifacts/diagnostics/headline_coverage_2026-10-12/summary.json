@@ -1,0 +1,1240 @@
+{
+  "scope": "Descriptive coverage audit; test input counts only, no outcomes or training",
+  "retained_dates": {
+    "train": {
+      "dates": 1475,
+      "raw_nonblank_lines": 411097,
+      "within_day_duplicate_lines": 18929,
+      "unique_headline_occurrences": 392168,
+      "unique_per_date_quantiles": {
+        "0": 11.0,
+        "10": 48.0,
+        "25": 59.0,
+        "50": 78.0,
+        "75": 123.0,
+        "90": 982.2000000000003,
+        "95": 1170.3,
+        "99": 1331.1599999999999,
+        "100": 1551.0
+      },
+      "unique_per_date_mean": 265.8766101694915,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 23592,
+          "headline_occurrences_excluded": 368576,
+          "headline_weighted_retention": 0.06015789151588095,
+          "mean_per_date_retention": 0.2009833626893724,
+          "median_per_date_retention": 0.20512820512820512,
+          "dates_above_cap": 1471,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 15.99457627118644
+        },
+        "32": {
+          "headline_occurrences_used": 46909,
+          "headline_occurrences_excluded": 345259,
+          "headline_weighted_retention": 0.11961455294669632,
+          "mean_per_date_retention": 0.3924032614615364,
+          "median_per_date_retention": 0.41025641025641024,
+          "dates_above_cap": 1446,
+          "dates_changing_vs16": 1471,
+          "mean_used_per_date": 31.80271186440678
+        },
+        "64": {
+          "headline_occurrences_used": 88039,
+          "headline_occurrences_excluded": 304129,
+          "headline_weighted_retention": 0.22449307439668714,
+          "mean_per_date_retention": 0.6900026528952841,
+          "median_per_date_retention": 0.8205128205128205,
+          "dates_above_cap": 999,
+          "dates_changing_vs16": 1471,
+          "mean_used_per_date": 59.68745762711865
+        },
+        "128": {
+          "headline_occurrences_used": 123815,
+          "headline_occurrences_excluded": 268353,
+          "headline_weighted_retention": 0.3157192835723465,
+          "mean_per_date_retention": 0.8112315849867805,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 358,
+          "dates_changing_vs16": 1471,
+          "mean_used_per_date": 83.94237288135594
+        }
+      },
+      "excluded_source_dates": [
+        "2017-06-26",
+        "2017-06-27"
+      ]
+    },
+    "valid": {
+      "dates": 315,
+      "raw_nonblank_lines": 16974,
+      "within_day_duplicate_lines": 242,
+      "unique_headline_occurrences": 16732,
+      "unique_per_date_quantiles": {
+        "0": 18.0,
+        "10": 37.0,
+        "25": 45.0,
+        "50": 54.0,
+        "75": 62.0,
+        "90": 69.0,
+        "95": 72.0,
+        "99": 81.86000000000001,
+        "100": 92.0
+      },
+      "unique_per_date_mean": 53.11746031746032,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 5040,
+          "headline_occurrences_excluded": 11692,
+          "headline_weighted_retention": 0.30121922065503226,
+          "mean_per_date_retention": 0.32167628642531765,
+          "median_per_date_retention": 0.2962962962962963,
+          "dates_above_cap": 315,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 10004,
+          "headline_occurrences_excluded": 6728,
+          "headline_weighted_retention": 0.5978962467128854,
+          "mean_per_date_retention": 0.6334106968089305,
+          "median_per_date_retention": 0.5925925925925926,
+          "dates_above_cap": 297,
+          "dates_changing_vs16": 315,
+          "mean_used_per_date": 31.75873015873016
+        },
+        "64": {
+          "headline_occurrences_used": 16347,
+          "headline_occurrences_excluded": 385,
+          "headline_weighted_retention": 0.976990198422185,
+          "mean_per_date_retention": 0.9836101255910427,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 56,
+          "dates_changing_vs16": 315,
+          "mean_used_per_date": 51.89523809523809
+        },
+        "128": {
+          "headline_occurrences_used": 16732,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 315,
+          "mean_used_per_date": 53.11746031746032
+        }
+      },
+      "excluded_source_dates": [
+        "2019-02-11",
+        "2019-02-12"
+      ]
+    },
+    "test": {
+      "dates": 317,
+      "raw_nonblank_lines": 8299,
+      "within_day_duplicate_lines": 1,
+      "unique_headline_occurrences": 8298,
+      "unique_per_date_quantiles": {
+        "0": 7.0,
+        "10": 18.0,
+        "25": 22.0,
+        "50": 26.0,
+        "75": 30.0,
+        "90": 35.0,
+        "95": 38.0,
+        "99": 43.839999999999975,
+        "100": 46.0
+      },
+      "unique_per_date_mean": 26.176656151419557,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 5041,
+          "headline_occurrences_excluded": 3257,
+          "headline_weighted_retention": 0.6074957821161726,
+          "mean_per_date_retention": 0.6448515958887484,
+          "median_per_date_retention": 0.6153846153846154,
+          "dates_above_cap": 302,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 15.902208201892744
+        },
+        "32": {
+          "headline_occurrences_used": 8038,
+          "headline_occurrences_excluded": 260,
+          "headline_weighted_retention": 0.9686671487105326,
+          "mean_per_date_retention": 0.9790077979466066,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 53,
+          "dates_changing_vs16": 302,
+          "mean_used_per_date": 25.35646687697161
+        },
+        "64": {
+          "headline_occurrences_used": 8298,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 302,
+          "mean_used_per_date": 26.176656151419557
+        },
+        "128": {
+          "headline_occurrences_used": 8298,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 302,
+          "mean_used_per_date": 26.176656151419557
+        }
+      },
+      "excluded_source_dates": []
+    }
+  },
+  "raw_source_dates": {
+    "train": {
+      "dates": 1477,
+      "raw_nonblank_lines": 411237,
+      "within_day_duplicate_lines": 18932,
+      "unique_headline_occurrences": 392305,
+      "unique_per_date_quantiles": {
+        "0": 11.0,
+        "10": 48.0,
+        "25": 59.0,
+        "50": 78.0,
+        "75": 123.0,
+        "90": 981.8000000000002,
+        "95": 1170.2,
+        "99": 1330.8400000000001,
+        "100": 1551.0
+      },
+      "unique_per_date_mean": 265.6093432633717,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 23624,
+          "headline_occurrences_excluded": 368681,
+          "headline_weighted_retention": 0.06021845247957584,
+          "mean_per_date_retention": 0.20103037089795983,
+          "median_per_date_retention": 0.20512820512820512,
+          "dates_above_cap": 1473,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 15.994583615436696
+        },
+        "32": {
+          "headline_occurrences_used": 46973,
+          "headline_occurrences_excluded": 345332,
+          "headline_weighted_retention": 0.11973591975631205,
+          "mean_per_date_retention": 0.39251022772829447,
+          "median_per_date_retention": 0.41025641025641024,
+          "dates_above_cap": 1448,
+          "dates_changing_vs16": 1473,
+          "mean_used_per_date": 31.802979011509816
+        },
+        "64": {
+          "headline_occurrences_used": 88165,
+          "headline_occurrences_excluded": 304140,
+          "headline_weighted_retention": 0.2247358560303845,
+          "mean_per_date_retention": 0.6903231187230043,
+          "median_per_date_retention": 0.8205128205128205,
+          "dates_above_cap": 1000,
+          "dates_changing_vs16": 1473,
+          "mean_used_per_date": 59.691943127962084
+        },
+        "128": {
+          "headline_occurrences_used": 123952,
+          "headline_occurrences_excluded": 268353,
+          "headline_weighted_retention": 0.3159582467722818,
+          "mean_per_date_retention": 0.8114871955690597,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 358,
+          "dates_changing_vs16": 1473,
+          "mean_used_per_date": 83.9214624238321
+        }
+      }
+    },
+    "valid": {
+      "dates": 317,
+      "raw_nonblank_lines": 17034,
+      "within_day_duplicate_lines": 242,
+      "unique_headline_occurrences": 16792,
+      "unique_per_date_quantiles": {
+        "0": 18.0,
+        "10": 36.0,
+        "25": 45.0,
+        "50": 54.0,
+        "75": 62.0,
+        "90": 69.0,
+        "95": 72.0,
+        "99": 81.83999999999997,
+        "100": 92.0
+      },
+      "unique_per_date_mean": 52.97160883280757,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 5072,
+          "headline_occurrences_excluded": 11720,
+          "headline_weighted_retention": 0.3020485945688423,
+          "mean_per_date_retention": 0.323015405028909,
+          "median_per_date_retention": 0.2962962962962963,
+          "dates_above_cap": 317,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 10064,
+          "headline_occurrences_excluded": 6728,
+          "headline_weighted_retention": 0.5993330157217722,
+          "mean_per_date_retention": 0.6357235630751202,
+          "median_per_date_retention": 0.5925925925925926,
+          "dates_above_cap": 297,
+          "dates_changing_vs16": 317,
+          "mean_used_per_date": 31.747634069400632
+        },
+        "64": {
+          "headline_occurrences_used": 16407,
+          "headline_occurrences_excluded": 385,
+          "headline_weighted_retention": 0.9770724154359218,
+          "mean_per_date_retention": 0.9837135317387332,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 56,
+          "dates_changing_vs16": 317,
+          "mean_used_per_date": 51.75709779179811
+        },
+        "128": {
+          "headline_occurrences_used": 16792,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 317,
+          "mean_used_per_date": 52.97160883280757
+        }
+      }
+    },
+    "test": {
+      "dates": 317,
+      "raw_nonblank_lines": 8299,
+      "within_day_duplicate_lines": 1,
+      "unique_headline_occurrences": 8298,
+      "unique_per_date_quantiles": {
+        "0": 7.0,
+        "10": 18.0,
+        "25": 22.0,
+        "50": 26.0,
+        "75": 30.0,
+        "90": 35.0,
+        "95": 38.0,
+        "99": 43.839999999999975,
+        "100": 46.0
+      },
+      "unique_per_date_mean": 26.176656151419557,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 5041,
+          "headline_occurrences_excluded": 3257,
+          "headline_weighted_retention": 0.6074957821161726,
+          "mean_per_date_retention": 0.6448515958887484,
+          "median_per_date_retention": 0.6153846153846154,
+          "dates_above_cap": 302,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 15.902208201892744
+        },
+        "32": {
+          "headline_occurrences_used": 8038,
+          "headline_occurrences_excluded": 260,
+          "headline_weighted_retention": 0.9686671487105326,
+          "mean_per_date_retention": 0.9790077979466066,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 53,
+          "dates_changing_vs16": 302,
+          "mean_used_per_date": 25.35646687697161
+        },
+        "64": {
+          "headline_occurrences_used": 8298,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 302,
+          "mean_used_per_date": 26.176656151419557
+        },
+        "128": {
+          "headline_occurrences_used": 8298,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 302,
+          "mean_used_per_date": 26.176656151419557
+        }
+      }
+    }
+  },
+  "train_valid_cache_workload": {
+    "16": {
+      "train_valid_unique_ids": 27261,
+      "additional_unique_ids_vs16": 0,
+      "missing_bge_text_ids": 0,
+      "missing_tinybert_sentiment_ids": 0,
+      "reusable_cached_ids": 27261,
+      "prospective_bge_float32_bytes": 41872896,
+      "self_attention_matrix_area_ratio_to16": 1.0
+    },
+    "32": {
+      "train_valid_unique_ids": 54168,
+      "additional_unique_ids_vs16": 26907,
+      "missing_bge_text_ids": 26898,
+      "missing_tinybert_sentiment_ids": 26898,
+      "reusable_cached_ids": 27270,
+      "prospective_bge_float32_bytes": 83202048,
+      "self_attention_matrix_area_ratio_to16": 4.0
+    },
+    "64": {
+      "train_valid_unique_ids": 99494,
+      "additional_unique_ids_vs16": 72233,
+      "missing_bge_text_ids": 72223,
+      "missing_tinybert_sentiment_ids": 72223,
+      "reusable_cached_ids": 27271,
+      "prospective_bge_float32_bytes": 152822784,
+      "self_attention_matrix_area_ratio_to16": 16.0
+    },
+    "128": {
+      "train_valid_unique_ids": 131976,
+      "additional_unique_ids_vs16": 104715,
+      "missing_bge_text_ids": 104705,
+      "missing_tinybert_sentiment_ids": 104705,
+      "reusable_cached_ids": 27271,
+      "prospective_bge_float32_bytes": 202715136,
+      "self_attention_matrix_area_ratio_to16": 64.0
+    },
+    "all": {
+      "train_valid_unique_ids": 356056,
+      "additional_unique_ids_vs16": 328795,
+      "missing_bge_text_ids": 328785,
+      "missing_tinybert_sentiment_ids": 328785,
+      "reusable_cached_ids": 27271,
+      "prospective_bge_float32_bytes": 546902016,
+      "self_attention_matrix_area_ratio_to16": null
+    }
+  },
+  "old_cache_unique_ids": 32286,
+  "exact_current_selection_matches": 2107,
+  "nested_selection_checks": 8428,
+  "yearly_retained_counts": [
+    {
+      "split": "train",
+      "year": "2010",
+      "dates": 197,
+      "raw_nonblank_lines": 60784,
+      "within_day_duplicate_lines": 2779,
+      "unique_headline_occurrences": 58005,
+      "unique_per_date_quantiles": {
+        "0": 11.0,
+        "10": 25.0,
+        "25": 46.0,
+        "50": 62.0,
+        "75": 280.0,
+        "90": 1066.0000000000002,
+        "95": 1191.2,
+        "99": 1395.1199999999997,
+        "100": 1451.0
+      },
+      "unique_per_date_mean": 294.44162436548226,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 3144,
+          "headline_occurrences_excluded": 54861,
+          "headline_weighted_retention": 0.054202223946211534,
+          "mean_per_date_retention": 0.2862238260361732,
+          "median_per_date_retention": 0.25806451612903225,
+          "dates_above_cap": 193,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 15.959390862944163
+        },
+        "32": {
+          "headline_occurrences_used": 6013,
+          "headline_occurrences_excluded": 51992,
+          "headline_weighted_retention": 0.10366347728644082,
+          "mean_per_date_retention": 0.5008430364485781,
+          "median_per_date_retention": 0.5161290322580645,
+          "dates_above_cap": 168,
+          "dates_changing_vs16": 193,
+          "mean_used_per_date": 30.522842639593907
+        },
+        "64": {
+          "headline_occurrences_used": 10382,
+          "headline_occurrences_excluded": 47623,
+          "headline_weighted_retention": 0.17898457029566417,
+          "mean_per_date_retention": 0.7396094821123261,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 88,
+          "dates_changing_vs16": 193,
+          "mean_used_per_date": 52.7005076142132
+        },
+        "128": {
+          "headline_occurrences_used": 13960,
+          "headline_occurrences_excluded": 44045,
+          "headline_weighted_retention": 0.2406689078527713,
+          "mean_per_date_retention": 0.7807204776742974,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 50,
+          "dates_changing_vs16": 193,
+          "mean_used_per_date": 70.86294416243655
+        }
+      }
+    },
+    {
+      "split": "train",
+      "year": "2011",
+      "dates": 199,
+      "raw_nonblank_lines": 71911,
+      "within_day_duplicate_lines": 3323,
+      "unique_headline_occurrences": 68588,
+      "unique_per_date_quantiles": {
+        "0": 36.0,
+        "10": 49.8,
+        "25": 59.0,
+        "50": 69.0,
+        "75": 106.0,
+        "90": 1240.2000000000003,
+        "95": 1315.6,
+        "99": 1413.3200000000002,
+        "100": 1551.0
+      },
+      "unique_per_date_mean": 344.66331658291455,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 3184,
+          "headline_occurrences_excluded": 65404,
+          "headline_weighted_retention": 0.04642211465562489,
+          "mean_per_date_retention": 0.19950933390009581,
+          "median_per_date_retention": 0.2318840579710145,
+          "dates_above_cap": 199,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 6368,
+          "headline_occurrences_excluded": 62220,
+          "headline_weighted_retention": 0.09284422931124978,
+          "mean_per_date_retention": 0.39901866780019163,
+          "median_per_date_retention": 0.463768115942029,
+          "dates_above_cap": 199,
+          "dates_changing_vs16": 199,
+          "mean_used_per_date": 32.0
+        },
+        "64": {
+          "headline_occurrences_used": 11980,
+          "headline_occurrences_excluded": 56608,
+          "headline_weighted_retention": 0.1746661223537645,
+          "mean_per_date_retention": 0.7159627565790797,
+          "median_per_date_retention": 0.927536231884058,
+          "dates_above_cap": 126,
+          "dates_changing_vs16": 199,
+          "mean_used_per_date": 60.20100502512563
+        },
+        "128": {
+          "headline_occurrences_used": 15946,
+          "headline_occurrences_excluded": 52642,
+          "headline_weighted_retention": 0.2324896483349857,
+          "mean_per_date_retention": 0.7808589672271566,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 49,
+          "dates_changing_vs16": 199,
+          "mean_used_per_date": 80.13065326633166
+        }
+      }
+    },
+    {
+      "split": "train",
+      "year": "2012",
+      "dates": 194,
+      "raw_nonblank_lines": 62862,
+      "within_day_duplicate_lines": 2809,
+      "unique_headline_occurrences": 60053,
+      "unique_per_date_quantiles": {
+        "0": 33.0,
+        "10": 43.0,
+        "25": 50.0,
+        "50": 59.0,
+        "75": 82.0,
+        "90": 1175.9,
+        "95": 1278.1999999999998,
+        "99": 1369.8899999999999,
+        "100": 1403.0
+      },
+      "unique_per_date_mean": 309.5515463917526,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 3104,
+          "headline_occurrences_excluded": 56949,
+          "headline_weighted_retention": 0.05168767588630043,
+          "mean_per_date_retention": 0.23096264851687942,
+          "median_per_date_retention": 0.2711864406779661,
+          "dates_above_cap": 194,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 6208,
+          "headline_occurrences_excluded": 53845,
+          "headline_weighted_retention": 0.10337535177260086,
+          "mean_per_date_retention": 0.46192529703375884,
+          "median_per_date_retention": 0.5423728813559322,
+          "dates_above_cap": 194,
+          "dates_changing_vs16": 194,
+          "mean_used_per_date": 32.0
+        },
+        "64": {
+          "headline_occurrences_used": 10912,
+          "headline_occurrences_excluded": 49141,
+          "headline_weighted_retention": 0.18170615955905617,
+          "mean_per_date_retention": 0.756200591637911,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 81,
+          "dates_changing_vs16": 194,
+          "mean_used_per_date": 56.24742268041237
+        },
+        "128": {
+          "headline_occurrences_used": 14163,
+          "headline_occurrences_excluded": 45890,
+          "headline_weighted_retention": 0.23584167318868332,
+          "mean_per_date_retention": 0.7882967817424522,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 47,
+          "dates_changing_vs16": 194,
+          "mean_used_per_date": 73.00515463917526
+        }
+      }
+    },
+    {
+      "split": "train",
+      "year": "2013",
+      "dates": 196,
+      "raw_nonblank_lines": 61588,
+      "within_day_duplicate_lines": 2852,
+      "unique_headline_occurrences": 58736,
+      "unique_per_date_quantiles": {
+        "0": 35.0,
+        "10": 44.0,
+        "25": 50.0,
+        "50": 59.5,
+        "75": 751.25,
+        "90": 981.5,
+        "95": 1066.25,
+        "99": 1161.6500000000003,
+        "100": 1227.0
+      },
+      "unique_per_date_mean": 299.6734693877551,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 3136,
+          "headline_occurrences_excluded": 55600,
+          "headline_weighted_retention": 0.053391446472350855,
+          "mean_per_date_retention": 0.2199587779573083,
+          "median_per_date_retention": 0.2689265536723164,
+          "dates_above_cap": 196,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 6272,
+          "headline_occurrences_excluded": 52464,
+          "headline_weighted_retention": 0.10678289294470171,
+          "mean_per_date_retention": 0.4399175559146166,
+          "median_per_date_retention": 0.5378531073446328,
+          "dates_above_cap": 196,
+          "dates_changing_vs16": 196,
+          "mean_used_per_date": 32.0
+        },
+        "64": {
+          "headline_occurrences_used": 11051,
+          "headline_occurrences_excluded": 47685,
+          "headline_weighted_retention": 0.18814696268046854,
+          "mean_per_date_retention": 0.7157625596249939,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 80,
+          "dates_changing_vs16": 196,
+          "mean_used_per_date": 56.38265306122449
+        },
+        "128": {
+          "headline_occurrences_used": 14945,
+          "headline_occurrences_excluded": 43791,
+          "headline_weighted_retention": 0.25444361209479704,
+          "mean_per_date_retention": 0.7539108533041007,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 57,
+          "dates_changing_vs16": 196,
+          "mean_used_per_date": 76.25
+        }
+      }
+    },
+    {
+      "split": "train",
+      "year": "2014",
+      "dates": 197,
+      "raw_nonblank_lines": 64940,
+      "within_day_duplicate_lines": 3288,
+      "unique_headline_occurrences": 61652,
+      "unique_per_date_quantiles": {
+        "0": 41.0,
+        "10": 68.0,
+        "25": 77.0,
+        "50": 90.0,
+        "75": 780.0,
+        "90": 949.2,
+        "95": 995.3999999999999,
+        "99": 1188.8399999999997,
+        "100": 1316.0
+      },
+      "unique_per_date_mean": 312.9543147208122,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 3152,
+          "headline_occurrences_excluded": 58500,
+          "headline_weighted_retention": 0.05112567313306949,
+          "mean_per_date_retention": 0.14792576322215864,
+          "median_per_date_retention": 0.17777777777777778,
+          "dates_above_cap": 197,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 6304,
+          "headline_occurrences_excluded": 55348,
+          "headline_weighted_retention": 0.10225134626613898,
+          "mean_per_date_retention": 0.2958515264443173,
+          "median_per_date_retention": 0.35555555555555557,
+          "dates_above_cap": 197,
+          "dates_changing_vs16": 197,
+          "mean_used_per_date": 32.0
+        },
+        "64": {
+          "headline_occurrences_used": 12487,
+          "headline_occurrences_excluded": 49165,
+          "headline_weighted_retention": 0.20254006358268994,
+          "mean_per_date_retention": 0.5794495016890285,
+          "median_per_date_retention": 0.7111111111111111,
+          "dates_above_cap": 181,
+          "dates_changing_vs16": 197,
+          "mean_used_per_date": 63.38578680203046
+        },
+        "128": {
+          "headline_occurrences_used": 19089,
+          "headline_occurrences_excluded": 42563,
+          "headline_weighted_retention": 0.309624991889963,
+          "mean_per_date_retention": 0.7629540155743867,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 63,
+          "dates_changing_vs16": 197,
+          "mean_used_per_date": 96.8984771573604
+        }
+      }
+    },
+    {
+      "split": "train",
+      "year": "2015",
+      "dates": 198,
+      "raw_nonblank_lines": 50472,
+      "within_day_duplicate_lines": 2783,
+      "unique_headline_occurrences": 47689,
+      "unique_per_date_quantiles": {
+        "0": 49.0,
+        "10": 63.0,
+        "25": 72.0,
+        "50": 84.5,
+        "75": 129.0,
+        "90": 909.7,
+        "95": 996.3999999999996,
+        "99": 1089.12,
+        "100": 1193.0
+      },
+      "unique_per_date_mean": 240.85353535353536,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 3168,
+          "headline_occurrences_excluded": 44521,
+          "headline_weighted_retention": 0.06643041372224202,
+          "mean_per_date_retention": 0.16743650025335763,
+          "median_per_date_retention": 0.18935574229691876,
+          "dates_above_cap": 198,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 6336,
+          "headline_occurrences_excluded": 41353,
+          "headline_weighted_retention": 0.13286082744448405,
+          "mean_per_date_retention": 0.33487300050671526,
+          "median_per_date_retention": 0.3787114845938375,
+          "dates_above_cap": 198,
+          "dates_changing_vs16": 198,
+          "mean_used_per_date": 32.0
+        },
+        "64": {
+          "headline_occurrences_used": 12521,
+          "headline_occurrences_excluded": 35168,
+          "headline_weighted_retention": 0.26255530625511125,
+          "mean_per_date_retention": 0.6556399439339287,
+          "median_per_date_retention": 0.757422969187675,
+          "dates_above_cap": 173,
+          "dates_changing_vs16": 198,
+          "mean_used_per_date": 63.23737373737374
+        },
+        "128": {
+          "headline_occurrences_used": 18185,
+          "headline_occurrences_excluded": 29504,
+          "headline_weighted_retention": 0.3813248338191197,
+          "mean_per_date_retention": 0.8320842213890763,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 51,
+          "dates_changing_vs16": 198,
+          "mean_used_per_date": 91.84343434343434
+        }
+      }
+    },
+    {
+      "split": "train",
+      "year": "2016",
+      "dates": 199,
+      "raw_nonblank_lines": 31055,
+      "within_day_duplicate_lines": 922,
+      "unique_headline_occurrences": 30133,
+      "unique_per_date_quantiles": {
+        "0": 50.0,
+        "10": 77.8,
+        "25": 87.0,
+        "50": 101.0,
+        "75": 118.0,
+        "90": 427.20000000000005,
+        "95": 478.5,
+        "99": 553.920000000001,
+        "100": 673.0
+      },
+      "unique_per_date_mean": 151.42211055276383,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 3184,
+          "headline_occurrences_excluded": 26949,
+          "headline_weighted_retention": 0.10566488567351409,
+          "mean_per_date_retention": 0.14994251110391865,
+          "median_per_date_retention": 0.15841584158415842,
+          "dates_above_cap": 199,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 6368,
+          "headline_occurrences_excluded": 23765,
+          "headline_weighted_retention": 0.21132977134702818,
+          "mean_per_date_retention": 0.2998850222078373,
+          "median_per_date_retention": 0.31683168316831684,
+          "dates_above_cap": 199,
+          "dates_changing_vs16": 199,
+          "mean_used_per_date": 32.0
+        },
+        "64": {
+          "headline_occurrences_used": 12700,
+          "headline_occurrences_excluded": 17433,
+          "headline_weighted_retention": 0.42146483921282313,
+          "mean_per_date_retention": 0.5964069678346086,
+          "median_per_date_retention": 0.6336633663366337,
+          "dates_above_cap": 193,
+          "dates_changing_vs16": 199,
+          "mean_used_per_date": 63.81909547738694
+        },
+        "128": {
+          "headline_occurrences_used": 20215,
+          "headline_occurrences_excluded": 9918,
+          "headline_weighted_retention": 0.6708591909202536,
+          "mean_per_date_retention": 0.8875527611388428,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 41,
+          "dates_changing_vs16": 199,
+          "mean_used_per_date": 101.58291457286433
+        }
+      }
+    },
+    {
+      "split": "train",
+      "year": "2017",
+      "dates": 95,
+      "raw_nonblank_lines": 7485,
+      "within_day_duplicate_lines": 173,
+      "unique_headline_occurrences": 7312,
+      "unique_per_date_quantiles": {
+        "0": 51.0,
+        "10": 61.0,
+        "25": 67.0,
+        "50": 76.0,
+        "75": 85.5,
+        "90": 95.60000000000001,
+        "95": 99.3,
+        "99": 104.12,
+        "100": 106.0
+      },
+      "unique_per_date_mean": 76.96842105263158,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 1520,
+          "headline_occurrences_excluded": 5792,
+          "headline_weighted_retention": 0.20787746170678337,
+          "mean_per_date_retention": 0.21379970931644385,
+          "median_per_date_retention": 0.21052631578947367,
+          "dates_above_cap": 95,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 3040,
+          "headline_occurrences_excluded": 4272,
+          "headline_weighted_retention": 0.41575492341356673,
+          "mean_per_date_retention": 0.4275994186328877,
+          "median_per_date_retention": 0.42105263157894735,
+          "dates_above_cap": 95,
+          "dates_changing_vs16": 95,
+          "mean_used_per_date": 32.0
+        },
+        "64": {
+          "headline_occurrences_used": 6006,
+          "headline_occurrences_excluded": 1306,
+          "headline_weighted_retention": 0.8213894967177243,
+          "mean_per_date_retention": 0.8413540283177027,
+          "median_per_date_retention": 0.8421052631578947,
+          "dates_above_cap": 77,
+          "dates_changing_vs16": 95,
+          "mean_used_per_date": 63.22105263157895
+        },
+        "128": {
+          "headline_occurrences_used": 7312,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 95,
+          "mean_used_per_date": 76.96842105263158
+        }
+      }
+    },
+    {
+      "split": "valid",
+      "year": "2017",
+      "dates": 100,
+      "raw_nonblank_lines": 6338,
+      "within_day_duplicate_lines": 143,
+      "unique_headline_occurrences": 6195,
+      "unique_per_date_quantiles": {
+        "0": 24.0,
+        "10": 48.9,
+        "25": 55.75,
+        "50": 63.0,
+        "75": 69.0,
+        "90": 73.0,
+        "95": 77.19999999999999,
+        "99": 88.04000000000002,
+        "100": 92.0
+      },
+      "unique_per_date_mean": 61.95,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 1600,
+          "headline_occurrences_excluded": 4595,
+          "headline_weighted_retention": 0.258272800645682,
+          "mean_per_date_retention": 0.26849704071767844,
+          "median_per_date_retention": 0.25396825396825395,
+          "dates_above_cap": 100,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 3191,
+          "headline_occurrences_excluded": 3004,
+          "headline_weighted_retention": 0.515092816787732,
+          "mean_per_date_retention": 0.5333381674568622,
+          "median_per_date_retention": 0.5079365079365079,
+          "dates_above_cap": 98,
+          "dates_changing_vs16": 100,
+          "mean_used_per_date": 31.91
+        },
+        "64": {
+          "headline_occurrences_used": 5881,
+          "headline_occurrences_excluded": 314,
+          "headline_weighted_retention": 0.949313962873285,
+          "mean_per_date_retention": 0.9582090346296138,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 43,
+          "dates_changing_vs16": 100,
+          "mean_used_per_date": 58.81
+        },
+        "128": {
+          "headline_occurrences_used": 6195,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 100,
+          "mean_used_per_date": 61.95
+        }
+      }
+    },
+    {
+      "split": "valid",
+      "year": "2018",
+      "dates": 194,
+      "raw_nonblank_lines": 9960,
+      "within_day_duplicate_lines": 99,
+      "unique_headline_occurrences": 9861,
+      "unique_per_date_quantiles": {
+        "0": 18.0,
+        "10": 38.0,
+        "25": 44.0,
+        "50": 51.0,
+        "75": 58.0,
+        "90": 62.70000000000002,
+        "95": 65.35,
+        "99": 73.07,
+        "100": 79.0
+      },
+      "unique_per_date_mean": 50.829896907216494,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 3104,
+          "headline_occurrences_excluded": 6757,
+          "headline_weighted_retention": 0.3147753777507352,
+          "mean_per_date_retention": 0.32859408480399205,
+          "median_per_date_retention": 0.3137254901960784,
+          "dates_above_cap": 194,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 6184,
+          "headline_occurrences_excluded": 3677,
+          "headline_weighted_retention": 0.6271169252611297,
+          "mean_per_date_retention": 0.6512899564691943,
+          "median_per_date_retention": 0.6274509803921569,
+          "dates_above_cap": 190,
+          "dates_changing_vs16": 194,
+          "mean_used_per_date": 31.876288659793815
+        },
+        "64": {
+          "headline_occurrences_used": 9790,
+          "headline_occurrences_excluded": 71,
+          "headline_weighted_retention": 0.9927999188723253,
+          "mean_per_date_retention": 0.994929309784624,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 13,
+          "dates_changing_vs16": 194,
+          "mean_used_per_date": 50.4639175257732
+        },
+        "128": {
+          "headline_occurrences_used": 9861,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 194,
+          "mean_used_per_date": 50.829896907216494
+        }
+      }
+    },
+    {
+      "split": "valid",
+      "year": "2019",
+      "dates": 21,
+      "raw_nonblank_lines": 676,
+      "within_day_duplicate_lines": 0,
+      "unique_headline_occurrences": 676,
+      "unique_per_date_quantiles": {
+        "0": 24.0,
+        "10": 26.0,
+        "25": 28.0,
+        "50": 31.0,
+        "75": 35.0,
+        "90": 39.0,
+        "95": 41.0,
+        "99": 46.60000000000001,
+        "100": 48.0
+      },
+      "unique_per_date_mean": 32.19047619047619,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 336,
+          "headline_occurrences_excluded": 340,
+          "headline_weighted_retention": 0.4970414201183432,
+          "mean_per_date_retention": 0.5110035095348938,
+          "median_per_date_retention": 0.5161290322580645,
+          "dates_above_cap": 21,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 16.0
+        },
+        "32": {
+          "headline_occurrences_used": 629,
+          "headline_occurrences_excluded": 47,
+          "headline_weighted_retention": 0.9304733727810651,
+          "mean_per_date_retention": 0.9447762473382478,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 9,
+          "dates_changing_vs16": 21,
+          "mean_used_per_date": 29.952380952380953
+        },
+        "64": {
+          "headline_occurrences_used": 676,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 21,
+          "mean_used_per_date": 32.19047619047619
+        },
+        "128": {
+          "headline_occurrences_used": 676,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 21,
+          "mean_used_per_date": 32.19047619047619
+        }
+      }
+    },
+    {
+      "split": "test",
+      "year": "2019",
+      "dates": 173,
+      "raw_nonblank_lines": 4826,
+      "within_day_duplicate_lines": 1,
+      "unique_headline_occurrences": 4825,
+      "unique_per_date_quantiles": {
+        "0": 12.0,
+        "10": 20.0,
+        "25": 23.0,
+        "50": 27.0,
+        "75": 32.0,
+        "90": 37.0,
+        "95": 41.0,
+        "99": 44.28,
+        "100": 46.0
+      },
+      "unique_per_date_mean": 27.890173410404625,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 2762,
+          "headline_occurrences_excluded": 2063,
+          "headline_weighted_retention": 0.5724352331606217,
+          "mean_per_date_retention": 0.60709170680518,
+          "median_per_date_retention": 0.5925925925925926,
+          "dates_above_cap": 168,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 15.965317919075144
+        },
+        "32": {
+          "headline_occurrences_used": 4604,
+          "headline_occurrences_excluded": 221,
+          "headline_weighted_retention": 0.9541968911917098,
+          "mean_per_date_retention": 0.9676728242873587,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 40,
+          "dates_changing_vs16": 168,
+          "mean_used_per_date": 26.612716763005782
+        },
+        "64": {
+          "headline_occurrences_used": 4825,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 168,
+          "mean_used_per_date": 27.890173410404625
+        },
+        "128": {
+          "headline_occurrences_used": 4825,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 168,
+          "mean_used_per_date": 27.890173410404625
+        }
+      }
+    },
+    {
+      "split": "test",
+      "year": "2020",
+      "dates": 144,
+      "raw_nonblank_lines": 3473,
+      "within_day_duplicate_lines": 0,
+      "unique_headline_occurrences": 3473,
+      "unique_per_date_quantiles": {
+        "0": 7.0,
+        "10": 17.0,
+        "25": 21.0,
+        "50": 24.0,
+        "75": 28.0,
+        "90": 31.400000000000034,
+        "95": 34.0,
+        "99": 37.139999999999986,
+        "100": 42.0
+      },
+      "unique_per_date_mean": 24.118055555555557,
+      "caps": {
+        "16": {
+          "headline_occurrences_used": 2279,
+          "headline_occurrences_excluded": 1194,
+          "headline_weighted_retention": 0.6562050100777426,
+          "mean_per_date_retention": 0.6902159070794246,
+          "median_per_date_retention": 0.6666666666666666,
+          "dates_above_cap": 134,
+          "dates_changing_vs16": 0,
+          "mean_used_per_date": 15.82638888888889
+        },
+        "32": {
+          "headline_occurrences_used": 3434,
+          "headline_occurrences_excluded": 39,
+          "headline_weighted_retention": 0.9887705154045494,
+          "mean_per_date_retention": 0.9926255093566755,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 13,
+          "dates_changing_vs16": 134,
+          "mean_used_per_date": 23.84722222222222
+        },
+        "64": {
+          "headline_occurrences_used": 3473,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 134,
+          "mean_used_per_date": 24.118055555555557
+        },
+        "128": {
+          "headline_occurrences_used": 3473,
+          "headline_occurrences_excluded": 0,
+          "headline_weighted_retention": 1.0,
+          "mean_per_date_retention": 1.0,
+          "median_per_date_retention": 1.0,
+          "dates_above_cap": 0,
+          "dates_changing_vs16": 134,
+          "mean_used_per_date": 24.118055555555557
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Input counts cannot establish predictive quality/relevance",
+    "Exact within-day dedup does not remove paraphrases/syndication",
+    "Source date-only publication availability unverified",
+    "Existing test counts are descriptive, not cap-selection performance evidence"
+  ]
+}
