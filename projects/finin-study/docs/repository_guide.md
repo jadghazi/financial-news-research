@@ -1,6 +1,6 @@
 # Repository guide for readers and agents
 
-Updated 20 October 2026. Start with the [README](../README.md) and [decision record](../DECISIONS.md). This guide indexes the existing FININ-inspired work; the proposed direct-LLM project has not been implemented. The current investigation is paused, not declared successful.
+Updated 20 October 2026. Start with the [README](../README.md) and [decision record](../DECISIONS.md). This guide indexes only the standalone FININ-inspired project, now under `projects/finin-study/`. All relative execution/evidence paths refer to this project root. The current investigation is paused, not declared successful.
 
 ## Reading order
 
@@ -65,4 +65,4 @@ Both retained PDFs have `.tex` sources and `.build.json` compilation/verificatio
 - Exclude environments, bytecode, caches, raw corpora, checkpoints, large feature arrays, temporary downloads, and third-party checkouts. These remain ignored locally.
 - [19 October evidence manifest](../reports/provenance/research_sync_manifest_2026-10-19.json) and [20 October additions manifest](../reports/provenance/research_share_manifest_2026-10-20.json) identify explicitly included artifacts. These metadata files moved unchanged out of `output/`. Earlier completion manifests intentionally retain references to omitted local files.
 
-For inspection versus full reproduction, see the [CMIN runbook](cmin_runbook.md). For sharing checks, see the [original 20 October audit](../reports/repository_audit_2026-10-20.json) and [subsequent code cleanup audit](../reports/code_cleanup_2026-10-20.json). The repository has not been renamed, relocated into a new project hierarchy, or mixed with a new LLM implementation in this documentation update.
+For inspection versus full reproduction, see the [CMIN runbook](cmin_runbook.md). For sharing checks, see the [original 20 October audit](../reports/repository_audit_2026-10-20.json), [subsequent code cleanup audit](../reports/code_cleanup_2026-10-20.json), and [project relocation checks](../reports/project_relocation_2026-10-20.json). The first two records precede relocation; their original project-relative paths and scientific evidence remain unchanged. The tag `finin-before-project-split-2026-10-20` preserves the standalone repository layout. No model arithmetic or saved results were changed by the move.

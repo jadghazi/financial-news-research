@@ -1,0 +1,49 @@
+# FININ academic research
+
+## Project boundary
+
+This study lives in `projects/finin-study/`. Run commands from this folder; unqualified paths below refer to this project root. A new clone should create its `.venv` here. The workspace's pre-existing root `.venv` is ignored legacy tooling, not a dependency of any other project.
+
+The LLM project is separate and intentionally empty at the user's request. Do not add files there, import between projects, or introduce shared data/configuration requirements. Root-level instructions govern repository organization; this file governs only the FININ study.
+
+The pre-relocation layout is tagged `finin-before-project-split-2026-10-20`. Historical commits such as `3b3f1f7` still use the repository-root layout. Preserve saved manifests, source snapshots, and scientific evidence with their original bytes; interpret their relative paths from this project root in the relocated checkout.
+
+## Purpose and research status
+
+Handoff status (20 October 2026): the user and professor paused further embedding/attention experiments to consider a separate direct-LLM headline prediction task. The new task is proposed, not implemented. Read `README.md`, `DECISIONS.md`, and `docs/code_guide.md` first for the current state, evidence-linked history, code map, and execution boundaries. Retired prototype/rebuild code and outdated planning/hardware instructions were removed from active folders at the user's request; the full pre-cleanup source is recoverable at Git commit `3b3f1f7`. Saved results and artifact source snapshots remain intact. This is not authorization to resume financial fitting or use reserved outcomes.
+
+Investigate whether interactions among financial headlines and market-conditioned news aggregation add predictive information beyond prices and simpler news summaries. Work as a critical research collaborator: a working pipeline is an engineering result; a forecasting, trading, or market-mechanism claim needs separate empirical evidence.
+
+The reference is Wang, Cohen and Ma (2024), [Modeling News Interactions and Influence for Financial Market Prediction](https://aclanthology.org/2024.findings-emnlp.189/); its PDF is in `paper/`. FININ uses frozen text encoding, shared text projection, separate numerical/fusion encoders, news self-attention, market-query weighting, and a predictor over daily representations (Figure 2, Eqs. 1-7). The paper studies Reuters/TRNA headlines and instrument sentiment with S&P 500/NASDAQ 100 data, 1/3/5/10/20-day **input lookbacks**, and ten chronological sliding windows. The target remains next-session direction. Its reported Sharpe gains and information-diffusion interpretations are author claims, not established facts about this repository.
+
+Earlier SPY/NIFTY, StockNet, and SPNews experiments are documented in `DECISIONS.md` and the dated reports. Their source, commands, and tests belong to the pre-cleanup Git version, not the current runtime. Preserve their negative findings without treating old defaults or planning documents as current instructions.
+
+Current status (19 October 2026): the public CMIN-US adaptation uses 12 companies, five price/news arrival sessions, frozen RoBERTa and finance TinyBERT sentiment. The baseline, news-dependency diagnostic, 48-hour decay comparison, current-versus-older-news comparison, and four-fit no-interaction comparison/saved-trace inspection are completed; see `docs/cmin_pipeline.md` and `reports/cmin_*_2026-10-14.md`. News affects selected neural predictions, but repeatable incremental forecasting value remains unproven. The interaction comparison favors full attention in pooled loss but reverses sign across periods; trace similarity does not establish semantic information loss. Distinguish the 160-input concatenated baseline/interaction comparison from the 96-input pooled temporal studies. A separate retrained query ablation and systematic retained/discarded-story relevance study remain open. Original-data replication and executable financial evaluation also remain open. Check the latest saved artifacts rather than treating the version-1 limitations or proposed work as current execution status.
+
+The completed 12-fit timing study (`reports/cmin_timing_2026-10-19.md`) found no reliable improvement from newer-news policies; the underlying cause remains unresolved. Results are exploratory and source-clock availability remains unverified. At the user's request, timing-only code was removed from active folders; exact copies and all evidence remain in `artifacts/cmin_timing_2026-10-19_v1/` (see `ARCHIVED_CODE.md`). The active pipeline retains the original two-calendar-day rule, and reserved outcomes remain unused.
+
+## Repository map and workflow
+
+- `docs/code_guide.md`: entry points, module/function contracts, tensor shapes, data cutoff, side effects, tests, and historical-source restoration. Retained code links back to this guide.
+- `src/cmin_panel_data.py`: parsing, selection, calendar alignment, labels and plans. `src/cmin_panel_experiment.py`: training-only transforms, tensors, model arms, fitting, and saved evidence.
+- `src/frozen_features.py`: pinned offline text/sentiment cache. `src/runtime_utils.py`: extracted hashing, seeding and raw-logit metrics. `src/research_training.py`: isolated CPU optimization/selection. `src/evaluation.py`: classification metrics.
+- `src/models/paper_finin.py` and `src/models/research_finin.py`: retained fusion, attention, temporal pooling and final prediction computation.
+- `scripts/16`–`26` (except retired PDF exporter 22): completed CMIN stages/analyses. `scripts/audit_repository.py`: offline read-only sharing audit. Inspect side effects before running numbered commands; some fit, encode, download, write reports, or seal audits.
+- `tests/`: temporal and model-integrity checks. `data/*manifest.json`, `reports/`, and `output/pdf/`: provenance, findings and meeting material. Raw/processed data, feature caches and full runs are local and Git-ignored under `data/` and `artifacts/`; Git alone does not preserve them.
+
+Use `.agents/skills/financial-ml-research/SKILL.md` for substantive literature, methodology, experiment, or findings work. Routine edits need only relevant checks; do not trigger experiments for documentation changes. The documented project runtime is `.venv/Scripts/python.exe`; check the environment before using it.
+
+Default to one main agent. Do not launch subagents unless the user explicitly requests delegation or agrees to a concrete, necessary delegated task. Literature investigation and critical review are responsibilities of the main agent; specialist delegation is optional, not a prerequisite for completing or reporting research. Verify important claims directly against primary sources, code, configurations, saved predictions and checkpoints; record uncertainty and counterevidence rather than substituting a second agent for evidence.
+
+The old optional specialist configurations were removed during cleanup. Do not recreate or launch them automatically.
+
+Cleanup changes comments/import paths and extracts helpers without changing model arithmetic. Existing study source hashes are immutable and may reject the cleaned tree. Use a separate checkout of `3b3f1f7` with the original local artifacts for exact historical commands; do not patch guards or hashes to make old identities accept new code. New experiments require a fresh namespace and current provenance.
+
+## Standing research rules
+
+- Distinguish paper claims, reproduced components, independent modifications, measured results, and unverified assumptions. Verify primary sources and exact paper sections/tables; report discrepancies instead of silently repairing or trusting published claims.
+- Make forecast cutoff, availability, lookback and target horizon explicit. Version 1 uses news date n, next trading session d's closing features, and target `close[q] > close[d]` for the next session q. Source prompts, answers, labels and supplied returns are not features. Date-only news and a one-session delay do not prove historical availability.
+- Prevent look-ahead and leakage through labels, preprocessing, temporal overlap, upstream selection, revised price vintages, constituents, or pretrained corpora. Fit learned preprocessing on training data. Use chronological evaluation with horizon-appropriate boundary treatment; never tune on inspected test results. Declare later analyses on this test period exploratory.
+- Compare matched dates, information sets, metrics and selection budgets. Check class prevalence and constant-probability baselines; distinguish seed variability from temporal uncertainty. Do not compare our classification scores directly with the paper's financial metrics. Resolve Appendix B's correctness flag, rate units and execution assumptions before claiming trading performance.
+- Preserve source snapshots, manifests, configurations, predictions, checkpoints, failures and negative findings in distinct experiment versions. Record code/environment/data provenance and every selection decision. Never overwrite an old experiment to make a new one look comparable; corrections must retain the original evidence and explain their effect.
+- Investigate competing explanations for promising or disappointing results: optimization, class imbalance, capacity, news coverage, leakage, regime variation and chance can mimic a mechanism. Attention weights and longer-lookback gains alone do not establish causality or market inefficiency. State what would change the conclusion and test the most informative alternative within the task's scope.

@@ -1,10 +1,12 @@
 # Sharing and saved evidence
 
+This guide is for the independent FININ study. For an existing clone after pulling, change into `projects/finin-study/` before using project commands. Relative data, artifact, and documentation paths below refer to that directory. Environments are project-local for new setups; no sibling project is needed.
+
 From an existing clone, run `git pull --ff-only origin main`. For a new clone, run:
 
 ```powershell
-git clone https://github.com/jadghazi/finin-research-prototype.git
-cd finin-research-prototype
+git clone https://github.com/jadghazi/financial-news-research.git
+cd financial-news-research/projects/finin-study
 ```
 
 Start with the links in the repository README, then [DECISIONS.md](../DECISIONS.md) for what was tried and why, and [the repository guide](repository_guide.md) for the file map. `output/pdf/` contains only the progress report and attention/MLP explainer, with their LaTeX sources and build records. Findings are under `reports/`, and experiment protocols under `docs/`. Earlier output documents and figures remain in Git history at `0be47b9`. Source, tests and configurations are included. The completed embedding/attention investigation is paused; no new LLM implementation has been added.

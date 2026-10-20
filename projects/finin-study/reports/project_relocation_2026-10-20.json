@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-20",
+  "purpose": "Relocate the completed FININ study into its own project without adding any LLM project files or changing scientific evidence.",
+  "repository": "https://github.com/jadghazi/financial-news-research",
+  "pre_relocation_commit": "2f023b9d34205a62cbe26c4281c950f0ea75871b",
+  "pre_relocation_tag": "finin-before-project-split-2026-10-20",
+  "project_root": "projects/finin-study",
+  "historical_path_rule": "Saved relative paths resolve from this project root in the relocated checkout. Historical Git revisions and source snapshots retain the original root-level layout and bytes.",
+  "verification": {
+    "prior_tracked_files": 398,
+    "byte_identical_relocated_files": 389,
+    "scientific_evidence_config_data_paper_files_unchanged": 353,
+    "runtime_command_and_test_files_unchanged": 27,
+    "intentional_existing_file_changes": [
+      ".gitattributes",
+      "AGENTS.md",
+      "DECISIONS.md",
+      "README.md",
+      "docs/cmin_runbook.md",
+      "docs/code_guide.md",
+      "docs/laptop_sync.md",
+      "docs/repository_guide.md",
+      "requirements.txt"
+    ],
+    "comparison_method": "Compare each pre-relocation Git blob with its staged relocated blob; reject any change outside the listed documentation/attribute files. The requirements edit corrects a documentation link only.",
+    "unit_tests": {
+      "command": "python -m unittest discover -s tests -q",
+      "working_directory": "projects/finin-study",
+      "runtime": "Existing ignored workspace Python 3.12 environment",
+      "passed": 47
+    },
+    "offline_project_audit": {
+      "command": "python scripts/audit_repository.py",
+      "status": "pass",
+      "local_markdown_links_checked": 205,
+      "internal_imports_checked": 40,
+      "module_guide_backlinks_checked": 21,
+      "saved_prediction_fits_checked": 44,
+      "pdf_and_latex_build_hashes": "match",
+      "sharing_manifest_hashes": "match"
+    },
+    "root_readme_local_links_checked": 6,
+    "no_cross_project_source_references": true,
+    "reserved_llm_folder_empty": true,
+    "reserved_llm_files_tracked": 0
+  },
+  "local_only": "Original research artifacts/data moved with the FININ project and remain ignored. Existing workspace-root .venv and tmp are legacy ignored tooling; new clones create project-local environments.",
+  "not_performed": [
+    "LLM project scaffolding or implementation",
+    "Scraping or API predictions",
+    "Financial training or model downloads",
+    "Full fresh-clone training reproduction"
+  ],
+  "status": "pass"
+}

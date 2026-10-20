@@ -4,7 +4,7 @@ Updated 20 October 2026. This is a retrospective, evidence-linked record, not a 
 
 ## Current handoff
 
-**Pause further embedding/attention pipeline development.** Following the professor discussion, the next proposed task is an independent direct-LLM headline prediction experiment. No scraper, LLM prediction runner, API calls, or results for that direction have been created. Keep the completed work available for inspection and later matched comparisons.
+**Pause further embedding/attention pipeline development.** Following the professor discussion, the next proposed task is an independent direct-LLM headline prediction experiment. No scraper, LLM prediction runner, API calls, or results for that direction have been created. Keep this completed study available for inspection. Future work is separate; no cross-project comparison or dependency is assumed.
 
 The latest completed empirical result is the [19 October timing study](reports/cmin_timing_2026-10-19.md). The model responds to news, but reliable incremental forecasting value remains unproven. We have not identified one root cause. The original CMIN source-date-plus-two-calendar-day rule remains in code; timing-only changes are archived.
 
@@ -124,11 +124,17 @@ After that sharing audit, the user requested that `output/` retain only the atte
 
 The user subsequently requested a substantive source/folder audit, removal of the outdated reproduction plan and hardware instructions, and a code guide linked from the code. Retired NIFTY/StockNet/SPNews execution paths, their tests, old exporters, and optional specialist configurations were removed. Hashing, seeding, stable-logit metrics, and frozen-cache helpers were extracted so current training no longer imports retired experiments. Model arithmetic and saved scientific evidence were preserved. The current source has a new provenance identity; exact old commands require the full pre-cleanup checkout `3b3f1f7`, not patched checksum guards. [Code guide](docs/code_guide.md), [cleanup verification](reports/code_cleanup_2026-10-20.json).
 
+## 13. Separate project organization — 20 October
+
+At the user's request, the existing study moved intact into `projects/finin-study/` within the renamed financial-news-research repository. All commands are run from this project root, so its internal data/configuration/evidence paths retain their meaning. The tag `finin-before-project-split-2026-10-20` preserves the immediately preceding root-level layout. Source/model calculations, frozen evidence, and PDF bytes were not changed by relocation. Earlier records are retained with their historical path conventions.
+
+The user explicitly requested that the future LLM project remain empty for now. There is no shared runtime, source import, dataset requirement, configuration, or implemented comparison between projects. Its future design must be decided independently. This relocation did not run scraping, financial fits, or API predictions.
+
 ## Claims and remaining questions
 
 - **Supported:** the implementation can learn synthetic rules; selected financial predictions depend on news and attention; the declared comparisons completed and retain negative findings.
 - **Not established:** repeatable incremental forecasting value, attention's semantic preservation, a measured economic news half-life, information diffusion, executable trading profit, or one confirmed cause for the disappointing results.
 - **Unperformed:** systematic retained/discarded-story relevance measurement, separately retrained market-query ablation, original Reuters-data replication, and validated financial execution/evaluation.
-- **Next direction:** direct LLM headline prediction, with matched information and explicit protection against future information in retrieval, prompts, and pretrained model knowledge. This remains a proposed experiment; do not treat literature discussed in the meeting as results produced here.
+- **Separate future direction:** direct LLM headline prediction, with its own protocol and explicit protection against future information. It is not implemented in this project; do not treat literature discussed in the meeting as results produced here.
 
 For an agent continuing the work: read [AGENTS.md](AGENTS.md), this record, and the relevant versioned protocol before modifying code. Use new experiment namespaces; do not rerun completed market studies, reopen reserved outcomes, or rewrite historical evidence as a documentation task.

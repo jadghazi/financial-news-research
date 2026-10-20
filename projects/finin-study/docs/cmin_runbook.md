@@ -1,5 +1,7 @@
 # Run the public FININ-inspired pipeline
 
+This is an independent project at `projects/finin-study/`. From the repository root, first run `cd projects/finin-study`; every command and relative path below assumes this project directory. Create the documented `.venv` here. No other project is required. The tag `finin-before-project-split-2026-10-20` retains the layout immediately before relocation; older historical checkouts use the original root-level paths.
+
 **Status — 20 October 2026:** further financial experiments are paused. Start with the [README](../README.md), [decision record](../DECISIONS.md), and [repository guide](repository_guide.md). The frozen baseline study is in `configs/cmin_panel_v1.json`; the architecture is in [cmin_pipeline.md](cmin_pipeline.md), and statistical choices are in [the baseline protocol](cmin_panel_protocol_2026-10-14.md).
 
 ## Inspect a fresh Git clone

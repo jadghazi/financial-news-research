@@ -1,21 +1,13 @@
+# Local workstation tooling and future per-project environments.
 .venv/
 .venv-*/
-.env
-.env.*
-!.env.example
 __pycache__/
 *.py[cod]
 .pytest_cache/
-paper/*.pdf
-data/raw/
-data/processed/
-# Local third-party downloads used during later feasibility research.
-data/research_v2/
-artifacts/
+node_modules/
 tmp/
-# Local editor state and document compiler by-products.
+.env
+.env.*
+!.env.example
 .vscode/
 .idea/
-*.aux
-*.log
-*.synctex.gz

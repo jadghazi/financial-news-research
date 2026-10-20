@@ -3,7 +3,7 @@
 *.png binary
 
 # Preserve exact research evidence and document-source hashes across machines.
-artifacts/** -text
-output/pdf/*.tex -text
-output/pdf/*.build.json -text
-reports/provenance/** -text
+projects/finin-study/artifacts/** -text
+projects/finin-study/output/pdf/*.tex -text
+projects/finin-study/output/pdf/*.build.json -text
+projects/finin-study/reports/provenance/** -text

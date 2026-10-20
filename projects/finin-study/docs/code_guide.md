@@ -1,5 +1,7 @@
 # Code guide: current CMIN pipeline
 
+Project root: `projects/finin-study/`. All source paths, command working directories, and saved-evidence paths in this guide are relative to that folder. This implementation has no imports or runtime dependencies on another research project. Historical Git revisions retain their original root-level layout.
+
 Start here when reading or changing the code. Retained source modules and commands link back to this file in their module docstrings. Research decisions and results are in [DECISIONS.md](../DECISIONS.md); this guide describes implementation contracts, not evidence that the model forecasts usefully.
 
 The embedding/attention investigation is paused. No LLM scraper/prediction project has been implemented. The 20 October cleanup removed retired NIFTY, StockNet, and SPNews execution code from active folders, extracted shared numerical/cache helpers, and preserved all saved scientific results. [Cleanup audit](../reports/code_cleanup_2026-10-20.json).
