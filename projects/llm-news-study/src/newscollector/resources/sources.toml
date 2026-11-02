@@ -1,0 +1,54 @@
+# Defaults are source-specific roles, not a claim of representative market coverage.
+[sources.globalvoices_china]
+search_terms = ["Alibaba", "Qwen", "Taobao", "China economy", "China technology"]
+name = "Global Voices: China (independent reporting/analysis)"
+url = "https://globalvoices.org/-/world/east-asia/china/feed/"
+historical_url = "https://globalvoices.org/?s={query}&feed=rss2&year={year}&paged={page}"
+scope = "sector"
+role = "independent_analysis"
+body_mode = "feed_only"
+publisher_group = "Global Voices"
+documentation = "https://globalvoices.org/about/"
+rights_note = "CC BY 3.0 site text; preserve bylines, links and attribution. Images/third-party extracts can have separate rights. Sparse coverage; not a financial wire."
+license_url = "https://creativecommons.org/licenses/by/3.0/"
+max_pages = 3
+
+[sources.siliconangle]
+name = "SiliconANGLE · enterprise technology news"
+url = "https://siliconangle.com/feed/"
+scope = "sector"
+role = "independent_reporting"
+body_mode = "metadata_only"
+publisher_group = "SiliconANGLE Media"
+documentation = "https://siliconangle.com/terms-of-use/"
+rights_note = "Publisher-distributed RSS headlines/links only, with source credit. No bulk page scraping or redistribution of full articles. Current feed, not a 2025 archive."
+
+[sources.restofworld]
+name = "Rest of World · global technology reporting"
+url = "https://restofworld.org/feed/latest/"
+scope = "sector"
+role = "independent_reporting"
+body_mode = "metadata_only"
+publisher_group = "Rest of World"
+documentation = "https://restofworld.org/about/"
+rights_note = "Public publisher feed headline/link metadata with attribution. No blanket content redistribution licence claimed. Feed search parameters were ignored in live checks; no historical search is configured."
+
+[sources.fed_monetary]
+name = "Federal Reserve: monetary policy (US market context)"
+url = "https://www.federalreserve.gov/feeds/press_monetary.xml"
+scope = "market"
+role = "primary_macro"
+body_mode = "page"
+publisher_group = "Federal Reserve Board"
+documentation = "https://www.federalreserve.gov/feeds/feeds.htm"
+rights_note = "Official primary releases. Bounded retained feed; later revisions remain possible. US context does not establish BABA-specific causality."
+
+[sources.bls_cpi]
+name = "BLS: CPI releases (US market context)"
+url = "https://www.bls.gov/feed/cpi.rss"
+scope = "market"
+role = "primary_macro"
+body_mode = "page"
+publisher_group = "US Bureau of Labor Statistics"
+documentation = "https://www.bls.gov/feed/"
+rights_note = "Official primary releases. RSS timestamps can precede economic release time; only observed-time eligibility is verified."

@@ -1,0 +1,27 @@
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+data/
+exports/
+backups/
+tmp/
+build/
+dist/
+*.sqlite*
+*.db
+*.log
+artifacts/
+
+# Preserve local reference PDFs without redistributing them in application clones.
+/Interesting papers/
+google-credentials.json

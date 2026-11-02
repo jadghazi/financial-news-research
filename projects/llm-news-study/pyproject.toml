@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "news-study-collector"
+version = "0.5.0"
+description = "Local ticker news collection with preserved evidence and temporal exports"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.28,<0.29",
+  "feedparser>=6.0,<7",
+  "trafilatura>=2.0,<3",
+  "lxml>=5.3,<7",
+  "lxml-html-clean>=0.4,<1",
+  "pydantic>=2.10,<3",
+  "typer>=0.15,<1",
+  "streamlit>=1.45,<2",
+  "exchange-calendars>=4.8,<5",
+  "pandas>=2.2,<3",
+  "python-dateutil>=2.9,<3",
+  "psutil>=6,<8",
+  "pypdf>=6.21.2,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+parquet = ["pyarrow>=18"]
+
+[project.scripts]
+news-collector = "newscollector.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+newscollector = ["resources/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

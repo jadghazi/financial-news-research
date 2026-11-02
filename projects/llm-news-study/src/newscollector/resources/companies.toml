@@ -1,0 +1,44 @@
+# Publisher feeds: bounded recent coverage, not exhaustive historical archives.
+[companies.BABA]
+name = "Alibaba Group Holding Limited"
+aliases = ["Alibaba", "Alibaba Group", "Alibaba Cloud", "Taobao", "Tmall", "AliExpress", "Cainiao", "Jack Ma", "Joe Tsai", "Qwen", "Ant Group", "DingTalk", "Lazada", "Freshippo", "Ele.me"]
+discovery_terms = ["Alibaba", "Alibaba Group", "Alibaba Cloud", "Taobao", "Tmall", "AliExpress"]
+feed_scope = "company"
+feeds = ["https://qwenlm.github.io/blog/index.xml"]
+cik = "0001577552"
+sec_forms = ["6-K", "6-K/A", "20-F", "20-F/A"]
+calendar = "XNYS"
+exchange = "NYSE"
+security_type = "American Depositary Shares (ADS); each represents eight ordinary shares"
+related_symbols = ["9988 (Hong Kong HKD ordinary shares)", "89988 (Hong Kong RMB ordinary shares)"]
+issuer_index = "https://www.alibabagroup.com/en-US/ir-news-filings"
+source_ids = ["globalvoices_china", "siliconangle", "restofworld", "fed_monetary", "bls_cpi"]
+sector_terms = ["Chinese e-commerce", "China e-commerce", "Chinese tech", "Chinese technology", "Chinese internet", "China's digital", "Chinese consumption", "Chinese consumer", "US-China trade", "U.S.-China trade", "US-China", "U.S.-China", "China tariffs", "China stimulus", "PDD", "JD.com", "Meituan", "Tencent", "Baidu", "ByteDance", "DeepSeek", "Temu"]
+regulatory_queries = ["China"]
+regulatory_agencies = ["industry-and-security-bureau", "trade-representative-office-of-united-states", "executive-office-of-the-president"]
+social_accounts = [{handle="cnbc.com", did="did:plc:m7ks2xhfuku7errrtfjux2lg", name="CNBC", identity_evidence="Public Bluesky response on 2026-10-25: domain handle cnbc.com, pinned DID and valid Bluesky verification. Recheck before adding other accounts."}]
+context_rules = [
+ {label="China technology / trade / consumption", anchors=["China", "Chinese", "Beijing"], topics=["AI", "artificial intelligence", "cloud", "chips", "semiconductors", "technology", "e-commerce", "ecommerce", "retail", "consumer", "consumption", "stimulus", "tariff", "tariffs", "trade", "export", "exports", "investment", "audit", "listing", "platforms"]},
+ {label="Cloud / AI competition", anchors=["Amazon", "Microsoft", "Google", "Nvidia"], topics=["cloud", "AI", "artificial intelligence", "chips", "semiconductors"]}
+]
+
+[companies.AAPL]
+name = "Apple Inc."
+feed_scope = "company"
+aliases = ["Apple", "iPhone", "Tim Cook"]
+feeds = ["https://www.apple.com/newsroom/rss-feed.rss"]
+cik = "0000320193"
+
+[companies.MSFT]
+name = "Microsoft Corporation"
+feed_scope = "company"
+aliases = ["Microsoft", "Satya Nadella"]
+feeds = ["https://blogs.microsoft.com/feed/"]
+cik = "0000789019"
+
+[companies.NVDA]
+name = "NVIDIA Corporation"
+feed_scope = "company"
+aliases = ["NVIDIA", "Jensen Huang"]
+feeds = ["https://nvidianews.nvidia.com/releases.xml"]
+cik = "0001045810"
